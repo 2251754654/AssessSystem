@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "GetOneselfEvaluation";
+}
+
+
+@{
+    foreach (var v in @ViewBag.OneselfEvaluation as IQueryable)
+    {
+        <h1>@v</h1>
+    }
+}
+<section id="OneselfEvaluationContent">
+    <h2>自我评价主体部分</h2>
+    <div class="col-lg-push-11" style="background-color:aqua">
+        <table class="tab-pane">
+            <caption>自我评价信息表</caption>
+            <thead>表头</thead>
+            <tbody>
+                <tr><td>1</td><td>fbw</td><td>fbw</td><td>dddd</td><td>删除</td></tr>
+            </tbody>
+            <tfoot>交</tfoot>
+        </table>
+    </div>
+</section>
+

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62E069D5-A5C6-4D76-8198-B3A6A0E27706}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Repositorys</RootNamespace>
+    <AssemblyName>Repositorys</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CoreAkillsRespository.cs" />
+    <Compile Include="DataAccess\DB_StaffEvaluationModels.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_StaffEvaluationModels.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\DB_StaffEvaluationModels.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\DB_StaffEvaluationModels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_StaffEvaluationModels.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\sp_helpdiagrams_Result.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\sysdiagrams.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\TB_CoreLever.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\TB_CoreSkills.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\TB_Evaluation.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\TB_EvaluationInfo.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\TB_MappingCore.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\TB_MappingTeach.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\TB_Professional.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\TB_Role.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\TB_RoleContent.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\TB_TeachLever.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\TB_TechSkills.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\TB_User.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\TB_UserInfo.cs">
+      <DependentUpon>DB_StaffEvaluationModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EvaluationRepository.cs" />
+    <Compile Include="IUserRepository.cs" />
+    <Compile Include="OneselfEvaluationRepositroy.cs" />
+    <Compile Include="OtherEvaluationRepositroy.cs" />
+    <Compile Include="RoleRepository.cs" />
+    <Compile Include="TeachAkillsRespository.cs" />
+    <Compile Include="UserCoreSkillsRepository.cs" />
+    <Compile Include="UserInfoRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="DataAccess\DB_StaffEvaluationModels.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DB_StaffEvaluationModels.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DataAccess\DB_StaffEvaluationModels.edmx.diagram">
+      <DependentUpon>DB_StaffEvaluationModels.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{650CE2F4-3D92-4FA5-A9A0-070F7E40037B}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataAccess\DB_StaffEvaluationModels.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DB_StaffEvaluationModels.edmx</DependentUpon>
+      <LastGenOutput>DB_StaffEvaluationModels.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="DataAccess\DB_StaffEvaluationModels.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DB_StaffEvaluationModels.edmx</DependentUpon>
+      <LastGenOutput>DB_StaffEvaluationModels.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "GetUserInfo";
+}
+
+<h2 id="UserInfoTitle">个人信息</h2>
+<div id="UserInfoContent">
+    <ul id="UserInfoList"></ul>
+</div>
+
+<a id="UserInfoA"href="javascript:void(0)" onclick="UserInfoAClick()">核心技能</a>
+<div id="UserInfoCoreSkills">
+    <!--显示用户的核心技能信息-->
+    <table style="color:black;width:1120px;text-align:center;font-size:15px" id="UserInfoCoreSkillsList"></table>
+</div>
+
+<a id="UserInfoB"href="javascript:void(0)" onclick="UserInfoBClick()">专业技能</a>
+<div id="UserInfoTeackSkills">
+    <!--显示用户的专业技能，利用ajax请求查询信息-->
+    <ul id="UserInfoTeackSkillsList"></ul>
+</div>
+
+<!--显示职位信息-->
+<a id="UserInfoC"href="javascript:void(0)" onclick="UserInfoCClick()">角色职位</a>
+<div id="UserInfoRole">
+    <!--显示职位信息-->
+    <ul id="UserInfoRoleList"></ul>
+</div>
+
+
+
+
+

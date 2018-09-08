@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetUserInfo</title>
+</head>
+<body>
+    <div>
+        @ViewBag.userInfo.UserInfoName
+    </div>
+    @foreach (var v in ViewBag.city)
+    {
+        <h2>@v</h2>
+    }
+</body>
+</html>

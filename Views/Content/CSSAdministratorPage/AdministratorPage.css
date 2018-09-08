@@ -1,0 +1,38 @@
+﻿
+#left-aside {
+    width: 20%;
+    height: 600px;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 18px;
+    border: ridge;
+    float: left;
+    border-color: gainsboro;
+}
+
+#content {
+    width: 75%;
+    height: 600px;
+    margin-right: 2%;
+    margin-top: 2%;
+    border: ridge;
+    float: left;
+    border-color: gainsboro;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.RList, .PList, .CList, .TList, .PPList, .SListH {
+    display: none;
+    width: 15px;
+    height: 15px;
+}
+
+.RListH, .PListH, .CListH, .TListH, .PPListH, .SList {
+    width: 15px;
+    height: 15px;
+}
+
+

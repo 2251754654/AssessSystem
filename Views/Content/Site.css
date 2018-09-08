@@ -1,0 +1,48 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+header{
+    visibility:hidden;
+}
+
+/*导航菜单*/
+#Home_Index {
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    position:relative;
+}
+
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navItem{
+    float: left;
+}
+
+.navLink:link, .navLink:visited {
+    display: block;
+    width: 213px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #bebebe;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navLink:hover, .navLink:active {
+    background-color: #4cff00;
+}
+footer {
+    margin-left: -70px;
+    width:1280px;
+    font-size:20px;
+}
