@@ -65,5 +65,13 @@ namespace Views.Controllers
             EvaluationDomain evaluationDomain = new EvaluationDomain();
             return Json(evaluationDomain.GetAllEvaluation());
         }
+
+
+        public JsonResult SSSSGetAJAXEvaluation()
+        {
+            //将谁评价了谁显示在主页
+            EvaluationDomain evaluationDomain = new EvaluationDomain();
+            return Json(evaluationDomain.GetAllEvaluation());
+        }
     }
 }
