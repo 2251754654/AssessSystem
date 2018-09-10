@@ -11,7 +11,7 @@ namespace Domains
 
         public dynamic GetCoreSkillsByUserInfoID(int userInfoID)
         {
-            CoreAkillsRespository coreAkillsRespository = new CoreAkillsRespository();
+            RespositoryCoreAkills coreAkillsRespository = new RespositoryCoreAkills();
             return coreAkillsRespository.GetGetCoreSkillsByUserInfoID(userInfoID);
         }
     }

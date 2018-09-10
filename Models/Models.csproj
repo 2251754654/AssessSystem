@@ -62,18 +62,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EvaluationModel.cs" />
-    <Compile Include="ReferenceModels\UserCoreSkillModel.cs" />
-    <Compile Include="RoleModel.cs" />
-    <Compile Include="TBModelMappings\CoreLeverModel.cs" />
-    <Compile Include="TBModelMappings\CoreSkillsModel.cs" />
-    <Compile Include="TBModelMappings\ProfessionalModel.cs" />
-    <Compile Include="UserInfoModel.cs" />
+    <Compile Include="CustomModels\ModelCoreLever.cs" />
+    <Compile Include="CustomModels\ModelCoreSkills.cs" />
+    <Compile Include="CustomModels\ModelEvaluation.cs" />
+    <Compile Include="CustomModels\ModelEvaluationInfo.cs" />
+    <Compile Include="CustomModels\ModelMappingCore.cs" />
+    <Compile Include="CustomModels\ModelMappingTeach.cs" />
+    <Compile Include="CustomModels\ModelProfessional.cs" />
+    <Compile Include="CustomModels\ModelRole.cs" />
+    <Compile Include="CustomModels\ModelRoleContent.cs" />
+    <Compile Include="CustomModels\ModelTeachLever.cs" />
+    <Compile Include="CustomModels\ModelTechSkills.cs" />
+    <Compile Include="CustomModels\ModelUser.cs" />
+    <Compile Include="CustomModels\ModelUserInfo.cs" />
+    <Compile Include="MergeModel\ModelAssessDetails.cs" />
+    <Compile Include="MergeModel\UserCoreSkillModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserNodel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

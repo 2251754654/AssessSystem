@@ -21,7 +21,7 @@ namespace Views.Controllers
             var list = roleDomain.GetAllRole();
             var pageNum = list.Count / 10+1;
             var CurrList = list.ToPagedList(page, 10).ToList();
-            CurrList.Add(new RoleModel() { RoleDetails = "pageNum", RoleID = pageNum });
+            CurrList.Add(new ModelRole() { RoleDetails = "pageNum", RoleID = pageNum });
             return Json(/*"../Home/GetAdministratorPage"*/CurrList);
         }
 
@@ -32,7 +32,7 @@ namespace Views.Controllers
             return Json(roleDomain.DeletRole(Data));
         }
 
-        public JsonResult UpdateRole(RoleModel roleModel)
+        public JsonResult UpdateRole(ModelRole roleModel)
         {
             RoleDomain roleDomain = new RoleDomain();
             return Json(roleDomain.UpdateRole(roleModel)) ;
@@ -43,7 +43,7 @@ namespace Views.Controllers
             string RoleName = Request["RoleName"].ToString();
             string RoleDetails = Request["RoleDetails"].ToString();
             RoleDomain roleDomain = new RoleDomain();
-            RoleModel roleModel = new RoleModel() { RoleName = RoleName, RoleDetails = RoleDetails };
+            ModelRole roleModel = new ModelRole() { RoleName = RoleName, RoleDetails = RoleDetails };
             if (roleDomain.InsertRole(roleModel) >0)
             {
                 return Json(roleModel);

@@ -11,19 +11,19 @@ namespace Domains
         {
         }
 
-        public List<RoleModel> GetAllRole()
+        public List<ModelRole> GetAllRole()
         {
             RoleRepository roleRepository = new RoleRepository();
             return roleRepository.GetAllRole();
         }
 
-        public int InsertRole(RoleModel roleModel)
+        public int InsertRole(ModelRole roleModel)
         {
             RoleRepository roleRepository = new RoleRepository();
             return roleRepository.InsertRole(roleModel);
         }
 
-        public bool UpdateRole(RoleModel roleModel)
+        public bool UpdateRole(ModelRole roleModel)
         {
             RoleRepository roleRepository = new RoleRepository();
             if (roleRepository.UpdateRole(roleModel) > 0)

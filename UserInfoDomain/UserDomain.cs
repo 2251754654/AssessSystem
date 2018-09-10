@@ -13,7 +13,7 @@ namespace Domains
         {
             this.iUserRepository = _iUserRepository;
         }
-        public UserModel LoginCheck(UserModel userModel)
+        public ModelUser LoginCheck(ModelUser userModel)
         {
             //校验数据是否符合标准
             if ("".Equals(userModel.UserName)||"".Equals(userModel.UserPassword))
