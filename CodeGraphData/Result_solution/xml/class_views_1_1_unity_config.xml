@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_views_1_1_unity_config" kind="class" prot="public">
+    <compoundname>Views::UnityConfig</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_views_1_1_unity_config_1a67c64f03d6410fb48d0bcf0b741ee862" prot="private" static="yes" mutable="no">
+        <type>Lazy&lt; IUnityContainer &gt;</type>
+        <definition>Lazy&lt;IUnityContainer&gt; Views.UnityConfig.container</definition>
+        <argsstring></argsstring>
+        <name>container</name>
+        <initializer>=
+          new Lazy&lt;IUnityContainer&gt;(() =&gt;
+          {
+              var container = new UnityContainer();
+              <ref refid="class_views_1_1_unity_config_1a05dabf92433a6840c52c285463d10290" kindref="member">RegisterTypes</ref>(container);
+              return container;
+          })</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/App_Start/UnityConfig.cs" line="16" column="1" bodyfile="E:/Repository/Views/App_Start/UnityConfig.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_views_1_1_unity_config_1af330d822de28b164690f109867312ece" prot="public" static="yes" mutable="no">
+        <type>IUnityContainer</type>
+        <definition>IUnityContainer Views.UnityConfig.Container</definition>
+        <argsstring></argsstring>
+        <name>Container</name>
+        <initializer>=&gt; container.Value</initializer>
+        <briefdescription>
+<para>Configured Unity Container. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/App_Start/UnityConfig.cs" line="27" column="1" bodyfile="E:/Repository/Views/App_Start/UnityConfig.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_views_1_1_unity_mvc_activator_1af595c6cd7dd57deb5a5510013c73b05f" compoundref="_unity_mvc_activator_8cs" startline="19" endline="28">Views.UnityMvcActivator.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_views_1_1_unity_config_1a05dabf92433a6840c52c285463d10290" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Views.UnityConfig.RegisterTypes</definition>
+        <argsstring>(IUnityContainer container)</argsstring>
+        <name>RegisterTypes</name>
+        <param>
+          <type>IUnityContainer</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+<para>Registers the type mappings with the Unity container. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>container</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unity container to configure.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>There is no need to register concrete types such as controllers or API controllers (unless you want to change the defaults), as Unity allows resolving a concrete type even if it was not previously registered. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/App_Start/UnityConfig.cs" line="40" column="1" bodyfile="E:/Repository/Views/App_Start/UnityConfig.cs" bodystart="40" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Specifies the Unity configuration for the main container. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="444">
+        <label>Views.UnityConfig</label>
+        <link refid="class_views_1_1_unity_config"/>
+        <childnode refid="445" relation="usage">
+          <edgelabel>Container</edgelabel>
+          <edgelabel>container</edgelabel>
+        </childnode>
+      </node>
+      <node id="445">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Views/App_Start/UnityConfig.cs" line="14" column="1" bodyfile="E:/Repository/Views/App_Start/UnityConfig.cs" bodystart="13" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_views_1_1_unity_config_1a67c64f03d6410fb48d0bcf0b741ee862" prot="private" virt="non-virtual"><scope>Views::UnityConfig</scope><name>container</name></member>
+      <member refid="class_views_1_1_unity_config_1af330d822de28b164690f109867312ece" prot="public" virt="non-virtual"><scope>Views::UnityConfig</scope><name>Container</name></member>
+      <member refid="class_views_1_1_unity_config_1a05dabf92433a6840c52c285463d10290" prot="public" virt="non-virtual"><scope>Views::UnityConfig</scope><name>RegisterTypes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

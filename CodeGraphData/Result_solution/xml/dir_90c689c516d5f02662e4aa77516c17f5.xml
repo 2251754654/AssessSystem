@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_90c689c516d5f02662e4aa77516c17f5" kind="dir">
+    <compoundname>E:/Repository/UserInfoDomain/AdminPage</compoundname>
+    <innerfile refid="_domain_core_skills_8cs">DomainCoreSkills.cs</innerfile>
+    <innerfile refid="_domain_job_8cs">DomainJob.cs</innerfile>
+    <innerfile refid="_domain_role_8cs">DomainRole.cs</innerfile>
+    <innerfile refid="_domain_teach_skills_8cs">DomainTeachSkills.cs</innerfile>
+    <innerfile refid="_i_domain_core_skills_8cs">IDomainCoreSkills.cs</innerfile>
+    <innerfile refid="_i_domain_job_8cs">IDomainJob.cs</innerfile>
+    <innerfile refid="_i_domain_role_8cs">IDomainRole.cs</innerfile>
+    <innerfile refid="_i_domain_teach_skills_8cs">IDomainTeachSkills.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/UserInfoDomain/AdminPage/"/>
+  </compounddef>
+</doxygen>

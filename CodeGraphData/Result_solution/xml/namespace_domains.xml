@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_domains" kind="namespace">
+    <compoundname>Domains</compoundname>
+    <innerclass refid="class_domains_1_1_domain_core_skills" prot="public">Domains::DomainCoreSkills</innerclass>
+    <innerclass refid="class_domains_1_1_domain_job" prot="public">Domains::DomainJob</innerclass>
+    <innerclass refid="class_domains_1_1_domain_role" prot="public">Domains::DomainRole</innerclass>
+    <innerclass refid="class_domains_1_1_domain_teach_skills" prot="public">Domains::DomainTeachSkills</innerclass>
+    <innerclass refid="interface_domains_1_1_i_domain_core_skills" prot="public">Domains::IDomainCoreSkills</innerclass>
+    <innerclass refid="interface_domains_1_1_i_domain_job" prot="public">Domains::IDomainJob</innerclass>
+    <innerclass refid="interface_domains_1_1_i_domain_role" prot="public">Domains::IDomainRole</innerclass>
+    <innerclass refid="interface_domains_1_1_i_domain_teach_skills" prot="public">Domains::IDomainTeachSkills</innerclass>
+    <innerclass refid="class_domains_1_1_domain_login" prot="public">Domains::DomainLogin</innerclass>
+    <innerclass refid="interface_domains_1_1_i_domain_login" prot="public">Domains::IDomainLogin</innerclass>
+    <innerclass refid="class_domains_1_1_domain_logout" prot="public">Domains::DomainLogout</innerclass>
+    <innerclass refid="interface_domains_1_1_i_domain_logout" prot="public">Domains::IDomainLogout</innerclass>
+    <innerclass refid="class_domains_1_1_domain_regist" prot="public">Domains::DomainRegist</innerclass>
+    <innerclass refid="interface_domains_1_1_i_domain_regist" prot="public">Domains::IDomainRegist</innerclass>
+    <innerclass refid="class_domains_1_1_domain_oneself_assess" prot="public">Domains::DomainOneselfAssess</innerclass>
+    <innerclass refid="class_domains_1_1_domain_other_assess" prot="public">Domains::DomainOtherAssess</innerclass>
+    <innerclass refid="interface_domains_1_1_i_domain_oneself_assess" prot="public">Domains::IDomainOneselfAssess</innerclass>
+    <innerclass refid="interface_domains_1_1_i_domain_other_assess" prot="public">Domains::IDomainOtherAssess</innerclass>
+    <innerclass refid="class_domains_1_1_domain_skill_map_assess" prot="public">Domains::DomainSkillMapAssess</innerclass>
+    <innerclass refid="class_domains_1_1_domain_user_core_skills" prot="public">Domains::DomainUserCoreSkills</innerclass>
+    <innerclass refid="class_domains_1_1_domain_user_info" prot="public">Domains::DomainUserInfo</innerclass>
+    <innerclass refid="class_domains_1_1_domain_user_teach_skills" prot="public">Domains::DomainUserTeachSkills</innerclass>
+    <innerclass refid="class_domains_1_1_abstract_domain_user_skills" prot="public">Domains::AbstractDomainUserSkills</innerclass>
+    <innerclass refid="interface_domains_1_1_i_domain_skill_map_assess" prot="public">Domains::IDomainSkillMapAssess</innerclass>
+    <innerclass refid="interface_domains_1_1_i_domain_user_core_skills" prot="public">Domains::IDomainUserCoreSkills</innerclass>
+    <innerclass refid="interface_domains_1_1_i_domain_user_info" prot="public">Domains::IDomainUserInfo</innerclass>
+    <innerclass refid="interface_domains_1_1_i_domain_user_teach_skills" prot="public">Domains::IDomainUserTeachSkills</innerclass>
+    <innernamespace refid="namespace_domains_1_1_properties">Domains::Properties</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/UserInfoDomain/AdminPage/DomainCoreSkills.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

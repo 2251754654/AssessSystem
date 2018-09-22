@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_views_1_1_data_service_1_1_i_data_service_channel" kind="interface" prot="public">
+    <compoundname>Views::DataService::IDataServiceChannel</compoundname>
+    <basecompoundref refid="interface_views_1_1_data_service_1_1_i_data_service" prot="public" virt="non-virtual">Views.DataService.IDataService</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IClientChannel</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="164">
+        <label>System::ServiceModel::IClientChannel</label>
+      </node>
+      <node id="162">
+        <label>Views.DataService.IDataServiceChannel</label>
+        <link refid="interface_views_1_1_data_service_1_1_i_data_service_channel"/>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+        <childnode refid="164" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>Views::DataService::IDataService</label>
+        <link refid="interface_views_1_1_data_service_1_1_i_data_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="167">
+        <label>System::ServiceModel::IClientChannel</label>
+      </node>
+      <node id="165">
+        <label>Views.DataService.IDataServiceChannel</label>
+        <link refid="interface_views_1_1_data_service_1_1_i_data_service_channel"/>
+        <childnode refid="166" relation="public-inheritance">
+        </childnode>
+        <childnode refid="167" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>Views::DataService::IDataService</label>
+        <link refid="interface_views_1_1_data_service_1_1_i_data_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Views/Connected Services/DataService/Reference.cs" line="200" column="1" bodyfile="E:/Repository/Views/Connected Services/DataService/Reference.cs" bodystart="200" bodyend="201"/>
+    <listofallmembers>
+      <member refid="interface_views_1_1_data_service_1_1_i_data_service_1a17ce78f0eb575be73376f5a3d4c49a0e" prot="public" virt="non-virtual"><scope>Views::DataService::IDataServiceChannel</scope><name>GetData</name></member>
+      <member refid="interface_views_1_1_data_service_1_1_i_data_service_1abd3d782dbbe3d04b248e08b959454591" prot="public" virt="non-virtual"><scope>Views::DataService::IDataServiceChannel</scope><name>GetDataAsync</name></member>
+      <member refid="interface_views_1_1_data_service_1_1_i_data_service_1a45aba22d9a8d02cdb641bd01552de1dd" prot="public" virt="non-virtual"><scope>Views::DataService::IDataServiceChannel</scope><name>GetDataUsingDataContract</name></member>
+      <member refid="interface_views_1_1_data_service_1_1_i_data_service_1a2f09b24ef2b276f6be8f7344e46506b1" prot="public" virt="non-virtual"><scope>Views::DataService::IDataServiceChannel</scope><name>GetDataUsingDataContractAsync</name></member>
+      <member refid="interface_views_1_1_data_service_1_1_i_data_service_1a1c2ce9f9b499f63d79c822d65a970f42" prot="public" virt="non-virtual"><scope>Views::DataService::IDataServiceChannel</scope><name>LoginCheck</name></member>
+      <member refid="interface_views_1_1_data_service_1_1_i_data_service_1a43d79beba12df4a094a23febd7875442" prot="public" virt="non-virtual"><scope>Views::DataService::IDataServiceChannel</scope><name>LoginCheck1</name></member>
+      <member refid="interface_views_1_1_data_service_1_1_i_data_service_1a8f6399007ca968344d8844c0d72d642d" prot="public" virt="non-virtual"><scope>Views::DataService::IDataServiceChannel</scope><name>LoginCheck1Async</name></member>
+      <member refid="interface_views_1_1_data_service_1_1_i_data_service_1a8ad82a069a8403c7d424a916eb45c54e" prot="public" virt="non-virtual"><scope>Views::DataService::IDataServiceChannel</scope><name>LoginCheckAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

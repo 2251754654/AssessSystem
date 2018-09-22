@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_repositorys_1_1_i_repository_user" kind="interface" prot="public">
+    <compoundname>Repositorys::IRepositoryUser</compoundname>
+    <derivedcompoundref refid="class_repositorys_1_1_repository_user" prot="public" virt="non-virtual">Repositorys.RepositoryUser</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_1a7d54152e4e68c0e15701511aeb709ff0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.IRepositoryUser.FakeDelete</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FakeDelete</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_1a7bea28ae7f3af3ceede6c342215b1218">FakeDelete</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>逻辑删除 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/interfaceClass/IRepositoryUser.cs" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_1a5b4faff0dbf47b2c297be4590a1b740b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref> &gt;</type>
+        <definition>List&lt;ModelUser&gt; Repositorys.IRepositoryUser.FindAllUser</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllUser</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_1ae1610dd2b5d339717ed2e252a3b3614e">FindAllUser</reimplementedby>
+        <briefdescription>
+<para>查询所有用户 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/interfaceClass/IRepositoryUser.cs" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_1a04bf363a6f7c39e614a320cd40ccaf79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref> &gt;</type>
+        <definition>List&lt;ModelUser&gt; Repositorys.IRepositoryUser.FindLoginUser</definition>
+        <argsstring>()</argsstring>
+        <name>FindLoginUser</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_1a822c8fec11a88dcd7dd0c7f666eb2854">FindLoginUser</reimplementedby>
+        <briefdescription>
+<para>查询登陆用户 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/interfaceClass/IRepositoryUser.cs" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_1a3753c35d4d709165da8a8a0cd99f26cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref> &gt;</type>
+        <definition>List&lt;ModelUser&gt; Repositorys.IRepositoryUser.FindLogoutUser</definition>
+        <argsstring>()</argsstring>
+        <name>FindLogoutUser</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_1a0e9329dfc495d54089c2dcad37ec8bb7">FindLogoutUser</reimplementedby>
+        <briefdescription>
+<para>查询未登录用户 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/interfaceClass/IRepositoryUser.cs" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_1a7494cd80a659fc52ad0ca6163ead60cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.IRepositoryUser.FingUserNameOrID</definition>
+        <argsstring>(ModelUser modelUser)</argsstring>
+        <name>FingUserNameOrID</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_1aad1d96ca72d0dc76db35d1fa31043868">FingUserNameOrID</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref></type>
+          <declname>modelUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/interfaceClass/IRepositoryUser.cs" line="29" column="1"/>
+        <referencedby refid="class_domains_1_1_domain_regist_1af1a7696a03ca81075ebc95e141ab51d4" compoundref="_domain_regist_8cs" startline="26" endline="45">Domains.DomainRegist.Regist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_1aaece9d734cf0b11b3d4bbdbb0ec3c626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref></type>
+        <definition>ModelUser Repositorys.IRepositoryUser.Login</definition>
+        <argsstring>(ModelUser modelUser)</argsstring>
+        <name>Login</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_1a5a2c68c8a652ca4db345e352ac5adb16">Login</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref></type>
+          <declname>modelUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/interfaceClass/IRepositoryUser.cs" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_1a254317f602543201624ea11f24c11bb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.IRepositoryUser.Logout</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Logout</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_1a38f2249d6c693d53ef98e2612ec6a5df">Logout</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/interfaceClass/IRepositoryUser.cs" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_1ade33292d671ed7f997d0df233bd34a91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.IRepositoryUser.RealDelete</definition>
+        <argsstring>(int id)</argsstring>
+        <name>RealDelete</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_1aa1162387e511437d119c7c7fd8d040a1">RealDelete</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/interfaceClass/IRepositoryUser.cs" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_1aab7a310db5aa96c3dd0cc34c4b3aa5c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.IRepositoryUser.Regist</definition>
+        <argsstring>(ModelUser modelUser)</argsstring>
+        <name>Regist</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_1a94db95d9b765018dcbad4bbe254dee5a">Regist</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref></type>
+          <declname>modelUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/interfaceClass/IRepositoryUser.cs" line="33" column="1"/>
+        <referencedby refid="class_domains_1_1_domain_regist_1af1a7696a03ca81075ebc95e141ab51d4" compoundref="_domain_regist_8cs" startline="26" endline="45">Domains.DomainRegist.Regist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_1a07d26feb1539844ddeca8a19cdcd9fff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.IRepositoryUser.Update</definition>
+        <argsstring>(ModelUser modelUser)</argsstring>
+        <name>Update</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_1a10210f6f80190ac208775b9724498bf8">Update</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref></type>
+          <declname>modelUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/interfaceClass/IRepositoryUser.cs" line="34" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="234">
+        <label>Repositorys.IRepositoryUser</label>
+        <link refid="interface_repositorys_1_1_i_repository_user"/>
+      </node>
+      <node id="235">
+        <label>Repositorys.RepositoryUser</label>
+        <link refid="class_repositorys_1_1_repository_user"/>
+        <childnode refid="234" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="E:/Repository/Repositorys/UserPage/interfaceClass/IRepositoryUser.cs" line="7" column="1" bodyfile="E:/Repository/Repositorys/UserPage/interfaceClass/IRepositoryUser.cs" bodystart="6" bodyend="35"/>
+    <listofallmembers>
+      <member refid="interface_repositorys_1_1_i_repository_user_1a7d54152e4e68c0e15701511aeb709ff0" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUser</scope><name>FakeDelete</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_1a5b4faff0dbf47b2c297be4590a1b740b" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUser</scope><name>FindAllUser</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_1a04bf363a6f7c39e614a320cd40ccaf79" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUser</scope><name>FindLoginUser</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_1a3753c35d4d709165da8a8a0cd99f26cc" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUser</scope><name>FindLogoutUser</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_1a7494cd80a659fc52ad0ca6163ead60cb" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUser</scope><name>FingUserNameOrID</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_1aaece9d734cf0b11b3d4bbdbb0ec3c626" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUser</scope><name>Login</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_1a254317f602543201624ea11f24c11bb8" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUser</scope><name>Logout</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_1ade33292d671ed7f997d0df233bd34a91" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUser</scope><name>RealDelete</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_1aab7a310db5aa96c3dd0cc34c4b3aa5c4" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUser</scope><name>Regist</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_1a07d26feb1539844ddeca8a19cdcd9fff" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUser</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

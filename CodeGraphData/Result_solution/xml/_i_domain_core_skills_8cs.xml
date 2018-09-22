@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_i_domain_core_skills_8cs" kind="file">
+    <compoundname>IDomainCoreSkills.cs</compoundname>
+    <innerclass refid="interface_domains_1_1_i_domain_core_skills" prot="public">Domains::IDomainCoreSkills</innerclass>
+    <innernamespace refid="namespace_domains">Domains</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Models;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Domains</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="interface_domains_1_1_i_domain_core_skills" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_domains_1_1_i_domain_core_skills" kindref="compound">IDomainCoreSkills</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;ModelCoreSkills&gt;<sp/><ref refid="interface_domains_1_1_i_domain_core_skills_1a8faf934b4bcff15a6464bcec3d136c57" kindref="member">FindAllCoreSkills</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_domains_1_1_i_domain_core_skills_1ac7a2d68d2b5aac75c9c2ed0acf167857" kindref="member">UpdateCoreSkills</ref>(<ref refid="class_models_1_1_model_core_skills" kindref="compound">ModelCoreSkills</ref><sp/>modelCoreSkills);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_domains_1_1_i_domain_core_skills_1a725ebb0b4c576ea26a8aa4a465365176" kindref="member">DeleteCoreSkills</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>coreSkillsID);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_domains_1_1_i_domain_core_skills_1a579f23f53ee75ca3773f2636e23d8be2" kindref="member">InsertCoreSkills</ref>(<ref refid="class_models_1_1_model_core_skills" kindref="compound">ModelCoreSkills</ref><sp/>modelCoreSkills);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;ModelCoreLever&gt;<sp/><ref refid="interface_domains_1_1_i_domain_core_skills_1a33d76ac4da11bc5edab336e344b3646f" kindref="member">FindAllLever</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>coreSkillsID);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_domains_1_1_i_domain_core_skills_1a7940f982f6b27b224ae086f243ae67b9" kindref="member">DeleteLever</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>coreSkillsID,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>coreLeverID);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_domains_1_1_i_domain_core_skills_1a7a78be2540ba66cfe5be8446b946980b" kindref="member">InsertLever</ref>(<ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref><sp/>modelCoreLever);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainCoreSkills.cs"/>
+  </compounddef>
+</doxygen>

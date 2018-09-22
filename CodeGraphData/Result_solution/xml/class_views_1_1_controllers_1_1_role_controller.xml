@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_views_1_1_controllers_1_1_role_controller" kind="class" prot="public">
+    <compoundname>Views::Controllers::RoleController</compoundname>
+    <basecompoundref refid="class_views_1_1_controllers_1_1_abstract_admin_controller" prot="public" virt="non-virtual">Views.Controllers.AbstractAdminController</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_role_controller_1aba09fa55199a27eee9ff599ee7806896" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Views.Controllers.RoleController.RoleController</definition>
+        <argsstring>(IDomainRole _domainRole)</argsstring>
+        <name>RoleController</name>
+        <param>
+          <type><ref refid="interface_domains_1_1_i_domain_role" kindref="compound">IDomainRole</ref></type>
+          <declname>_domainRole</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/RoleController.cs" line="13" column="1" bodyfile="E:/Repository/Views/Controllers/RoleController.cs" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_role_controller_1a03bfe8083d474eeaf78867ce0ea20b37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Views.Controllers.RoleController.RoleView</definition>
+        <argsstring>()</argsstring>
+        <name>RoleView</name>
+        <briefdescription>
+<para>角色管理视图 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/RoleController.cs" line="21" column="1" bodyfile="E:/Repository/Views/Controllers/RoleController.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_role_controller_1af27f1f06415821255cb8d6051d99278c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.RoleController.FindAllRole</definition>
+        <argsstring>(int page)</argsstring>
+        <name>FindAllRole</name>
+        <param>
+          <type>int</type>
+          <declname>page</declname>
+        </param>
+        <briefdescription>
+<para>AJAX查询角色信息 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>page</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>页码</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/RoleController.cs" line="30" column="1" bodyfile="E:/Repository/Views/Controllers/RoleController.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_role_controller_1af68c0cd71f33ae9512d79a6d637ede30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.RoleController.FindRole</definition>
+        <argsstring>(int roleID)</argsstring>
+        <name>FindRole</name>
+        <param>
+          <type>int</type>
+          <declname>roleID</declname>
+        </param>
+        <briefdescription>
+<para>AJAX根据roleID查询某个role </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>roleID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/RoleController.cs" line="39" column="1" bodyfile="E:/Repository/Views/Controllers/RoleController.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_role_controller_1a02fafcb9555aedb1389e56dffdcb883a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.RoleController.DeleteRole</definition>
+        <argsstring>(int RoleID)</argsstring>
+        <name>DeleteRole</name>
+        <param>
+          <type>int</type>
+          <declname>RoleID</declname>
+        </param>
+        <briefdescription>
+<para>AJAX根据roleID删除某个role或者某些 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Data</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/RoleController.cs" line="48" column="1" bodyfile="E:/Repository/Views/Controllers/RoleController.cs" bodystart="48" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_role_controller_1a914f387d165ca7c01ed8b573a2da47d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.RoleController.UpdateRole</definition>
+        <argsstring>(ModelRole modelRole)</argsstring>
+        <name>UpdateRole</name>
+        <param>
+          <type><ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref></type>
+          <declname>modelRole</declname>
+        </param>
+        <briefdescription>
+<para>根据roleeID更新roleID，要求更新的数据全部上传 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>roleModel</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/RoleController.cs" line="58" column="1" bodyfile="E:/Repository/Views/Controllers/RoleController.cs" bodystart="58" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_role_controller_1a97a71465e7f0f1cd9cece1876202a50c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.RoleController.InsertRole</definition>
+        <argsstring>(ModelRole modelRol)</argsstring>
+        <name>InsertRole</name>
+        <param>
+          <type><ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref></type>
+          <declname>modelRol</declname>
+        </param>
+        <briefdescription>
+<para>根据上传的数据添加Role </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modelRol</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/RoleController.cs" line="68" column="1" bodyfile="E:/Repository/Views/Controllers/RoleController.cs" bodystart="68" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_role_controller_1a3ec83c51fb7f1e23542130dedce74f30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.RoleController.InsertRoleProfessional</definition>
+        <argsstring>(int RoleID, int ProfessionalID)</argsstring>
+        <name>InsertRoleProfessional</name>
+        <param>
+          <type>int</type>
+          <declname>RoleID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ProfessionalID</declname>
+        </param>
+        <briefdescription>
+<para>添加角色对应的职业 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>RoleID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ProfessionalID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/RoleController.cs" line="80" column="1" bodyfile="E:/Repository/Views/Controllers/RoleController.cs" bodystart="80" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="390">
+        <label>Views.Controllers.RoleController</label>
+        <link refid="class_views_1_1_controllers_1_1_role_controller"/>
+        <childnode refid="391" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="391">
+        <label>AbstractAdminController</label>
+        <link refid="class_views_1_1_controllers_1_1_abstract_admin_controller"/>
+        <childnode refid="392" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="392">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="393">
+        <label>Views.Controllers.RoleController</label>
+        <link refid="class_views_1_1_controllers_1_1_role_controller"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="396">
+        <label>Domains.IDomainRole</label>
+        <link refid="interface_domains_1_1_i_domain_role"/>
+      </node>
+      <node id="394">
+        <label>AbstractAdminController</label>
+        <link refid="class_views_1_1_controllers_1_1_abstract_admin_controller"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+        <childnode refid="396" relation="usage">
+          <edgelabel>domainRole</edgelabel>
+        </childnode>
+      </node>
+      <node id="395">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Views/Controllers/RoleController.cs" line="12" column="1" bodyfile="E:/Repository/Views/Controllers/RoleController.cs" bodystart="11" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_views_1_1_controllers_1_1_abstract_admin_controller_1abcc648990b35816bfd98d34129af22b6" prot="public" virt="non-virtual"><scope>Views::Controllers::RoleController</scope><name>AbstractAdminController</name></member>
+      <member refid="class_views_1_1_controllers_1_1_role_controller_1a02fafcb9555aedb1389e56dffdcb883a" prot="public" virt="non-virtual"><scope>Views::Controllers::RoleController</scope><name>DeleteRole</name></member>
+      <member refid="class_views_1_1_controllers_1_1_abstract_admin_controller_1a93fc9fe90db7bebe7fed1d85b0ff0bbb" prot="public" virt="non-virtual"><scope>Views::Controllers::RoleController</scope><name>domainRole</name></member>
+      <member refid="class_views_1_1_controllers_1_1_role_controller_1af27f1f06415821255cb8d6051d99278c" prot="public" virt="non-virtual"><scope>Views::Controllers::RoleController</scope><name>FindAllRole</name></member>
+      <member refid="class_views_1_1_controllers_1_1_role_controller_1af68c0cd71f33ae9512d79a6d637ede30" prot="public" virt="non-virtual"><scope>Views::Controllers::RoleController</scope><name>FindRole</name></member>
+      <member refid="class_views_1_1_controllers_1_1_role_controller_1a97a71465e7f0f1cd9cece1876202a50c" prot="public" virt="non-virtual"><scope>Views::Controllers::RoleController</scope><name>InsertRole</name></member>
+      <member refid="class_views_1_1_controllers_1_1_role_controller_1a3ec83c51fb7f1e23542130dedce74f30" prot="public" virt="non-virtual"><scope>Views::Controllers::RoleController</scope><name>InsertRoleProfessional</name></member>
+      <member refid="class_views_1_1_controllers_1_1_role_controller_1aba09fa55199a27eee9ff599ee7806896" prot="public" virt="non-virtual"><scope>Views::Controllers::RoleController</scope><name>RoleController</name></member>
+      <member refid="class_views_1_1_controllers_1_1_role_controller_1a03bfe8083d474eeaf78867ce0ea20b37" prot="public" virt="non-virtual"><scope>Views::Controllers::RoleController</scope><name>RoleView</name></member>
+      <member refid="class_views_1_1_controllers_1_1_role_controller_1a914f387d165ca7c01ed8b573a2da47d5" prot="public" virt="non-virtual"><scope>Views::Controllers::RoleController</scope><name>UpdateRole</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -12,6 +12,7 @@ namespace Models
         public int CoreLeverNum { get; set; }
         public string CoreLeverDetails { get; set; }
         public int CoreSkillsID { get; set; }
+        public int CoreLeverDelete { get; set; }
 
 
         public virtual ModelCoreSkills ModelCoreSkillsItem { get; set; }

@@ -1,0 +1,308 @@
+﻿
+@{
+    ViewBag.Title = "AdminPage";
+}
+<div class="row">
+    <section>
+        <div>
+            <div id="TeachManage">
+                <table class="table table-bordered table-hover table-responsive">
+                    <thead>
+                        <tr class="bg-info">
+                            <th>TeachSkillsID</th>
+                            <th>TeachSkillsName</th>
+                            <th>TeachSkillsGUID</th>
+                            <th>TeachSkillsDetails</th>
+                            <th><a href="#"><span class="glyphicon glyphicon-refresh">&nbsp;Update</span></a></th>
+                            <th><a href="#"><span class="glyphicon glyphicon-fire">&nbsp;Delete</span></a></th>
+                            <th><a href="#"><span class="glyphicon glyphicon-fire">&nbsp;AddLever</span></a></th>
+                            <th><a href="#"><span class="glyphicon glyphicon-fire">&nbsp;LeverList</span></a></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="(value,index) in teachSkillsList">
+                            <td>{{value.TeachSkillsID}}</td>
+                            <td>{{value.TeachSkillsName}}</td>
+                            <td>{{value.TeachSkillsGUID}}</td>
+                            <td>{{value.TeachSkillsDetails}}</td>
+                            <td><a data-toggle="modal" href="#updateTeachSkills" v-on:click="GetTeachSkills(index)"><span class="glyphicon glyphicon-refresh">&nbsp;Update</span></a></td>
+                            <td><a v-on:click="daleteTeachSkills(index)"><span class="glyphicon glyphicon-fire">&nbsp;Delete</span></a></td>
+                            <td><a data-toggle="modal" v-on:click="GetTeachSkillsIDX(index)" href="#addTeachLever"><span class="glyphicon glyphicon-fire">&nbsp;AddLever</span></a></td>
+                            <td>
+                                <div class="dropdown">
+                                    <a data-toggle="dropdown" v-on:click="findLeverList(index)">LeverList<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="DropList">
+                                        <li>
+                                            <span class="glyphicon glyphicon-paperclip">&nbsp;</span><strong class="text-uppercase">LeverList</strong>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <span class="col-lg-4 text-primary bg-light rounded-circle">ID</span>
+                                                <span class="col-lg-4 text-info bg-light">Name</span>
+                                                <span class="col-lg-4 text-info bg-light">Delete</span>
+                                            </div>
+                                        </li>
+                                        <li v-for="(leverListItem,leverListIndex) in leverTeachList">
+                                            <div>
+                                                <span class="col-lg-4 text-primary bg-light">{{leverListItem.TeachLeverID}}</span>
+                                                <span class="col-lg-4 text-info bg-light">{{leverListItem.TeachLeverNum}}</span>
+                                                <a class="col-lg-4 text-danger bg-danger" v-on:click="deleteLever(index,leverListIndex)">Delete</a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <ul class="pagination pagination-sm">
+                                                <li><a href="#">&laquo;</a></li>
+                                                <li><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                                <li><a href="#">4</a></li>
+                                                <li><a href="#">5</a></li>
+                                                <li><a href="#">&raquo;</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div >
+                    <ul class="breadcrumb">
+                        <li class="text-warning">TeachSkillsManage</li>
+                        <li><a class="text-danger" data-toggle="modal" href="#addTeachSkills">AddTeachSkills</a></li>
+                    </ul>   
+                    </div>
+                <!-- 插入模态框（Modal） -->
+                <div class="modal fade" id="addTeachSkills" tabindex="-1" role="dialog" aria-labelledby="addTeachSkillsHead" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                    &times;
+                                </button>
+                                <h4 class="modal-title" id="addTeachSkillsHead">
+                                    Insert TeachSkills
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="list-group form-group">
+                                    <li class="list-group-item">
+                                        <label class="text-info" for="TeachSkillsName">TeachSkillsName</label>
+                                        <input type="text" placeholder="TeachSkillsName" class="form-control" id="TeachSkillsName" v-model="teachSkillsObj.TeachSkillsName" />
+                                    </li>
+                                    <li class="list-group-item">
+                                        <label class="text-info" for="TeachSkillsDetails">TeachSkillsDetails</label>
+                                        <input type="text" placeholder="TeachSkillsDetails" class="form-control" id="TeachSkillsDetails" v-model="teachSkillsObj.TeachSkillsDetails" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-block btn-info" v-on:click="insertTeachSkills">提交</button>
+                                <button type="button" data-dismiss="modal" class="btn btn-block btn-danger">退出</button>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal -->
+                </div>
+                <!-- 更新模态框（Modal） -->
+                <div class="modal fade" id="updateTeachSkills" tabindex="-1" role="dialog" aria-labelledby="updateTeachSkillsHead" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                    &times;
+                                </button>
+                                <h4 class="modal-title" id="updateTeachSkillsHead">
+                                    Update TeachSkills
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="list-group form-group">
+                                    <li class="list-group-item">
+                                        <label class="text-info" for="TeachSkillsID">TeachSkillsID</label>
+                                        <input type="text" placeholder="TeachSkillsID" class="form-control" id="TeachSkillsID" v-model="teachSkillsObj.TeachSkillsID" disabled />
+                                    </li>
+                                    <li class="list-group-item">
+                                        <label class="text-info" for="TeachSkillsGUID">TeachSkillsGUID</label>
+                                        <input type="text" placeholder="TeachSkillsGUID" class="form-control" id="TeachSkillsGUID" v-model="teachSkillsObj.TeachSkillsGUID" disabled />
+                                    </li>
+                                    <li class="list-group-item">
+                                        <label class="text-info" for="TeachSkillsName">TeachSkillsName</label>
+                                        <input type="text" placeholder="TeachSkillsName" class="form-control" id="TeachSkillsName" v-model="teachSkillsObj.TeachSkillsName" />
+                                    </li>
+                                    <li class="list-group-item">
+                                        <label class="text-info" for="TeachSkillsDetails">TeachSkillsDetails</label>
+                                        <input type="text" placeholder="TeachSkillsDetails" class="form-control" id="TeachSkillsDetails" v-model="teachSkillsObj.TeachSkillsDetails" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-block btn-info" v-on:click="updateTeachSkills">提交</button>
+                                <button type="button" data-dismiss="modal" class="btn btn-block btn-danger">退出</button>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal -->
+                </div>
+                <!-- 插入等级模态框（Modal） -->
+                <div class="modal fade" id="addTeachLever" tabindex="-1" role="dialog" aria-labelledby="AddLeverHead" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                    &times;
+                                </button>
+                                <h4 class="modal-title" id="AddLeverHead">
+                                    Insert TeachSkillsLever
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="list-group form-group">
+                                    <li class="list-group-item">
+                                        <label class="text-info" for="TeachSkillsID">TeachSkillsID</label>
+                                        <input type="text" placeholder="TeachSkillsID" class="form-control" id="TeachSkillsID" v-model="leverTeachItem.TeachSkillsID" disabled />
+                                    </li>
+                                    <li class="list-group-item">
+                                        <label class="text-info" for="TeachLeverNum">TeachLeverNum</label>
+                                        <input type="text" placeholder="TeachLeverNum" class="form-control" id="TeachLeverNum" v-model="leverTeachItem.TeachLeverNum" />
+                                    </li>
+                                    <li class="list-group-item">
+                                        <label class="text-info" for="TeachLeverDetails">TeachLeverDetails</label>
+                                        <input type="text" placeholder="TeachLeverDetails" class="form-control" id="TeachLeverDetails" v-model="leverTeachItem.TeachLeverDetails" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-block btn-info" v-on:click="insertLever">提交</button>
+                                <button type="button" data-dismiss="modal" class="btn btn-block btn-danger">退出</button>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal -->
+                </div>
+            </div>
+            </div>
+    </section>
+</div>
+
+<script type="text/javascript">
+    var TeachManage = new Vue({
+        el: '#TeachManage',
+        data: {
+            //对象数组
+            teachSkillsList: [],
+            //对象数组中每一个对象临时存储
+            teachSkillsObj: {
+                TeachSkillsID: '',
+                TeachSkillsGUID: '',
+                TeachSkillsName: '',
+                TeachSkillsDetails: '',
+            },
+            leverTeachList: [],
+            leverTeachItem: {
+                TeachSkillsID: '',
+                TeachLeverNum: '',
+                TeachLeverDetails: '',
+            },
+        },
+        methods: {
+            updateTeachSkills: function () {
+                var formJson = JSON.stringify(this.teachSkillsObj);
+                this.$http.post('/TeachSkills/UpdateTeachSkills', formJson, { emulateJSON: true }).then(function (success) {
+                    alert("Update Success");
+                    this.findTeachSkills();
+                    //提示窗体
+                }, function (error) {
+                    alert("失败!");
+                });
+            },
+            daleteTeachSkills: function (index) {
+                this.teachSkillsObj = this.teachSkillsList[index];
+                var formJson = JSON.stringify(this.teachSkillsObj);
+                this.$http.post('/TeachSkills/DeleteTeachSkills', formJson, { emulateJSON: true }).then(function (success) {
+                    this.findTeachSkills();
+                    //提示窗体
+                    //alert("Delete Success");
+                }, function (error) {
+                    alert("失败!");
+                });
+            },
+            findTeachSkills: function () {
+                this.$http.get('/TeachSkills/FindAllTeachSkills').then(function (success) {
+                    //数据处理
+                    this.teachSkillsList.splice(0, this.teachSkillsList.length);
+                    for (var item = 0; item < success.data.length; item++) {
+                        var obj = {
+                            TeachSkillsID: success.data[item].TeachSkillsID,
+                            TeachSkillsGUID: success.data[item].TeachSkillsGUID,
+                            TeachSkillsName: success.data[item].TeachSkillsName,
+                            TeachSkillsDetails: success.data[item].TeachSkillsDetails
+                        };
+                        this.teachSkillsList.push(obj);
+                    }
+                }, function (error) {
+                    alert("失败");
+                });
+            },
+            insertTeachSkills: function () {
+                var formJson = JSON.stringify(this.teachSkillsObj);
+                this.$http.post('/TeachSkills/InsertTeachSkills', formJson, { emulateJSON: true }).then(function (success) {
+                    this.findTeachSkills();
+                    //提示窗体
+                    alert("Insert Success");
+                }, function (error) {
+                    alert("失败!");
+                });
+            },
+            GetTeachSkills: function (index) {
+                this.teachSkillsObj = this.teachSkillsList[index];
+            },
+            /**************************************************************/
+            //添加等级
+            insertLever: function () {
+                var formJson = JSON.stringify(this.leverTeachItem);
+                this.$http.post('/TeachSkills/InsertLever', formJson, { emulateJSON: true }).then(function (success) {
+                    alert("InsertLever Success");
+                }, function (error) {
+                    alert("失败");
+                });
+            },
+            //查询等级
+            findLeverList: function (index) {
+                this.leverTeachList.splice(0, this.leverTeachList.length);
+                var obj = { TeachSkillsID: this.teachSkillsList[index].TeachSkillsID };
+                var formJson = JSON.stringify(obj);
+                this.$http.post('/TeachSkills/FindAllLever', formJson).then(function (success) {
+                    //数据处理
+                    for (var item = 0; item < success.data.length; item++) {
+                        var obj = {
+                            TeachLeverID: success.data[item].TeachLeverID,
+                            TeachLeverNum: success.data[item].TeachLeverNum,
+                        };
+                        this.leverTeachList.push(obj);
+                    }
+                }, function (error) {
+
+                    alert("失败");
+                });
+            },
+            //删除等级
+            deleteLever: function (firstIndex, secondIndex) {
+                if (confirm("确认删除技能<" + this.teachSkillsList[firstIndex].TeachSkillsName + ">下的:<" + this.leverTeachList[secondIndex].TeachLeverNum + ">等级吗？")) {
+                    var obj = { TeachSkillsID: this.teachSkillsList[firstIndex].TeachSkillsID,TeachLeverID: this.leverTeachList[secondIndex].TeachLeverID };
+                    var formJson = JSON.stringify(obj);
+                    this.$http.post('/TeachSkills/DeleteLever', formJson, { emulateJSON: true }).then(function (success) {
+                        //提示窗体
+                        alert("DeleteLever Success");
+                    }, function (error) {
+                        alert("失败!");
+                    });
+                }
+            },
+            GetTeachSkillsIDX: function (index) {
+                this.leverTeachItem.TeachSkillsID = this.teachSkillsList[index].TeachSkillsID;
+            },
+        },
+        mounted() {
+            this.findTeachSkills();
+        },
+    });
+
+</script>

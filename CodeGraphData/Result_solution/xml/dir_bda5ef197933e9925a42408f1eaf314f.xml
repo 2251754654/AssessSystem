@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_bda5ef197933e9925a42408f1eaf314f" kind="dir">
+    <compoundname>E:/Repository/ProjectUtils/Utils</compoundname>
+    <innerfile refid="_check_code_utils_8cs">CheckCodeUtils.cs</innerfile>
+    <innerfile refid="_show_all_value_8cs">ShowAllValue.cs</innerfile>
+    <innerfile refid="_user_i_d_to_user_info_i_d_8cs">UserIDToUserInfoID.cs</innerfile>
+    <innerfile refid="_util_class_8cs">UtilClass.cs</innerfile>
+    <innerfile refid="_util_convert_m_d5_8cs">UtilConvertMD5.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/ProjectUtils/Utils/"/>
+  </compounddef>
+</doxygen>

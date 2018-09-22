@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_project_utils_1_1_user_i_d_to_user_info_i_d" kind="class" prot="public">
+    <compoundname>ProjectUtils::UserIDToUserInfoID</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/ProjectUtils/Utils/UserIDToUserInfoID.cs" line="6" column="1" bodyfile="E:/Repository/ProjectUtils/Utils/UserIDToUserInfoID.cs" bodystart="5" bodyend="8"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

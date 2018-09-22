@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_repositorys_1_1_repository_user" kind="class" prot="public">
+    <compoundname>Repositorys::RepositoryUser</compoundname>
+    <basecompoundref refid="interface_repositorys_1_1_i_repository_user" prot="public" virt="non-virtual">Repositorys.IRepositoryUser</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_repositorys_1_1_repository_user_1a1694dbbba2acb1e5d7c290eec670bb8a" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_repositorys_1_1_data_access_1_1_d_b_context" kindref="compound">DBContext</ref></type>
+        <definition>readonly DBContext Repositorys.RepositoryUser.dbContext</definition>
+        <argsstring></argsstring>
+        <name>dbContext</name>
+        <initializer>= new <ref refid="class_repositorys_1_1_data_access_1_1_d_b_context" kindref="compound">DBContext</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" line="14" column="1" bodyfile="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_repositorys_1_1_repository_user_1a5a2c68c8a652ca4db345e352ac5adb16" compoundref="_repository_user_8cs" startline="22" endline="37">Repositorys.RepositoryUser.Login</referencedby>
+        <referencedby refid="class_repositorys_1_1_repository_user_1aa1162387e511437d119c7c7fd8d040a1" compoundref="_repository_user_8cs" startline="207" endline="220">Repositorys.RepositoryUser.RealDelete</referencedby>
+        <referencedby refid="class_repositorys_1_1_repository_user_1a94db95d9b765018dcbad4bbe254dee5a" compoundref="_repository_user_8cs" startline="157" endline="167">Repositorys.RepositoryUser.Regist</referencedby>
+        <referencedby refid="class_repositorys_1_1_repository_user_1a10210f6f80190ac208775b9724498bf8" compoundref="_repository_user_8cs" startline="173" endline="186">Repositorys.RepositoryUser.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_repositorys_1_1_repository_user_1a5a2c68c8a652ca4db345e352ac5adb16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref></type>
+        <definition>ModelUser Repositorys.RepositoryUser.Login</definition>
+        <argsstring>(ModelUser modelUser)</argsstring>
+        <name>Login</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_user_1aaece9d734cf0b11b3d4bbdbb0ec3c626">Login</reimplements>
+        <param>
+          <type><ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref></type>
+          <declname>modelUser</declname>
+        </param>
+        <briefdescription>
+<para>登陆验证 如果账号已经登陆返回为null </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modelUser</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" line="22" column="1" bodyfile="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" bodystart="22" bodyend="37"/>
+        <references refid="class_repositorys_1_1_repository_user_1a1694dbbba2acb1e5d7c290eec670bb8a" compoundref="_repository_user_8cs" startline="14">Repositorys.RepositoryUser.dbContext</references>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_user_1a2e66d6f116e12f8401e10227276e737f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryUser.LoginOrNo</definition>
+        <argsstring>(ModelUser modelUser)</argsstring>
+        <name>LoginOrNo</name>
+        <param>
+          <type><ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref></type>
+          <declname>modelUser</declname>
+        </param>
+        <briefdescription>
+<para>验证账号有没有登陆 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modelUser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true 已登录</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" line="43" column="1" bodyfile="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" bodystart="43" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_user_1a38f2249d6c693d53ef98e2612ec6a5df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryUser.Logout</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Logout</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_user_1a254317f602543201624ea11f24c11bb8">Logout</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>退出系统 如果账号已经登陆返回为null </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modelUser</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" line="64" column="1" bodyfile="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" bodystart="64" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_user_1a822c8fec11a88dcd7dd0c7f666eb2854" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref> &gt;</type>
+        <definition>List&lt;ModelUser&gt; Repositorys.RepositoryUser.FindLoginUser</definition>
+        <argsstring>()</argsstring>
+        <name>FindLoginUser</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_user_1a04bf363a6f7c39e614a320cd40ccaf79">FindLoginUser</reimplements>
+        <briefdescription>
+<para>获得所有已登陆用户1登陆，0未登录 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" line="87" column="1" bodyfile="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" bodystart="87" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_user_1ae1610dd2b5d339717ed2e252a3b3614e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref> &gt;</type>
+        <definition>List&lt;ModelUser&gt; Repositorys.RepositoryUser.FindAllUser</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllUser</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_user_1a5b4faff0dbf47b2c297be4590a1b740b">FindAllUser</reimplements>
+        <briefdescription>
+<para>获得系统中所有用户 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" line="106" column="1" bodyfile="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" bodystart="106" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_user_1a0e9329dfc495d54089c2dcad37ec8bb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref> &gt;</type>
+        <definition>List&lt;ModelUser&gt; Repositorys.RepositoryUser.FindLogoutUser</definition>
+        <argsstring>()</argsstring>
+        <name>FindLogoutUser</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_user_1a3753c35d4d709165da8a8a0cd99f26cc">FindLogoutUser</reimplements>
+        <briefdescription>
+<para>获得所有未登录用户 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" line="124" column="1" bodyfile="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" bodystart="124" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_user_1aad1d96ca72d0dc76db35d1fa31043868" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryUser.FingUserNameOrID</definition>
+        <argsstring>(ModelUser modelUser)</argsstring>
+        <name>FingUserNameOrID</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_user_1a7494cd80a659fc52ad0ca6163ead60cb">FingUserNameOrID</reimplements>
+        <param>
+          <type><ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref></type>
+          <declname>modelUser</declname>
+        </param>
+        <briefdescription>
+<para>获得系统中有没有此账号或者ID </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modelUser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>false 没有</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" line="143" column="1" bodyfile="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" bodystart="143" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_user_1a94db95d9b765018dcbad4bbe254dee5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryUser.Regist</definition>
+        <argsstring>(ModelUser modelUser)</argsstring>
+        <name>Regist</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_user_1aab7a310db5aa96c3dd0cc34c4b3aa5c4">Regist</reimplements>
+        <param>
+          <type><ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref></type>
+          <declname>modelUser</declname>
+        </param>
+        <briefdescription>
+<para>添加系统用户 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modelUser</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" line="157" column="1" bodyfile="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" bodystart="157" bodyend="167"/>
+        <references refid="class_repositorys_1_1_repository_user_1a1694dbbba2acb1e5d7c290eec670bb8a" compoundref="_repository_user_8cs" startline="14">Repositorys.RepositoryUser.dbContext</references>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_user_1a10210f6f80190ac208775b9724498bf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryUser.Update</definition>
+        <argsstring>(ModelUser modelUser)</argsstring>
+        <name>Update</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_user_1a07d26feb1539844ddeca8a19cdcd9fff">Update</reimplements>
+        <param>
+          <type><ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref></type>
+          <declname>modelUser</declname>
+        </param>
+        <briefdescription>
+<para>更新系统用户 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modelUser</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" line="173" column="1" bodyfile="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" bodystart="173" bodyend="186"/>
+        <references refid="class_repositorys_1_1_repository_user_1a1694dbbba2acb1e5d7c290eec670bb8a" compoundref="_repository_user_8cs" startline="14">Repositorys.RepositoryUser.dbContext</references>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_user_1a7bea28ae7f3af3ceede6c342215b1218" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryUser.FakeDelete</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FakeDelete</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_user_1a7d54152e4e68c0e15701511aeb709ff0">FakeDelete</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>逻辑删除系统用户 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" line="192" column="1" bodyfile="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" bodystart="192" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_user_1aa1162387e511437d119c7c7fd8d040a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryUser.RealDelete</definition>
+        <argsstring>(int id)</argsstring>
+        <name>RealDelete</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_user_1ade33292d671ed7f997d0df233bd34a91">RealDelete</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>物理删除系统用户 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" line="207" column="1" bodyfile="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" bodystart="207" bodyend="220"/>
+        <references refid="class_repositorys_1_1_repository_user_1a1694dbbba2acb1e5d7c290eec670bb8a" compoundref="_repository_user_8cs" startline="14">Repositorys.RepositoryUser.dbContext</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="369">
+        <label>Repositorys.RepositoryUser</label>
+        <link refid="class_repositorys_1_1_repository_user"/>
+        <childnode refid="370" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="370">
+        <label>IRepositoryUser</label>
+        <link refid="interface_repositorys_1_1_i_repository_user"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="374">
+        <label>DbContext</label>
+      </node>
+      <node id="371">
+        <label>Repositorys.RepositoryUser</label>
+        <link refid="class_repositorys_1_1_repository_user"/>
+        <childnode refid="372" relation="public-inheritance">
+        </childnode>
+        <childnode refid="373" relation="usage">
+          <edgelabel>dbContext</edgelabel>
+        </childnode>
+      </node>
+      <node id="372">
+        <label>IRepositoryUser</label>
+        <link refid="interface_repositorys_1_1_i_repository_user"/>
+      </node>
+      <node id="373">
+        <label>Repositorys.DataAccess.DBContext</label>
+        <link refid="class_repositorys_1_1_data_access_1_1_d_b_context"/>
+        <childnode refid="374" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" line="13" column="1" bodyfile="E:/Repository/Repositorys/UserPage/BaseClass/RepositoryUser.cs" bodystart="12" bodyend="221"/>
+    <listofallmembers>
+      <member refid="class_repositorys_1_1_repository_user_1a1694dbbba2acb1e5d7c290eec670bb8a" prot="private" virt="non-virtual"><scope>Repositorys::RepositoryUser</scope><name>dbContext</name></member>
+      <member refid="class_repositorys_1_1_repository_user_1a7bea28ae7f3af3ceede6c342215b1218" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryUser</scope><name>FakeDelete</name></member>
+      <member refid="class_repositorys_1_1_repository_user_1ae1610dd2b5d339717ed2e252a3b3614e" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryUser</scope><name>FindAllUser</name></member>
+      <member refid="class_repositorys_1_1_repository_user_1a822c8fec11a88dcd7dd0c7f666eb2854" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryUser</scope><name>FindLoginUser</name></member>
+      <member refid="class_repositorys_1_1_repository_user_1a0e9329dfc495d54089c2dcad37ec8bb7" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryUser</scope><name>FindLogoutUser</name></member>
+      <member refid="class_repositorys_1_1_repository_user_1aad1d96ca72d0dc76db35d1fa31043868" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryUser</scope><name>FingUserNameOrID</name></member>
+      <member refid="class_repositorys_1_1_repository_user_1a5a2c68c8a652ca4db345e352ac5adb16" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryUser</scope><name>Login</name></member>
+      <member refid="class_repositorys_1_1_repository_user_1a2e66d6f116e12f8401e10227276e737f" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryUser</scope><name>LoginOrNo</name></member>
+      <member refid="class_repositorys_1_1_repository_user_1a38f2249d6c693d53ef98e2612ec6a5df" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryUser</scope><name>Logout</name></member>
+      <member refid="class_repositorys_1_1_repository_user_1aa1162387e511437d119c7c7fd8d040a1" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryUser</scope><name>RealDelete</name></member>
+      <member refid="class_repositorys_1_1_repository_user_1a94db95d9b765018dcbad4bbe254dee5a" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryUser</scope><name>Regist</name></member>
+      <member refid="class_repositorys_1_1_repository_user_1a10210f6f80190ac208775b9724498bf8" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryUser</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

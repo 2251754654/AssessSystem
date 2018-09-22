@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_repositorys_1_1_repository_core_lever" kind="class" prot="public">
+    <compoundname>Repositorys::RepositoryCoreLever</compoundname>
+    <basecompoundref refid="interface_repositorys_1_1_i_repository_core_lever" prot="public" virt="non-virtual">Repositorys.IRepositoryCoreLever</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_repositorys_1_1_repository_core_lever_1ae8b02611ffba9f931cf8d69f2d895df0" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_repositorys_1_1_data_access_1_1_d_b_context" kindref="compound">DBContext</ref></type>
+        <definition>readonly DBContext Repositorys.RepositoryCoreLever.dbContext</definition>
+        <argsstring></argsstring>
+        <name>dbContext</name>
+        <initializer>= new <ref refid="class_repositorys_1_1_data_access_1_1_d_b_context" kindref="compound">DBContext</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" line="14" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_repositorys_1_1_repository_core_lever_1aa5effad9c5086317b615245392d3cfc1" compoundref="_repository_core_lever_8cs" startline="50" endline="60">Repositorys.RepositoryCoreLever.Insert</referencedby>
+        <referencedby refid="class_repositorys_1_1_repository_core_lever_1ab0c0cd5511fea71b7e436cb518d4dae3" compoundref="_repository_core_lever_8cs" startline="82" endline="96">Repositorys.RepositoryCoreLever.ReallyDeleteAll</referencedby>
+        <referencedby refid="class_repositorys_1_1_repository_core_lever_1a38e8e0d9a8af0e37040617f3e150fb39" compoundref="_repository_core_lever_8cs" startline="102" endline="116">Repositorys.RepositoryCoreLever.ReallyDeleteOne</referencedby>
+        <referencedby refid="class_repositorys_1_1_repository_core_lever_1a6cae2cdac50958059694f978dd10b0d2" compoundref="_repository_core_lever_8cs" startline="66" endline="76">Repositorys.RepositoryCoreLever.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_repositorys_1_1_repository_core_lever_1a13aa5fe47fe5177570077e86db44b2be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref> &gt;</type>
+        <definition>List&lt;ModelCoreLever&gt; Repositorys.RepositoryCoreLever.FindCoreSkillLever</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FindCoreSkillLever</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_core_lever_1a40fca3bfdbf2201cf3fb184443dc40ae">FindCoreSkillLever</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>查找指定ID所有技能等级 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>技能ID</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" line="20" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" bodystart="20" bodyend="35"/>
+        <referencedby refid="class_repositorys_1_1_repository_core_lever_1ace980a1df271d00dbdae4c68eebdaa4f" compoundref="_repository_core_lever_8cs" startline="41" endline="44">Repositorys.RepositoryCoreLever.FindCoreSkillLever</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_core_lever_1ace980a1df271d00dbdae4c68eebdaa4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref></type>
+        <definition>ModelCoreLever Repositorys.RepositoryCoreLever.FindCoreSkillLever</definition>
+        <argsstring>(int coreSkillID, int CoreSkillLeverID)</argsstring>
+        <name>FindCoreSkillLever</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_core_lever_1a6fef89406a7ed72f67a85b91df699ee1">FindCoreSkillLever</reimplements>
+        <param>
+          <type>int</type>
+          <declname>coreSkillID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>CoreSkillLeverID</declname>
+        </param>
+        <briefdescription>
+<para>查找指定技能等级的详细情况 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>等级ID</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" line="41" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" bodystart="41" bodyend="44"/>
+        <references refid="class_repositorys_1_1_repository_core_lever_1a13aa5fe47fe5177570077e86db44b2be" compoundref="_repository_core_lever_8cs" startline="20" endline="35">Repositorys.RepositoryCoreLever.FindCoreSkillLever</references>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_core_lever_1aa5effad9c5086317b615245392d3cfc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryCoreLever.Insert</definition>
+        <argsstring>(ModelCoreLever modelCoreLever)</argsstring>
+        <name>Insert</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_core_lever_1a902e62cec048ef5834e9027947bddfc3">Insert</reimplements>
+        <param>
+          <type><ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref></type>
+          <declname>modelCoreLever</declname>
+        </param>
+        <briefdescription>
+<para>插入技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modelCoreSkills</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" line="50" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" bodystart="50" bodyend="60"/>
+        <references refid="class_repositorys_1_1_repository_core_lever_1ae8b02611ffba9f931cf8d69f2d895df0" compoundref="_repository_core_lever_8cs" startline="14">Repositorys.RepositoryCoreLever.dbContext</references>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_core_lever_1a6cae2cdac50958059694f978dd10b0d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryCoreLever.Update</definition>
+        <argsstring>(ModelCoreLever modelCoreLever)</argsstring>
+        <name>Update</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_core_lever_1acfcd34a51fac64646875415534c3f59e">Update</reimplements>
+        <param>
+          <type><ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref></type>
+          <declname>modelCoreLever</declname>
+        </param>
+        <briefdescription>
+<para>更新技能(上层必须确保字段确实更新了，没更新则为false) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modelRole</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" line="66" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" bodystart="66" bodyend="76"/>
+        <references refid="class_repositorys_1_1_repository_core_lever_1ae8b02611ffba9f931cf8d69f2d895df0" compoundref="_repository_core_lever_8cs" startline="14">Repositorys.RepositoryCoreLever.dbContext</references>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_core_lever_1ab0c0cd5511fea71b7e436cb518d4dae3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryCoreLever.ReallyDeleteAll</definition>
+        <argsstring>(int id)</argsstring>
+        <name>ReallyDeleteAll</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_core_lever_1ae82731b6391725a25bd88ab45f3a4fb8">ReallyDeleteAll</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>物理删除技能，删除技能的所有等级 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>技能ID</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" line="82" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" bodystart="82" bodyend="96"/>
+        <references refid="class_repositorys_1_1_repository_core_lever_1ae8b02611ffba9f931cf8d69f2d895df0" compoundref="_repository_core_lever_8cs" startline="14">Repositorys.RepositoryCoreLever.dbContext</references>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_core_lever_1a38e8e0d9a8af0e37040617f3e150fb39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryCoreLever.ReallyDeleteOne</definition>
+        <argsstring>(int id)</argsstring>
+        <name>ReallyDeleteOne</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_core_lever_1a6785b454fd894a4126820fb6688bd525">ReallyDeleteOne</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>物理删除技能，删除技能的某一个等级 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>技能等级ID</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" line="102" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" bodystart="102" bodyend="116"/>
+        <references refid="class_repositorys_1_1_repository_core_lever_1ae8b02611ffba9f931cf8d69f2d895df0" compoundref="_repository_core_lever_8cs" startline="14">Repositorys.RepositoryCoreLever.dbContext</references>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_core_lever_1a20f08d10eb0f64da16a3782d77c326a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryCoreLever.FakeDeleteAll</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FakeDeleteAll</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_core_lever_1ab70bd821056bd6255a56b039b320beaf">FakeDeleteAll</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>逻辑删除技能所有等级 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" line="122" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" bodystart="122" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_core_lever_1ae0601c6bf3ac53b77e3ca9b3b3db33be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryCoreLever.FakeDeleteOne</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FakeDeleteOne</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_core_lever_1a713d54ac50c6ada33a02939ddcdbc08a">FakeDeleteOne</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>逻辑删除技能某一个等级 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>技能等级ID</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" line="149" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" bodystart="149" bodyend="167"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="316">
+        <label>IRepositoryCoreLever</label>
+        <link refid="interface_repositorys_1_1_i_repository_core_lever"/>
+      </node>
+      <node id="315">
+        <label>Repositorys.RepositoryCoreLever</label>
+        <link refid="class_repositorys_1_1_repository_core_lever"/>
+        <childnode refid="316" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="318">
+        <label>IRepositoryCoreLever</label>
+        <link refid="interface_repositorys_1_1_i_repository_core_lever"/>
+      </node>
+      <node id="317">
+        <label>Repositorys.RepositoryCoreLever</label>
+        <link refid="class_repositorys_1_1_repository_core_lever"/>
+        <childnode refid="318" relation="public-inheritance">
+        </childnode>
+        <childnode refid="319" relation="usage">
+          <edgelabel>dbContext</edgelabel>
+        </childnode>
+      </node>
+      <node id="320">
+        <label>DbContext</label>
+      </node>
+      <node id="319">
+        <label>Repositorys.DataAccess.DBContext</label>
+        <link refid="class_repositorys_1_1_data_access_1_1_d_b_context"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" line="13" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryCoreLever.cs" bodystart="12" bodyend="168"/>
+    <listofallmembers>
+      <member refid="class_repositorys_1_1_repository_core_lever_1ae8b02611ffba9f931cf8d69f2d895df0" prot="private" virt="non-virtual"><scope>Repositorys::RepositoryCoreLever</scope><name>dbContext</name></member>
+      <member refid="class_repositorys_1_1_repository_core_lever_1a20f08d10eb0f64da16a3782d77c326a0" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryCoreLever</scope><name>FakeDeleteAll</name></member>
+      <member refid="class_repositorys_1_1_repository_core_lever_1ae0601c6bf3ac53b77e3ca9b3b3db33be" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryCoreLever</scope><name>FakeDeleteOne</name></member>
+      <member refid="class_repositorys_1_1_repository_core_lever_1a13aa5fe47fe5177570077e86db44b2be" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryCoreLever</scope><name>FindCoreSkillLever</name></member>
+      <member refid="class_repositorys_1_1_repository_core_lever_1ace980a1df271d00dbdae4c68eebdaa4f" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryCoreLever</scope><name>FindCoreSkillLever</name></member>
+      <member refid="class_repositorys_1_1_repository_core_lever_1aa5effad9c5086317b615245392d3cfc1" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryCoreLever</scope><name>Insert</name></member>
+      <member refid="class_repositorys_1_1_repository_core_lever_1ab0c0cd5511fea71b7e436cb518d4dae3" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryCoreLever</scope><name>ReallyDeleteAll</name></member>
+      <member refid="class_repositorys_1_1_repository_core_lever_1a38e8e0d9a8af0e37040617f3e150fb39" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryCoreLever</scope><name>ReallyDeleteOne</name></member>
+      <member refid="class_repositorys_1_1_repository_core_lever_1a6cae2cdac50958059694f978dd10b0d2" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryCoreLever</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

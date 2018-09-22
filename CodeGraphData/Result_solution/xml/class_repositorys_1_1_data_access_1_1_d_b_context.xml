@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_repositorys_1_1_data_access_1_1_d_b_context" kind="class" prot="public">
+    <compoundname>Repositorys::DataAccess::DBContext</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DbContext</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_d_b_context_1ad10df0769b0c0492536b0b7882a0ce52" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___core_lever" kindref="compound">TB_CoreLever</ref> &gt;</type>
+        <definition>virtual DbSet&lt;TB_CoreLever&gt; Repositorys.DataAccess.DBContext.TB_CoreLever</definition>
+        <argsstring></argsstring>
+        <name>TB_CoreLever</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="12" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_d_b_context_1a613ff218b96373900d628299007e2b52" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___core_skills" kindref="compound">TB_CoreSkills</ref> &gt;</type>
+        <definition>virtual DbSet&lt;TB_CoreSkills&gt; Repositorys.DataAccess.DBContext.TB_CoreSkills</definition>
+        <argsstring></argsstring>
+        <name>TB_CoreSkills</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="13" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_d_b_context_1a7417b5235e494e706e87869f24be5f2d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation" kindref="compound">TB_Evaluation</ref> &gt;</type>
+        <definition>virtual DbSet&lt;TB_Evaluation&gt; Repositorys.DataAccess.DBContext.TB_Evaluation</definition>
+        <argsstring></argsstring>
+        <name>TB_Evaluation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="14" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_d_b_context_1ab8598c50e1a5815b2513cd9d32f74004" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation_info" kindref="compound">TB_EvaluationInfo</ref> &gt;</type>
+        <definition>virtual DbSet&lt;TB_EvaluationInfo&gt; Repositorys.DataAccess.DBContext.TB_EvaluationInfo</definition>
+        <argsstring></argsstring>
+        <name>TB_EvaluationInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="15" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_d_b_context_1af1b849ef68942ace79597b9d684c6cf9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_core" kindref="compound">TB_MappingCore</ref> &gt;</type>
+        <definition>virtual DbSet&lt;TB_MappingCore&gt; Repositorys.DataAccess.DBContext.TB_MappingCore</definition>
+        <argsstring></argsstring>
+        <name>TB_MappingCore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="16" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_d_b_context_1a212f13c1ebbe3fd18b9ff9fee83ded50" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_teach" kindref="compound">TB_MappingTeach</ref> &gt;</type>
+        <definition>virtual DbSet&lt;TB_MappingTeach&gt; Repositorys.DataAccess.DBContext.TB_MappingTeach</definition>
+        <argsstring></argsstring>
+        <name>TB_MappingTeach</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="17" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_d_b_context_1a29d3af6dcf1083a57b722fc8904425b4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___professional" kindref="compound">TB_Professional</ref> &gt;</type>
+        <definition>virtual DbSet&lt;TB_Professional&gt; Repositorys.DataAccess.DBContext.TB_Professional</definition>
+        <argsstring></argsstring>
+        <name>TB_Professional</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="18" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_d_b_context_1a5a02e3301c3448b6fcc76faaf54dcccb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___role" kindref="compound">TB_Role</ref> &gt;</type>
+        <definition>virtual DbSet&lt;TB_Role&gt; Repositorys.DataAccess.DBContext.TB_Role</definition>
+        <argsstring></argsstring>
+        <name>TB_Role</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="19" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_d_b_context_1a903d980afd04d848ff0ae44720a906d4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___role_content" kindref="compound">TB_RoleContent</ref> &gt;</type>
+        <definition>virtual DbSet&lt;TB_RoleContent&gt; Repositorys.DataAccess.DBContext.TB_RoleContent</definition>
+        <argsstring></argsstring>
+        <name>TB_RoleContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="20" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_d_b_context_1adf826988d7659507b3adddefbde46b28" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___teach_lever" kindref="compound">TB_TeachLever</ref> &gt;</type>
+        <definition>virtual DbSet&lt;TB_TeachLever&gt; Repositorys.DataAccess.DBContext.TB_TeachLever</definition>
+        <argsstring></argsstring>
+        <name>TB_TeachLever</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="21" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_d_b_context_1a40b9f6e4015c7f99219ce4a15937bc54" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills" kindref="compound">TB_TechSkills</ref> &gt;</type>
+        <definition>virtual DbSet&lt;TB_TechSkills&gt; Repositorys.DataAccess.DBContext.TB_TechSkills</definition>
+        <argsstring></argsstring>
+        <name>TB_TechSkills</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="22" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_d_b_context_1a4123e61186084caa06b56058ca952325" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___user" kindref="compound">TB_User</ref> &gt;</type>
+        <definition>virtual DbSet&lt;TB_User&gt; Repositorys.DataAccess.DBContext.TB_User</definition>
+        <argsstring></argsstring>
+        <name>TB_User</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="23" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_d_b_context_1a7a445c91dfa8d9cfeeca7c09f8371227" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___user_info" kindref="compound">TB_UserInfo</ref> &gt;</type>
+        <definition>virtual DbSet&lt;TB_UserInfo&gt; Repositorys.DataAccess.DBContext.TB_UserInfo</definition>
+        <argsstring></argsstring>
+        <name>TB_UserInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="24" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_repositorys_1_1_data_access_1_1_d_b_context_1a5c5870930888a4676879ea976ab229d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Repositorys.DataAccess.DBContext.DBContext</definition>
+        <argsstring>()</argsstring>
+        <name>DBContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="7" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_repositorys_1_1_data_access_1_1_d_b_context_1a07bebe0752b456f56b86e986a81d666a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Repositorys.DataAccess.DBContext.OnModelCreating</definition>
+        <argsstring>(DbModelBuilder modelBuilder)</argsstring>
+        <name>OnModelCreating</name>
+        <param>
+          <type>DbModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="26" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="26" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="56">
+        <label>DbContext</label>
+      </node>
+      <node id="55">
+        <label>Repositorys.DataAccess.DBContext</label>
+        <link refid="class_repositorys_1_1_data_access_1_1_d_b_context"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="58">
+        <label>DbContext</label>
+      </node>
+      <node id="57">
+        <label>Repositorys.DataAccess.DBContext</label>
+        <link refid="class_repositorys_1_1_data_access_1_1_d_b_context"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Repositorys/DataAccess/DBContext.cs" line="6" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/DBContext.cs" bodystart="5" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a5c5870930888a4676879ea976ab229d8" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::DBContext</scope><name>DBContext</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a07bebe0752b456f56b86e986a81d666a" prot="protected" virt="non-virtual"><scope>Repositorys::DataAccess::DBContext</scope><name>OnModelCreating</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1ad10df0769b0c0492536b0b7882a0ce52" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::DBContext</scope><name>TB_CoreLever</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a613ff218b96373900d628299007e2b52" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::DBContext</scope><name>TB_CoreSkills</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a7417b5235e494e706e87869f24be5f2d" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::DBContext</scope><name>TB_Evaluation</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1ab8598c50e1a5815b2513cd9d32f74004" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::DBContext</scope><name>TB_EvaluationInfo</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1af1b849ef68942ace79597b9d684c6cf9" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::DBContext</scope><name>TB_MappingCore</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a212f13c1ebbe3fd18b9ff9fee83ded50" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::DBContext</scope><name>TB_MappingTeach</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a29d3af6dcf1083a57b722fc8904425b4" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::DBContext</scope><name>TB_Professional</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a5a02e3301c3448b6fcc76faaf54dcccb" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::DBContext</scope><name>TB_Role</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a903d980afd04d848ff0ae44720a906d4" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::DBContext</scope><name>TB_RoleContent</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1adf826988d7659507b3adddefbde46b28" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::DBContext</scope><name>TB_TeachLever</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a40b9f6e4015c7f99219ce4a15937bc54" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::DBContext</scope><name>TB_TechSkills</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a4123e61186084caa06b56058ca952325" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::DBContext</scope><name>TB_User</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a7a445c91dfa8d9cfeeca7c09f8371227" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::DBContext</scope><name>TB_UserInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

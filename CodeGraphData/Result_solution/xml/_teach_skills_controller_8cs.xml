@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_teach_skills_controller_8cs" kind="file">
+    <compoundname>TeachSkillsController.cs</compoundname>
+    <innerclass refid="class_views_1_1_controllers_1_1_teach_skills_controller" prot="public">Views::Controllers::TeachSkillsController</innerclass>
+    <innernamespace refid="namespace_views_1_1_controllers">Views::Controllers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Web;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Web.Mvc;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Domains;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Models;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Views.Controllers</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="class_views_1_1_controllers_1_1_teach_skills_controller" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_views_1_1_controllers_1_1_teach_skills_controller" kindref="compound">TeachSkillsController</ref><sp/>:<sp/>Controller</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a6743a128b7cdb0125e3048576edc42e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/><ref refid="interface_domains_1_1_i_domain_teach_skills" kindref="compound">IDomainTeachSkills</ref><sp/><ref refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a6743a128b7cdb0125e3048576edc42e1" kindref="member">domainTeachSkills</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a244327a321501afd3b2c6c2a2044a093" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a244327a321501afd3b2c6c2a2044a093" kindref="member">TeachSkillsController</ref>(<ref refid="interface_domains_1_1_i_domain_teach_skills" kindref="compound">IDomainTeachSkills</ref><sp/>domainTeachSkills)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.domainTeachSkills<sp/>=<sp/>domainTeachSkills<sp/>??<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ArgumentNullException(nameof(domainTeachSkills));</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>GET:<sp/>TeachSkills</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_views_1_1_controllers_1_1_teach_skills_controller_1ace4ac6ce6fd93ed5697da4e59131eeb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>ActionResult<sp/><ref refid="class_views_1_1_controllers_1_1_teach_skills_controller_1ace4ac6ce6fd93ed5697da4e59131eeb4" kindref="member">TeachSkillsView</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>View();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a59b71b3c98a14db3756dba644396971a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>JsonResult<sp/><ref refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a59b71b3c98a14db3756dba644396971a" kindref="member">FindAllTeachSkills</ref>()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>result<sp/>=<sp/>domainTeachSkills.FindAllTeachSkills();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Json(result,JsonRequestBehavior.AllowGet);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39" refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a95e577c16a81ec7577d23ff8c36c4912" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>JsonResult<sp/><ref refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a95e577c16a81ec7577d23ff8c36c4912" kindref="member">UpdateTeachSkills</ref>(<ref refid="class_models_1_1_model_tech_skills" kindref="compound">ModelTechSkills</ref><sp/>modelTechSkills)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>result<sp/>=<sp/>domainTeachSkills.UpdateTeackSkills(modelTechSkills);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Json(result);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48" refid="class_views_1_1_controllers_1_1_teach_skills_controller_1afa2c87379ef29f9b51031b34acbd475b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>JsonResult<sp/><ref refid="class_views_1_1_controllers_1_1_teach_skills_controller_1afa2c87379ef29f9b51031b34acbd475b" kindref="member">DeleteTeachSkills</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TeachSkillsID)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>result<sp/>=<sp/>domainTeachSkills.DeleteTeachSkills(TeachSkillsID);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Json(result);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57" refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a87163640e60528a81105c154f88da638" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>JsonResult<sp/><ref refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a87163640e60528a81105c154f88da638" kindref="member">InsertTeachSkills</ref>(<ref refid="class_models_1_1_model_tech_skills" kindref="compound">ModelTechSkills</ref><sp/>modelTechSkills)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>result<sp/>=<sp/>domainTeachSkills.InsertTeachSkills(modelTechSkills);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Json(null);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66" refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a6708b565f6e98f091ba7a84708182711" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>JsonResult<sp/><ref refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a6708b565f6e98f091ba7a84708182711" kindref="member">FindAllLever</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TeachSkillsID)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>result<sp/>=<sp/>domainTeachSkills.FindAllLever(TeachSkillsID);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Json(result);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77" refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a3d481fa9a8f3a0ff2ddf79267b38a625" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>JsonResult<sp/><ref refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a3d481fa9a8f3a0ff2ddf79267b38a625" kindref="member">DeleteLever</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TeachSkillsID,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TeachLeverID)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>result<sp/>=<sp/>domainTeachSkills.DeleteLever(TeachSkillsID,<sp/>TeachLeverID);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Json(result);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86" refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a9c04382f10bc28ad06e052ce10b25add" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>JsonResult<sp/><ref refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a9c04382f10bc28ad06e052ce10b25add" kindref="member">InsertLever</ref>(<ref refid="class_models_1_1_model_teach_lever" kindref="compound">ModelTeachLever</ref><sp/><sp/>modelTeachLever)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>result<sp/>=<sp/>domainTeachSkills.InsertLever(modelTeachLever);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Json(result);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="E:/Repository/Views/Controllers/TeachSkillsController.cs"/>
+  </compounddef>
+</doxygen>

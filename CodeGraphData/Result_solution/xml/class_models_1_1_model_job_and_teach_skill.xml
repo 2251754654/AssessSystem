@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_models_1_1_model_job_and_teach_skill" kind="class" prot="public">
+    <compoundname>Models::ModelJobAndTeachSkill</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_models_1_1_model_job_and_teach_skill_1a8688b83b3a9928497c307f4d59cd7c63" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelJobAndTeachSkill.ProfessionalID</definition>
+        <argsstring></argsstring>
+        <name>ProfessionalID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" line="11" column="1" bodyfile="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_job_and_teach_skill_1a09a46641718a558f0734d77f29d5ace9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Models.ModelJobAndTeachSkill.ProfessionalName</definition>
+        <argsstring></argsstring>
+        <name>ProfessionalName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" line="12" column="1" bodyfile="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_job_and_teach_skill_1aac0e9578278703434e94ece9ef91af99" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Models.ModelJobAndTeachSkill.ProfessionalDetails</definition>
+        <argsstring></argsstring>
+        <name>ProfessionalDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" line="13" column="1" bodyfile="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_job_and_teach_skill_1adf075d9475c0969184c32976100e1072" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelJobAndTeachSkill.ProfessionalDelete</definition>
+        <argsstring></argsstring>
+        <name>ProfessionalDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" line="14" column="1" bodyfile="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_job_and_teach_skill_1ac025e2448a9f56bd432e0ed9f479987d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelJobAndTeachSkill.TeachSkillsID</definition>
+        <argsstring></argsstring>
+        <name>TeachSkillsID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" line="16" column="1" bodyfile="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_job_and_teach_skill_1ab010ca143e6285ae5642808f9827d2f3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Models.ModelJobAndTeachSkill.TeachSkillsName</definition>
+        <argsstring></argsstring>
+        <name>TeachSkillsName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" line="17" column="1" bodyfile="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_job_and_teach_skill_1aecf4f093d4573f544da8171a2d5c706f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Models.ModelJobAndTeachSkill.TeachAkillsDetails</definition>
+        <argsstring></argsstring>
+        <name>TeachAkillsDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" line="18" column="1" bodyfile="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_job_and_teach_skill_1a055e8f10f56793c6a250156ae5d6f5aa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Models.ModelJobAndTeachSkill.TeachAkillsGUID</definition>
+        <argsstring></argsstring>
+        <name>TeachAkillsGUID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" line="19" column="1" bodyfile="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_job_and_teach_skill_1a6fcba08a907d6ab5cca566eacbb084aa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelJobAndTeachSkill.TeachSkillDelete</definition>
+        <argsstring></argsstring>
+        <name>TeachSkillDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" line="20" column="1" bodyfile="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" line="10" column="1" bodyfile="E:/Repository/Models/MergeModel/ModelJobAndTeachSkill.cs" bodystart="9" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_models_1_1_model_job_and_teach_skill_1adf075d9475c0969184c32976100e1072" prot="public" virt="non-virtual"><scope>Models::ModelJobAndTeachSkill</scope><name>ProfessionalDelete</name></member>
+      <member refid="class_models_1_1_model_job_and_teach_skill_1aac0e9578278703434e94ece9ef91af99" prot="public" virt="non-virtual"><scope>Models::ModelJobAndTeachSkill</scope><name>ProfessionalDetails</name></member>
+      <member refid="class_models_1_1_model_job_and_teach_skill_1a8688b83b3a9928497c307f4d59cd7c63" prot="public" virt="non-virtual"><scope>Models::ModelJobAndTeachSkill</scope><name>ProfessionalID</name></member>
+      <member refid="class_models_1_1_model_job_and_teach_skill_1a09a46641718a558f0734d77f29d5ace9" prot="public" virt="non-virtual"><scope>Models::ModelJobAndTeachSkill</scope><name>ProfessionalName</name></member>
+      <member refid="class_models_1_1_model_job_and_teach_skill_1aecf4f093d4573f544da8171a2d5c706f" prot="public" virt="non-virtual"><scope>Models::ModelJobAndTeachSkill</scope><name>TeachAkillsDetails</name></member>
+      <member refid="class_models_1_1_model_job_and_teach_skill_1a055e8f10f56793c6a250156ae5d6f5aa" prot="public" virt="non-virtual"><scope>Models::ModelJobAndTeachSkill</scope><name>TeachAkillsGUID</name></member>
+      <member refid="class_models_1_1_model_job_and_teach_skill_1a6fcba08a907d6ab5cca566eacbb084aa" prot="public" virt="non-virtual"><scope>Models::ModelJobAndTeachSkill</scope><name>TeachSkillDelete</name></member>
+      <member refid="class_models_1_1_model_job_and_teach_skill_1ac025e2448a9f56bd432e0ed9f479987d" prot="public" virt="non-virtual"><scope>Models::ModelJobAndTeachSkill</scope><name>TeachSkillsID</name></member>
+      <member refid="class_models_1_1_model_job_and_teach_skill_1ab010ca143e6285ae5642808f9827d2f3" prot="public" virt="non-virtual"><scope>Models::ModelJobAndTeachSkill</scope><name>TeachSkillsName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,7 +1,7 @@
 using Domains;
 using Repositorys;
 using System;
-
+using Repositorys;
 using Unity;
 using Views.DataService;
 
@@ -45,11 +45,33 @@ namespace Views
 
             // TODO: Register your type's mappings here.
             // container.RegisterType<IProductRepository, ProductRepository>();
-            container.RegisterType<IUserRepository, UserRepository>();
-            container.RegisterType<iUserDomain, UserDomain>();
-            container.RegisterType<DataServiceClient, DataServiceClient>();
-            //container.RegisterType<IUserRepository, UserRepository>();
-            //container.RegisterType<IUserRepository, UserRepository>();
+            container.RegisterType<IDomainLogin, DomainLogin>();
+            container.RegisterType<IDomainLogout, DomainLogout>();
+            container.RegisterType<IDomainOneselfAssess,DomainOneselfAssess>();
+            container.RegisterType<IDomainOtherAssess, DomainOtherAssess>();
+            container.RegisterType<IDomainRegist, DomainRegist>();
+            container.RegisterType<IDomainSkillMapAssess, DomainSkillMapAssess>();
+            container.RegisterType<IDomainUserCoreSkills, DomainUserCoreSkills>();
+            container.RegisterType<IDomainUserInfo, DomainUserInfo>();
+            container.RegisterType<IDomainUserTeachSkills, DomainUserTeachSkills>();
+            container.RegisterType<IDomainRole, DomainRole>();
+            container.RegisterType<IDomainJob, DomainJob>();
+            container.RegisterType<IDomainCoreSkills, DomainCoreSkills>();
+            container.RegisterType<IDomainTeachSkills, DomainTeachSkills>();
+
+            container.RegisterType<IRepositoryCoreLever, RepositoryCoreLever>();
+            container.RegisterType<IRepositoryCoreSkills, RepositoryCoreSkills>();
+            container.RegisterType<IRepositoryJob, RepositoryJob>();
+            container.RegisterType<IRepositoryMapingCore, RepositoryMapingCore>();
+            container.RegisterType<IRepositoryMapingTeach, RepositoryMapingTeach>();
+            container.RegisterType<IRepositoryRole, RepositoryRole>();
+            container.RegisterType<IRepositoryRoleContent, RepositoryRoleContent>();
+            container.RegisterType<IRepositoryTeachLever, RepositoryTeachLever>();
+            container.RegisterType<IRepositoryTeachSkills, RepositoryTeachSkills>();
+            container.RegisterType<IRepositoryUser, RepositoryUser>();
+            container.RegisterType<IRepositoryUserInfo, RepositoryUserInfo>();
+            container.RegisterType<IRepositroyAssess, RepositroyAssess>();
+       
         }
     }
 }

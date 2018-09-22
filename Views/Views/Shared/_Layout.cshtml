@@ -1,49 +1,179 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>员工测评系统</title>
-
-    <!--引入JQuery库-->
-    <script src="@Url.Content("~/Scripts/jquery-3.3.1.js")" type="text/javascript"></script>
-    <script src="@Url.Content("~/Scripts/jquery.form.js")" type="text/javascript"></script>
+    <title>@ViewBag.Title 信息系统</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="~/Scripts/vue.min.js"></script>
-    <!--前端框架-->
-    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
-    <!--自定义样式和脚本-->
-    <link href="~/Content/LoginView.css" rel="stylesheet" type="text/css" />
-    <link href="~/Content/CSSUserInfo/UserInfoListBg.css" rel="stylesheet" type="text/css" />
-    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
-    <link href="~/Content/HomePage.css" rel="stylesheet" type="text/css" />
-    <link href="~/Content/OneselfEvaluation/OneselfEvaluation.css" rel="stylesheet" />
-    <script src="~/Scripts/AJAX.js"></script>
-    <script src="~/Scripts/LoginView.js"></script>
-    <script src="~/Scripts/JSUserInfo/UserInfoAJAX.js"></script>
-    <script src="~/Scripts/OneselfEvaluation/OneselfEvaluation.js"></script>
-
+    <script src="~/Scripts/jquery-ui-1.9.2.min.js"></script>
+    <link href="~/Scripts/jtable/themes/lightcolor/orange/jtable.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jtable/jquery.jtable.min.js"></script>
+    <script src="~/Scripts/jtable/localization/jquery.jtable.zh-CN.js"></script>
+    <script src="https://cdn.bootcss.com/vue-resource/1.5.1/vue-resource.min.js"></script>
 </head>
 <body>
-    <div id="Home_Index">
-        <ul class="nav">
-            <li class="navItem"><a class="navLink"href="~/Home/HomePage">主页</a></li>
-            <li class="navItem"><a class="navLink"href="~/Home/GetUserInfo?userID=1">个人信息</a></li>
-            <li class="navItem"><a class="navLink"href="~/Home/GetOneselfEvaluation?userInfoID=4">自我测评</a></li>
-            <li class="navItem"><a class="navLink"href="~/Home/GetOtherEvaluation?userInfoID=4">他人测评</a></li>
-            <li class="navItem"><a class="navLink"href="~/Home/GetAdministratorPage">管理员视图</a></li>
-            <li class="navItem"><a class="navLink"href="~/Home/LogOut">退出系统</a></li>
-        </ul>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        @*<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavButton">
+                <span class="navbar-toggler-icon"></span>
+            </button>*@
+        <div class="container-fluid" id="NavButton">
+            <div class="navbar-header">
+                <a class=" active navbar-brand text-uppercase" href="#">Assess System</a>
+            </div>
+            <div>
+                <ul class="nav navbar-nav ">
+                    <li><a href="~/Home/Index">Home</a></li>
+                    <li><a href="~/Home/UserInfo">Personal Information </a></li>
+                    <li><a href="~/Home/OneSelfAssess">Oneself Assess</a></li>
+                    <li><a href="~/Home/OtherAssess">Others Assess</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            System Management
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-link"><a href="~/Role/RoleView">角色管理</a></li>
+                            <li class="nav-link"><a href="~/Job/JobView">职业管理</a></li>
+                            <li class="nav-link"><a href="~/CoreSkills/CoreSkillsView">核心技能</a></li>
+                            <li class="nav-link"><a href="~/TeachSkills/TeachSkillsView">专业技能</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="~/Home/LogOut">Logout</a></li>
+                </ul>
+            </div>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-navbar">查询</button>
+            </form>
+            <ul id="loginOrNo" class="nav navbar-nav navbar-right">
+                <li v-if="loginNo"><a href="#"><span class="glyphicon glyphicon-user">{{userName}}</span></a></li>
+                <template v-else>
+                    <li><a href="~/Login/LoginView"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="~/Rigist/Rigist"><span class="glyphicon glyphicon-user"></span> Regist</a></li>
+                </template>
+            </ul>
+        </div>
+    </nav>
+    <div style="margin-top:3.5%" id="mainWindow">
+        <aside class="col-lg-2" style="position: fixed; ">
+            <ul class="list-group  bg-primary">
+                <li>
+                    <div id="LayoutFooter">
+                        <ol class="breadcrumb">
+                            <li><a href="#">System Time:</a></li>
+                            <li><a href="#">{{year}}</a></li>
+                            <li><a href="#">{{month}}</a></li>
+                            <li><a href="#">{{day}}</a></li>
+                        </ol>
+                    </div>
+                </li>
+            </ul>
+            <ul class="nav nav-pills nav-stacked pre-scrollable ui-widget-shadow">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">SVN</a></li>
+                <li><a href="#">iOS</a></li>
+                <li><a href="#">VB.Net</a></li>
+                <li><a href="#">Java</a></li>
+                <li><a href="#">PHP</a></li>
+               
+        
+       
+            </ul>
+        </aside>
+        <aside class="col-lg-1 col-lg-offset-11" style="position: fixed;top:25%" >
+            <ul class="list-group" id="rightAsid">
+                <li class="list-group-item">sss</li>
+                <li class="list-group-item">sss</li>
+                <li class="list-group-item">sss</li>
+                <li class="list-group-item">sss</li>
+                <li class="list-group-item">sss</li>
+                <li class="list-group-item">sss</li>
+                <li class="list-group-item">sss</li>
+                <li class="list-group-item">sss</li>
+                <li class="list-group-item">sss</li>
+                <li class="list-group-item">sss</li>
+                <li class="list-group-item">sss</li>
+            </ul>
+        </aside>
+        <section class="col-lg-9 col-lg-offset-2">
+            @RenderBody()
+        </section>
+        <!--下边栏-->
+        <aside style="position:fixed;bottom:0px;" class="col-lg-2" >
+            <ul class="list-group pre-scrollable">
+                <li class="list-group-item">某某某退出了系统</li>
+                <li class="list-group-item">某某某退出了系统</li>
+                <li class="list-group-item">某某某退出了系统</li>
+                <li class="list-group-item">某某某退出了系统</li>
+                <li class="list-group-item">某某某退出了系统</li>
+                <li class="list-group-item">某某某退出了系统</li>
+                <li class="list-group-item">某某某退出了系统</li>
+                <li class="list-group-item">某某某退出了系统</li>
+                <li class="list-group-item">某某某退出了系统</li>
+                <li class="list-group-item">某某某退出了系统</li>
+                <li class="list-group-item">某某某退出了系统</li>
+                <li class="list-group-item">某某某退出了系统</li>
+                <li class="list-group-item">某某某退出了系统</li>
+                <li class="list-group-item">某某某退出了系统</li>
+                <li class="list-group-item">某某某退出了系统</li>
+                <li class="list-group-item">某某某退出了系统</li>
+            </ul>
+        </aside>
+        <!--右键菜单-->
+        <div class="col-lg-2" id="contextmenu"  style="display:none;position:absolute">
+            <ul>
+                <li class="list-group-item"><a class="list-group-item-action" >ddd</a></li>
+                <li class="list-group-item"><a class="list-group-item-action">ddd</a></li>
+                <li class="list-group-item"><a class="list-group-item-action">ddd</a></li>
+                <li class="list-group-item"><a class="list-group-item-action">ddd</a></li>
+                <li class="list-group-item"><a class="list-group-item-action">ddd</a></li>
+            </ul>
+        </div>
     </div>
-
-    <div class="container body-content">
-        @RenderBody()
-        @using Models
-        <hr />
-        @*<footer>
-            <p>&copy; @DateTime.Now - 当前用户：@{UserModel userModel = Session["CurrentUser"] as UserModel; }<label>@userModel.UserName</label></p>
-        </footer>*@
-    </div>
-   
 </body>
 </html>
+<script type="text/javascript">
+
+    var loginUser = new Vue({
+        el: '#loginOrNo',
+        data: {
+            loginNo: false,
+            userName: 'fubowen',
+        },
+        methods: {
+
+        },
+    })
+    var time = new Vue({
+        el: '#LayoutFooter',
+        data: {
+            year: new Date().getFullYear(),
+            month: new Date().getMonth() + 1,
+            day: new Date().getDate(),
+        }
+    })
+
+    定义右键菜单
+
+    $(document).ready(function () {
+        $(document).bind("contextmenu", function (ev) {
+
+            $("#contextmenu").css({
+                "top": ev.clientY,
+                "left": ev.clientX,
+            });
+            if ($("#contextmenu").is(":hidden")) {
+                $("#contextmenu").show();
+            } else {
+                $("#contextmenu").hide();
+            }
+            return false;
+        });
+    });
+</script>

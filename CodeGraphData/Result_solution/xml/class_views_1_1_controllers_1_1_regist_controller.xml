@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_views_1_1_controllers_1_1_regist_controller" kind="class" prot="public">
+    <compoundname>Views::Controllers::RegistController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_regist_controller_1a11736b5b6d319549ffb9a9d54ac84dd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Views.Controllers.RegistController.RegistView</definition>
+        <argsstring>()</argsstring>
+        <name>RegistView</name>
+        <briefdescription>
+<para>转到注册视图 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/RegistController.cs" line="15" column="1" bodyfile="E:/Repository/Views/Controllers/RegistController.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_regist_controller_1a5abf35fe6391c1386a9760e4152eb76b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.RegistController.Regist</definition>
+        <argsstring>()</argsstring>
+        <name>Regist</name>
+        <briefdescription>
+<para>注册用户 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/RegistController.cs" line="23" column="1" bodyfile="E:/Repository/Views/Controllers/RegistController.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="311">
+        <label>Views.Controllers.RegistController</label>
+        <link refid="class_views_1_1_controllers_1_1_regist_controller"/>
+        <childnode refid="312" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="312">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="313">
+        <label>Views.Controllers.RegistController</label>
+        <link refid="class_views_1_1_controllers_1_1_regist_controller"/>
+        <childnode refid="314" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="314">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Views/Controllers/RegistController.cs" line="10" column="1" bodyfile="E:/Repository/Views/Controllers/RegistController.cs" bodystart="9" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_views_1_1_controllers_1_1_regist_controller_1a5abf35fe6391c1386a9760e4152eb76b" prot="public" virt="non-virtual"><scope>Views::Controllers::RegistController</scope><name>Regist</name></member>
+      <member refid="class_views_1_1_controllers_1_1_regist_controller_1a11736b5b6d319549ffb9a9d54ac84dd0" prot="public" virt="non-virtual"><scope>Views::Controllers::RegistController</scope><name>RegistView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

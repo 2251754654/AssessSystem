@@ -1,17 +1,14 @@
 namespace Repositorys.DataAccess
 {
-    using System;
     using System.Data.Entity;
-    using System.ComponentModel.DataAnnotations.Schema;
-    using System.Linq;
-    using System.Data.Entity.ModelConfiguration.Conventions;
 
-    public partial class DBContext : DbContext
+    public  class DBContext : DbContext
     {
         public DBContext()
             : base("name=DBContext")
         {
         }
+
         public virtual DbSet<TB_CoreLever> TB_CoreLever { get; set; }
         public virtual DbSet<TB_CoreSkills> TB_CoreSkills { get; set; }
         public virtual DbSet<TB_Evaluation> TB_Evaluation { get; set; }
@@ -30,6 +27,8 @@ namespace Repositorys.DataAccess
         {
             //modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
 
+
+
             modelBuilder.Entity<TB_CoreSkills>()
                 .Property(e => e.CoreSkillsGUID)
                 .IsUnicode(false);
@@ -40,9 +39,9 @@ namespace Repositorys.DataAccess
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<TB_CoreSkills>()
-                .HasMany(e => e.TB_MappingCore)
-                .WithRequired(e => e.TB_CoreSkills)
-                .WillCascadeOnDelete(false);
+               .HasMany(e => e.TB_MappingCore)
+               .WithRequired(e => e.TB_CoreSkills)
+               .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<TB_Evaluation>()
                 .HasMany(e => e.TB_EvaluationInfoList)
@@ -52,7 +51,7 @@ namespace Repositorys.DataAccess
             modelBuilder.Entity<TB_Professional>()
                 .HasMany(e => e.TB_MappingCore)
                 .WithRequired(e => e.TB_Professional)
-                .WillCascadeOnDelete(false);
+                .WillCascadeOnDelete(true);
 
             modelBuilder.Entity<TB_Professional>()
                 .HasMany(e => e.TB_MappingTeach)
@@ -62,7 +61,7 @@ namespace Repositorys.DataAccess
             modelBuilder.Entity<TB_Professional>()
                 .HasMany(e => e.TB_RoleContent)
                 .WithRequired(e => e.TB_Professional)
-                .WillCascadeOnDelete(true);
+                .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<TB_Role>()
                 .HasMany(e => e.TB_RoleContent)
@@ -76,7 +75,7 @@ namespace Repositorys.DataAccess
                .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<TB_TechSkills>()
-                .Property(e => e.TeachAkillsGUID)
+                .Property(e => e.TeachSkillsGUID)
                 .IsUnicode(false);
 
             modelBuilder.Entity<TB_TechSkills>()
@@ -89,16 +88,9 @@ namespace Repositorys.DataAccess
                 .WithRequired(e => e.TB_TechSkills)
                 .WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<TB_User>()
-                .HasMany(e => e.TB_UserInfo)
-                .WithRequired(e => e.TB_User)
-                .WillCascadeOnDelete(true);
-
             modelBuilder.Entity<TB_UserInfo>()
                 .Property(e => e.UserInfoName)
                 .IsUnicode(false);
-
-      
         }
     }
 }

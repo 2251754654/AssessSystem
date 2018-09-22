@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_project_utils" kind="namespace">
+    <compoundname>ProjectUtils</compoundname>
+    <innerclass refid="class_project_utils_1_1_check_code_utils" prot="public">ProjectUtils::CheckCodeUtils</innerclass>
+    <innerclass refid="class_project_utils_1_1_show_all_value" prot="public">ProjectUtils::ShowAllValue</innerclass>
+    <innerclass refid="class_project_utils_1_1_user_i_d_to_user_info_i_d" prot="public">ProjectUtils::UserIDToUserInfoID</innerclass>
+    <innerclass refid="class_project_utils_1_1_util_class" prot="public">ProjectUtils::UtilClass</innerclass>
+    <innerclass refid="class_project_utils_1_1_util_convert_m_d5" prot="public">ProjectUtils::UtilConvertMD5</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/ProjectUtils/Utils/CheckCodeUtils.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

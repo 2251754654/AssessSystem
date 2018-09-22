@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_repositorys_1_1_data_access_1_1_t_b___role" kind="class" prot="public">
+    <compoundname>Repositorys::DataAccess::TB_Role</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___role_1aaa805f6a72214649cf088584faf2e003" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_Role.RoleID</definition>
+        <argsstring></argsstring>
+        <name>RoleID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_Role.cs" line="14" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Role.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___role_1a30f01fa04914e11218ad9b29c7019670" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_Role.RoleName</definition>
+        <argsstring></argsstring>
+        <name>RoleName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_Role.cs" line="18" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Role.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___role_1ab50d549c01f7154321e9174e758e04a5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_Role.RoleDetails</definition>
+        <argsstring></argsstring>
+        <name>RoleDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_Role.cs" line="22" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Role.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___role_1aa34df0574e840f2de9c8fae3025d4d17" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_Role.RoleDelete</definition>
+        <argsstring></argsstring>
+        <name>RoleDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_Role.cs" line="24" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Role.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___role_1a97de0ca058065dcbd050e4574274b090" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___role_content" kindref="compound">TB_RoleContent</ref> &gt;</type>
+        <definition>virtual ICollection&lt;TB_RoleContent&gt; Repositorys.DataAccess.TB_Role.TB_RoleContent</definition>
+        <argsstring></argsstring>
+        <name>TB_RoleContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_Role.cs" line="26" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Role.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___role_1a131b9fa0fe02ce3b13300aed5793152a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___user" kindref="compound">TB_User</ref> &gt;</type>
+        <definition>virtual ICollection&lt;TB_User&gt; Repositorys.DataAccess.TB_Role.TB_User</definition>
+        <argsstring></argsstring>
+        <name>TB_User</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_Role.cs" line="28" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Role.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_repositorys_1_1_data_access_1_1_t_b___role_1aef34b7fdf3fa7fbf4e1b5c97e8e23dc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Repositorys.DataAccess.TB_Role.TB_Role</definition>
+        <argsstring>()</argsstring>
+        <name>TB_Role</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_Role.cs" line="8" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Role.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Repositorys/DataAccess/TB_Role.cs" line="7" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Role.cs" bodystart="6" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_1aa34df0574e840f2de9c8fae3025d4d17" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_Role</scope><name>RoleDelete</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_1ab50d549c01f7154321e9174e758e04a5" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_Role</scope><name>RoleDetails</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_1aaa805f6a72214649cf088584faf2e003" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_Role</scope><name>RoleID</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_1a30f01fa04914e11218ad9b29c7019670" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_Role</scope><name>RoleName</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_1aef34b7fdf3fa7fbf4e1b5c97e8e23dc2" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_Role</scope><name>TB_Role</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_1a97de0ca058065dcbd050e4574274b090" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_Role</scope><name>TB_RoleContent</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_1a131b9fa0fe02ce3b13300aed5793152a" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_Role</scope><name>TB_User</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

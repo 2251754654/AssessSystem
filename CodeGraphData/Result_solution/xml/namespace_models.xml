@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_models" kind="namespace">
+    <compoundname>Models</compoundname>
+    <innerclass refid="class_models_1_1_model_core_lever" prot="public">Models::ModelCoreLever</innerclass>
+    <innerclass refid="class_models_1_1_model_core_skills" prot="public">Models::ModelCoreSkills</innerclass>
+    <innerclass refid="class_models_1_1_model_evaluation" prot="public">Models::ModelEvaluation</innerclass>
+    <innerclass refid="class_models_1_1_model_evaluation_info" prot="public">Models::ModelEvaluationInfo</innerclass>
+    <innerclass refid="class_models_1_1_model_mapping_core" prot="public">Models::ModelMappingCore</innerclass>
+    <innerclass refid="class_models_1_1_model_mapping_teach" prot="public">Models::ModelMappingTeach</innerclass>
+    <innerclass refid="class_models_1_1_model_professional" prot="public">Models::ModelProfessional</innerclass>
+    <innerclass refid="class_models_1_1_model_role" prot="public">Models::ModelRole</innerclass>
+    <innerclass refid="class_models_1_1_model_role_content" prot="public">Models::ModelRoleContent</innerclass>
+    <innerclass refid="class_models_1_1_model_teach_lever" prot="public">Models::ModelTeachLever</innerclass>
+    <innerclass refid="class_models_1_1_model_tech_skills" prot="public">Models::ModelTechSkills</innerclass>
+    <innerclass refid="class_models_1_1_model_user" prot="public">Models::ModelUser</innerclass>
+    <innerclass refid="class_models_1_1_model_user_info" prot="public">Models::ModelUserInfo</innerclass>
+    <innerclass refid="class_models_1_1_model_assess_details" prot="public">Models::ModelAssessDetails</innerclass>
+    <innerclass refid="class_models_1_1_model_job_and_core_skill" prot="public">Models::ModelJobAndCoreSkill</innerclass>
+    <innerclass refid="class_models_1_1_model_job_and_skill_and_lever" prot="public">Models::ModelJobAndSkillAndLever</innerclass>
+    <innerclass refid="class_models_1_1_model_job_and_teach_skill" prot="public">Models::ModelJobAndTeachSkill</innerclass>
+    <innerclass refid="class_models_1_1_model_job_and_teach_skill_and_lever" prot="public">Models::ModelJobAndTeachSkillAndLever</innerclass>
+    <innerclass refid="class_models_1_1_model_role_and_job" prot="public">Models::ModelRoleAndJob</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Models/CustomModels/ModelCoreLever.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

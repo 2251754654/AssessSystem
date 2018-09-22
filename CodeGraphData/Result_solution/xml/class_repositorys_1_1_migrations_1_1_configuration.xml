@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_repositorys_1_1_migrations_1_1_configuration" kind="class" prot="package">
+    <compoundname>Repositorys::Migrations::Configuration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DbMigrationsConfiguration&lt; Repositorys.DataAccess.DBContext &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_repositorys_1_1_migrations_1_1_configuration_1a9aff383c341644805f63d1fecd5875fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Repositorys.Migrations.Configuration.Configuration</definition>
+        <argsstring>()</argsstring>
+        <name>Configuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/Migrations/Configuration.cs" line="10" column="1" bodyfile="E:/Repository/Repositorys/Migrations/Configuration.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_repositorys_1_1_migrations_1_1_configuration_1a35edc794e3b074e85d815addbf4cfbda" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Repositorys.Migrations.Configuration.Seed</definition>
+        <argsstring>(Repositorys.DataAccess.DBContext context)</argsstring>
+        <name>Seed</name>
+        <param>
+          <type><ref refid="class_repositorys_1_1_data_access_1_1_d_b_context" kindref="compound">Repositorys.DataAccess.DBContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/Migrations/Configuration.cs" line="15" column="1" bodyfile="E:/Repository/Repositorys/Migrations/Configuration.cs" bodystart="15" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="40">
+        <label>Repositorys.Migrations.Configuration</label>
+        <link refid="class_repositorys_1_1_migrations_1_1_configuration"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>DbMigrationsConfiguration&lt; Repositorys.DataAccess.DBContext &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="42">
+        <label>Repositorys.Migrations.Configuration</label>
+        <link refid="class_repositorys_1_1_migrations_1_1_configuration"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>DbMigrationsConfiguration&lt; Repositorys.DataAccess.DBContext &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Repositorys/Migrations/Configuration.cs" line="9" column="1" bodyfile="E:/Repository/Repositorys/Migrations/Configuration.cs" bodystart="8" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_repositorys_1_1_migrations_1_1_configuration_1a9aff383c341644805f63d1fecd5875fd" prot="public" virt="non-virtual"><scope>Repositorys::Migrations::Configuration</scope><name>Configuration</name></member>
+      <member refid="class_repositorys_1_1_migrations_1_1_configuration_1a35edc794e3b074e85d815addbf4cfbda" prot="protected" virt="non-virtual"><scope>Repositorys::Migrations::Configuration</scope><name>Seed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

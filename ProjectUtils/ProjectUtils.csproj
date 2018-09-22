@@ -44,8 +44,10 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\CheckCodeUtils.cs" />
+    <Compile Include="Utils\ShowAllValue.cs" />
     <Compile Include="Utils\UserIDToUserInfoID.cs" />
     <Compile Include="Utils\UtilClass.cs" />
+    <Compile Include="Utils\UtilConvertMD5.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

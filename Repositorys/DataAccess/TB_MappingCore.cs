@@ -6,7 +6,7 @@ namespace Repositorys.DataAccess
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    public partial class TB_MappingCore
+    public  class TB_MappingCore
     {
         [Key]
         public int MappingID { get; set; }

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_repositorys_1_1_repository_maping_core" kind="class" prot="public">
+    <compoundname>Repositorys::RepositoryMapingCore</compoundname>
+    <basecompoundref refid="interface_repositorys_1_1_i_repository_maping_core" prot="public" virt="non-virtual">Repositorys.IRepositoryMapingCore</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_repositorys_1_1_repository_maping_core_1a2a219f21e9dd0d4238d5c34445c46431" prot="private" static="no" mutable="no">
+        <type><ref refid="class_repositorys_1_1_data_access_1_1_d_b_context" kindref="compound">DBContext</ref></type>
+        <definition>DBContext Repositorys.RepositoryMapingCore.dbContext</definition>
+        <argsstring></argsstring>
+        <name>dbContext</name>
+        <initializer>= new <ref refid="class_repositorys_1_1_data_access_1_1_d_b_context" kindref="compound">DBContext</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingCore.cs" line="15" column="1" bodyfile="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingCore.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_repositorys_1_1_repository_maping_core_1ad12f1f8858cf431a5e99248c09169f10" compoundref="_repository_maping_core_8cs" startline="77" endline="85">Repositorys.RepositoryMapingCore.Insert</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_repositorys_1_1_repository_maping_core_1ab6837c824d60066944badce1578ed87f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_job_and_core_skill" kindref="compound">ModelJobAndCoreSkill</ref> &gt;</type>
+        <definition>List&lt;ModelJobAndCoreSkill&gt; Repositorys.RepositoryMapingCore.FindJobAllCoreSkill</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FindJobAllCoreSkill</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_maping_core_1a7842c4f02ae66ca9244e468bf7c06cfc">FindJobAllCoreSkill</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>查询某个职业对应的所有核心技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>职业ID</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingCore.cs" line="21" column="1" bodyfile="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingCore.cs" bodystart="21" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_maping_core_1a5f4800c1c2dfa0c0a4d97793e594a67c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_job_and_core_skill" kindref="compound">ModelJobAndCoreSkill</ref> &gt;</type>
+        <definition>List&lt;ModelJobAndCoreSkill&gt; Repositorys.RepositoryMapingCore.FindJobAllCoreSkill</definition>
+        <argsstring>()</argsstring>
+        <name>FindJobAllCoreSkill</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_maping_core_1ab33ed5ba09f2e732011b8f1fa7bc96f5">FindJobAllCoreSkill</reimplements>
+        <briefdescription>
+<para>查询所有职业对应的所有核心技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingCore.cs" line="39" column="1" bodyfile="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingCore.cs" bodystart="39" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_maping_core_1ace3ee466b293d7c93ef3c58b90d24217" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_job_and_core_skill" kindref="compound">ModelJobAndCoreSkill</ref> &gt;</type>
+        <definition>List&lt;ModelJobAndCoreSkill&gt; Repositorys.RepositoryMapingCore.FindCoreSkillAllJob</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FindCoreSkillAllJob</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_maping_core_1ad1f9f4dd6fd98150c7a288c03287381f">FindCoreSkillAllJob</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>查询某一技能对应的所有职业 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>技能ID</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingCore.cs" line="57" column="1" bodyfile="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingCore.cs" bodystart="57" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_maping_core_1ad12f1f8858cf431a5e99248c09169f10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryMapingCore.Insert</definition>
+        <argsstring>(int professionalID, int coreSkillsID)</argsstring>
+        <name>Insert</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_maping_core_1afb8688838a44f510b59b39c25131f766">Insert</reimplements>
+        <param>
+          <type>int</type>
+          <declname>professionalID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>coreSkillsID</declname>
+        </param>
+        <briefdescription>
+<para>分配核心技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>professionalID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>coreSkillsID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingCore.cs" line="77" column="1" bodyfile="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingCore.cs" bodystart="77" bodyend="85"/>
+        <references refid="class_repositorys_1_1_repository_maping_core_1a2a219f21e9dd0d4238d5c34445c46431" compoundref="_repository_maping_core_8cs" startline="15">Repositorys.RepositoryMapingCore.dbContext</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="333">
+        <label>Repositorys.RepositoryMapingCore</label>
+        <link refid="class_repositorys_1_1_repository_maping_core"/>
+        <childnode refid="334" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="334">
+        <label>IRepositoryMapingCore</label>
+        <link refid="interface_repositorys_1_1_i_repository_maping_core"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="338">
+        <label>DbContext</label>
+      </node>
+      <node id="335">
+        <label>Repositorys.RepositoryMapingCore</label>
+        <link refid="class_repositorys_1_1_repository_maping_core"/>
+        <childnode refid="336" relation="public-inheritance">
+        </childnode>
+        <childnode refid="337" relation="usage">
+          <edgelabel>dbContext</edgelabel>
+        </childnode>
+      </node>
+      <node id="336">
+        <label>IRepositoryMapingCore</label>
+        <link refid="interface_repositorys_1_1_i_repository_maping_core"/>
+      </node>
+      <node id="337">
+        <label>Repositorys.DataAccess.DBContext</label>
+        <link refid="class_repositorys_1_1_data_access_1_1_d_b_context"/>
+        <childnode refid="338" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingCore.cs" line="13" column="1" bodyfile="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingCore.cs" bodystart="12" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_repositorys_1_1_repository_maping_core_1a2a219f21e9dd0d4238d5c34445c46431" prot="private" virt="non-virtual"><scope>Repositorys::RepositoryMapingCore</scope><name>dbContext</name></member>
+      <member refid="class_repositorys_1_1_repository_maping_core_1ace3ee466b293d7c93ef3c58b90d24217" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryMapingCore</scope><name>FindCoreSkillAllJob</name></member>
+      <member refid="class_repositorys_1_1_repository_maping_core_1ab6837c824d60066944badce1578ed87f" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryMapingCore</scope><name>FindJobAllCoreSkill</name></member>
+      <member refid="class_repositorys_1_1_repository_maping_core_1a5f4800c1c2dfa0c0a4d97793e594a67c" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryMapingCore</scope><name>FindJobAllCoreSkill</name></member>
+      <member refid="class_repositorys_1_1_repository_maping_core_1ad12f1f8858cf431a5e99248c09169f10" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryMapingCore</scope><name>Insert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

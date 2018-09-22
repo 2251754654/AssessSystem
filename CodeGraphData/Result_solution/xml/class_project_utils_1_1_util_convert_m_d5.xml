@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_project_utils_1_1_util_convert_m_d5" kind="class" prot="public">
+    <compoundname>ProjectUtils::UtilConvertMD5</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_project_utils_1_1_util_convert_m_d5_1a9fb131ff990e144bc2d9cc6c8893aeb8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ProjectUtils.UtilConvertMD5.MD5</definition>
+        <argsstring>(string md5String)</argsstring>
+        <name>MD5</name>
+        <param>
+          <type>string</type>
+          <declname>md5String</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/ProjectUtils/Utils/UtilConvertMD5.cs" line="12" column="1" bodyfile="E:/Repository/ProjectUtils/Utils/UtilConvertMD5.cs" bodystart="12" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/ProjectUtils/Utils/UtilConvertMD5.cs" line="11" column="1" bodyfile="E:/Repository/ProjectUtils/Utils/UtilConvertMD5.cs" bodystart="10" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_project_utils_1_1_util_convert_m_d5_1a9fb131ff990e144bc2d9cc6c8893aeb8" prot="public" virt="non-virtual"><scope>ProjectUtils::UtilConvertMD5</scope><name>MD5</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

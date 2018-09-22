@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_i_domain_user_core_skills_8cs" kind="file">
+    <compoundname>IDomainUserCoreSkills.cs</compoundname>
+    <innerclass refid="interface_domains_1_1_i_domain_user_core_skills" prot="public">Domains::IDomainUserCoreSkills</innerclass>
+    <innernamespace refid="namespace_domains">Domains</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Models;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Domains</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="interface_domains_1_1_i_domain_user_core_skills" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_domains_1_1_i_domain_user_core_skills" kindref="compound">IDomainUserCoreSkills</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;ModelCoreLever&gt;<sp/><ref refid="interface_domains_1_1_i_domain_user_core_skills_1a4d503f333293dea8706cca00526d365b" kindref="member">FindAllLever</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>skillID);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_models_1_1_model_core_skills" kindref="compound">ModelCoreSkills</ref><sp/><ref refid="interface_domains_1_1_i_domain_user_core_skills_1a2aaa15f4335d95670a7af0d39df3fa9d" kindref="member">FindCoreSkill</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>skillID);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;ModelJobAndCoreSkill&gt;<sp/><ref refid="interface_domains_1_1_i_domain_user_core_skills_1a38b377e51ccc4f53e40b25ffd2e946b5" kindref="member">FindCoreSkillAllJob</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>coreSkillID);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_models_1_1_model_professional" kindref="compound">ModelProfessional</ref><sp/><ref refid="interface_domains_1_1_i_domain_user_core_skills_1a214067a515facfbcbf0460b27c4e89ae" kindref="member">FindJob</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jobID);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;ModelJobAndCoreSkill&gt;<sp/><ref refid="interface_domains_1_1_i_domain_user_core_skills_1abbdb04ba34a193a639af00f3de44fe28" kindref="member">FindJobAllCoreSkill</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jobID);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;ModelJobAndSkillAndLever&gt;<sp/><ref refid="interface_domains_1_1_i_domain_user_core_skills_1a10f80eb0d3be584f79740a810385dce3" kindref="member">FindJobAndSkillAndLever</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>roleID);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Dictionary&lt;ModelRoleAndJob,<sp/>Dictionary&lt;ModelJobAndCoreSkill,<sp/>List&lt;ModelCoreLever&gt;&gt;&gt;<sp/><ref refid="interface_domains_1_1_i_domain_user_core_skills_1a52e99b17a4e07a8db7326d1515d7d9f7" kindref="member">FindJobAndSkillAndLeverThreeLayers</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>roleID);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;Dictionary&lt;ModelRoleAndJob,<sp/>Dictionary&lt;ModelJobAndCoreSkill,<sp/>ModelCoreLever&gt;&gt;&gt;<sp/><ref refid="interface_domains_1_1_i_domain_user_core_skills_1a35d936471b39c4141ec7366257048612" kindref="member">FindJobAndSkillAndLeverThreeLayersList</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>roleID);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref><sp/><ref refid="interface_domains_1_1_i_domain_user_core_skills_1a45d20e75021d1227103dbb5350e79001" kindref="member">FindOneLever</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>coreSkillID,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>leverID);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref><sp/><ref refid="interface_domains_1_1_i_domain_user_core_skills_1a65a87d80e75ea9d06fae48935a0b4c71" kindref="member">FindRole</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>roleID);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;ModelRoleAndJob&gt;<sp/><ref refid="interface_domains_1_1_i_domain_user_core_skills_1ac09f7c277595af6225125fe356f48dda" kindref="member">FindRoleAllJob</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>roleID);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="E:/Repository/UserInfoDomain/UserInfoPage/interfaceClass/IDomainUserCoreSkills.cs"/>
+  </compounddef>
+</doxygen>

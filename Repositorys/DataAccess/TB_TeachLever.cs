@@ -1,10 +1,6 @@
 namespace Repositorys.DataAccess
 {
-    using System;
-    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
-    using System.Data.Entity.Spatial;
 
     public partial class TB_TeachLever
     {
@@ -18,6 +14,8 @@ namespace Repositorys.DataAccess
         public string TeachLeverDetails { get; set; }
 
         public int TeachSkillsID { get; set; }
+
+        public int TeachLeverDelete { get; set; }
 
         public virtual TB_TechSkills TB_TechSkills { get; set; }
     }

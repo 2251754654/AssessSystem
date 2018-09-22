@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_views_1_1_service_weather_1_1_weather_web_service_soap" kind="interface" prot="public">
+    <compoundname>Views::ServiceWeather::WeatherWebServiceSoap</compoundname>
+    <derivedcompoundref refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_channel" prot="public" virt="non-virtual">Views.ServiceWeather.WeatherWebServiceSoapChannel</derivedcompoundref>
+    <derivedcompoundref refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client" prot="public" virt="non-virtual">Views.ServiceWeather.WeatherWebServiceSoapClient</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a0fd751f5ac246b1fd251366afc5b591a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string[]</type>
+        <definition>string [] Views.ServiceWeather.WeatherWebServiceSoap.getSupportCity</definition>
+        <argsstring>(string byProvinceName)</argsstring>
+        <name>getSupportCity</name>
+        <reimplementedby refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1a4f07b185551f26c719410c53e4a993ff">getSupportCity</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>byProvinceName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/ServiceWeather/Reference.cs" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a45d3f5f1110859bbdf1ac9110a71767e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; string[]&gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;string[]&gt; Views.ServiceWeather.WeatherWebServiceSoap.getSupportCityAsync</definition>
+        <argsstring>(string byProvinceName)</argsstring>
+        <name>getSupportCityAsync</name>
+        <reimplementedby refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1aaa3ca20c069aaea6160f42f9b3233d31">getSupportCityAsync</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>byProvinceName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/ServiceWeather/Reference.cs" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a92954006716ee00eaf6786db7f993d2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string[]</type>
+        <definition>string [] Views.ServiceWeather.WeatherWebServiceSoap.getSupportProvince</definition>
+        <argsstring>()</argsstring>
+        <name>getSupportProvince</name>
+        <reimplementedby refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1ad739e09b4a8eebef48c5e3e38284aa24">getSupportProvince</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/ServiceWeather/Reference.cs" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a88214b54006d5eb741c271d5d1964811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; string[]&gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;string[]&gt; Views.ServiceWeather.WeatherWebServiceSoap.getSupportProvinceAsync</definition>
+        <argsstring>()</argsstring>
+        <name>getSupportProvinceAsync</name>
+        <reimplementedby refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1aaa85e79e3a1440c22492f651514afbc5">getSupportProvinceAsync</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/ServiceWeather/Reference.cs" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a7fcaa94298ceb5bc12c71b59cfe30640" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>System.Data.DataSet</type>
+        <definition>System.Data.DataSet Views.ServiceWeather.WeatherWebServiceSoap.getSupportDataSet</definition>
+        <argsstring>()</argsstring>
+        <name>getSupportDataSet</name>
+        <reimplementedby refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1a54a8f008d373b0ca4d2b7ebda4f1ec93">getSupportDataSet</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/ServiceWeather/Reference.cs" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a1aa5bfdcb74acf643ed37070943bcec6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; System.Data.DataSet &gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;System.Data.DataSet&gt; Views.ServiceWeather.WeatherWebServiceSoap.getSupportDataSetAsync</definition>
+        <argsstring>()</argsstring>
+        <name>getSupportDataSetAsync</name>
+        <reimplementedby refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1acb92d07ed6af0943ce2aa3c66bb25a48">getSupportDataSetAsync</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/ServiceWeather/Reference.cs" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a797a4b1b9582c0db9c101fb40003ac6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string[]</type>
+        <definition>string [] Views.ServiceWeather.WeatherWebServiceSoap.getWeatherbyCityName</definition>
+        <argsstring>(string theCityName)</argsstring>
+        <name>getWeatherbyCityName</name>
+        <reimplementedby refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1a844fa686e50fba315e9576fe9b882d20">getWeatherbyCityName</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>theCityName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/ServiceWeather/Reference.cs" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a45d07efd3fe23f31bb1fd8aa01ac4299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; string[]&gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;string[]&gt; Views.ServiceWeather.WeatherWebServiceSoap.getWeatherbyCityNameAsync</definition>
+        <argsstring>(string theCityName)</argsstring>
+        <name>getWeatherbyCityNameAsync</name>
+        <reimplementedby refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1aeb2619d43b25de266220a4918b06e705">getWeatherbyCityNameAsync</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>theCityName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/ServiceWeather/Reference.cs" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1ad03e6cd7a4381fc5fe243e6806db28f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string[]</type>
+        <definition>string [] Views.ServiceWeather.WeatherWebServiceSoap.getWeatherbyCityNamePro</definition>
+        <argsstring>(string theCityName, string theUserID)</argsstring>
+        <name>getWeatherbyCityNamePro</name>
+        <reimplementedby refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1aa2304785f2b09f04535a195d24f8d387">getWeatherbyCityNamePro</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>theCityName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>theUserID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/ServiceWeather/Reference.cs" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a120f29235febcabc0abb03f42c27058a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; string[]&gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;string[]&gt; Views.ServiceWeather.WeatherWebServiceSoap.getWeatherbyCityNameProAsync</definition>
+        <argsstring>(string theCityName, string theUserID)</argsstring>
+        <name>getWeatherbyCityNameProAsync</name>
+        <reimplementedby refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1a85a0533c7f84894dfb0f15855471f7a7">getWeatherbyCityNameProAsync</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>theCityName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>theUserID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/ServiceWeather/Reference.cs" line="52" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="471">
+        <label>Views.ServiceWeather.WeatherWebServiceSoap</label>
+        <link refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap"/>
+      </node>
+      <node id="472">
+        <label>Views.ServiceWeather.WeatherWebServiceSoapChannel</label>
+        <link refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_channel"/>
+        <childnode refid="471" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="473">
+        <label>Views.ServiceWeather.WeatherWebServiceSoapClient</label>
+        <link refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client"/>
+        <childnode refid="471" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="E:/Repository/Views/Connected Services/ServiceWeather/Reference.cs" line="17" column="1" bodyfile="E:/Repository/Views/Connected Services/ServiceWeather/Reference.cs" bodystart="17" bodyend="53"/>
+    <listofallmembers>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a0fd751f5ac246b1fd251366afc5b591a" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoap</scope><name>getSupportCity</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a45d3f5f1110859bbdf1ac9110a71767e" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoap</scope><name>getSupportCityAsync</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a7fcaa94298ceb5bc12c71b59cfe30640" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoap</scope><name>getSupportDataSet</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a1aa5bfdcb74acf643ed37070943bcec6" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoap</scope><name>getSupportDataSetAsync</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a92954006716ee00eaf6786db7f993d2d" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoap</scope><name>getSupportProvince</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a88214b54006d5eb741c271d5d1964811" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoap</scope><name>getSupportProvinceAsync</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a797a4b1b9582c0db9c101fb40003ac6e" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoap</scope><name>getWeatherbyCityName</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a45d07efd3fe23f31bb1fd8aa01ac4299" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoap</scope><name>getWeatherbyCityNameAsync</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1ad03e6cd7a4381fc5fe243e6806db28f2" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoap</scope><name>getWeatherbyCityNamePro</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a120f29235febcabc0abb03f42c27058a" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoap</scope><name>getWeatherbyCityNameProAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

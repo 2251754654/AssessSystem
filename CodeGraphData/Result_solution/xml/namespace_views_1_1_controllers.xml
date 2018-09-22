@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_views_1_1_controllers" kind="namespace">
+    <compoundname>Views::Controllers</compoundname>
+    <innerclass refid="class_views_1_1_controllers_1_1_abstract_admin_controller" prot="public">Views::Controllers::AbstractAdminController</innerclass>
+    <innerclass refid="class_views_1_1_controllers_1_1_abstract_assess_controller" prot="public">Views::Controllers::AbstractAssessController</innerclass>
+    <innerclass refid="class_views_1_1_controllers_1_1_core_skills_controller" prot="public">Views::Controllers::CoreSkillsController</innerclass>
+    <innerclass refid="class_views_1_1_controllers_1_1_home_controller" prot="public">Views::Controllers::HomeController</innerclass>
+    <innerclass refid="class_views_1_1_controllers_1_1_job_controller" prot="public">Views::Controllers::JobController</innerclass>
+    <innerclass refid="class_views_1_1_controllers_1_1_login_controller" prot="public">Views::Controllers::LoginController</innerclass>
+    <innerclass refid="class_views_1_1_controllers_1_1_one_self_assess_controller" prot="public">Views::Controllers::OneSelfAssessController</innerclass>
+    <innerclass refid="class_views_1_1_controllers_1_1_other_assess_controller" prot="public">Views::Controllers::OtherAssessController</innerclass>
+    <innerclass refid="class_views_1_1_controllers_1_1_regist_controller" prot="public">Views::Controllers::RegistController</innerclass>
+    <innerclass refid="class_views_1_1_controllers_1_1_role_controller" prot="public">Views::Controllers::RoleController</innerclass>
+    <innerclass refid="class_views_1_1_controllers_1_1_teach_skills_controller" prot="public">Views::Controllers::TeachSkillsController</innerclass>
+    <innerclass refid="class_views_1_1_controllers_1_1_user_info_controller" prot="public">Views::Controllers::UserInfoController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Views/Controllers/AbstractClass/AbstractAdminController.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

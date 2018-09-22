@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_project_utils_1_1_util_class" kind="class" prot="public">
+    <compoundname>ProjectUtils::UtilClass</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_project_utils_1_1_util_class_1a838945bfb4b58574a3d170fc4a085ee0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ProjectUtils.UtilClass.Convert&lt; T, E &gt;</definition>
+        <argsstring>(T tIn, E eOut)</argsstring>
+        <name>Convert&lt; T, E &gt;</name>
+        <param>
+          <type>T</type>
+          <declname>tIn</declname>
+        </param>
+        <param>
+          <type>E</type>
+          <declname>eOut</declname>
+        </param>
+        <briefdescription>
+<para>转换类的类型 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>将要转换的类型</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>E</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>转换后的类型</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tIn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>将要转换的类型的实例</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eOut</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>转换后的类型的实例</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>有没有匹配项，true为有匹配项，false为没有</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/ProjectUtils/Utils/UtilClass.cs" line="16" column="1" bodyfile="E:/Repository/ProjectUtils/Utils/UtilClass.cs" bodystart="16" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_utils_1_1_util_class_1afaeea88add6f027b59ec2ba0bedd199f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T ProjectUtils.UtilClass.GetInstance&lt; T &gt;</definition>
+        <argsstring>(string projectName, string classFullName)</argsstring>
+        <name>GetInstance&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>projectName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>classFullName</declname>
+        </param>
+        <briefdescription>
+<para>反射获取实例 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>要获取实例的类型</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>projectName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>项目名称</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>classFullName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>类的全名 namespace.classname</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>T类型的实例</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/ProjectUtils/Utils/UtilClass.cs" line="53" column="1" bodyfile="E:/Repository/ProjectUtils/Utils/UtilClass.cs" bodystart="53" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_project_utils_1_1_util_class_1a6b310ffdc2b90ddce42d4b472c88701b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T ProjectUtils.UtilClass.GetInstance&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>GetInstance&lt; T &gt;</name>
+        <briefdescription>
+<para>反射获取实例 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>要获取实例的类型</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>T类型的实例</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/ProjectUtils/Utils/UtilClass.cs" line="73" column="1" bodyfile="E:/Repository/ProjectUtils/Utils/UtilClass.cs" bodystart="73" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/ProjectUtils/Utils/UtilClass.cs" line="7" column="1" bodyfile="E:/Repository/ProjectUtils/Utils/UtilClass.cs" bodystart="6" bodyend="79"/>
+    <listofallmembers>
+      <member refid="class_project_utils_1_1_util_class_1a838945bfb4b58574a3d170fc4a085ee0" prot="public" virt="non-virtual"><scope>ProjectUtils::UtilClass</scope><name>Convert&lt; T, E &gt;</name></member>
+      <member refid="class_project_utils_1_1_util_class_1afaeea88add6f027b59ec2ba0bedd199f" prot="public" virt="non-virtual"><scope>ProjectUtils::UtilClass</scope><name>GetInstance&lt; T &gt;</name></member>
+      <member refid="class_project_utils_1_1_util_class_1a6b310ffdc2b90ddce42d4b472c88701b" prot="public" virt="non-virtual"><scope>ProjectUtils::UtilClass</scope><name>GetInstance&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_i_repository_role_8cs" kind="file">
+    <compoundname>IRepositoryRole.cs</compoundname>
+    <innerclass refid="interface_repositorys_1_1_i_repository_role" prot="public">Repositorys::IRepositoryRole</innerclass>
+    <innernamespace refid="namespace_repositorys">Repositorys</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Models;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Repositorys</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="interface_repositorys_1_1_i_repository_role" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_repositorys_1_1_i_repository_role" kindref="compound">IRepositoryRole</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_repositorys_1_1_i_repository_role_1a8dea554d5e465b4af625985d5138d855" kindref="member">FakeDelete</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;ModelRole&gt;<sp/><ref refid="interface_repositorys_1_1_i_repository_role_1acd247f37f1ff54ffcb54f56d24eeef89" kindref="member">FindAllDeleteRole</ref>();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;ModelRole&gt;<sp/><ref refid="interface_repositorys_1_1_i_repository_role_1a7c8cdec782b4cfee2916ada766c531c4" kindref="member">FindAllNotDeleteRole</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;ModelRole&gt;<sp/><ref refid="interface_repositorys_1_1_i_repository_role_1ae4ab3af7292151a9f0a625a34a53a45f" kindref="member">FindAllRole</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref><sp/><ref refid="interface_repositorys_1_1_i_repository_role_1a5bcbdc9c0fe3ba2879374edf7d68d619" kindref="member">FindRole</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_repositorys_1_1_i_repository_role_1af3d0aa36d8c4ad02dfd865218600a162" kindref="member">Insert</ref>(<ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref><sp/>modelRole);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_repositorys_1_1_i_repository_role_1ab47dc1b0022e5fed85c5514500d2b689" kindref="member">ReallyDelete</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_repositorys_1_1_i_repository_role_1adc9fe325380a6d37273cf1e10f91789e" kindref="member">Update</ref>(<ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref><sp/>modelRole);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="E:/Repository/Repositorys/AdminPage/interfaceClass/IRepositoryRole.cs"/>
+  </compounddef>
+</doxygen>

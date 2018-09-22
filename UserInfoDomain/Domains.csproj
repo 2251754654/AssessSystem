@@ -30,11 +30,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Domains.ConvertClass</StartupObject>
+    <StartupObject>UserInfoDomain.TestDomain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
@@ -45,29 +51,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CoreAkillsDomain.cs" />
-    <Compile Include="EvaluationDomain.cs" />
-    <Compile Include="IUserDomain.cs" />
-    <Compile Include="OneselfEvaluationDomain.cs" />
-    <Compile Include="OtherEvaluationDomain.cs" />
+    <Compile Include="AdminPage\DomainCoreSkills.cs" />
+    <Compile Include="AdminPage\DomainJob.cs" />
+    <Compile Include="AdminPage\DomainRole.cs" />
+    <Compile Include="AdminPage\DomainTeachSkills.cs" />
+    <Compile Include="AdminPage\IDomainCoreSkills.cs" />
+    <Compile Include="AdminPage\IDomainJob.cs" />
+    <Compile Include="AdminPage\IDomainRole.cs" />
+    <Compile Include="AdminPage\IDomainTeachSkills.cs" />
+    <Compile Include="LoginPage\DomainLogin.cs" />
+    <Compile Include="LoginPage\IDomainLogin.cs" />
+    <Compile Include="LogoutPage\DomainLogout.cs" />
+    <Compile Include="LogoutPage\IDomainLogout.cs" />
+    <Compile Include="RegistPage\DomainRegist.cs" />
+    <Compile Include="RegistPage\IDomainRegist.cs" />
+    <Compile Include="UserEvaluatePage\DomainOneselfAssess.cs" />
+    <Compile Include="UserEvaluatePage\DomainOtherAssess.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="RoleDomain.cs" />
-    <Compile Include="TeachAkillsDomain.cs" />
-    <Compile Include="UserCoreSkillsDomain.cs" />
-    <Compile Include="UserDomain.cs" />
-    <Compile Include="UserInfoDomain.cs" />
+    <Compile Include="TestDomain.cs" />
+    <Compile Include="UserEvaluatePage\IDomainOneselfAssess.cs" />
+    <Compile Include="UserEvaluatePage\IDomainOtherAssess.cs" />
+    <Compile Include="UserInfoPage\BaseClass\DomainSkillMapAssess.cs" />
+    <Compile Include="UserInfoPage\interfaceClass\IDomainSkillMapAssess.cs" />
+    <Compile Include="UserInfoPage\interfaceClass\AbstractDomainUserCoreSkills.cs" />
+    <Compile Include="UserInfoPage\BaseClass\DomainUserInfo.cs" />
+    <Compile Include="UserInfoPage\BaseClass\DomainUserCoreSkills.cs" />
+    <Compile Include="UserInfoPage\BaseClass\DomainUserTeachSkills.cs" />
+    <Compile Include="UserInfoPage\interfaceClass\IDomainUserCoreSkills.cs" />
+    <Compile Include="UserInfoPage\interfaceClass\IDomainUserTeachSkills.cs" />
+    <Compile Include="UserInfoPage\interfaceClass\IDomainUserInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserRoleDomain.cs" />
-    <Compile Include="UserTeachSkillsDomain.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Models\Models.csproj">
       <Project>{650CE2F4-3D92-4FA5-A9A0-070F7E40037B}</Project>
       <Name>Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectUtils\ProjectUtils.csproj">
+      <Project>{B787C662-CA29-407D-8E57-848BE8C191AA}</Project>
+      <Name>ProjectUtils</Name>
     </ProjectReference>
     <ProjectReference Include="..\Repositorys\Repositorys.csproj">
       <Project>{62E069D5-A5C6-4D76-8198-B3A6A0E27706}</Project>
@@ -81,17 +107,12 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
     <None Include="Resources\CheckCode.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="AdminPage\" />
     <Folder Include="HomePage\" />
-    <Folder Include="LoginPage\" />
-    <Folder Include="LogoutPage\" />
-    <Folder Include="RegistPage\" />
-    <Folder Include="UserEvaluatePage\UserOneselfEvaluatePage\" />
-    <Folder Include="UserEvaluatePage\UserOtherEvaluatePage\" />
-    <Folder Include="UserInfoPage\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

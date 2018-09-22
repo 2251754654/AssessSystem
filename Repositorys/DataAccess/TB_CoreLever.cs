@@ -6,7 +6,7 @@ namespace Repositorys.DataAccess
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    public partial class TB_CoreLever
+    public  class TB_CoreLever
     {
         [Key]
         public int CoreLeverID { get; set; }
@@ -18,6 +18,8 @@ namespace Repositorys.DataAccess
         public string CoreLeverDetails { get; set; }
 
         public int CoreSkillsID { get; set; }
+
+        public int CoreLeverDelete { get; set; }
 
         public virtual TB_CoreSkills TB_CoreSkills { get; set; }
     }

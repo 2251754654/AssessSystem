@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_repositorys_1_1_test_repositroys" kind="class" prot="public">
+    <compoundname>Repositorys::TestRepositroys</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_repositorys_1_1_test_repositroys_1a18aa009913b435e64c9f41b5df5ebade" prot="private" static="yes" mutable="no">
+        <type><ref refid="interface_repositorys_1_1_i_repository_user" kindref="compound">IRepositoryUser</ref></type>
+        <definition>IRepositoryUser Repositorys.TestRepositroys.repositoryUser</definition>
+        <argsstring></argsstring>
+        <name>repositoryUser</name>
+        <initializer>= new <ref refid="class_repositorys_1_1_repository_user" kindref="compound">RepositoryUser</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/TestRepositroys.cs" line="12" column="1" bodyfile="E:/Repository/Repositorys/TestRepositroys.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_repositorys_1_1_test_repositroys_1aea17e4aebc9b3ee0940ddffcd7b87977" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_repositorys_1_1_repositroy_assess" kindref="compound">RepositroyAssess</ref></type>
+        <definition>RepositroyAssess Repositorys.TestRepositroys.RepositroyAssess</definition>
+        <argsstring></argsstring>
+        <name>RepositroyAssess</name>
+        <initializer>= new <ref refid="class_repositorys_1_1_repositroy_assess" kindref="compound">RepositroyAssess</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/TestRepositroys.cs" line="13" column="1" bodyfile="E:/Repository/Repositorys/TestRepositroys.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_repositorys_1_1_test_repositroys_1a59d86fce81093201c64e8aed8ca1a580" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_repositorys_1_1_repository_user_info" kindref="compound">RepositoryUserInfo</ref></type>
+        <definition>RepositoryUserInfo Repositorys.TestRepositroys.repositoryUserInfo</definition>
+        <argsstring></argsstring>
+        <name>repositoryUserInfo</name>
+        <initializer>= new <ref refid="class_repositorys_1_1_repository_user_info" kindref="compound">RepositoryUserInfo</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/TestRepositroys.cs" line="14" column="1" bodyfile="E:/Repository/Repositorys/TestRepositroys.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_repositorys_1_1_test_repositroys_1a409af3a61c1fb280defa18209f895c56" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_repositorys_1_1_repository_role" kindref="compound">RepositoryRole</ref></type>
+        <definition>RepositoryRole Repositorys.TestRepositroys.repositoryRole</definition>
+        <argsstring></argsstring>
+        <name>repositoryRole</name>
+        <initializer>= new <ref refid="class_repositorys_1_1_repository_role" kindref="compound">RepositoryRole</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/TestRepositroys.cs" line="15" column="1" bodyfile="E:/Repository/Repositorys/TestRepositroys.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_repositorys_1_1_test_repositroys_1aceb0f1395146f3bc3e0b25f77e7d24f0" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_repositorys_1_1_repository_job" kindref="compound">RepositoryJob</ref></type>
+        <definition>RepositoryJob Repositorys.TestRepositroys.repositoryJob</definition>
+        <argsstring></argsstring>
+        <name>repositoryJob</name>
+        <initializer>= new <ref refid="class_repositorys_1_1_repository_job" kindref="compound">RepositoryJob</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/TestRepositroys.cs" line="16" column="1" bodyfile="E:/Repository/Repositorys/TestRepositroys.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_repositorys_1_1_test_repositroys_1a41d8d1d3fa9508c2a76705330ba9bbc5" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_repositorys_1_1_repository_core_skills" kindref="compound">RepositoryCoreSkills</ref></type>
+        <definition>RepositoryCoreSkills Repositorys.TestRepositroys.repositoryCoreSkill</definition>
+        <argsstring></argsstring>
+        <name>repositoryCoreSkill</name>
+        <initializer>= new <ref refid="class_repositorys_1_1_repository_core_skills" kindref="compound">RepositoryCoreSkills</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/TestRepositroys.cs" line="17" column="1" bodyfile="E:/Repository/Repositorys/TestRepositroys.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_repositorys_1_1_test_repositroys_1ae09164e23f1d0a7ecbbfddf967a59891" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Repositorys.TestRepositroys.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/TestRepositroys.cs" line="19" column="1" bodyfile="E:/Repository/Repositorys/TestRepositroys.cs" bodystart="19" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="441">
+        <label>Repositorys.TestRepositroys</label>
+        <link refid="class_repositorys_1_1_test_repositroys"/>
+        <childnode refid="442" relation="usage">
+          <edgelabel>repositoryJob</edgelabel>
+          <edgelabel>repositoryRole</edgelabel>
+          <edgelabel>repositoryUserInfo</edgelabel>
+          <edgelabel>repositoryCoreSkill</edgelabel>
+          <edgelabel>RepositroyAssess</edgelabel>
+          <edgelabel>repositoryUser</edgelabel>
+        </childnode>
+      </node>
+      <node id="442">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Repositorys/TestRepositroys.cs" line="11" column="1" bodyfile="E:/Repository/Repositorys/TestRepositroys.cs" bodystart="10" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_repositorys_1_1_test_repositroys_1ae09164e23f1d0a7ecbbfddf967a59891" prot="public" virt="non-virtual"><scope>Repositorys::TestRepositroys</scope><name>Main</name></member>
+      <member refid="class_repositorys_1_1_test_repositroys_1a41d8d1d3fa9508c2a76705330ba9bbc5" prot="private" virt="non-virtual"><scope>Repositorys::TestRepositroys</scope><name>repositoryCoreSkill</name></member>
+      <member refid="class_repositorys_1_1_test_repositroys_1aceb0f1395146f3bc3e0b25f77e7d24f0" prot="private" virt="non-virtual"><scope>Repositorys::TestRepositroys</scope><name>repositoryJob</name></member>
+      <member refid="class_repositorys_1_1_test_repositroys_1a409af3a61c1fb280defa18209f895c56" prot="private" virt="non-virtual"><scope>Repositorys::TestRepositroys</scope><name>repositoryRole</name></member>
+      <member refid="class_repositorys_1_1_test_repositroys_1a18aa009913b435e64c9f41b5df5ebade" prot="private" virt="non-virtual"><scope>Repositorys::TestRepositroys</scope><name>repositoryUser</name></member>
+      <member refid="class_repositorys_1_1_test_repositroys_1a59d86fce81093201c64e8aed8ca1a580" prot="private" virt="non-virtual"><scope>Repositorys::TestRepositroys</scope><name>repositoryUserInfo</name></member>
+      <member refid="class_repositorys_1_1_test_repositroys_1aea17e4aebc9b3ee0940ddffcd7b87977" prot="private" virt="non-virtual"><scope>Repositorys::TestRepositroys</scope><name>RepositroyAssess</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

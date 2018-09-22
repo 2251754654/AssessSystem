@@ -1,0 +1,294 @@
+﻿
+@{
+    ViewBag.Title = "AdminPage";
+}
+<section data-spy="scroll">
+    <div id="RoleManage">
+        <table class="table table-bordered table-hover table-responsive">
+            <thead>
+                <tr class="bg-info">
+                    <th>RoleID</th>
+                    <th>RoleName</th>
+                    <th>RoleDetails</th>
+                    <th><a href="javascript:void(0);"><span class="glyphicon glyphicon-refresh">&nbsp;Update</span></a></th>
+                    <th><a href="javascript:void(0);"><span class="glyphicon glyphicon-fire">&nbsp;Delete</span></a></th>
+                    <th><a href="javascript:void(0);"><span class="glyphicon glyphicon-fire">&nbsp;ShowProfession</span></a></th>
+                    <th><a href="javascript:void(0);"><span class="glyphicon glyphicon-fire">&nbsp;AllotProfession</span></a></th>
+                </tr>
+            </thead>
+            <tbody id="DropList">
+                <tr v-for="(value,index) in roleList">
+                    <td>{{value.RoleID}}</td>
+                    <td>{{value.RoleName}}</td>
+                    <td>{{value.RoleDetails}}</td>
+                    <td><a data-toggle="modal" href="#updateRole" v-on:click="GetRole(index)"><span class="glyphicon glyphicon-refresh">&nbsp;Update</span></a></td>
+                    <td><a v-on:click="daleteRole(index)" href="javascript:void(0);"><span class="glyphicon glyphicon-fire">&nbsp;Delete</span></a></td>
+                    <td>
+                        <a v-on:click="showSelectedInfo(index)" href="javascript:void(0);" class="text-center"><span class="glyphicon glyphicon-fire">&nbsp;ShowProfessionb</span></a>
+                        <table class="table table-responsive table-bordered" style="display:none" v-bind:id="index">
+                            <thead>
+                                <th>Id</th>
+                                <th>Name</th>
+                            </thead>
+                            <tbody>
+                                <tr v-for="(roleJobListItem,index) in  roleJobList">
+                                    <td>{{roleJobListItem.ProfessionalID}}</td>
+                                    <td>{{roleJobListItem.ProfessionalName}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+
+                    <td>
+                        <div class="dropdown">
+                            <a data-toggle="dropdown" href="#" v-on:click="findJob">AllotProfession<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="DropList">
+                                <li>
+                                    <div>
+                                        <span class="glyphicon glyphicon-paperclip">&nbsp;</span><strong class="text-uppercase">Professions</strong>
+                                        <input type="text" class=" form-control" placeholder="条件查询" v-model="findInput" v-on:blur="loseFocus" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span class="col-lg-6 text-primary bg-light rounded-circle">ID</span>
+                                        <span class="col-lg-6 text-info bg-light">Name</span>
+                                    </div>
+                                </li>
+                                <li v-for="(valueJob,indexJob) in jobList">
+                                    <div v-on:click="allotProfession(index,indexJob)">
+                                        <span class="col-lg-6 text-primary bg-light">{{valueJob.ProfessionalID}}</span>
+                                        <span class="col-lg-6 text-info bg-light">{{valueJob.ProfessionalName}}</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol class="breadcrumb fixed-bottom">
+            <li class="text-warning">RoleManage</li>
+            <li><a class="text-danger" data-toggle="modal" href="#addRole">AddRole</a></li>
+        </ol>
+        <!-- 插入模态框（Modal） -->
+        <div class="modal fade" id="addRole" tabindex="-1" role="dialog" aria-labelledby="addRoleHead" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title" id="addRoleHead">
+                            Insert Role
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group form-group">
+                            <li class="list-group-item">
+                                <label class="text-info" for="RoleName">RoleName</label>
+                                <input type="text" placeholder="RoleName" class="form-control" id="RoleName" v-model="roleObj.RoleName" />
+                            </li>
+                            <li class="list-group-item">
+                                <label class="text-info" for="RoleDetails">RoleDetails</label>
+                                <input type="text" placeholder="RoleDetails" class="form-control" id="RoleDetails" v-model="roleObj.RoleDetails" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-block btn-info" v-on:click="insertRole">提交</button>
+                        <button type="button" data-dismiss="modal" class="btn btn-block btn-danger">退出</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+        <!-- 更新模态框（Modal） -->
+        <div class="modal fade" id="updateRole" tabindex="-1" role="dialog" aria-labelledby="updateRoleHead" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title" id="updateRoleHead">
+                            Update Role
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group form-group">
+                            <li class="list-group-item">
+                                <label class="text-info" for="RoleID">RoleID</label>
+                                <input type="text" placeholder="RoleID" class="form-control" id="RoleID" v-model="roleObj.RoleID" disabled />
+                            </li>
+                            <li class="list-group-item">
+                                <label class="text-info" for="RoleName">RoleName</label>
+                                <input type="text" placeholder="RoleName" class="form-control" id="RoleName" v-model="roleObj.RoleName" />
+                            </li>
+                            <li class="list-group-item">
+                                <label class="text-info" for="RoleDetails">RoleDetails</label>
+                                <input type="text" placeholder="RoleDetails" class="form-control" id="RoleDetails" v-model="roleObj.RoleDetails" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-block btn-info" v-on:click="updateRole">提交</button>
+                        <button type="button" data-dismiss="modal" class="btn btn-block btn-danger">退出</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+    var roleManage = new Vue({
+
+        el: '#RoleManage',
+        data: {
+            //对象数组
+            roleList: [],
+            //对象数组中每一个对象临时存储
+            roleObj: {
+                RoleID: '',
+                RoleName: '',
+                RoleDetails: '',
+            },
+            jobList: [],
+            jobListCopy: [],
+            findInput: '',
+
+            roleJobList: [],
+            roleTag:-1,
+        },
+        methods: {
+            updateRole: function () {
+                var formJson = JSON.stringify(this.roleObj);
+                this.$http.post('/Role/UpdateRole', formJson, { emulateJSON: true }).then(function (success) {
+                    this.findRole();
+                    //提示窗体
+                    alert("Update Success");
+                }, function (error) {
+                    alert("失败!");
+                });
+            },
+            daleteRole: function (index) {
+                this.roleObj = this.roleList[index];
+                var formJson = JSON.stringify(this.roleObj);
+                this.$http.post('/Role/DeleteRole', formJson, { emulateJSON: true }).then(function (success) {
+                    this.findRole();
+                    //提示窗体
+                    //alert("Delete Success");
+                }, function (error) {
+                    alert("失败!");
+                });
+            },
+            findRole: function () {
+                this.$http.get('/Role/FindAllRole?page=0').then(function (success) {
+                    //数据处理
+                    this.roleList.splice(0, this.roleList.length);
+                    for (var item = 0; item < success.data.length; item++) {
+                        var obj = {
+                            RoleID: success.data[item].RoleID,
+                            RoleName: success.data[item].RoleName,
+                            RoleDetails: success.data[item].RoleDetails
+                        };
+                        this.roleList.push(obj);
+                    }
+                    this.jobListCopy = jobList;
+                }, function (error) {
+                    alert("失败");
+                });
+            },
+            insertRole: function () {
+                var formJson = JSON.stringify(this.roleObj);
+                this.$http.post('/Role/InsertRole', formJson, { emulateJSON: true }).then(function (success) {
+                    this.findRole();
+                    //提示窗体
+                    alert("Insert Success");
+                }, function (error) {
+                    alert("失败!");
+                });
+            },
+            GetRole: function (index) {
+                this.roleObj = this.roleList[index];
+            },
+            findJob: function () {
+                this.$http.get('/Job/FindAllJob').then(function (success) {
+                    //数据处理
+                    this.jobList.splice(0, this.jobList.length);
+                    for (var item = 0; item < success.data.length; item++) {
+                        var obj = {
+                            ProfessionalID: success.data[item].ProfessionalID,
+                            ProfessionalName: success.data[item].ProfessionalName,
+                        };
+                        this.jobList.push(obj);
+                        this.jobListCopy = this.jobList;
+                    }
+                }, function (error) {
+                    alert("失败");
+                });
+            },
+            allotProfession: function (roleIndex, jobIndex) {
+                //选中的数据关系添加到数据库
+                if (confirm("确认给角色<" + this.roleList[roleIndex].RoleName + ">分配职业:<" + this.jobList[jobIndex].ProfessionalName + ">吗？")) {
+                    var obj = { RoleID: this.roleList[roleIndex].RoleID, ProfessionalID: this.jobList[jobIndex].ProfessionalID };
+                    var formJson = JSON.stringify(obj);
+                    this.$http.post('/Role/InsertRoleProfessional', formJson, { emulateJSON: true }).then(function (success) {
+                        //提示窗体
+                        alert("InsertRoleProfessional Success");
+                    }, function (error) {
+                        alert("失败!");
+                    });
+                }
+            },
+            findJobList: function () {
+                //检索
+                var result = [];
+                for (var i = 0; i < this.jobListCopy.length; i++) {
+                    if (this.jobListCopy[i].ProfessionalName.indexOf(this.findInput) != -1) {
+                        result.push(this.jobListCopy[i]);
+                    }
+                }
+                this.jobList = result;
+            },
+            loseFocus: function () {
+
+            },
+            showSelectedInfo: function (index) {//右键菜单显示已经分配的职业
+                this.roleTag = index;
+                this.roleJobList.splice(0, this.roleJobList.length);
+                var obj = { RoleID: this.roleList[index].RoleID };
+                var json = JSON.stringify(obj);
+                this.$http.post('/Job/AllotedProfessional', json, { emulateJSON: true }).then(function (success) {
+                    //数据处理
+                    for (var item = 0; item < success.data.length; item++) {
+                        var obj = {
+                            ProfessionalID: success.data[item].ProfessionalID,
+                            ProfessionalName: success.data[item].ProfessionalName,
+                        };
+                        this.roleJobList.push(obj);
+                    }
+                    $("#DropList table:not(#" + index + ")").hide();
+
+                    if ($("#" + index + "").is(":hidden")) {
+                        $("#" + index + "").show();
+                    } else {
+                        $("#" + index + "").hide();
+                    }
+                }, function (error) {
+                    alert("失败");
+                });
+                return false;
+            }
+        },
+        //监视查询文本框的变化
+        watch: {
+            findInput() {
+                this.findJobList();
+            }
+        },
+        mounted() {
+            this.findRole();
+        },
+    });
+
+</script>

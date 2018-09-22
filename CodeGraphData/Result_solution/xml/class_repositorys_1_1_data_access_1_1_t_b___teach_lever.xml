@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_repositorys_1_1_data_access_1_1_t_b___teach_lever" kind="class" prot="public">
+    <compoundname>Repositorys::DataAccess::TB_TeachLever</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1ad975673ebfda77dcc1ad43972ce2eb69" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_TeachLever.TeachLeverID</definition>
+        <argsstring></argsstring>
+        <name>TeachLeverID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_TeachLever.cs" line="8" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TeachLever.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1a254e1c66c3a94db3cb2e54d2e048568c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_TeachLever.TeachLeverNum</definition>
+        <argsstring></argsstring>
+        <name>TeachLeverNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_TeachLever.cs" line="10" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TeachLever.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1aff72cb4448335bb6626bfff05859f432" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_TeachLever.TeachLeverDetails</definition>
+        <argsstring></argsstring>
+        <name>TeachLeverDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_TeachLever.cs" line="14" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TeachLever.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1ad3736b69de9d73d3e8510958bda18427" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_TeachLever.TeachSkillsID</definition>
+        <argsstring></argsstring>
+        <name>TeachSkillsID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_TeachLever.cs" line="16" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TeachLever.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1a27d8b5c3233d566dfed2ee09ddd71588" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_TeachLever.TeachLeverDelete</definition>
+        <argsstring></argsstring>
+        <name>TeachLeverDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_TeachLever.cs" line="18" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TeachLever.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1a7b963b20e90d4fed9357ecd8693154bc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills" kindref="compound">TB_TechSkills</ref></type>
+        <definition>virtual TB_TechSkills Repositorys.DataAccess.TB_TeachLever.TB_TechSkills</definition>
+        <argsstring></argsstring>
+        <name>TB_TechSkills</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_TeachLever.cs" line="20" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TeachLever.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Repositorys/DataAccess/TB_TeachLever.cs" line="6" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TeachLever.cs" bodystart="5" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1a7b963b20e90d4fed9357ecd8693154bc" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_TeachLever</scope><name>TB_TechSkills</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1a27d8b5c3233d566dfed2ee09ddd71588" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_TeachLever</scope><name>TeachLeverDelete</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1aff72cb4448335bb6626bfff05859f432" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_TeachLever</scope><name>TeachLeverDetails</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1ad975673ebfda77dcc1ad43972ce2eb69" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_TeachLever</scope><name>TeachLeverID</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1a254e1c66c3a94db3cb2e54d2e048568c" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_TeachLever</scope><name>TeachLeverNum</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1ad3736b69de9d73d3e8510958bda18427" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_TeachLever</scope><name>TeachSkillsID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

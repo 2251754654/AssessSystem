@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_domains_1_1_i_domain_other_assess" kind="interface" prot="public">
+    <compoundname>Domains::IDomainOtherAssess</compoundname>
+    <derivedcompoundref refid="class_domains_1_1_domain_other_assess" prot="public" virt="non-virtual">Domains.DomainOtherAssess</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_other_assess_1aadb65c5859cef4a005199a008897f524" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Domains.IDomainOtherAssess.FindAllAssess</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllAssess</name>
+        <reimplementedby refid="class_domains_1_1_domain_other_assess_1ac0129b4947fc1fcbbfc11798233486f8">FindAllAssess</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/IDomainOtherAssess.cs" line="8" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_other_assess_1ae8e611ea9880751f189a48352ca655f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Domains.IDomainOtherAssess.FindAllDeleteAssess</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllDeleteAssess</name>
+        <reimplementedby refid="class_domains_1_1_domain_other_assess_1ab353a3261061e25aabc608fbded95af5">FindAllDeleteAssess</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/IDomainOtherAssess.cs" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_other_assess_1a89364459913ad0c161f9bec8999beba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Domains.IDomainOtherAssess.FindAllNotDeleteAssess</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllNotDeleteAssess</name>
+        <reimplementedby refid="class_domains_1_1_domain_other_assess_1a83568394face391460b79247bc77c30f">FindAllNotDeleteAssess</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/IDomainOtherAssess.cs" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_other_assess_1aff559178dd3085a2a6771103d3bd6921" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Domains.IDomainOtherAssess.FindCoreSkillAssessDetails</definition>
+        <argsstring>(int assessID)</argsstring>
+        <name>FindCoreSkillAssessDetails</name>
+        <reimplementedby refid="class_domains_1_1_domain_other_assess_1a84fc362c44bb8829c36f8245ec6bd4c0">FindCoreSkillAssessDetails</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>assessID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/IDomainOtherAssess.cs" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_other_assess_1a51a0a12abc537fc7bbed6007ac5a0bee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Domains.IDomainOtherAssess.FindOtherAssessToOneself</definition>
+        <argsstring>(int userID)</argsstring>
+        <name>FindOtherAssessToOneself</name>
+        <reimplementedby refid="class_domains_1_1_domain_other_assess_1a6e2e46b5b93622f100140cbbc1d96763">FindOtherAssessToOneself</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>userID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/IDomainOtherAssess.cs" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_other_assess_1a967bdf1de8f973c848f8cd08d639b7cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Domains.IDomainOtherAssess.FindTeachSkillAssessDetails</definition>
+        <argsstring>(int assessID)</argsstring>
+        <name>FindTeachSkillAssessDetails</name>
+        <reimplementedby refid="class_domains_1_1_domain_other_assess_1a70f2f77276ef954e1e98cd418dd635b8">FindTeachSkillAssessDetails</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>assessID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/IDomainOtherAssess.cs" line="13" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="184">
+        <label>Domains.DomainOtherAssess</label>
+        <link refid="class_domains_1_1_domain_other_assess"/>
+        <childnode refid="183" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>Domains.IDomainOtherAssess</label>
+        <link refid="interface_domains_1_1_i_domain_other_assess"/>
+      </node>
+    </inheritancegraph>
+    <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/IDomainOtherAssess.cs" line="7" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/IDomainOtherAssess.cs" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="interface_domains_1_1_i_domain_other_assess_1aadb65c5859cef4a005199a008897f524" prot="public" virt="non-virtual"><scope>Domains::IDomainOtherAssess</scope><name>FindAllAssess</name></member>
+      <member refid="interface_domains_1_1_i_domain_other_assess_1ae8e611ea9880751f189a48352ca655f2" prot="public" virt="non-virtual"><scope>Domains::IDomainOtherAssess</scope><name>FindAllDeleteAssess</name></member>
+      <member refid="interface_domains_1_1_i_domain_other_assess_1a89364459913ad0c161f9bec8999beba3" prot="public" virt="non-virtual"><scope>Domains::IDomainOtherAssess</scope><name>FindAllNotDeleteAssess</name></member>
+      <member refid="interface_domains_1_1_i_domain_other_assess_1aff559178dd3085a2a6771103d3bd6921" prot="public" virt="non-virtual"><scope>Domains::IDomainOtherAssess</scope><name>FindCoreSkillAssessDetails</name></member>
+      <member refid="interface_domains_1_1_i_domain_other_assess_1a51a0a12abc537fc7bbed6007ac5a0bee" prot="public" virt="non-virtual"><scope>Domains::IDomainOtherAssess</scope><name>FindOtherAssessToOneself</name></member>
+      <member refid="interface_domains_1_1_i_domain_other_assess_1a967bdf1de8f973c848f8cd08d639b7cb" prot="public" virt="non-virtual"><scope>Domains::IDomainOtherAssess</scope><name>FindTeachSkillAssessDetails</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

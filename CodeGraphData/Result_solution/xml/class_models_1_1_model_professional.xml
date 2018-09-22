@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_models_1_1_model_professional" kind="class" prot="public">
+    <compoundname>Models::ModelProfessional</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_models_1_1_model_professional_1af66d4d9464a4dfb6ce03c2702f22aef2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelProfessional.ProfessionalID</definition>
+        <argsstring></argsstring>
+        <name>ProfessionalID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelProfessional.cs" line="12" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelProfessional.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_professional_1a229e5a20540a952db2f117be18da5ba4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Models.ModelProfessional.ProfessionalName</definition>
+        <argsstring></argsstring>
+        <name>ProfessionalName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelProfessional.cs" line="13" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelProfessional.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_professional_1ac33666c34bc866f90534c18670ae5959" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Models.ModelProfessional.ProfessionalDetails</definition>
+        <argsstring></argsstring>
+        <name>ProfessionalDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelProfessional.cs" line="14" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelProfessional.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_professional_1a56a48b9feb1efef79f2ab5da97323114" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelProfessional.ProfessionalDelete</definition>
+        <argsstring></argsstring>
+        <name>ProfessionalDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelProfessional.cs" line="15" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelProfessional.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_professional_1a63e0cefea8b775c9f113056023f0529a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_models_1_1_model_mapping_core" kindref="compound">ModelMappingCore</ref> &gt;</type>
+        <definition>virtual ICollection&lt;ModelMappingCore&gt; Models.ModelProfessional.ModelMappingCores</definition>
+        <argsstring></argsstring>
+        <name>ModelMappingCores</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelProfessional.cs" line="17" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelProfessional.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_professional_1af18768e9966bc6e9e5c670420002e589" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_models_1_1_model_mapping_teach" kindref="compound">ModelMappingTeach</ref> &gt;</type>
+        <definition>virtual ICollection&lt;ModelMappingTeach&gt; Models.ModelProfessional.ModelMappingTeachs</definition>
+        <argsstring></argsstring>
+        <name>ModelMappingTeachs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelProfessional.cs" line="18" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelProfessional.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_professional_1aeaa978cb86c2927a3ea08194a6ab1382" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_models_1_1_model_role_content" kindref="compound">ModelRoleContent</ref> &gt;</type>
+        <definition>virtual ICollection&lt;ModelRoleContent&gt; Models.ModelProfessional.ModelRoleContents</definition>
+        <argsstring></argsstring>
+        <name>ModelRoleContents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelProfessional.cs" line="19" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelProfessional.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Models/CustomModels/ModelProfessional.cs" line="11" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelProfessional.cs" bodystart="10" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_models_1_1_model_professional_1a63e0cefea8b775c9f113056023f0529a" prot="public" virt="non-virtual"><scope>Models::ModelProfessional</scope><name>ModelMappingCores</name></member>
+      <member refid="class_models_1_1_model_professional_1af18768e9966bc6e9e5c670420002e589" prot="public" virt="non-virtual"><scope>Models::ModelProfessional</scope><name>ModelMappingTeachs</name></member>
+      <member refid="class_models_1_1_model_professional_1aeaa978cb86c2927a3ea08194a6ab1382" prot="public" virt="non-virtual"><scope>Models::ModelProfessional</scope><name>ModelRoleContents</name></member>
+      <member refid="class_models_1_1_model_professional_1a56a48b9feb1efef79f2ab5da97323114" prot="public" virt="non-virtual"><scope>Models::ModelProfessional</scope><name>ProfessionalDelete</name></member>
+      <member refid="class_models_1_1_model_professional_1ac33666c34bc866f90534c18670ae5959" prot="public" virt="non-virtual"><scope>Models::ModelProfessional</scope><name>ProfessionalDetails</name></member>
+      <member refid="class_models_1_1_model_professional_1af66d4d9464a4dfb6ce03c2702f22aef2" prot="public" virt="non-virtual"><scope>Models::ModelProfessional</scope><name>ProfessionalID</name></member>
+      <member refid="class_models_1_1_model_professional_1a229e5a20540a952db2f117be18da5ba4" prot="public" virt="non-virtual"><scope>Models::ModelProfessional</scope><name>ProfessionalName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

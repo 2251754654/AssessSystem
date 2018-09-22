@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>LoginView</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/vue.min.js"></script>
+    <script src="~/Scripts/Login/Login.js"></script>
+</head>
+<body>
+    <h1>员&nbsp;工&nbsp;评&nbsp;测&nbsp;系&nbsp;统</h1>
+    <h3>用&nbsp;户&nbsp;登&nbsp;陆</h3>
+    <div id="login">
+        <form id="LoginCheck">
+            <label id="UserName">用户账号：</label>
+            <input type="text" name="UserName" class="textSize" onfocus="ClearMessage()" id="UserNameText" />
+            <label id="messageUserName">@ViewBag.Message</label><br />
+
+
+            <label id="Password">用户密码：</label>
+            <input type="password" name="Password" class="textSize" onfocus="ClearMessage()" id="PasswordText" />
+            <label id="messagePassword">@ViewBag.Message</label><br />
+
+            <input id="submit" type="button" value="登&nbsp;陆" class="buttonSize" onclick="Login()" />
+            <input id="reg" type="button" value="注&nbsp;册" onclick="return Regist()" class="buttonSize" />
+            <a href="~/LoginPage/Login">点击</a>
+        </form>
+    </div>
+</body>
+</html>

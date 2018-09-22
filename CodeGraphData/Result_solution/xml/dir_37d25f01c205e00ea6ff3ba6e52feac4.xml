@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_37d25f01c205e00ea6ff3ba6e52feac4" kind="dir">
+    <compoundname>E:/Repository/Views/Controllers/AbstractClass</compoundname>
+    <innerfile refid="_abstract_admin_controller_8cs">AbstractAdminController.cs</innerfile>
+    <innerfile refid="_abstract_assess_controller_8cs">AbstractAssessController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Views/Controllers/AbstractClass/"/>
+  </compounddef>
+</doxygen>

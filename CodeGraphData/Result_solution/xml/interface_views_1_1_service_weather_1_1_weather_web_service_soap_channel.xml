@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_views_1_1_service_weather_1_1_weather_web_service_soap_channel" kind="interface" prot="public">
+    <compoundname>Views::ServiceWeather::WeatherWebServiceSoapChannel</compoundname>
+    <basecompoundref refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap" prot="public" virt="non-virtual">Views.ServiceWeather.WeatherWebServiceSoap</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IClientChannel</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="476">
+        <label>Views::ServiceWeather::WeatherWebServiceSoap</label>
+        <link refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap"/>
+      </node>
+      <node id="477">
+        <label>System::ServiceModel::IClientChannel</label>
+      </node>
+      <node id="475">
+        <label>Views.ServiceWeather.WeatherWebServiceSoapChannel</label>
+        <link refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_channel"/>
+        <childnode refid="476" relation="public-inheritance">
+        </childnode>
+        <childnode refid="477" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="479">
+        <label>Views::ServiceWeather::WeatherWebServiceSoap</label>
+        <link refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap"/>
+      </node>
+      <node id="480">
+        <label>System::ServiceModel::IClientChannel</label>
+      </node>
+      <node id="478">
+        <label>Views.ServiceWeather.WeatherWebServiceSoapChannel</label>
+        <link refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_channel"/>
+        <childnode refid="479" relation="public-inheritance">
+        </childnode>
+        <childnode refid="480" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Views/Connected Services/ServiceWeather/Reference.cs" line="56" column="1" bodyfile="E:/Repository/Views/Connected Services/ServiceWeather/Reference.cs" bodystart="56" bodyend="57"/>
+    <listofallmembers>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a0fd751f5ac246b1fd251366afc5b591a" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoapChannel</scope><name>getSupportCity</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a45d3f5f1110859bbdf1ac9110a71767e" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoapChannel</scope><name>getSupportCityAsync</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a7fcaa94298ceb5bc12c71b59cfe30640" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoapChannel</scope><name>getSupportDataSet</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a1aa5bfdcb74acf643ed37070943bcec6" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoapChannel</scope><name>getSupportDataSetAsync</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a92954006716ee00eaf6786db7f993d2d" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoapChannel</scope><name>getSupportProvince</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a88214b54006d5eb741c271d5d1964811" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoapChannel</scope><name>getSupportProvinceAsync</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a797a4b1b9582c0db9c101fb40003ac6e" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoapChannel</scope><name>getWeatherbyCityName</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a45d07efd3fe23f31bb1fd8aa01ac4299" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoapChannel</scope><name>getWeatherbyCityNameAsync</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1ad03e6cd7a4381fc5fe243e6806db28f2" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoapChannel</scope><name>getWeatherbyCityNamePro</name></member>
+      <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a120f29235febcabc0abb03f42c27058a" prot="public" virt="non-virtual"><scope>Views::ServiceWeather::WeatherWebServiceSoapChannel</scope><name>getWeatherbyCityNameProAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

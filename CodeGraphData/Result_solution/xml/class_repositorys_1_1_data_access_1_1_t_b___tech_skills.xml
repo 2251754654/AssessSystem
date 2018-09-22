@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_repositorys_1_1_data_access_1_1_t_b___tech_skills" kind="class" prot="public">
+    <compoundname>Repositorys::DataAccess::TB_TechSkills</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1a0ee1392130f789ecd7465c76df14aa52" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_TechSkills.TeachSkillsID</definition>
+        <argsstring></argsstring>
+        <name>TeachSkillsID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" line="15" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1ae6df6000cb95348c3984aae8de0599db" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_TechSkills.TeachSkillsName</definition>
+        <argsstring></argsstring>
+        <name>TeachSkillsName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" line="19" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1af4f62a6c7dbd81d7dbc819313605c1a7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_TechSkills.TeachSkillsDetails</definition>
+        <argsstring></argsstring>
+        <name>TeachSkillsDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" line="23" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1ad1b647f99a19d9ae012502f28fb71433" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_TechSkills.TeachSkillsGUID</definition>
+        <argsstring></argsstring>
+        <name>TeachSkillsGUID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" line="27" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1aec9745d24943fba7f865ba70705d3fff" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_TechSkills.TeachSkillDelete</definition>
+        <argsstring></argsstring>
+        <name>TeachSkillDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" line="29" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1ab2997a47b2c9d08dbf0923f232eb8da3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_teach" kindref="compound">TB_MappingTeach</ref> &gt;</type>
+        <definition>virtual ICollection&lt;TB_MappingTeach&gt; Repositorys.DataAccess.TB_TechSkills.TB_MappingTeach</definition>
+        <argsstring></argsstring>
+        <name>TB_MappingTeach</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" line="31" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1a5570ed082372e7e81c1aab61345bc8a4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___teach_lever" kindref="compound">TB_TeachLever</ref> &gt;</type>
+        <definition>virtual ICollection&lt;TB_TeachLever&gt; Repositorys.DataAccess.TB_TechSkills.TB_TeachLever</definition>
+        <argsstring></argsstring>
+        <name>TB_TeachLever</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" line="33" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1a511721b6427faff1052e28c51cd1f2c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Repositorys.DataAccess.TB_TechSkills.TB_TechSkills</definition>
+        <argsstring>()</argsstring>
+        <name>TB_TechSkills</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" line="8" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" line="7" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_TechSkills.cs" bodystart="6" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1ab2997a47b2c9d08dbf0923f232eb8da3" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_TechSkills</scope><name>TB_MappingTeach</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1a5570ed082372e7e81c1aab61345bc8a4" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_TechSkills</scope><name>TB_TeachLever</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1a511721b6427faff1052e28c51cd1f2c1" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_TechSkills</scope><name>TB_TechSkills</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1aec9745d24943fba7f865ba70705d3fff" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_TechSkills</scope><name>TeachSkillDelete</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1af4f62a6c7dbd81d7dbc819313605c1a7" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_TechSkills</scope><name>TeachSkillsDetails</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1ad1b647f99a19d9ae012502f28fb71433" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_TechSkills</scope><name>TeachSkillsGUID</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1a0ee1392130f789ecd7465c76df14aa52" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_TechSkills</scope><name>TeachSkillsID</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1ae6df6000cb95348c3984aae8de0599db" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_TechSkills</scope><name>TeachSkillsName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -20,6 +20,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -76,7 +78,11 @@
     <Compile Include="CustomModels\ModelUser.cs" />
     <Compile Include="CustomModels\ModelUserInfo.cs" />
     <Compile Include="MergeModel\ModelAssessDetails.cs" />
-    <Compile Include="MergeModel\UserCoreSkillModel.cs" />
+    <Compile Include="MergeModel\ModelJobAndCoreSkill.cs" />
+    <Compile Include="MergeModel\ModelJobAndSkillAndLever.cs" />
+    <Compile Include="MergeModel\ModelJobAndTeachSkill.cs" />
+    <Compile Include="MergeModel\ModelJobAndTeachSkillAndLever.cs" />
+    <Compile Include="MergeModel\ModelRoleAndJob.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

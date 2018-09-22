@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_views_1_1_controllers_1_1_core_skills_controller" kind="class" prot="public">
+    <compoundname>Views::Controllers::CoreSkillsController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_views_1_1_controllers_1_1_core_skills_controller_1ac2dd2e516920ce5e2e5c43c746878b63" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_domains_1_1_i_domain_core_skills" kindref="compound">IDomainCoreSkills</ref></type>
+        <definition>readonly IDomainCoreSkills Views.Controllers.CoreSkillsController.domainCoreSkills</definition>
+        <argsstring></argsstring>
+        <name>domainCoreSkills</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/CoreSkillsController.cs" line="12" column="1" bodyfile="E:/Repository/Views/Controllers/CoreSkillsController.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_core_skills_controller_1a52ed895ac956b75083fa2c83e0ab5f6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Views.Controllers.CoreSkillsController.CoreSkillsController</definition>
+        <argsstring>(IDomainCoreSkills domainCoreSkills)</argsstring>
+        <name>CoreSkillsController</name>
+        <param>
+          <type><ref refid="interface_domains_1_1_i_domain_core_skills" kindref="compound">IDomainCoreSkills</ref></type>
+          <declname>domainCoreSkills</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/CoreSkillsController.cs" line="14" column="1" bodyfile="E:/Repository/Views/Controllers/CoreSkillsController.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_core_skills_controller_1a23b430f06dfb0cc6410b253ef57e29f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Views.Controllers.CoreSkillsController.CoreSkillsView</definition>
+        <argsstring>()</argsstring>
+        <name>CoreSkillsView</name>
+        <briefdescription>
+<para>技能视图 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/CoreSkillsController.cs" line="23" column="1" bodyfile="E:/Repository/Views/Controllers/CoreSkillsController.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_core_skills_controller_1a3163b3808cb8f05842430f3d444e1967" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.CoreSkillsController.FindAllCoreSkills</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllCoreSkills</name>
+        <briefdescription>
+<para>查询核心技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/CoreSkillsController.cs" line="31" column="1" bodyfile="E:/Repository/Views/Controllers/CoreSkillsController.cs" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_core_skills_controller_1a727e1106c38a1a7e9f5a2c85c7ce6583" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.CoreSkillsController.UpdateCoreSkills</definition>
+        <argsstring>(ModelCoreSkills modelCoreSkills)</argsstring>
+        <name>UpdateCoreSkills</name>
+        <param>
+          <type><ref refid="class_models_1_1_model_core_skills" kindref="compound">ModelCoreSkills</ref></type>
+          <declname>modelCoreSkills</declname>
+        </param>
+        <briefdescription>
+<para>更新核心技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/CoreSkillsController.cs" line="40" column="1" bodyfile="E:/Repository/Views/Controllers/CoreSkillsController.cs" bodystart="40" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_core_skills_controller_1aa654d435542b7d1191ee693db0a33c93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.CoreSkillsController.DeleteCoreSkills</definition>
+        <argsstring>(int CoreSkillsID)</argsstring>
+        <name>DeleteCoreSkills</name>
+        <param>
+          <type>int</type>
+          <declname>CoreSkillsID</declname>
+        </param>
+        <briefdescription>
+<para>删除核心技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/CoreSkillsController.cs" line="49" column="1" bodyfile="E:/Repository/Views/Controllers/CoreSkillsController.cs" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_core_skills_controller_1a9adfecb685ed353242c7dc1ec8eee3b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.CoreSkillsController.InsertCoreSkills</definition>
+        <argsstring>(ModelCoreSkills modelCoreSkills)</argsstring>
+        <name>InsertCoreSkills</name>
+        <param>
+          <type><ref refid="class_models_1_1_model_core_skills" kindref="compound">ModelCoreSkills</ref></type>
+          <declname>modelCoreSkills</declname>
+        </param>
+        <briefdescription>
+<para>插入核心技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/CoreSkillsController.cs" line="58" column="1" bodyfile="E:/Repository/Views/Controllers/CoreSkillsController.cs" bodystart="58" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_core_skills_controller_1a28ff7b0b1b49d6b59260253cf43e98d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.CoreSkillsController.FindAllLever</definition>
+        <argsstring>(int CoreSkillsID)</argsstring>
+        <name>FindAllLever</name>
+        <param>
+          <type>int</type>
+          <declname>CoreSkillsID</declname>
+        </param>
+        <briefdescription>
+<para>查询所有等级 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/CoreSkillsController.cs" line="67" column="1" bodyfile="E:/Repository/Views/Controllers/CoreSkillsController.cs" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_core_skills_controller_1a484926212148b3c91753eb10889da67e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.CoreSkillsController.DeleteLever</definition>
+        <argsstring>(int CoreSkillsID, int CoreLeverID)</argsstring>
+        <name>DeleteLever</name>
+        <param>
+          <type>int</type>
+          <declname>CoreSkillsID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>CoreLeverID</declname>
+        </param>
+        <briefdescription>
+<para>删除等级 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>CoreSkillsID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CoreLeverID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/CoreSkillsController.cs" line="78" column="1" bodyfile="E:/Repository/Views/Controllers/CoreSkillsController.cs" bodystart="78" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_core_skills_controller_1aa1020f9683fd96e5c6c268f030caf086" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.CoreSkillsController.InsertLever</definition>
+        <argsstring>(ModelCoreLever modelCoreLever)</argsstring>
+        <name>InsertLever</name>
+        <param>
+          <type><ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref></type>
+          <declname>modelCoreLever</declname>
+        </param>
+        <briefdescription>
+<para>插入等级 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/CoreSkillsController.cs" line="87" column="1" bodyfile="E:/Repository/Views/Controllers/CoreSkillsController.cs" bodystart="87" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="45">
+        <label>Controller</label>
+      </node>
+      <node id="44">
+        <label>Views.Controllers.CoreSkillsController</label>
+        <link refid="class_views_1_1_controllers_1_1_core_skills_controller"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="48">
+        <label>Domains.IDomainCoreSkills</label>
+        <link refid="interface_domains_1_1_i_domain_core_skills"/>
+      </node>
+      <node id="47">
+        <label>Controller</label>
+      </node>
+      <node id="46">
+        <label>Views.Controllers.CoreSkillsController</label>
+        <link refid="class_views_1_1_controllers_1_1_core_skills_controller"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+        <childnode refid="48" relation="usage">
+          <edgelabel>domainCoreSkills</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Views/Controllers/CoreSkillsController.cs" line="11" column="1" bodyfile="E:/Repository/Views/Controllers/CoreSkillsController.cs" bodystart="10" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1a52ed895ac956b75083fa2c83e0ab5f6f" prot="public" virt="non-virtual"><scope>Views::Controllers::CoreSkillsController</scope><name>CoreSkillsController</name></member>
+      <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1a23b430f06dfb0cc6410b253ef57e29f9" prot="public" virt="non-virtual"><scope>Views::Controllers::CoreSkillsController</scope><name>CoreSkillsView</name></member>
+      <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1aa654d435542b7d1191ee693db0a33c93" prot="public" virt="non-virtual"><scope>Views::Controllers::CoreSkillsController</scope><name>DeleteCoreSkills</name></member>
+      <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1a484926212148b3c91753eb10889da67e" prot="public" virt="non-virtual"><scope>Views::Controllers::CoreSkillsController</scope><name>DeleteLever</name></member>
+      <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1ac2dd2e516920ce5e2e5c43c746878b63" prot="private" virt="non-virtual"><scope>Views::Controllers::CoreSkillsController</scope><name>domainCoreSkills</name></member>
+      <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1a3163b3808cb8f05842430f3d444e1967" prot="public" virt="non-virtual"><scope>Views::Controllers::CoreSkillsController</scope><name>FindAllCoreSkills</name></member>
+      <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1a28ff7b0b1b49d6b59260253cf43e98d7" prot="public" virt="non-virtual"><scope>Views::Controllers::CoreSkillsController</scope><name>FindAllLever</name></member>
+      <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1a9adfecb685ed353242c7dc1ec8eee3b4" prot="public" virt="non-virtual"><scope>Views::Controllers::CoreSkillsController</scope><name>InsertCoreSkills</name></member>
+      <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1aa1020f9683fd96e5c6c268f030caf086" prot="public" virt="non-virtual"><scope>Views::Controllers::CoreSkillsController</scope><name>InsertLever</name></member>
+      <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1a727e1106c38a1a7e9f5a2c85c7ce6583" prot="public" virt="non-virtual"><scope>Views::Controllers::CoreSkillsController</scope><name>UpdateCoreSkills</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

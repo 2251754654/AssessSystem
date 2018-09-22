@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_models_1_1_model_mapping_teach" kind="class" prot="public">
+    <compoundname>Models::ModelMappingTeach</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_models_1_1_model_mapping_teach_1a6f37c3408da384abb4d3c9bd0cf23d2a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelMappingTeach.MappingID</definition>
+        <argsstring></argsstring>
+        <name>MappingID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelMappingTeach.cs" line="5" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelMappingTeach.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_mapping_teach_1a54dba9a853f93bbb8584e5ebaa958455" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelMappingTeach.ProfessionalID</definition>
+        <argsstring></argsstring>
+        <name>ProfessionalID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelMappingTeach.cs" line="6" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelMappingTeach.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_mapping_teach_1a41e4835e3fa78746809ec05d855b79fe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelMappingTeach.TeachSkillsID</definition>
+        <argsstring></argsstring>
+        <name>TeachSkillsID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelMappingTeach.cs" line="7" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelMappingTeach.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_mapping_teach_1a4fd9a1742875f4c783104c89f853ed50" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_models_1_1_model_professional" kindref="compound">ModelProfessional</ref></type>
+        <definition>virtual ModelProfessional Models.ModelMappingTeach.ModelProfessionalItem</definition>
+        <argsstring></argsstring>
+        <name>ModelProfessionalItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelMappingTeach.cs" line="9" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelMappingTeach.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_mapping_teach_1a365c63ff8cd5592f1656a409698d9994" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_models_1_1_model_tech_skills" kindref="compound">ModelTechSkills</ref></type>
+        <definition>virtual ModelTechSkills Models.ModelMappingTeach.TB_TechSkillsItem</definition>
+        <argsstring></argsstring>
+        <name>TB_TechSkillsItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelMappingTeach.cs" line="10" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelMappingTeach.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Models/CustomModels/ModelMappingTeach.cs" line="4" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelMappingTeach.cs" bodystart="3" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_models_1_1_model_mapping_teach_1a6f37c3408da384abb4d3c9bd0cf23d2a" prot="public" virt="non-virtual"><scope>Models::ModelMappingTeach</scope><name>MappingID</name></member>
+      <member refid="class_models_1_1_model_mapping_teach_1a4fd9a1742875f4c783104c89f853ed50" prot="public" virt="non-virtual"><scope>Models::ModelMappingTeach</scope><name>ModelProfessionalItem</name></member>
+      <member refid="class_models_1_1_model_mapping_teach_1a54dba9a853f93bbb8584e5ebaa958455" prot="public" virt="non-virtual"><scope>Models::ModelMappingTeach</scope><name>ProfessionalID</name></member>
+      <member refid="class_models_1_1_model_mapping_teach_1a365c63ff8cd5592f1656a409698d9994" prot="public" virt="non-virtual"><scope>Models::ModelMappingTeach</scope><name>TB_TechSkillsItem</name></member>
+      <member refid="class_models_1_1_model_mapping_teach_1a41e4835e3fa78746809ec05d855b79fe" prot="public" virt="non-virtual"><scope>Models::ModelMappingTeach</scope><name>TeachSkillsID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

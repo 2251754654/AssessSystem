@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_repositorys_1_1_migrations" kind="namespace">
+    <compoundname>Repositorys::Migrations</compoundname>
+    <innerclass refid="class_repositorys_1_1_migrations_1_1_script" prot="public">Repositorys::Migrations::Script</innerclass>
+    <innerclass refid="class_repositorys_1_1_migrations_1_1_configuration" prot="package">Repositorys::Migrations::Configuration</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Repositorys/Migrations/201809110908199_Script.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

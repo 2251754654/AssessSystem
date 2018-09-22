@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_repositorys_1_1_data_access_1_1_t_b___professional" kind="class" prot="public">
+    <compoundname>Repositorys::DataAccess::TB_Professional</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___professional_1acd41b36403e33a8273615b92e448751d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_Professional.ProfessionalID</definition>
+        <argsstring></argsstring>
+        <name>ProfessionalID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" line="19" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___professional_1a54fd9a01a3e02cdd705b331394ab7be0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_Professional.ProfessionalName</definition>
+        <argsstring></argsstring>
+        <name>ProfessionalName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" line="23" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___professional_1ae008fd2c1ea7d24d50beb3808cc75846" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_Professional.ProfessionalDetails</definition>
+        <argsstring></argsstring>
+        <name>ProfessionalDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" line="26" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___professional_1aff3ef5ab8a6799bd497dc970c70a3b9a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_Professional.ProfessionalDelete</definition>
+        <argsstring></argsstring>
+        <name>ProfessionalDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" line="28" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___professional_1af9925623babd595318ebe9aae5c29c5f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_core" kindref="compound">TB_MappingCore</ref> &gt;</type>
+        <definition>virtual ICollection&lt;TB_MappingCore&gt; Repositorys.DataAccess.TB_Professional.TB_MappingCore</definition>
+        <argsstring></argsstring>
+        <name>TB_MappingCore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" line="30" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___professional_1ae0f25f4119dbaf89cc708ade1d8cb2c3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_teach" kindref="compound">TB_MappingTeach</ref> &gt;</type>
+        <definition>virtual ICollection&lt;TB_MappingTeach&gt; Repositorys.DataAccess.TB_Professional.TB_MappingTeach</definition>
+        <argsstring></argsstring>
+        <name>TB_MappingTeach</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" line="33" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___professional_1a64b42ba33fc1ccd7a623e7921d8cd902" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_repositorys_1_1_data_access_1_1_t_b___role_content" kindref="compound">TB_RoleContent</ref> &gt;</type>
+        <definition>virtual ICollection&lt;TB_RoleContent&gt; Repositorys.DataAccess.TB_Professional.TB_RoleContent</definition>
+        <argsstring></argsstring>
+        <name>TB_RoleContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" line="36" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_repositorys_1_1_data_access_1_1_t_b___professional_1a1d85d3a98c20df41685c8882ff2da87b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Repositorys.DataAccess.TB_Professional.TB_Professional</definition>
+        <argsstring>()</argsstring>
+        <name>TB_Professional</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" line="11" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" bodystart="11" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" line="10" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_Professional.cs" bodystart="9" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1aff3ef5ab8a6799bd497dc970c70a3b9a" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_Professional</scope><name>ProfessionalDelete</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1ae008fd2c1ea7d24d50beb3808cc75846" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_Professional</scope><name>ProfessionalDetails</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1acd41b36403e33a8273615b92e448751d" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_Professional</scope><name>ProfessionalID</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1a54fd9a01a3e02cdd705b331394ab7be0" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_Professional</scope><name>ProfessionalName</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1af9925623babd595318ebe9aae5c29c5f" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_Professional</scope><name>TB_MappingCore</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1ae0f25f4119dbaf89cc708ade1d8cb2c3" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_Professional</scope><name>TB_MappingTeach</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1a1d85d3a98c20df41685c8882ff2da87b" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_Professional</scope><name>TB_Professional</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1a64b42ba33fc1ccd7a623e7921d8cd902" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_Professional</scope><name>TB_RoleContent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

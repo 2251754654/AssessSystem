@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_repositorys_1_1_repository_maping_teach" kind="class" prot="public">
+    <compoundname>Repositorys::RepositoryMapingTeach</compoundname>
+    <basecompoundref refid="interface_repositorys_1_1_i_repository_maping_teach" prot="public" virt="non-virtual">Repositorys.IRepositoryMapingTeach</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_repositorys_1_1_repository_maping_teach_1a9dc8ec7965e9496bd684bad38800904c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_repositorys_1_1_data_access_1_1_d_b_context" kindref="compound">DBContext</ref></type>
+        <definition>DBContext Repositorys.RepositoryMapingTeach.dbContext</definition>
+        <argsstring></argsstring>
+        <name>dbContext</name>
+        <initializer>= new <ref refid="class_repositorys_1_1_data_access_1_1_d_b_context" kindref="compound">DBContext</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingTeach.cs" line="14" column="1" bodyfile="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingTeach.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_repositorys_1_1_repository_maping_teach_1a7f642087526bb9e7c31f2cd9ce1bc058" compoundref="_repository_maping_teach_8cs" startline="57" endline="65">Repositorys.RepositoryMapingTeach.Insert</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_repositorys_1_1_repository_maping_teach_1ac49b161647810eda4e76db1b20a880ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_job_and_teach_skill" kindref="compound">ModelJobAndTeachSkill</ref> &gt;</type>
+        <definition>List&lt;ModelJobAndTeachSkill&gt; Repositorys.RepositoryMapingTeach.FindJobAllTeachSkill</definition>
+        <argsstring>()</argsstring>
+        <name>FindJobAllTeachSkill</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_maping_teach_1ac7ced6ae66da2fec8d9d85889a7131de">FindJobAllTeachSkill</reimplements>
+        <briefdescription>
+<para>查询所有职业对应的所有专业技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingTeach.cs" line="20" column="1" bodyfile="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingTeach.cs" bodystart="20" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_maping_teach_1ade3439afd1e54c723b7dd167d9698ec5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_job_and_teach_skill" kindref="compound">ModelJobAndTeachSkill</ref> &gt;</type>
+        <definition>List&lt;ModelJobAndTeachSkill&gt; Repositorys.RepositoryMapingTeach.FindJobAllTeachSkill</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FindJobAllTeachSkill</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_maping_teach_1a327d9a708c57454f03b0df336ee5cbc7">FindJobAllTeachSkill</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>查询某个职业对应的所有专业技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>职业ID</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingTeach.cs" line="38" column="1" bodyfile="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingTeach.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_maping_teach_1a5bdd981b746beddbbd70aa06f18253bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_job_and_teach_skill" kindref="compound">ModelJobAndTeachSkill</ref> &gt;</type>
+        <definition>List&lt;ModelJobAndTeachSkill&gt; Repositorys.RepositoryMapingTeach.FindTeachSkillAllJob</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FindTeachSkillAllJob</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_maping_teach_1a0be7e0bbe994ee566a4fc89898274f77">FindTeachSkillAllJob</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>查询某一技能对应的所有职业 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>技能ID</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingTeach.cs" line="47" column="1" bodyfile="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingTeach.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_maping_teach_1a7f642087526bb9e7c31f2cd9ce1bc058" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryMapingTeach.Insert</definition>
+        <argsstring>(int professionalID, int teachSkillsID)</argsstring>
+        <name>Insert</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_maping_teach_1a5f3ffdeb0405fa230f1d5d8c6aefe123">Insert</reimplements>
+        <param>
+          <type>int</type>
+          <declname>professionalID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>teachSkillsID</declname>
+        </param>
+        <briefdescription>
+<para>分配专业技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>professionalID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>teachSkillsID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingTeach.cs" line="57" column="1" bodyfile="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingTeach.cs" bodystart="57" bodyend="65"/>
+        <references refid="class_repositorys_1_1_repository_maping_teach_1a9dc8ec7965e9496bd684bad38800904c" compoundref="_repository_maping_teach_8cs" startline="14">Repositorys.RepositoryMapingTeach.dbContext</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="339">
+        <label>Repositorys.RepositoryMapingTeach</label>
+        <link refid="class_repositorys_1_1_repository_maping_teach"/>
+        <childnode refid="340" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="340">
+        <label>IRepositoryMapingTeach</label>
+        <link refid="interface_repositorys_1_1_i_repository_maping_teach"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="341">
+        <label>Repositorys.RepositoryMapingTeach</label>
+        <link refid="class_repositorys_1_1_repository_maping_teach"/>
+        <childnode refid="342" relation="public-inheritance">
+        </childnode>
+        <childnode refid="343" relation="usage">
+          <edgelabel>dbContext</edgelabel>
+        </childnode>
+      </node>
+      <node id="344">
+        <label>DbContext</label>
+      </node>
+      <node id="342">
+        <label>IRepositoryMapingTeach</label>
+        <link refid="interface_repositorys_1_1_i_repository_maping_teach"/>
+      </node>
+      <node id="343">
+        <label>Repositorys.DataAccess.DBContext</label>
+        <link refid="class_repositorys_1_1_data_access_1_1_d_b_context"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingTeach.cs" line="13" column="1" bodyfile="E:/Repository/Repositorys/UserInfoPage/BaseClass/RepositoryMapingTeach.cs" bodystart="12" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_repositorys_1_1_repository_maping_teach_1a9dc8ec7965e9496bd684bad38800904c" prot="private" virt="non-virtual"><scope>Repositorys::RepositoryMapingTeach</scope><name>dbContext</name></member>
+      <member refid="class_repositorys_1_1_repository_maping_teach_1ac49b161647810eda4e76db1b20a880ac" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryMapingTeach</scope><name>FindJobAllTeachSkill</name></member>
+      <member refid="class_repositorys_1_1_repository_maping_teach_1ade3439afd1e54c723b7dd167d9698ec5" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryMapingTeach</scope><name>FindJobAllTeachSkill</name></member>
+      <member refid="class_repositorys_1_1_repository_maping_teach_1a5bdd981b746beddbbd70aa06f18253bf" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryMapingTeach</scope><name>FindTeachSkillAllJob</name></member>
+      <member refid="class_repositorys_1_1_repository_maping_teach_1a7f642087526bb9e7c31f2cd9ce1bc058" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryMapingTeach</scope><name>Insert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

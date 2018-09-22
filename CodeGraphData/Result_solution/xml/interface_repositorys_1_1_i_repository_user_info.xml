@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_repositorys_1_1_i_repository_user_info" kind="interface" prot="public">
+    <compoundname>Repositorys::IRepositoryUserInfo</compoundname>
+    <derivedcompoundref refid="class_repositorys_1_1_repository_user_info" prot="public" virt="non-virtual">Repositorys.RepositoryUserInfo</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_info_1a836bbddcf039d6eb6ca366ed0ef32a58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.IRepositoryUserInfo.FakeDelete</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FakeDelete</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_info_1a616bc612aa9370fe4e3ab247cf359ee0">FakeDelete</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryUserInfo.cs" line="8" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_info_1acd6d8222a3b3134dc34764a793104b67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_user_info" kindref="compound">ModelUserInfo</ref> &gt;</type>
+        <definition>List&lt;ModelUserInfo&gt; Repositorys.IRepositoryUserInfo.FindAllDeleteUserInfo</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllDeleteUserInfo</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_info_1a87d85a8b5002a863d81b952b79086127">FindAllDeleteUserInfo</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryUserInfo.cs" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_info_1a4b2e4aa20a259dcc11189bc422a3d789" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_user_info" kindref="compound">ModelUserInfo</ref> &gt;</type>
+        <definition>List&lt;ModelUserInfo&gt; Repositorys.IRepositoryUserInfo.FindAllNotDeleteUserInfo</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllNotDeleteUserInfo</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_info_1ad7e10e9d4156c4c45a48aab0d3c3faaa">FindAllNotDeleteUserInfo</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryUserInfo.cs" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_info_1a2c0a78980c8eb96352a61dbefc796d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_user_info" kindref="compound">ModelUserInfo</ref> &gt;</type>
+        <definition>List&lt;ModelUserInfo&gt; Repositorys.IRepositoryUserInfo.FindAllUserInfo</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllUserInfo</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_info_1ae753722eaad0b5f05e4f483967fe7748">FindAllUserInfo</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryUserInfo.cs" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_info_1ae285c792446fc9bd5ca0d5ed31b29761" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_models_1_1_model_user_info" kindref="compound">ModelUserInfo</ref></type>
+        <definition>ModelUserInfo Repositorys.IRepositoryUserInfo.FindUserInfo</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FindUserInfo</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_info_1a24f7218153288adfa77be47fa4023581">FindUserInfo</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryUserInfo.cs" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_info_1a0f17142293228b8576489703a1347f64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.IRepositoryUserInfo.Insert</definition>
+        <argsstring>(ModelUserInfo UserInfo)</argsstring>
+        <name>Insert</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_info_1ad6e70cba87853962d938ec1982337baa">Insert</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_user_info" kindref="compound">ModelUserInfo</ref></type>
+          <declname>UserInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryUserInfo.cs" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_info_1aebd7412f34beb73667675b8a2ee970aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.IRepositoryUserInfo.ReallyDelete</definition>
+        <argsstring>(int id)</argsstring>
+        <name>ReallyDelete</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_info_1a2daf2f93a19834c860cc50be5baaf71e">ReallyDelete</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryUserInfo.cs" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_user_info_1a289231d3c4ca8080bb0ffcb72bdcb09b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.IRepositoryUserInfo.Update</definition>
+        <argsstring>(ModelUserInfo UserInfo)</argsstring>
+        <name>Update</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_user_info_1a1feff8fb3f74eaceea09211c77624546">Update</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_user_info" kindref="compound">ModelUserInfo</ref></type>
+          <declname>UserInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryUserInfo.cs" line="15" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="238">
+        <label>Repositorys.RepositoryUserInfo</label>
+        <link refid="class_repositorys_1_1_repository_user_info"/>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="237">
+        <label>Repositorys.IRepositoryUserInfo</label>
+        <link refid="interface_repositorys_1_1_i_repository_user_info"/>
+      </node>
+    </inheritancegraph>
+    <location file="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryUserInfo.cs" line="7" column="1" bodyfile="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryUserInfo.cs" bodystart="6" bodyend="16"/>
+    <listofallmembers>
+      <member refid="interface_repositorys_1_1_i_repository_user_info_1a836bbddcf039d6eb6ca366ed0ef32a58" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUserInfo</scope><name>FakeDelete</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_info_1acd6d8222a3b3134dc34764a793104b67" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUserInfo</scope><name>FindAllDeleteUserInfo</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_info_1a4b2e4aa20a259dcc11189bc422a3d789" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUserInfo</scope><name>FindAllNotDeleteUserInfo</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_info_1a2c0a78980c8eb96352a61dbefc796d5b" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUserInfo</scope><name>FindAllUserInfo</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_info_1ae285c792446fc9bd5ca0d5ed31b29761" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUserInfo</scope><name>FindUserInfo</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_info_1a0f17142293228b8576489703a1347f64" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUserInfo</scope><name>Insert</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_info_1aebd7412f34beb73667675b8a2ee970aa" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUserInfo</scope><name>ReallyDelete</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_user_info_1a289231d3c4ca8080bb0ffcb72bdcb09b" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryUserInfo</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

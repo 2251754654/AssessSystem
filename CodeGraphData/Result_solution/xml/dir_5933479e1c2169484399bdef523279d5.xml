@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_5933479e1c2169484399bdef523279d5" kind="dir">
+    <compoundname>E:/Repository/UserInfoDomain/LoginPage</compoundname>
+    <innerfile refid="_domain_login_8cs">DomainLogin.cs</innerfile>
+    <innerfile refid="_i_domain_login_8cs">IDomainLogin.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/UserInfoDomain/LoginPage/"/>
+  </compounddef>
+</doxygen>

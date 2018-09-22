@@ -33,9 +33,6 @@
     <StartupObject>Repositorys.TestRepositroys</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CommonServiceLocator, Version=2.0.4.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.5.8.11\lib\net46\CommonServiceLocator.dll</HintPath>
-    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -79,37 +76,21 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="Unity.Abstractions, Version=3.3.1.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.Abstractions.3.3.1\lib\net46\Unity.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Configuration, Version=5.2.5.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.5.8.11\lib\net46\Unity.Configuration.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Container, Version=5.8.10.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.Container.5.8.10\lib\net46\Unity.Container.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Interception, Version=5.5.5.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.5.8.11\lib\net46\Unity.Interception.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Interception.Configuration, Version=5.1.7.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.5.8.11\lib\net46\Unity.Interception.Configuration.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mvc, Version=5.0.15.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.Mvc.5.0.15\lib\net46\Unity.Mvc.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RegistrationByConvention, Version=2.1.9.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.5.8.11\lib\net46\Unity.RegistrationByConvention.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ServiceLocation, Version=2.1.2.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.5.8.11\lib\net46\Unity.ServiceLocation.dll</HintPath>
-    </Reference>
     <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>..\packages\WebActivatorEx.2.2.0\lib\net40\WebActivatorEx.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\UnityConfig.cs" />
-    <Compile Include="App_Start\UnityMvcActivator.cs" />
+    <Compile Include="AdminPage\interfaceClass\IRepositoryJob.cs" />
+    <Compile Include="AdminPage\interfaceClass\IRepositoryTeachLever.cs" />
+    <Compile Include="AdminPage\interfaceClass\IRepositoryCoreLever.cs" />
+    <Compile Include="AdminPage\interfaceClass\IRepositoryCoreSkills.cs" />
+    <Compile Include="AdminPage\interfaceClass\IRepositoryRole.cs" />
+    <Compile Include="AdminPage\interfaceClass\IRepositoryTeachSkills.cs" />
+    <Compile Include="AdminPage\BaseClass\RepositoryCoreLever.cs" />
+    <Compile Include="AdminPage\BaseClass\RepositoryCoreSkills.cs" />
+    <Compile Include="AdminPage\BaseClass\RepositoryTeachLever.cs" />
+    <Compile Include="AdminPage\BaseClass\RepositoryTeachSkills.cs" />
     <Compile Include="DataAccess\DBContext.cs" />
     <Compile Include="DataAccess\TB_CoreLever.cs" />
     <Compile Include="DataAccess\TB_CoreSkills.cs" />
@@ -124,34 +105,26 @@
     <Compile Include="DataAccess\TB_TechSkills.cs" />
     <Compile Include="DataAccess\TB_User.cs" />
     <Compile Include="DataAccess\TB_UserInfo.cs" />
-    <Compile Include="AdminPage\RespositoryCoreSkills.cs" />
-    <Compile Include="HomePage\RepositoryProfessional.cs" />
-    <Compile Include="HomePage\RepositoryRole.cs" />
-    <Compile Include="LoginPage\IRepositoryUser.cs" />
-    <Compile Include="LoginPage\RepositoryUser.cs" />
-    <Compile Include="Migrations\201809101552107_AddUseddddddddddwdwweweweddddddd.cs" />
-    <Compile Include="Migrations\201809101552107_AddUseddddddddddwdwweweweddddddd.Designer.cs">
-      <DependentUpon>201809101552107_AddUseddddddddddwdwweweweddddddd.cs</DependentUpon>
+    <Compile Include="AdminPage\BaseClass\RepositoryJob.cs" />
+    <Compile Include="AdminPage\BaseClass\RepositoryRole.cs" />
+    <Compile Include="Migrations\201809110908199_Script.cs" />
+    <Compile Include="Migrations\201809110908199_Script.Designer.cs">
+      <DependentUpon>201809110908199_Script.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201809101626186_AddUseddddddddddwdwweweweddddddd1.cs" />
-    <Compile Include="Migrations\201809101626186_AddUseddddddddddwdwweweweddddddd1.Designer.cs">
-      <DependentUpon>201809101626186_AddUseddddddddddwdwweweweddddddd1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201809101710368_AddUseddddddddddwdwweweweddddddd2.cs" />
-    <Compile Include="Migrations\201809101710368_AddUseddddddddddwdwweweweddddddd2.Designer.cs">
-      <DependentUpon>201809101710368_AddUseddddddddddwdwweweweddddddd2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201809101726144_AddUseddddddddddwdwweweweddddddd3.cs" />
-    <Compile Include="Migrations\201809101726144_AddUseddddddddddwdwweweweddddddd3.Designer.cs">
-      <DependentUpon>201809101726144_AddUseddddddddddwdwweweweddddddd3.cs</DependentUpon>
-    </Compile>
+    <Compile Include="UserEvaluatePage\interfaceClass\IRepositroyAssess.cs" />
+    <Compile Include="UserInfoPage\interfaceClass\IRepositoryRoleContent.cs" />
+    <Compile Include="UserInfoPage\interfaceClass\IRepositoryUserInfo.cs" />
+    <Compile Include="UserInfoPage\BaseClass\RepositoryRoleContent.cs" />
+    <Compile Include="UserInfoPage\interfaceClass\IRepositoryMapingCore.cs" />
+    <Compile Include="UserInfoPage\BaseClass\RepositoryMapingCore.cs" />
+    <Compile Include="UserInfoPage\interfaceClass\IRepositoryMapingTeach.cs" />
+    <Compile Include="UserInfoPage\BaseClass\RepositoryMapingTeach.cs" />
+    <Compile Include="UserPage\interfaceClass\IRepositoryUser.cs" />
+    <Compile Include="UserPage\BaseClass\RepositoryUser.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="TestRepositroys.cs" />
-    <Compile Include="AdminPage\RoleRepository.cs" />
-    <Compile Include="UserEvaluatePage\RepositroyAssess.cs" />
-    <Compile Include="UserInfoPage\RepositoryUserInfo.cs" />
-    <Compile Include="UserInfoPage\TeachSkillsRespository.cs" />
-    <Compile Include="UserInfoPage\UserCoreSkillsRepository.cs" />
+    <Compile Include="UserEvaluatePage\BaseClass\RepositroyAssess.cs" />
+    <Compile Include="UserInfoPage\BaseClass\RepositoryUserInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -174,21 +147,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="LogoutPage\" />
-    <Folder Include="RegistPage\" />
+    <Folder Include="Config\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201809101552107_AddUseddddddddddwdwweweweddddddd.resx">
-      <DependentUpon>201809101552107_AddUseddddddddddwdwweweweddddddd.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201809101626186_AddUseddddddddddwdwweweweddddddd1.resx">
-      <DependentUpon>201809101626186_AddUseddddddddddwdwweweweddddddd1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201809101710368_AddUseddddddddddwdwweweweddddddd2.resx">
-      <DependentUpon>201809101710368_AddUseddddddddddwdwweweweddddddd2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201809101726144_AddUseddddddddddwdwweweweddddddd3.resx">
-      <DependentUpon>201809101726144_AddUseddddddddddwdwweweweddddddd3.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201809110908199_Script.resx">
+      <DependentUpon>201809110908199_Script.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace ProjectUtilsns
+namespace ProjectUtils
 {
     public class UtilClass
     {

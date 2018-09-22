@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_domains_1_1_domain_oneself_assess" kind="class" prot="public">
+    <compoundname>Domains::DomainOneselfAssess</compoundname>
+    <basecompoundref refid="interface_domains_1_1_i_domain_oneself_assess" prot="public" virt="non-virtual">Domains.IDomainOneselfAssess</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_domains_1_1_domain_oneself_assess_1a9a4eabf6769a09f032938c31bb6d45aa" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_repositorys_1_1_i_repositroy_assess" kindref="compound">IRepositroyAssess</ref></type>
+        <definition>readonly IRepositroyAssess Domains.DomainOneselfAssess.repositroyAssess</definition>
+        <argsstring></argsstring>
+        <name>repositroyAssess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOneselfAssess.cs" line="12" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOneselfAssess.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_domains_1_1_domain_oneself_assess_1a838d8eb8008e44a30e3a1e78351c3919" compoundref="_domain_oneself_assess_8cs" startline="13" endline="16">Domains.DomainOneselfAssess.DomainOneselfAssess</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_domains_1_1_domain_oneself_assess_1a838d8eb8008e44a30e3a1e78351c3919" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Domains.DomainOneselfAssess.DomainOneselfAssess</definition>
+        <argsstring>(IRepositroyAssess _repositroyAssess)</argsstring>
+        <name>DomainOneselfAssess</name>
+        <param>
+          <type><ref refid="interface_repositorys_1_1_i_repositroy_assess" kindref="compound">IRepositroyAssess</ref></type>
+          <declname>_repositroyAssess</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOneselfAssess.cs" line="13" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOneselfAssess.cs" bodystart="13" bodyend="16"/>
+        <references refid="class_domains_1_1_domain_oneself_assess_1a9a4eabf6769a09f032938c31bb6d45aa" compoundref="_domain_oneself_assess_8cs" startline="12">Domains.DomainOneselfAssess.repositroyAssess</references>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_oneself_assess_1a94d67baa33d03201936b12a908bdc343" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Domains.DomainOneselfAssess.FindOneselfAssessToOneself</definition>
+        <argsstring>(int userID)</argsstring>
+        <name>FindOneselfAssessToOneself</name>
+        <reimplements refid="interface_domains_1_1_i_domain_oneself_assess_1a478e5c367b06408742cc4185beed35b9">FindOneselfAssessToOneself</reimplements>
+        <param>
+          <type>int</type>
+          <declname>userID</declname>
+        </param>
+        <briefdescription>
+<para>根据userid获取自己对自己的评论 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOneselfAssess.cs" line="23" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOneselfAssess.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_oneself_assess_1a43351850da23d9656d3c838908ec9df5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Domains.DomainOneselfAssess.FindOneselfAssessToOneselfDetails</definition>
+        <argsstring>(int assessID)</argsstring>
+        <name>FindOneselfAssessToOneselfDetails</name>
+        <reimplements refid="interface_domains_1_1_i_domain_oneself_assess_1a8ee3f29166b76ed20148b49dbfdf3ca0">FindOneselfAssessToOneselfDetails</reimplements>
+        <param>
+          <type>int</type>
+          <declname>assessID</declname>
+        </param>
+        <briefdescription>
+<para>根据userid获取自己对自己某条的评论详细情况 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOneselfAssess.cs" line="32" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOneselfAssess.cs" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_oneself_assess_1a0a1499540b53c899900b921f801489b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Domains.DomainOneselfAssess.FindOneselfAssessToOthers</definition>
+        <argsstring>(int userID)</argsstring>
+        <name>FindOneselfAssessToOthers</name>
+        <reimplements refid="interface_domains_1_1_i_domain_oneself_assess_1adfb2b4cb3219c4ffa50f32bb06381015">FindOneselfAssessToOthers</reimplements>
+        <param>
+          <type>int</type>
+          <declname>userID</declname>
+        </param>
+        <briefdescription>
+<para>自己对他人的评论 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOneselfAssess.cs" line="42" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOneselfAssess.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="82">
+        <label>Domains.DomainOneselfAssess</label>
+        <link refid="class_domains_1_1_domain_oneself_assess"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>IDomainOneselfAssess</label>
+        <link refid="interface_domains_1_1_i_domain_oneself_assess"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="84">
+        <label>Domains.DomainOneselfAssess</label>
+        <link refid="class_domains_1_1_domain_oneself_assess"/>
+        <childnode refid="85" relation="public-inheritance">
+        </childnode>
+        <childnode refid="86" relation="usage">
+          <edgelabel>repositroyAssess</edgelabel>
+        </childnode>
+      </node>
+      <node id="85">
+        <label>IDomainOneselfAssess</label>
+        <link refid="interface_domains_1_1_i_domain_oneself_assess"/>
+      </node>
+      <node id="86">
+        <label>Repositorys.IRepositroyAssess</label>
+        <link refid="interface_repositorys_1_1_i_repositroy_assess"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOneselfAssess.cs" line="10" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOneselfAssess.cs" bodystart="9" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_domains_1_1_domain_oneself_assess_1a838d8eb8008e44a30e3a1e78351c3919" prot="public" virt="non-virtual"><scope>Domains::DomainOneselfAssess</scope><name>DomainOneselfAssess</name></member>
+      <member refid="class_domains_1_1_domain_oneself_assess_1a94d67baa33d03201936b12a908bdc343" prot="public" virt="non-virtual"><scope>Domains::DomainOneselfAssess</scope><name>FindOneselfAssessToOneself</name></member>
+      <member refid="class_domains_1_1_domain_oneself_assess_1a43351850da23d9656d3c838908ec9df5" prot="public" virt="non-virtual"><scope>Domains::DomainOneselfAssess</scope><name>FindOneselfAssessToOneselfDetails</name></member>
+      <member refid="class_domains_1_1_domain_oneself_assess_1a0a1499540b53c899900b921f801489b8" prot="public" virt="non-virtual"><scope>Domains::DomainOneselfAssess</scope><name>FindOneselfAssessToOthers</name></member>
+      <member refid="class_domains_1_1_domain_oneself_assess_1a9a4eabf6769a09f032938c31bb6d45aa" prot="private" virt="non-virtual"><scope>Domains::DomainOneselfAssess</scope><name>repositroyAssess</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

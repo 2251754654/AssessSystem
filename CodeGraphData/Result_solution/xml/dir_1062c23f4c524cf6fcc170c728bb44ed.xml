@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_1062c23f4c524cf6fcc170c728bb44ed" kind="dir">
+    <compoundname>E:/Repository/ProjectUtils</compoundname>
+    <innerdir refid="dir_f3adefa4f0d5bacefe90ab5bfd218f1e">E:/Repository/ProjectUtils/Properties</innerdir>
+    <innerdir refid="dir_bda5ef197933e9925a42408f1eaf314f">E:/Repository/ProjectUtils/Utils</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/ProjectUtils/"/>
+  </compounddef>
+</doxygen>

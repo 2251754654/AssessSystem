@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_domains_1_1_domain_other_assess" kind="class" prot="public">
+    <compoundname>Domains::DomainOtherAssess</compoundname>
+    <basecompoundref refid="interface_domains_1_1_i_domain_other_assess" prot="public" virt="non-virtual">Domains.IDomainOtherAssess</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_domains_1_1_domain_other_assess_1a2228ce1d7c4e4a886e2c24da1d3910a4" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_repositorys_1_1_i_repositroy_assess" kindref="compound">IRepositroyAssess</ref></type>
+        <definition>readonly IRepositroyAssess Domains.DomainOtherAssess.repositroyAssess</definition>
+        <argsstring></argsstring>
+        <name>repositroyAssess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" line="11" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_domains_1_1_domain_other_assess_1a1bd02a8cd810ea03b4be3f243091c8dc" compoundref="_domain_other_assess_8cs" startline="12" endline="15">Domains.DomainOtherAssess.DomainOtherAssess</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_domains_1_1_domain_other_assess_1a1bd02a8cd810ea03b4be3f243091c8dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Domains.DomainOtherAssess.DomainOtherAssess</definition>
+        <argsstring>(IRepositroyAssess _repositroyAssess)</argsstring>
+        <name>DomainOtherAssess</name>
+        <param>
+          <type><ref refid="interface_repositorys_1_1_i_repositroy_assess" kindref="compound">IRepositroyAssess</ref></type>
+          <declname>_repositroyAssess</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" line="12" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" bodystart="12" bodyend="15"/>
+        <references refid="class_domains_1_1_domain_other_assess_1a2228ce1d7c4e4a886e2c24da1d3910a4" compoundref="_domain_other_assess_8cs" startline="11">Domains.DomainOtherAssess.repositroyAssess</references>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_other_assess_1a6e2e46b5b93622f100140cbbc1d96763" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Domains.DomainOtherAssess.FindOtherAssessToOneself</definition>
+        <argsstring>(int userID)</argsstring>
+        <name>FindOtherAssessToOneself</name>
+        <reimplements refid="interface_domains_1_1_i_domain_other_assess_1a51a0a12abc537fc7bbed6007ac5a0bee">FindOtherAssessToOneself</reimplements>
+        <param>
+          <type>int</type>
+          <declname>userID</declname>
+        </param>
+        <briefdescription>
+<para>根据userid获取他人对自己的评论 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" line="22" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_other_assess_1ac0129b4947fc1fcbbfc11798233486f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Domains.DomainOtherAssess.FindAllAssess</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllAssess</name>
+        <reimplements refid="interface_domains_1_1_i_domain_other_assess_1aadb65c5859cef4a005199a008897f524">FindAllAssess</reimplements>
+        <briefdescription>
+<para>所有人的评论 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" line="31" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_other_assess_1a83568394face391460b79247bc77c30f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Domains.DomainOtherAssess.FindAllNotDeleteAssess</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllNotDeleteAssess</name>
+        <reimplements refid="interface_domains_1_1_i_domain_other_assess_1a89364459913ad0c161f9bec8999beba3">FindAllNotDeleteAssess</reimplements>
+        <briefdescription>
+<para>所有未删除评论 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" line="39" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_other_assess_1ab353a3261061e25aabc608fbded95af5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Domains.DomainOtherAssess.FindAllDeleteAssess</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllDeleteAssess</name>
+        <reimplements refid="interface_domains_1_1_i_domain_other_assess_1ae8e611ea9880751f189a48352ca655f2">FindAllDeleteAssess</reimplements>
+        <briefdescription>
+<para>所有已删除评论 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" line="47" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_other_assess_1a84fc362c44bb8829c36f8245ec6bd4c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Domains.DomainOtherAssess.FindCoreSkillAssessDetails</definition>
+        <argsstring>(int assessID)</argsstring>
+        <name>FindCoreSkillAssessDetails</name>
+        <reimplements refid="interface_domains_1_1_i_domain_other_assess_1aff559178dd3085a2a6771103d3bd6921">FindCoreSkillAssessDetails</reimplements>
+        <param>
+          <type>int</type>
+          <declname>assessID</declname>
+        </param>
+        <briefdescription>
+<para>对核心技能评论的详情 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>assessID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" line="56" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_other_assess_1a70f2f77276ef954e1e98cd418dd635b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Domains.DomainOtherAssess.FindTeachSkillAssessDetails</definition>
+        <argsstring>(int assessID)</argsstring>
+        <name>FindTeachSkillAssessDetails</name>
+        <reimplements refid="interface_domains_1_1_i_domain_other_assess_1a967bdf1de8f973c848f8cd08d639b7cb">FindTeachSkillAssessDetails</reimplements>
+        <param>
+          <type>int</type>
+          <declname>assessID</declname>
+        </param>
+        <briefdescription>
+<para>对专业技能评论的详情 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>assessID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" line="65" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" bodystart="65" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="87">
+        <label>Domains.DomainOtherAssess</label>
+        <link refid="class_domains_1_1_domain_other_assess"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>IDomainOtherAssess</label>
+        <link refid="interface_domains_1_1_i_domain_other_assess"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="89">
+        <label>Domains.DomainOtherAssess</label>
+        <link refid="class_domains_1_1_domain_other_assess"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+        <childnode refid="91" relation="usage">
+          <edgelabel>repositroyAssess</edgelabel>
+        </childnode>
+      </node>
+      <node id="90">
+        <label>IDomainOtherAssess</label>
+        <link refid="interface_domains_1_1_i_domain_other_assess"/>
+      </node>
+      <node id="91">
+        <label>Repositorys.IRepositroyAssess</label>
+        <link refid="interface_repositorys_1_1_i_repositroy_assess"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" line="9" column="1" bodyfile="E:/Repository/UserInfoDomain/UserEvaluatePage/DomainOtherAssess.cs" bodystart="8" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_domains_1_1_domain_other_assess_1a1bd02a8cd810ea03b4be3f243091c8dc" prot="public" virt="non-virtual"><scope>Domains::DomainOtherAssess</scope><name>DomainOtherAssess</name></member>
+      <member refid="class_domains_1_1_domain_other_assess_1ac0129b4947fc1fcbbfc11798233486f8" prot="public" virt="non-virtual"><scope>Domains::DomainOtherAssess</scope><name>FindAllAssess</name></member>
+      <member refid="class_domains_1_1_domain_other_assess_1ab353a3261061e25aabc608fbded95af5" prot="public" virt="non-virtual"><scope>Domains::DomainOtherAssess</scope><name>FindAllDeleteAssess</name></member>
+      <member refid="class_domains_1_1_domain_other_assess_1a83568394face391460b79247bc77c30f" prot="public" virt="non-virtual"><scope>Domains::DomainOtherAssess</scope><name>FindAllNotDeleteAssess</name></member>
+      <member refid="class_domains_1_1_domain_other_assess_1a84fc362c44bb8829c36f8245ec6bd4c0" prot="public" virt="non-virtual"><scope>Domains::DomainOtherAssess</scope><name>FindCoreSkillAssessDetails</name></member>
+      <member refid="class_domains_1_1_domain_other_assess_1a6e2e46b5b93622f100140cbbc1d96763" prot="public" virt="non-virtual"><scope>Domains::DomainOtherAssess</scope><name>FindOtherAssessToOneself</name></member>
+      <member refid="class_domains_1_1_domain_other_assess_1a70f2f77276ef954e1e98cd418dd635b8" prot="public" virt="non-virtual"><scope>Domains::DomainOtherAssess</scope><name>FindTeachSkillAssessDetails</name></member>
+      <member refid="class_domains_1_1_domain_other_assess_1a2228ce1d7c4e4a886e2c24da1d3910a4" prot="private" virt="non-virtual"><scope>Domains::DomainOtherAssess</scope><name>repositroyAssess</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_models_1_1_model_role_content" kind="class" prot="public">
+    <compoundname>Models::ModelRoleContent</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_models_1_1_model_role_content_1af5a6a6be03ae4cfb65819311a2693cf4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelRoleContent.RoleContentID</definition>
+        <argsstring></argsstring>
+        <name>RoleContentID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelRoleContent.cs" line="5" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelRoleContent.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_role_content_1aa13c4761e4c467a98f3cb84dc191c528" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelRoleContent.RoleID</definition>
+        <argsstring></argsstring>
+        <name>RoleID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelRoleContent.cs" line="6" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelRoleContent.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_role_content_1a72ff1e7ffafe0aa20ab692cb2d9494a7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelRoleContent.ProfessionalID</definition>
+        <argsstring></argsstring>
+        <name>ProfessionalID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelRoleContent.cs" line="7" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelRoleContent.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_role_content_1a7565fdd52a8c2a3b91da67ec11d880f6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_models_1_1_model_professional" kindref="compound">ModelProfessional</ref></type>
+        <definition>virtual ModelProfessional Models.ModelRoleContent.ModelProfessionalItem</definition>
+        <argsstring></argsstring>
+        <name>ModelProfessionalItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelRoleContent.cs" line="8" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelRoleContent.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_role_content_1a17eb2deda3cf901109ec25f3e5fe2045" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref></type>
+        <definition>virtual ModelRole Models.ModelRoleContent.ModelRoleItem</definition>
+        <argsstring></argsstring>
+        <name>ModelRoleItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelRoleContent.cs" line="9" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelRoleContent.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Models/CustomModels/ModelRoleContent.cs" line="4" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelRoleContent.cs" bodystart="3" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_models_1_1_model_role_content_1a7565fdd52a8c2a3b91da67ec11d880f6" prot="public" virt="non-virtual"><scope>Models::ModelRoleContent</scope><name>ModelProfessionalItem</name></member>
+      <member refid="class_models_1_1_model_role_content_1a17eb2deda3cf901109ec25f3e5fe2045" prot="public" virt="non-virtual"><scope>Models::ModelRoleContent</scope><name>ModelRoleItem</name></member>
+      <member refid="class_models_1_1_model_role_content_1a72ff1e7ffafe0aa20ab692cb2d9494a7" prot="public" virt="non-virtual"><scope>Models::ModelRoleContent</scope><name>ProfessionalID</name></member>
+      <member refid="class_models_1_1_model_role_content_1af5a6a6be03ae4cfb65819311a2693cf4" prot="public" virt="non-virtual"><scope>Models::ModelRoleContent</scope><name>RoleContentID</name></member>
+      <member refid="class_models_1_1_model_role_content_1aa13c4761e4c467a98f3cb84dc191c528" prot="public" virt="non-virtual"><scope>Models::ModelRoleContent</scope><name>RoleID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

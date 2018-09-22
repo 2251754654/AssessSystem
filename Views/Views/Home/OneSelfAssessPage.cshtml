@@ -1,0 +1,445 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jQuery验收题</title>
+    <script src="https://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+    <style>
+        table, table tr th, table tr td {
+            border: 1px solid black;
+        }
+
+        table {
+            width: 200px;
+            min-height: 25px;
+            line-height: 25px;
+            text-align: center;
+            border-color: #b6ff00;
+            border-collapse: collapse;
+            
+            
+        }
+
+        .a {
+            background: #f3f3f3;
+            color: #000;
+        }
+
+        .b {
+            background: #ebebeb;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <!--代码部分begin-->
+    <div id="menu">
+        <!--tag标题-->
+        <div id="menu_female">
+            <h3>女装</h3>
+            <div class="tag" style="display: block;">
+                <dl>
+                    <dd>
+                        <p>第一类</p>
+                        <a>1.衬衫</a>
+                        <a>2.T恤</a>
+                        <a>3.雪纺衫</a>
+                        <a>4.针织衫</a>
+                        <a>5.短外套</a>
+                        <a>6.卫衣</a>
+                        <a>7.小西裤</a>
+                        <p></p>
+                        <a>8.风衣</a>
+                        <a>9.吊带背心</a>
+                        <a>10.连衣裙</a>
+                        <a name="setColor">11.蕾丝连衣裙</a>
+                        <a>12.复古连衣裙</a>
+                        <a>13.印花连衣裙</a>
+                        <a>14.真丝连衣裙</a>
+                        <p>
+                            <a href="https://www.baidu.com">更多</a>
+                        </p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="tag_More" style="display:block">
+                <dl>
+                    <dd>
+                        <p>第二类</p>
+                        <a>1.背带裤</a>
+                        <a>2.哈伦裤</a>
+                        <a>3.牛仔裤</a>
+                        <a>4.休闲裤</a>
+                        <a>5.小脚裤</a>
+                        <a>6.西装裤</a>
+                        <a name="startKey">7.打底裤</a>
+                        <a>8.阔脚裤</a>
+                        <a>9.短裤</a>
+                        <a name="setColor">10.马甲/背心</a>
+                        <a>11.羽绒服</a>
+                        <a>12.棉服</a>
+                        <a>13.夹克</a>
+                        <a>14.POLO衫</a>
+                        <a href="https://www.baidu.com">更多</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <br />
+        <button onclick="abc()">点击</button>
+        <input type="button" id="btnCancelLink" value="阻止第一个更多链接的跳转事件" />
+        <input type="button" btn="btnChangeAStyle" value="修改a标签的悬浮样式" />
+
+        <script type="text/javascript">
+            //找到女装下第一类衣服中的第一个和最后一个p元素，并改变颜色为red
+            $(document).ready(function () {
+                //1.通过ID选择器实现
+                $("#menu_female div.tag p:first").css("color", "red");
+                $("#menu_female div.tag p:last").css("color", "red");
+                //2.通过Class选择器实现
+                $(".tag p:first").css("color", "red");
+                $(".tag p:last").css("color", "red");
+            });
+
+        </script>
+        <script type="text/javascript">
+            //找到女装下第一类衣服把a元素从顺序5-7加上文字颜色 pink
+            function abc() {
+                $("div.tag a:lt(8):gt(4)").css("color", "red");
+                ddd();
+            };
+        </script>
+        <script type="text/javascript">
+            //修改女装下第二类衣服中name="startKey" 的前后元素设置为lightgreen
+            function ddd() {
+                $("div.tag_More a[name='startKey']").prev().css("color", "light");
+                $("div.tag_More a[name='startKey']").next().css("color", "green");
+                sss();
+            }
+        </script>
+        <script type="text/javascript">
+            //找到女装所有a元素中属性名name="setColor"的元素，并设置文字颜色 gray
+            function sss() {
+                $("#menu_female a[name='setColor']").css("color", "gray");
+                ccc();
+            }
+        </script>
+        <script type="text/javascript">
+            //选中女装下第一类衣服中第9个a元素，并改变文字颜色
+
+            function ccc() {
+                $(".tag a:eq(8)").css("color", "red");
+                vvv();
+            };
+        </script>
+        <script type="text/javascript">
+            //1.找到女装下第一类衣服，把a元素中包含文字"更多"的节点，改变文字颜色
+            //2.修改更多的超链接显示效果为：默认没有下划线,鼠标悬浮的时候显示下划线并且改变颜色为 lightblue
+            //3.实现效果第一个更多点击的时候弹出新页面，第二个点击的时候当前页面跳转
+
+            function vvv() {
+                $(".tag a:contains('更多')").css("color", "red");
+                fff();
+            }
+        </script>
+        <script type="text/javascript">
+            // 阻止跳转事件的实现   btnCancelLink
+            $(document).ready(function () {
+                $("#btnCancelLink").click(function () {
+                    $("a").removeAttr("href");
+                });
+            })
+
+        </script>
+        <script type="text/javascript">
+            // 取消第一个更多链接的悬浮效果，将小手变为箭头  btnChangeAStyle
+            $(document).ready(function () {
+                $("button[btn='btnChangeAStyle']").click(function () {
+                    alert("修改第一个超链接样式");
+                    $("a:contains('更多')").css("color", "red");
+                });
+            })
+        </script>
+
+        <div id="menu_con">
+            <h3>男装</h3>
+            <div class="tag" style="display:block">
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <td>全选<input type="checkbox" id="chkAll" /></td>
+                            <td>编号</td>
+                            <td>第一类</td>
+                            <td>第二类</td>
+                            <td>数量</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox" name="check1" /></td>
+                            <td>1</td>
+                            <td>衬衫</td>
+                            <td>👔</td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="check2" /></td>
+                            <td>2</td>
+                            <td>T恤</td>
+                            <td>👕</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="check3" /></td>
+                            <td>3</td>
+                            <td>牛仔裤</td>
+                            <td>🐮</td>
+                            <td>33</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="check4" /></td>
+                            <td>4</td>
+                            <td>针织衫</td>
+                            <td>😁</td>
+                            <td>44</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="check5" /></td>
+                            <td>5</td>
+                            <td>外套</td>
+                            <td>🙂</td>
+                            <td>55</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="check6" /></td>
+                            <td>6</td>
+                            <td>西裤</td>
+                            <td>👖</td>
+                            <td>66</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="check7" /></td>
+                            <td>7</td>
+                            <td>西服</td>
+                            <td></td>
+                            <td>77</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="check8" /></td>
+                            <td>8</td>
+                            <td>背心</td>
+                            <td>🀄</td>
+                            <td>88</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="check9" /></td>
+                            <td>9</td>
+                            <td>羽绒服</td>
+                            <td>🎒</td>
+                            <td>99</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    <input type="button" id="btnCopy" value="复制选中行" />
+                    <input type="button" id="btnSetDoubleColor" value="隔行变色" />
+                    <input type="button" id="btnSetLineStyle" value="设置行加粗" />
+                    <input type="button" id="btnSetRowColor" value="设置列颜色" />
+                    <input type="button" id="btnRemove" value="删除选中行" />
+                    <input type="button" id="btnRecover" value="还原删除行" />
+                </p>
+                <p>
+                    <input type="button" id="btnClearLine" value="清空列" />
+                    <input type="button" id="btnInnerWrap" value="内包裹" />
+                    <input type="button" id="btnBind" value="动态绑定" onclick="testBind();" />
+                    <input type="button" id="btnTestBind" value="动态绑定测试" />
+                    <input type="button" id="btnGetIndex" value="获取索引" />
+                </p>
+                <p>
+                    <input type="button" id="btnFillData" value="值填充" />
+                    <input type="button" id="btnSetDisable" value="设置不可用" />
+                    <input type="button" id="btnEach" value="遍历修改样式" />
+                    <input type="button" id="btnChangeColor" value="修改内容带4元素背景色" />
+                </p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        //实现全选的效果  chkAll
+        $().ready(function () {
+            $("#chkAll").click(function () {
+                $("#table>tbody>tr").css("color", "red");
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        //实现复制选中行的功能，只考虑单行，复制出来的行在被复制行的下面，并且字体变红  btnCopy
+        $().ready(function () {
+            $("#btnCopy").click(function () {
+                alert("复制");
+                var check = $("input:checked").parent().parent();
+                check.after(check.clone().css("color", "red"));
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        //实现表中数据隔行背景变色 green/yellow  btnSetDoubleColor
+        $().ready(function () {
+            $("#btnSetDoubleColor").click(function () {// {
+                alert("变色");
+                $("#table>tbody>tr:even").css("background-color", "green");
+                $("#table>tbody>tr:odd").css("background-color", "yellow");
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        //设置选中行的外边框加粗显示，考虑多行的可能 btnSetLineStyle
+        $().ready(function () {
+            $("#btnSetLineStyle").click(function () {
+                alert("选中行加粗");
+                var check = $("input:checked").parent().parent();
+                check.css("border", "5");
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        //设置第一列和最后一列的背景色为orange  btnSetRowColor
+
+        $().ready(function () {
+            $("#btnSetRowColor").click(function () {
+                alert("第一列和最后一列背景色");
+                $("#table>tbody>tr").each(function (index, node) {
+                    $(node).children().eq(1).css("background-color", "orange");
+                    $(node).children().last().css("background-color", "orange");
+                });
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        var node;
+        //1.删除选中行  btnRemove
+        //设置选中行的外边框加粗显示，考虑多行的可能 btnSetLineStyle
+        $().ready(function () {
+            $("#btnRemove").click(function () {
+                alert("选中行删除");
+                var node2 = $("input:checked").parent().parent();
+                node = node2.detach();
+            });
+        });
+        //2.将删除的行还原到第一行   btnRecover
+        $().ready(function () {
+            $("#btnRecover").click(function () {
+                alert("选中行恢复");
+                $(node).insertBefore("#table>tbody");
+            });
+        });
+    </script>wrapAll
+    <script type="text/javascript">
+                //将数量一列中的数字包含在p标签中  btnInnerWrap
+        $().ready(function () {
+            $("#btnInnerWrap").click(function () {
+                alert("最后一列包裹");
+                $("#table>tbody>tr").each(function (index, node) {
+                    $(node).children().last().wrap("<p></p>");
+                });
+            });
+        });
+    </script>
+    <script type="text/javascript">
+                //将第二列中所有内容清空,Id保留  btnClearLine
+        $().ready(function () {
+            $("#btnClearLine").click(function () {
+                alert("清空第二列");
+                 $("#table>tbody>tr:eq(2)>td:not(td:eq(1))").unwrap().remove();
+            });
+        });
+    </script>
+    <script type="text/javascript">
+                //获取 name=startKey 的索引   btnGetIndex
+        $().ready(function () {
+            $("#btnGetIndex").click(function () {
+                alert("获取索引");
+                alert($("a[name='startKey']").index());
+            });
+        });
+    </script>
+    <script type="text/javascript">
+                //1。动态绑定测试按钮事件实现   btnBind   btnTestBind
+                //2.再次点击 动态绑定按钮 实现 动态绑定测试按钮 事件的取消  btnBind   btnTestBind
+        $().ready(function () {
+            $("#btnTestBind").click(function () {
+                alert("动态绑定测试按钮");
+            });
+        });
+        function testBind() {
+            alert("动态绑定按钮");
+            $("#btnTestBind").unbind();
+        }
+    </script>
+    <script type="text/javascript">
+                //为id为7的行中空白的td填充内容 ，内容为： 😭    btnFillData
+        $().ready(function () {
+            $("#btnFillData").click(function () {
+                alert("添加内容");
+                $("#table>tbody>tr:eq(6)>td:eq(3)").text("😭 ");
+            });
+        });
+    </script>
+    <script type="text/javascript">
+                //设置男装对应的div中所有input disable   btnSetDisable
+        $().ready(function () {
+            $("#btnSetDisable").click(function () {
+                alert("不能选择");
+                $("#menu_con div.tag input").attr("disabled","disabled");
+            });
+        });
+    </script>
+    <script type="text/javascript">
+                //遍历table中所有行，将索引为1，5，6的行中字体加粗  btnEach
+        $().ready(function () {
+            $("#btnEach").click(function () {
+                alert("遍历");
+                $("#table>tbody>tr").each(function (index, node) {
+                    if (index === 1 || index === 5 || index === 6) {
+                        $(node).children().css("font-weight", "bolder");
+                    }
+                });
+            });
+        });
+    </script>
+    <script type="text/javascript">
+                //选取页面中所有包含4的内容的元素，背景变成purple  btnChangeColor
+        $().ready(function () {
+            $("#btnChangeColor").click(function () {
+                alert("包含四");
+                $(":root :contains('4')").css("background-color", "purple");
+                //$(":root :contains('4')").css("background-color", "purple");
+            });
+        });
+    </script>
+
+    <br />
+    <h2>正则表达式校验手机号格式</h2>
+    手机号：<input type="text" id="txtMobile" />
+    <input type="button" value="检查" id="btnCheck" />
+    <script type="text/javascript">
+                //JS正则表达式校验手机号，格式正确的alert成功，不对的alert失败
+    </script>
+    <br />
+    <h2>数据请求/JSON 练习</h2>
+    <input type="button" value="读取数据" />
+    <div id="div_res"></div>
+    <script type="text/javascript">
+                //读取接口 http://www.imooc.com/data/sport.json 中的数据，随机取出2条显示在div_res中，包括索引和name
+
+    </script>
+    <br />
+    <h2>W3C 官方测试</h2>
+    <a href="http://www.w3school.com.cn/jquery/jquery_quiz.asp">Link</a>
+    <h2>拓展练习</h2>
+    <p>1.行的拖拽效果</p>
+    <p>2.table中鼠标悬浮的行变色</p>
+    <p>3.复制一遍table中的内容显示在选项卡中，原table也显示在一个选项卡中</p>
+</body>
+
+</html>

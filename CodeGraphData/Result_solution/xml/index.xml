@@ -1,0 +1,1477 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_views_1_1_controllers_1_1_abstract_admin_controller" kind="class"><name>Views::Controllers::AbstractAdminController</name>
+    <member refid="class_views_1_1_controllers_1_1_abstract_admin_controller_1a93fc9fe90db7bebe7fed1d85b0ff0bbb" kind="variable"><name>domainRole</name></member>
+    <member refid="class_views_1_1_controllers_1_1_abstract_admin_controller_1abcc648990b35816bfd98d34129af22b6" kind="function"><name>AbstractAdminController</name></member>
+  </compound>
+  <compound refid="class_views_1_1_controllers_1_1_abstract_assess_controller" kind="class"><name>Views::Controllers::AbstractAssessController</name>
+    <member refid="class_views_1_1_controllers_1_1_abstract_assess_controller_1ad447e45a73f78069567acf56f09e16db" kind="variable"><name>domainOneselfAssess</name></member>
+    <member refid="class_views_1_1_controllers_1_1_abstract_assess_controller_1af9d20d8a11e976ad7c7f5598405d1a03" kind="variable"><name>domainOtherAssess</name></member>
+    <member refid="class_views_1_1_controllers_1_1_abstract_assess_controller_1aedafcafcefbaa98f74c466f954274411" kind="function"><name>AbstractAssessController</name></member>
+    <member refid="class_views_1_1_controllers_1_1_abstract_assess_controller_1ac64d8fc50fa3fd1553a233df16143990" kind="function"><name>AbstractAssessController</name></member>
+    <member refid="class_views_1_1_controllers_1_1_abstract_assess_controller_1a1461f275ee496fc7c93c685fbafa369e" kind="function"><name>AbstractAssessController</name></member>
+  </compound>
+  <compound refid="class_domains_1_1_abstract_domain_user_skills" kind="class"><name>Domains::AbstractDomainUserSkills</name>
+    <member refid="class_domains_1_1_abstract_domain_user_skills_1af2955fe0d9bce596f966e4c65421668f" kind="variable"><name>repositoryRole</name></member>
+    <member refid="class_domains_1_1_abstract_domain_user_skills_1ac66be7b8f93c2a4009bc4adb589fc952" kind="variable"><name>repositoryJob</name></member>
+    <member refid="class_domains_1_1_abstract_domain_user_skills_1a2a2c80755e5788ac37d62a360469e77c" kind="variable"><name>repositoryCoreSkills</name></member>
+    <member refid="class_domains_1_1_abstract_domain_user_skills_1ab5cd34e64f898751fbd057b94243a362" kind="variable"><name>repositoryCoreLever</name></member>
+    <member refid="class_domains_1_1_abstract_domain_user_skills_1a1e2583cc39b5938dbf826374c885a73c" kind="variable"><name>repositoryRoleContent</name></member>
+    <member refid="class_domains_1_1_abstract_domain_user_skills_1a563ee7bc731f6b658405e0654fa107d5" kind="variable"><name>repositoryMapingCore</name></member>
+    <member refid="class_domains_1_1_abstract_domain_user_skills_1a8420abfb8980aabe3d076050bfaa19b8" kind="variable"><name>repositoryMapingTeach</name></member>
+    <member refid="class_domains_1_1_abstract_domain_user_skills_1a53420ff7d3f2e31c8e5f602be7891a28" kind="variable"><name>repositoryTeachSkills</name></member>
+    <member refid="class_domains_1_1_abstract_domain_user_skills_1a9367589a4b35d66073ac494dcfc5e26e" kind="variable"><name>repositoryTeachLever</name></member>
+    <member refid="class_domains_1_1_abstract_domain_user_skills_1ae5453dad757853450de9d287adcd4e49" kind="function"><name>AbstractDomainUserSkills</name></member>
+    <member refid="class_domains_1_1_abstract_domain_user_skills_1a195688ce745776a04a811b1a37545176" kind="function"><name>AbstractDomainUserSkills</name></member>
+  </compound>
+  <compound refid="class_view_1_1_bundle_config" kind="class"><name>View::BundleConfig</name>
+    <member refid="class_view_1_1_bundle_config_1a00523dfb87b7ddbcea1ccb2e612381e0" kind="function"><name>RegisterBundles</name></member>
+  </compound>
+  <compound refid="class_project_utils_1_1_check_code_utils" kind="class"><name>ProjectUtils::CheckCodeUtils</name>
+  </compound>
+  <compound refid="class_views_1_1_data_service_1_1_composite_type" kind="class"><name>Views::DataService::CompositeType</name>
+    <member refid="class_views_1_1_data_service_1_1_composite_type_1a8b79ac2727e4ba97e7b1b8e7967fe17d" kind="variable"><name>extensionDataField</name></member>
+    <member refid="class_views_1_1_data_service_1_1_composite_type_1a9c964bc00664a834c0d6360e7ac7688f" kind="variable"><name>BoolValueField</name></member>
+    <member refid="class_views_1_1_data_service_1_1_composite_type_1a2247c49e2ed23420190a288bbc05994d" kind="variable"><name>StringValueField</name></member>
+    <member refid="class_views_1_1_data_service_1_1_composite_type_1a25c44af7a691ddf420d5607cec348fc6" kind="property"><name>ExtensionData</name></member>
+    <member refid="class_views_1_1_data_service_1_1_composite_type_1a3b877b5eba21f9750233415d6143246e" kind="property"><name>BoolValue</name></member>
+    <member refid="class_views_1_1_data_service_1_1_composite_type_1a19d6e99f68620173355c10fa56418ff8" kind="property"><name>StringValue</name></member>
+    <member refid="class_views_1_1_data_service_1_1_composite_type_1a93623755bd62bfaeef314206c5eec16e" kind="event"><name>PropertyChanged</name></member>
+    <member refid="class_views_1_1_data_service_1_1_composite_type_1ad618a8d4bfaba0fdfb50ec561100c12a" kind="function"><name>RaisePropertyChanged</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_migrations_1_1_configuration" kind="class"><name>Repositorys::Migrations::Configuration</name>
+    <member refid="class_repositorys_1_1_migrations_1_1_configuration_1a9aff383c341644805f63d1fecd5875fd" kind="function"><name>Configuration</name></member>
+    <member refid="class_repositorys_1_1_migrations_1_1_configuration_1a35edc794e3b074e85d815addbf4cfbda" kind="function"><name>Seed</name></member>
+  </compound>
+  <compound refid="class_views_1_1_controllers_1_1_core_skills_controller" kind="class"><name>Views::Controllers::CoreSkillsController</name>
+    <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1ac2dd2e516920ce5e2e5c43c746878b63" kind="variable"><name>domainCoreSkills</name></member>
+    <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1a52ed895ac956b75083fa2c83e0ab5f6f" kind="function"><name>CoreSkillsController</name></member>
+    <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1a23b430f06dfb0cc6410b253ef57e29f9" kind="function"><name>CoreSkillsView</name></member>
+    <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1a3163b3808cb8f05842430f3d444e1967" kind="function"><name>FindAllCoreSkills</name></member>
+    <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1a727e1106c38a1a7e9f5a2c85c7ce6583" kind="function"><name>UpdateCoreSkills</name></member>
+    <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1aa654d435542b7d1191ee693db0a33c93" kind="function"><name>DeleteCoreSkills</name></member>
+    <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1a9adfecb685ed353242c7dc1ec8eee3b4" kind="function"><name>InsertCoreSkills</name></member>
+    <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1a28ff7b0b1b49d6b59260253cf43e98d7" kind="function"><name>FindAllLever</name></member>
+    <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1a484926212148b3c91753eb10889da67e" kind="function"><name>DeleteLever</name></member>
+    <member refid="class_views_1_1_controllers_1_1_core_skills_controller_1aa1020f9683fd96e5c6c268f030caf086" kind="function"><name>InsertLever</name></member>
+  </compound>
+  <compound refid="class_views_1_1_data_service_1_1_data_service_client" kind="class"><name>Views::DataService::DataServiceClient</name>
+    <member refid="class_views_1_1_data_service_1_1_data_service_client_1a3613d2e252a6717bf7f194aa3e4e0659" kind="function"><name>DataServiceClient</name></member>
+    <member refid="class_views_1_1_data_service_1_1_data_service_client_1a334ac4585c968144d86b7a5ceeb41b52" kind="function"><name>DataServiceClient</name></member>
+    <member refid="class_views_1_1_data_service_1_1_data_service_client_1a323b06ff93f38d94be6791be994c8991" kind="function"><name>DataServiceClient</name></member>
+    <member refid="class_views_1_1_data_service_1_1_data_service_client_1ad7eadf5a3ea6d8a3e62e9a58d845213d" kind="function"><name>DataServiceClient</name></member>
+    <member refid="class_views_1_1_data_service_1_1_data_service_client_1a5ef4534b62ccf99d9942d29fc9e29524" kind="function"><name>DataServiceClient</name></member>
+    <member refid="class_views_1_1_data_service_1_1_data_service_client_1a2e9dcb06960165279e20e9b3ff36ede2" kind="function"><name>GetData</name></member>
+    <member refid="class_views_1_1_data_service_1_1_data_service_client_1a72656db5208ba3d308c5a10b499c9e65" kind="function"><name>GetDataAsync</name></member>
+    <member refid="class_views_1_1_data_service_1_1_data_service_client_1ae6801a24cfbec5f24e5e74ead740676d" kind="function"><name>GetDataUsingDataContract</name></member>
+    <member refid="class_views_1_1_data_service_1_1_data_service_client_1a0e3f60fc541735ec83d9522c29391f39" kind="function"><name>GetDataUsingDataContractAsync</name></member>
+    <member refid="class_views_1_1_data_service_1_1_data_service_client_1ab111b90175d739c7520e607c53e83094" kind="function"><name>LoginCheck</name></member>
+    <member refid="class_views_1_1_data_service_1_1_data_service_client_1aff7bba83ef043329ca83849af84bd631" kind="function"><name>LoginCheckAsync</name></member>
+    <member refid="class_views_1_1_data_service_1_1_data_service_client_1aa3e8364accd8e0853707fcfdca593808" kind="function"><name>LoginCheck1</name></member>
+    <member refid="class_views_1_1_data_service_1_1_data_service_client_1ab03e0f5f6accd1ebaf2158a4c7e8ce2a" kind="function"><name>LoginCheck1Async</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_data_access_1_1_d_b_context" kind="class"><name>Repositorys::DataAccess::DBContext</name>
+    <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1ad10df0769b0c0492536b0b7882a0ce52" kind="property"><name>TB_CoreLever</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a613ff218b96373900d628299007e2b52" kind="property"><name>TB_CoreSkills</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a7417b5235e494e706e87869f24be5f2d" kind="property"><name>TB_Evaluation</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1ab8598c50e1a5815b2513cd9d32f74004" kind="property"><name>TB_EvaluationInfo</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1af1b849ef68942ace79597b9d684c6cf9" kind="property"><name>TB_MappingCore</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a212f13c1ebbe3fd18b9ff9fee83ded50" kind="property"><name>TB_MappingTeach</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a29d3af6dcf1083a57b722fc8904425b4" kind="property"><name>TB_Professional</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a5a02e3301c3448b6fcc76faaf54dcccb" kind="property"><name>TB_Role</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a903d980afd04d848ff0ae44720a906d4" kind="property"><name>TB_RoleContent</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1adf826988d7659507b3adddefbde46b28" kind="property"><name>TB_TeachLever</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a40b9f6e4015c7f99219ce4a15937bc54" kind="property"><name>TB_TechSkills</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a4123e61186084caa06b56058ca952325" kind="property"><name>TB_User</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a7a445c91dfa8d9cfeeca7c09f8371227" kind="property"><name>TB_UserInfo</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a5c5870930888a4676879ea976ab229d8" kind="function"><name>DBContext</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_d_b_context_1a07bebe0752b456f56b86e986a81d666a" kind="function"><name>OnModelCreating</name></member>
+  </compound>
+  <compound refid="class_domains_1_1_domain_core_skills" kind="class"><name>Domains::DomainCoreSkills</name>
+    <member refid="class_domains_1_1_domain_core_skills_1ab9e4f906301fc7f3ffb816313ebfa57e" kind="variable"><name>repositoryCoreSkills</name></member>
+    <member refid="class_domains_1_1_domain_core_skills_1a8b0a168effd98403774f5eccacb7b5ba" kind="variable"><name>repositoryCoreLever</name></member>
+    <member refid="class_domains_1_1_domain_core_skills_1aecc5cbcd60c04d986ab70fc85e01828c" kind="function"><name>DomainCoreSkills</name></member>
+    <member refid="class_domains_1_1_domain_core_skills_1a994bb7aa4dfb1ba1acadd6ac3a9971cb" kind="function"><name>DeleteCoreSkills</name></member>
+    <member refid="class_domains_1_1_domain_core_skills_1a59814849ccfe51b3d2db66a5ab5019ea" kind="function"><name>FindAllCoreSkills</name></member>
+    <member refid="class_domains_1_1_domain_core_skills_1a92cf70866fb65e6081e7378fc60d9db6" kind="function"><name>InsertCoreSkills</name></member>
+    <member refid="class_domains_1_1_domain_core_skills_1a532d72ba547f0837a0e85a2a9555972e" kind="function"><name>UpdateCoreSkills</name></member>
+    <member refid="class_domains_1_1_domain_core_skills_1ac17035711cdae8afc394046fbaa2b3cb" kind="function"><name>FindAllLever</name></member>
+    <member refid="class_domains_1_1_domain_core_skills_1a669a4959eeb997f3968c232166c1500b" kind="function"><name>DeleteLever</name></member>
+    <member refid="class_domains_1_1_domain_core_skills_1a446150882102b8415420fffd567a9d45" kind="function"><name>InsertLever</name></member>
+  </compound>
+  <compound refid="class_domains_1_1_domain_job" kind="class"><name>Domains::DomainJob</name>
+    <member refid="class_domains_1_1_domain_job_1a0ae002fab26cbd4a3df8cc510f9eb5d4" kind="variable"><name>repositoryJob</name></member>
+    <member refid="class_domains_1_1_domain_job_1abbf512a2f30e3df6bdc73a408948b923" kind="variable"><name>repositoryMapingCore</name></member>
+    <member refid="class_domains_1_1_domain_job_1af7bb802f53f851abc0fd9600447ebcba" kind="variable"><name>repositoryMapingTeach</name></member>
+    <member refid="class_domains_1_1_domain_job_1a912c5dda0af08bd326b35ab6fdd96f44" kind="function"><name>DomainJob</name></member>
+    <member refid="class_domains_1_1_domain_job_1a83d9ea448d2f6e57387014603b596039" kind="function"><name>UpdateJob</name></member>
+    <member refid="class_domains_1_1_domain_job_1a238f2244bfa4f5a49b5cd03efdcb767f" kind="function"><name>DeleteJob</name></member>
+    <member refid="class_domains_1_1_domain_job_1a2330faa88ed2159c935cd4a7197a92d1" kind="function"><name>FindAllJob</name></member>
+    <member refid="class_domains_1_1_domain_job_1a6029b3dada9ed6d1987d35f2ded614f4" kind="function"><name>FindJob</name></member>
+    <member refid="class_domains_1_1_domain_job_1a047bfdbfc7d8bef03d8ab15ec61e3409" kind="function"><name>InsertJob</name></member>
+    <member refid="class_domains_1_1_domain_job_1aa5481c5af68a79834af8b2f176e739f8" kind="function"><name>InsertProfessionalCoreSkills</name></member>
+    <member refid="class_domains_1_1_domain_job_1ac9727558a24295d619f0f64923277451" kind="function"><name>InsertProfessionalTeachSkills</name></member>
+  </compound>
+  <compound refid="class_domains_1_1_domain_login" kind="class"><name>Domains::DomainLogin</name>
+    <member refid="class_domains_1_1_domain_login_1afe2c4035a732d6914a5472d6435f2ae9" kind="variable"><name>repositoryUser</name></member>
+    <member refid="class_domains_1_1_domain_login_1a58aa38faabdc88e171baec157aa12999" kind="function"><name>DomainLogin</name></member>
+    <member refid="class_domains_1_1_domain_login_1a0842bc6126015e3badafd18f991113e8" kind="function"><name>Login</name></member>
+  </compound>
+  <compound refid="class_domains_1_1_domain_logout" kind="class"><name>Domains::DomainLogout</name>
+    <member refid="class_domains_1_1_domain_logout_1a81473bc02cf24639575d30727354ece5" kind="variable"><name>repositoryUser</name></member>
+    <member refid="class_domains_1_1_domain_logout_1a5f074c3a5babfe60c259ba4c497665ce" kind="function"><name>DomainLogout</name></member>
+    <member refid="class_domains_1_1_domain_logout_1a0b6ab3c117167e0570a378723124ae51" kind="function"><name>Logout</name></member>
+  </compound>
+  <compound refid="class_domains_1_1_domain_oneself_assess" kind="class"><name>Domains::DomainOneselfAssess</name>
+    <member refid="class_domains_1_1_domain_oneself_assess_1a9a4eabf6769a09f032938c31bb6d45aa" kind="variable"><name>repositroyAssess</name></member>
+    <member refid="class_domains_1_1_domain_oneself_assess_1a838d8eb8008e44a30e3a1e78351c3919" kind="function"><name>DomainOneselfAssess</name></member>
+    <member refid="class_domains_1_1_domain_oneself_assess_1a94d67baa33d03201936b12a908bdc343" kind="function"><name>FindOneselfAssessToOneself</name></member>
+    <member refid="class_domains_1_1_domain_oneself_assess_1a43351850da23d9656d3c838908ec9df5" kind="function"><name>FindOneselfAssessToOneselfDetails</name></member>
+    <member refid="class_domains_1_1_domain_oneself_assess_1a0a1499540b53c899900b921f801489b8" kind="function"><name>FindOneselfAssessToOthers</name></member>
+  </compound>
+  <compound refid="class_domains_1_1_domain_other_assess" kind="class"><name>Domains::DomainOtherAssess</name>
+    <member refid="class_domains_1_1_domain_other_assess_1a2228ce1d7c4e4a886e2c24da1d3910a4" kind="variable"><name>repositroyAssess</name></member>
+    <member refid="class_domains_1_1_domain_other_assess_1a1bd02a8cd810ea03b4be3f243091c8dc" kind="function"><name>DomainOtherAssess</name></member>
+    <member refid="class_domains_1_1_domain_other_assess_1a6e2e46b5b93622f100140cbbc1d96763" kind="function"><name>FindOtherAssessToOneself</name></member>
+    <member refid="class_domains_1_1_domain_other_assess_1ac0129b4947fc1fcbbfc11798233486f8" kind="function"><name>FindAllAssess</name></member>
+    <member refid="class_domains_1_1_domain_other_assess_1a83568394face391460b79247bc77c30f" kind="function"><name>FindAllNotDeleteAssess</name></member>
+    <member refid="class_domains_1_1_domain_other_assess_1ab353a3261061e25aabc608fbded95af5" kind="function"><name>FindAllDeleteAssess</name></member>
+    <member refid="class_domains_1_1_domain_other_assess_1a84fc362c44bb8829c36f8245ec6bd4c0" kind="function"><name>FindCoreSkillAssessDetails</name></member>
+    <member refid="class_domains_1_1_domain_other_assess_1a70f2f77276ef954e1e98cd418dd635b8" kind="function"><name>FindTeachSkillAssessDetails</name></member>
+  </compound>
+  <compound refid="class_domains_1_1_domain_regist" kind="class"><name>Domains::DomainRegist</name>
+    <member refid="class_domains_1_1_domain_regist_1a8da128b4017b298fa5d6e3f976dc9f07" kind="variable"><name>repositoryUser</name></member>
+    <member refid="class_domains_1_1_domain_regist_1a0e0ab1d1d6bcc7781563e2541e6c8caa" kind="function"><name>DomainRegist</name></member>
+    <member refid="class_domains_1_1_domain_regist_1af1a7696a03ca81075ebc95e141ab51d4" kind="function"><name>Regist</name></member>
+  </compound>
+  <compound refid="class_domains_1_1_domain_role" kind="class"><name>Domains::DomainRole</name>
+    <member refid="class_domains_1_1_domain_role_1aaa243e60c83b8c81e5240497317da1a9" kind="variable"><name>repositoryRole</name></member>
+    <member refid="class_domains_1_1_domain_role_1ae80f62b360d5fbcd4ba5ed40f7953736" kind="variable"><name>repositoryRoleContent</name></member>
+    <member refid="class_domains_1_1_domain_role_1a87624a4f35702f1a3ce30ef3b980634f" kind="function"><name>DomainRole</name></member>
+    <member refid="class_domains_1_1_domain_role_1af2c3a9c52264ab20d1b0255d475dc249" kind="function"><name>DeleteRole</name></member>
+    <member refid="class_domains_1_1_domain_role_1afbece3f5f6c487c8af46408c3b7d58e2" kind="function"><name>FindAllRole</name></member>
+    <member refid="class_domains_1_1_domain_role_1ae951b1bcb28a3f3a8af83eadd2b5b5b0" kind="function"><name>FindRole</name></member>
+    <member refid="class_domains_1_1_domain_role_1afefeb30ead89de50507d2a373bf4e599" kind="function"><name>InsertRole</name></member>
+    <member refid="class_domains_1_1_domain_role_1a8bfc06add48a76badd5dcee85d03c29c" kind="function"><name>UpdateRole</name></member>
+    <member refid="class_domains_1_1_domain_role_1a004ce5b848fe7bf64be0c81c021aee52" kind="function"><name>InsertRoleProfessional</name></member>
+  </compound>
+  <compound refid="class_domains_1_1_domain_skill_map_assess" kind="class"><name>Domains::DomainSkillMapAssess</name>
+    <member refid="class_domains_1_1_domain_skill_map_assess_1a7cc9d0c5d3e3ab9dbafd04ad9c3e6b41" kind="variable"><name>domainUserCoreSkills</name></member>
+    <member refid="class_domains_1_1_domain_skill_map_assess_1aec8da637c64b1fe967fd333e1e1e81c5" kind="variable"><name>domainOneselfAssess</name></member>
+    <member refid="class_domains_1_1_domain_skill_map_assess_1a93aab851457629e0e80622c0f6ffe355" kind="function"><name>DomainSkillMapAssess</name></member>
+    <member refid="class_domains_1_1_domain_skill_map_assess_1abbc1fe43fc5c89b19955ce5275c14ff5" kind="function"><name>FindCoreSkillNowState</name></member>
+    <member refid="class_domains_1_1_domain_skill_map_assess_1ac06ced139d07f774587f4b7108a2c5d3" kind="function"><name>FindCoreSkillAllState</name></member>
+  </compound>
+  <compound refid="class_domains_1_1_domain_teach_skills" kind="class"><name>Domains::DomainTeachSkills</name>
+    <member refid="class_domains_1_1_domain_teach_skills_1a6ac62346df7f88ccf5d85fb72e9d3624" kind="variable"><name>repositoryTeachSkills</name></member>
+    <member refid="class_domains_1_1_domain_teach_skills_1a0100b2e3c7e594d9923e747795f48f2b" kind="variable"><name>repositoryTeachLever</name></member>
+    <member refid="class_domains_1_1_domain_teach_skills_1aadf85561f6308a221d6fdc2ef56395ec" kind="function"><name>DomainTeachSkills</name></member>
+    <member refid="class_domains_1_1_domain_teach_skills_1aba3f97be56c9fbbab672a9b619027d14" kind="function"><name>DeleteTeachSkills</name></member>
+    <member refid="class_domains_1_1_domain_teach_skills_1a56738163047b59c336a028b14785aff3" kind="function"><name>FindAllTeachSkills</name></member>
+    <member refid="class_domains_1_1_domain_teach_skills_1a6346cbb4092d83819ea0d52e2abcd807" kind="function"><name>InsertTeachSkills</name></member>
+    <member refid="class_domains_1_1_domain_teach_skills_1a9247438933f2687fc3a246116bf03e22" kind="function"><name>UpdateTeackSkills</name></member>
+    <member refid="class_domains_1_1_domain_teach_skills_1a26d83764b856a2e9914a359a1be1ae0f" kind="function"><name>DeleteLever</name></member>
+    <member refid="class_domains_1_1_domain_teach_skills_1adc22238c14dfb785556de755ad14df32" kind="function"><name>FindAllLever</name></member>
+    <member refid="class_domains_1_1_domain_teach_skills_1a9158dedc5231581b1edca8ee0b7b3042" kind="function"><name>InsertLever</name></member>
+  </compound>
+  <compound refid="class_domains_1_1_domain_user_core_skills" kind="class"><name>Domains::DomainUserCoreSkills</name>
+    <member refid="class_domains_1_1_domain_user_core_skills_1ade1a5f30f67e9582998be14dc136762a" kind="function"><name>DomainUserCoreSkills</name></member>
+    <member refid="class_domains_1_1_domain_user_core_skills_1a48ff4dafd234e0b2e4c3f652239c83be" kind="function"><name>FindRole</name></member>
+    <member refid="class_domains_1_1_domain_user_core_skills_1adb54926c402a8ef48fe4079f341cb7ce" kind="function"><name>FindJob</name></member>
+    <member refid="class_domains_1_1_domain_user_core_skills_1a0cfccea316fa515ce0123f5a14929dc8" kind="function"><name>FindCoreSkill</name></member>
+    <member refid="class_domains_1_1_domain_user_core_skills_1ac00c2686764b0e034df6eb399c1bdf0f" kind="function"><name>FindAllLever</name></member>
+    <member refid="class_domains_1_1_domain_user_core_skills_1a6fc201de2a848cd2256bb7d49337342b" kind="function"><name>FindOneLever</name></member>
+    <member refid="class_domains_1_1_domain_user_core_skills_1acb5183e0f47e432d7894f10200b8ccca" kind="function"><name>FindRoleAllJob</name></member>
+    <member refid="class_domains_1_1_domain_user_core_skills_1a7a0c50d33b9e37da63b0434eea32fa15" kind="function"><name>FindJobAllCoreSkill</name></member>
+    <member refid="class_domains_1_1_domain_user_core_skills_1afe14ea897e68bbb4ca1172a6ebcf42dc" kind="function"><name>FindCoreSkillAllJob</name></member>
+    <member refid="class_domains_1_1_domain_user_core_skills_1a94d9767eec12838a7cbae236dacab793" kind="function"><name>FindJobAndSkillAndLeverThreeLayers</name></member>
+    <member refid="class_domains_1_1_domain_user_core_skills_1a1b2564934b227ad061b7d4a496973c7a" kind="function"><name>FindJobAndSkillAndLever</name></member>
+    <member refid="class_domains_1_1_domain_user_core_skills_1a4d67d53a4d495e30122c411fdeed6425" kind="function"><name>FindJobAndSkillAndLeverThreeLayersList</name></member>
+  </compound>
+  <compound refid="class_domains_1_1_domain_user_info" kind="class"><name>Domains::DomainUserInfo</name>
+    <member refid="class_domains_1_1_domain_user_info_1a4e96b646d9f8283275a4d0b2e6662c7c" kind="variable"><name>repositoryUserInfo</name></member>
+    <member refid="class_domains_1_1_domain_user_info_1a0502b98f256fef4689c2ddc539d92b89" kind="function"><name>DomainUserInfo</name></member>
+    <member refid="class_domains_1_1_domain_user_info_1abcc01dc4d92d2d972569bb64fb328154" kind="function"><name>FindUserInfo</name></member>
+    <member refid="class_domains_1_1_domain_user_info_1aaa3e91d3a29eb807aa294bd00ca2c7a6" kind="function"><name>UpdateUserInfo</name></member>
+  </compound>
+  <compound refid="class_domains_1_1_domain_user_teach_skills" kind="class"><name>Domains::DomainUserTeachSkills</name>
+    <member refid="class_domains_1_1_domain_user_teach_skills_1a39fab9af524e62ee052f1b03dd5af7dd" kind="function"><name>DomainUserTeachSkills</name></member>
+    <member refid="class_domains_1_1_domain_user_teach_skills_1ac30c5b33fbaca286d4cddc412431d753" kind="function"><name>FindRole</name></member>
+    <member refid="class_domains_1_1_domain_user_teach_skills_1a2eb1190ddbe433dbe7247e6213eb589d" kind="function"><name>FindJob</name></member>
+    <member refid="class_domains_1_1_domain_user_teach_skills_1ad83aed136b5af4543797baa72905871c" kind="function"><name>FindTeachSkill</name></member>
+    <member refid="class_domains_1_1_domain_user_teach_skills_1a3f906674ffa7e046632fee806d1930ff" kind="function"><name>FindAllLever</name></member>
+    <member refid="class_domains_1_1_domain_user_teach_skills_1a91b731eda7be545a7b728bc0e9dc2171" kind="function"><name>FindOneLever</name></member>
+    <member refid="class_domains_1_1_domain_user_teach_skills_1a66dcf684aaba352d48ae1ec8e99a672c" kind="function"><name>FindRoleAllJob</name></member>
+    <member refid="class_domains_1_1_domain_user_teach_skills_1ae96a9da648c6c48095eab873ebc2dd6a" kind="function"><name>FindJobAllTeachSkill</name></member>
+    <member refid="class_domains_1_1_domain_user_teach_skills_1ac337b1b088c31f2dde220cf4deeae6b0" kind="function"><name>FindTeachSkillAllJob</name></member>
+    <member refid="class_domains_1_1_domain_user_teach_skills_1ab79628467b79f83d8fabc424df744cf6" kind="function"><name>FindJobAndSkillAndLeverThreeLayers</name></member>
+    <member refid="class_domains_1_1_domain_user_teach_skills_1a7cb8efaccf5859dc04f629df4d96a6fe" kind="function"><name>FindJobAndSkillAndLever</name></member>
+    <member refid="class_domains_1_1_domain_user_teach_skills_1ae940f66c224fcfaa2d0ba894b35b6acb" kind="function"><name>FindJobAndSkillAndLeverThreeLayersList</name></member>
+  </compound>
+  <compound refid="class_web_application2_1_1_filter_config" kind="class"><name>WebApplication2::FilterConfig</name>
+    <member refid="class_web_application2_1_1_filter_config_1a74306993baa94aa36fb7d3926390f0a6" kind="function"><name>RegisterGlobalFilters</name></member>
+  </compound>
+  <compound refid="class_views_1_1_controllers_1_1_home_controller" kind="class"><name>Views::Controllers::HomeController</name>
+    <member refid="class_views_1_1_controllers_1_1_home_controller_1adeac6dd01b7583e704476c65a8e836b5" kind="variable"><name>domainOneselfAssess</name></member>
+    <member refid="class_views_1_1_controllers_1_1_home_controller_1ac2d8930242c9187de2add2c6d3974950" kind="variable"><name>domainOtherAssess</name></member>
+    <member refid="class_views_1_1_controllers_1_1_home_controller_1ac198d60285b7fecf828d9ebb813f9a64" kind="function"><name>HomeController</name></member>
+    <member refid="class_views_1_1_controllers_1_1_home_controller_1a9f34117e33a082555224b7b06a6c23f0" kind="function"><name>Index</name></member>
+    <member refid="class_views_1_1_controllers_1_1_home_controller_1a61b005a44227717e96c75aa89b7ef2d7" kind="function"><name>UserInfo</name></member>
+    <member refid="class_views_1_1_controllers_1_1_home_controller_1aa948e5fe36d1a32b0f927d3d7420682c" kind="function"><name>OneSelfAssess</name></member>
+    <member refid="class_views_1_1_controllers_1_1_home_controller_1a342909014e461eab12b04bc27da726d9" kind="function"><name>OtherAssess</name></member>
+    <member refid="class_views_1_1_controllers_1_1_home_controller_1a53bc49466d2827e5af2da509aacc7e05" kind="function"><name>Role</name></member>
+    <member refid="class_views_1_1_controllers_1_1_home_controller_1a4a3ff869482f7df1e6492e9421663c6c" kind="function"><name>Job</name></member>
+    <member refid="class_views_1_1_controllers_1_1_home_controller_1a069401b2fd4446f8994a453882db0505" kind="function"><name>Skill</name></member>
+    <member refid="class_views_1_1_controllers_1_1_home_controller_1ac0f8eef49d7309d768790158dad05d6c" kind="function"><name>LogOut</name></member>
+    <member refid="class_views_1_1_controllers_1_1_home_controller_1a0f5c8e0b7e5638015d0cf79d2873f44a" kind="function"><name>FindAllAssess</name></member>
+  </compound>
+  <compound refid="interface_views_1_1_data_service_1_1_i_data_service" kind="interface"><name>Views::DataService::IDataService</name>
+    <member refid="interface_views_1_1_data_service_1_1_i_data_service_1a17ce78f0eb575be73376f5a3d4c49a0e" kind="function"><name>GetData</name></member>
+    <member refid="interface_views_1_1_data_service_1_1_i_data_service_1abd3d782dbbe3d04b248e08b959454591" kind="function"><name>GetDataAsync</name></member>
+    <member refid="interface_views_1_1_data_service_1_1_i_data_service_1a45aba22d9a8d02cdb641bd01552de1dd" kind="function"><name>GetDataUsingDataContract</name></member>
+    <member refid="interface_views_1_1_data_service_1_1_i_data_service_1a2f09b24ef2b276f6be8f7344e46506b1" kind="function"><name>GetDataUsingDataContractAsync</name></member>
+    <member refid="interface_views_1_1_data_service_1_1_i_data_service_1a1c2ce9f9b499f63d79c822d65a970f42" kind="function"><name>LoginCheck</name></member>
+    <member refid="interface_views_1_1_data_service_1_1_i_data_service_1a8ad82a069a8403c7d424a916eb45c54e" kind="function"><name>LoginCheckAsync</name></member>
+    <member refid="interface_views_1_1_data_service_1_1_i_data_service_1a43d79beba12df4a094a23febd7875442" kind="function"><name>LoginCheck1</name></member>
+    <member refid="interface_views_1_1_data_service_1_1_i_data_service_1a8f6399007ca968344d8844c0d72d642d" kind="function"><name>LoginCheck1Async</name></member>
+  </compound>
+  <compound refid="interface_views_1_1_data_service_1_1_i_data_service_channel" kind="interface"><name>Views::DataService::IDataServiceChannel</name>
+  </compound>
+  <compound refid="interface_domains_1_1_i_domain_core_skills" kind="interface"><name>Domains::IDomainCoreSkills</name>
+    <member refid="interface_domains_1_1_i_domain_core_skills_1a8faf934b4bcff15a6464bcec3d136c57" kind="function"><name>FindAllCoreSkills</name></member>
+    <member refid="interface_domains_1_1_i_domain_core_skills_1ac7a2d68d2b5aac75c9c2ed0acf167857" kind="function"><name>UpdateCoreSkills</name></member>
+    <member refid="interface_domains_1_1_i_domain_core_skills_1a725ebb0b4c576ea26a8aa4a465365176" kind="function"><name>DeleteCoreSkills</name></member>
+    <member refid="interface_domains_1_1_i_domain_core_skills_1a579f23f53ee75ca3773f2636e23d8be2" kind="function"><name>InsertCoreSkills</name></member>
+    <member refid="interface_domains_1_1_i_domain_core_skills_1a33d76ac4da11bc5edab336e344b3646f" kind="function"><name>FindAllLever</name></member>
+    <member refid="interface_domains_1_1_i_domain_core_skills_1a7940f982f6b27b224ae086f243ae67b9" kind="function"><name>DeleteLever</name></member>
+    <member refid="interface_domains_1_1_i_domain_core_skills_1a7a78be2540ba66cfe5be8446b946980b" kind="function"><name>InsertLever</name></member>
+  </compound>
+  <compound refid="interface_domains_1_1_i_domain_job" kind="interface"><name>Domains::IDomainJob</name>
+    <member refid="interface_domains_1_1_i_domain_job_1aba35e2413309a1fcf033e0aa4789eb5b" kind="function"><name>DeleteJob</name></member>
+    <member refid="interface_domains_1_1_i_domain_job_1adab1330d04020dc55a0165a071a4bcc3" kind="function"><name>FindAllJob</name></member>
+    <member refid="interface_domains_1_1_i_domain_job_1a74ce9fc6e1dafad7850e615638a198ad" kind="function"><name>FindJob</name></member>
+    <member refid="interface_domains_1_1_i_domain_job_1a8a4a6cc44027d6eb8ed87be33a02b170" kind="function"><name>InsertJob</name></member>
+    <member refid="interface_domains_1_1_i_domain_job_1ad6285b20c84c68830da0bbe2081c00cf" kind="function"><name>UpdateJob</name></member>
+    <member refid="interface_domains_1_1_i_domain_job_1adb52f49c55c541486f69f254964fe266" kind="function"><name>InsertProfessionalCoreSkills</name></member>
+    <member refid="interface_domains_1_1_i_domain_job_1a9030424e5919adb8b300cb12754efe88" kind="function"><name>InsertProfessionalTeachSkills</name></member>
+  </compound>
+  <compound refid="interface_domains_1_1_i_domain_login" kind="interface"><name>Domains::IDomainLogin</name>
+    <member refid="interface_domains_1_1_i_domain_login_1af73aa213da811e227b22707513c532a3" kind="function"><name>Login</name></member>
+  </compound>
+  <compound refid="interface_domains_1_1_i_domain_logout" kind="interface"><name>Domains::IDomainLogout</name>
+    <member refid="interface_domains_1_1_i_domain_logout_1af7ee56484f134826dbf02132379c3b84" kind="function"><name>Logout</name></member>
+  </compound>
+  <compound refid="interface_domains_1_1_i_domain_oneself_assess" kind="interface"><name>Domains::IDomainOneselfAssess</name>
+    <member refid="interface_domains_1_1_i_domain_oneself_assess_1a478e5c367b06408742cc4185beed35b9" kind="function"><name>FindOneselfAssessToOneself</name></member>
+    <member refid="interface_domains_1_1_i_domain_oneself_assess_1a8ee3f29166b76ed20148b49dbfdf3ca0" kind="function"><name>FindOneselfAssessToOneselfDetails</name></member>
+    <member refid="interface_domains_1_1_i_domain_oneself_assess_1adfb2b4cb3219c4ffa50f32bb06381015" kind="function"><name>FindOneselfAssessToOthers</name></member>
+  </compound>
+  <compound refid="interface_domains_1_1_i_domain_other_assess" kind="interface"><name>Domains::IDomainOtherAssess</name>
+    <member refid="interface_domains_1_1_i_domain_other_assess_1aadb65c5859cef4a005199a008897f524" kind="function"><name>FindAllAssess</name></member>
+    <member refid="interface_domains_1_1_i_domain_other_assess_1ae8e611ea9880751f189a48352ca655f2" kind="function"><name>FindAllDeleteAssess</name></member>
+    <member refid="interface_domains_1_1_i_domain_other_assess_1a89364459913ad0c161f9bec8999beba3" kind="function"><name>FindAllNotDeleteAssess</name></member>
+    <member refid="interface_domains_1_1_i_domain_other_assess_1aff559178dd3085a2a6771103d3bd6921" kind="function"><name>FindCoreSkillAssessDetails</name></member>
+    <member refid="interface_domains_1_1_i_domain_other_assess_1a51a0a12abc537fc7bbed6007ac5a0bee" kind="function"><name>FindOtherAssessToOneself</name></member>
+    <member refid="interface_domains_1_1_i_domain_other_assess_1a967bdf1de8f973c848f8cd08d639b7cb" kind="function"><name>FindTeachSkillAssessDetails</name></member>
+  </compound>
+  <compound refid="interface_domains_1_1_i_domain_regist" kind="interface"><name>Domains::IDomainRegist</name>
+    <member refid="interface_domains_1_1_i_domain_regist_1aa82b1c284406e43dbe9fc76d187d793a" kind="function"><name>Regist</name></member>
+  </compound>
+  <compound refid="interface_domains_1_1_i_domain_role" kind="interface"><name>Domains::IDomainRole</name>
+    <member refid="interface_domains_1_1_i_domain_role_1ab6296f4541d974139383f1ddae878deb" kind="function"><name>FindAllRole</name></member>
+    <member refid="interface_domains_1_1_i_domain_role_1a0a8764c75ac15cd7527f077f95d9f658" kind="function"><name>FindRole</name></member>
+    <member refid="interface_domains_1_1_i_domain_role_1ae76db2525d51e8d97516415d97b2f381" kind="function"><name>InsertRole</name></member>
+    <member refid="interface_domains_1_1_i_domain_role_1ad9f6ad33f6206e2a074955253d4b04c5" kind="function"><name>UpdateRole</name></member>
+    <member refid="interface_domains_1_1_i_domain_role_1a5b793d41c02d391a7f7ff66668c644cf" kind="function"><name>DeleteRole</name></member>
+    <member refid="interface_domains_1_1_i_domain_role_1ae622547d6a02dc568f0c0c95948691c3" kind="function"><name>InsertRoleProfessional</name></member>
+  </compound>
+  <compound refid="interface_domains_1_1_i_domain_skill_map_assess" kind="interface"><name>Domains::IDomainSkillMapAssess</name>
+    <member refid="interface_domains_1_1_i_domain_skill_map_assess_1a5911db5881df7a97e082311e477babba" kind="function"><name>FindCoreSkillAllState</name></member>
+    <member refid="interface_domains_1_1_i_domain_skill_map_assess_1af5ec9a277b45ee9b45e3d42af7829436" kind="function"><name>FindCoreSkillNowState</name></member>
+  </compound>
+  <compound refid="interface_domains_1_1_i_domain_teach_skills" kind="interface"><name>Domains::IDomainTeachSkills</name>
+    <member refid="interface_domains_1_1_i_domain_teach_skills_1a31a5cb0f5dbeb8512f2f75e719c2b1f3" kind="function"><name>FindAllTeachSkills</name></member>
+    <member refid="interface_domains_1_1_i_domain_teach_skills_1ab7555161b08d8f6dec6416958bb11448" kind="function"><name>UpdateTeackSkills</name></member>
+    <member refid="interface_domains_1_1_i_domain_teach_skills_1adc1347aa6a1b4925ad0d5c87f1aeb603" kind="function"><name>DeleteTeachSkills</name></member>
+    <member refid="interface_domains_1_1_i_domain_teach_skills_1abb9de490a6c1b1616dbf9f131960a4c6" kind="function"><name>InsertTeachSkills</name></member>
+    <member refid="interface_domains_1_1_i_domain_teach_skills_1af24ddd5c1ca23392179012bb7edf7b5e" kind="function"><name>DeleteLever</name></member>
+    <member refid="interface_domains_1_1_i_domain_teach_skills_1a75ae6435f0910a05d146b258f9b914d5" kind="function"><name>InsertLever</name></member>
+    <member refid="interface_domains_1_1_i_domain_teach_skills_1ae5c146cd2f4db5c7899d084e769f0e5a" kind="function"><name>FindAllLever</name></member>
+  </compound>
+  <compound refid="interface_domains_1_1_i_domain_user_core_skills" kind="interface"><name>Domains::IDomainUserCoreSkills</name>
+    <member refid="interface_domains_1_1_i_domain_user_core_skills_1a4d503f333293dea8706cca00526d365b" kind="function"><name>FindAllLever</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_core_skills_1a2aaa15f4335d95670a7af0d39df3fa9d" kind="function"><name>FindCoreSkill</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_core_skills_1a38b377e51ccc4f53e40b25ffd2e946b5" kind="function"><name>FindCoreSkillAllJob</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_core_skills_1a214067a515facfbcbf0460b27c4e89ae" kind="function"><name>FindJob</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_core_skills_1abbdb04ba34a193a639af00f3de44fe28" kind="function"><name>FindJobAllCoreSkill</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_core_skills_1a10f80eb0d3be584f79740a810385dce3" kind="function"><name>FindJobAndSkillAndLever</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_core_skills_1a52e99b17a4e07a8db7326d1515d7d9f7" kind="function"><name>FindJobAndSkillAndLeverThreeLayers</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_core_skills_1a35d936471b39c4141ec7366257048612" kind="function"><name>FindJobAndSkillAndLeverThreeLayersList</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_core_skills_1a45d20e75021d1227103dbb5350e79001" kind="function"><name>FindOneLever</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_core_skills_1a65a87d80e75ea9d06fae48935a0b4c71" kind="function"><name>FindRole</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_core_skills_1ac09f7c277595af6225125fe356f48dda" kind="function"><name>FindRoleAllJob</name></member>
+  </compound>
+  <compound refid="interface_domains_1_1_i_domain_user_info" kind="interface"><name>Domains::IDomainUserInfo</name>
+    <member refid="interface_domains_1_1_i_domain_user_info_1aa29a1fe78e1388b87af281b78d96440e" kind="function"><name>FindUserInfo</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_info_1a01e69aa71c5509ee35cde106f965305f" kind="function"><name>UpdateUserInfo</name></member>
+  </compound>
+  <compound refid="interface_domains_1_1_i_domain_user_teach_skills" kind="interface"><name>Domains::IDomainUserTeachSkills</name>
+    <member refid="interface_domains_1_1_i_domain_user_teach_skills_1a2c926737f09abfa3ba2f9875b9f95d1b" kind="function"><name>FindAllLever</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_teach_skills_1a899f4734dc0f98791e12e01effada9d7" kind="function"><name>FindJob</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_teach_skills_1aaea598c44b392ff9642501f5acc603c0" kind="function"><name>FindJobAllTeachSkill</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_teach_skills_1ad212b6e36e1eec3a4f770c6811519c0e" kind="function"><name>FindJobAndSkillAndLever</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_teach_skills_1a06dc0ade1690aeea4a3ccb9259801b4a" kind="function"><name>FindJobAndSkillAndLeverThreeLayers</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_teach_skills_1a2608a1ed691b2efcef3862afb14cafe8" kind="function"><name>FindJobAndSkillAndLeverThreeLayersList</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_teach_skills_1a28909af83fe0f6a86101274b7e8d5d5f" kind="function"><name>FindOneLever</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_teach_skills_1a5f63bd41f420ad7e47643550c17410dd" kind="function"><name>FindRole</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_teach_skills_1a1b38fb15250dd56f5df2806a862356c2" kind="function"><name>FindRoleAllJob</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_teach_skills_1abcbb7278110db63809253ceb60894209" kind="function"><name>FindTeachSkill</name></member>
+    <member refid="interface_domains_1_1_i_domain_user_teach_skills_1aab165cddeffa1a40298443109c29efb5" kind="function"><name>FindTeachSkillAllJob</name></member>
+  </compound>
+  <compound refid="interface_repositorys_1_1_i_repository_core_lever" kind="interface"><name>Repositorys::IRepositoryCoreLever</name>
+    <member refid="interface_repositorys_1_1_i_repository_core_lever_1ab70bd821056bd6255a56b039b320beaf" kind="function"><name>FakeDeleteAll</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_core_lever_1a713d54ac50c6ada33a02939ddcdbc08a" kind="function"><name>FakeDeleteOne</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_core_lever_1a40fca3bfdbf2201cf3fb184443dc40ae" kind="function"><name>FindCoreSkillLever</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_core_lever_1a6fef89406a7ed72f67a85b91df699ee1" kind="function"><name>FindCoreSkillLever</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_core_lever_1a902e62cec048ef5834e9027947bddfc3" kind="function"><name>Insert</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_core_lever_1ae82731b6391725a25bd88ab45f3a4fb8" kind="function"><name>ReallyDeleteAll</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_core_lever_1a6785b454fd894a4126820fb6688bd525" kind="function"><name>ReallyDeleteOne</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_core_lever_1acfcd34a51fac64646875415534c3f59e" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="interface_repositorys_1_1_i_repository_core_skills" kind="interface"><name>Repositorys::IRepositoryCoreSkills</name>
+    <member refid="interface_repositorys_1_1_i_repository_core_skills_1a8e5552a4a8ad106cba6f4f7368a7a56c" kind="function"><name>FakeDelete</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_core_skills_1ae4e9be187b19f4b8b637a65ca34a83c0" kind="function"><name>FindAllCoreSkill</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_core_skills_1a592c72892981f07e9e37c95a2610f1c1" kind="function"><name>FindAllDeleteCoreSkill</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_core_skills_1a8ac8397e58ee6a103a6fed2d77a9a773" kind="function"><name>FindAllNotDeleteCoreSkill</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_core_skills_1a1ac1858998627ce0d12cd4509a22475c" kind="function"><name>FindCoreSkill</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_core_skills_1abbf0a69a8a0e346ca7f101d4b8acba55" kind="function"><name>Insert</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_core_skills_1a62132fd892647efd16307fb2a1ff4c42" kind="function"><name>ReallyDelete</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_core_skills_1a6ea578ccfe22e77a1e0932f7fa13a84f" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="interface_repositorys_1_1_i_repository_job" kind="interface"><name>Repositorys::IRepositoryJob</name>
+    <member refid="interface_repositorys_1_1_i_repository_job_1ac14918bb8d89616679758c96e0c5cfb7" kind="function"><name>FakeDelete</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_job_1a4c3d914f33a185ddc40f74e41f9d789f" kind="function"><name>FindAllDeleteJob</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_job_1a56ffa4e7c18635608718bc3158b8ebcd" kind="function"><name>FindAllJob</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_job_1a16c325f383c274e9ea754930a5fe0694" kind="function"><name>FindAllNotDeleteJob</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_job_1aca1547ceebd4760914618cc3519b88d3" kind="function"><name>FindJob</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_job_1a008ee018bdaaabd5578603038c708df3" kind="function"><name>Insert</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_job_1addfbfd712d5bdd1bd31f7a14acb88d3e" kind="function"><name>ReallyDelete</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_job_1a0bdca7287da52a4998966624ec3cf7ee" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="interface_repositorys_1_1_i_repository_maping_core" kind="interface"><name>Repositorys::IRepositoryMapingCore</name>
+    <member refid="interface_repositorys_1_1_i_repository_maping_core_1ad1f9f4dd6fd98150c7a288c03287381f" kind="function"><name>FindCoreSkillAllJob</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_maping_core_1ab33ed5ba09f2e732011b8f1fa7bc96f5" kind="function"><name>FindJobAllCoreSkill</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_maping_core_1a7842c4f02ae66ca9244e468bf7c06cfc" kind="function"><name>FindJobAllCoreSkill</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_maping_core_1afb8688838a44f510b59b39c25131f766" kind="function"><name>Insert</name></member>
+  </compound>
+  <compound refid="interface_repositorys_1_1_i_repository_maping_teach" kind="interface"><name>Repositorys::IRepositoryMapingTeach</name>
+    <member refid="interface_repositorys_1_1_i_repository_maping_teach_1ac7ced6ae66da2fec8d9d85889a7131de" kind="function"><name>FindJobAllTeachSkill</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_maping_teach_1a327d9a708c57454f03b0df336ee5cbc7" kind="function"><name>FindJobAllTeachSkill</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_maping_teach_1a0be7e0bbe994ee566a4fc89898274f77" kind="function"><name>FindTeachSkillAllJob</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_maping_teach_1a5f3ffdeb0405fa230f1d5d8c6aefe123" kind="function"><name>Insert</name></member>
+  </compound>
+  <compound refid="interface_repositorys_1_1_i_repository_role" kind="interface"><name>Repositorys::IRepositoryRole</name>
+    <member refid="interface_repositorys_1_1_i_repository_role_1a8dea554d5e465b4af625985d5138d855" kind="function"><name>FakeDelete</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_role_1acd247f37f1ff54ffcb54f56d24eeef89" kind="function"><name>FindAllDeleteRole</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_role_1a7c8cdec782b4cfee2916ada766c531c4" kind="function"><name>FindAllNotDeleteRole</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_role_1ae4ab3af7292151a9f0a625a34a53a45f" kind="function"><name>FindAllRole</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_role_1a5bcbdc9c0fe3ba2879374edf7d68d619" kind="function"><name>FindRole</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_role_1af3d0aa36d8c4ad02dfd865218600a162" kind="function"><name>Insert</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_role_1ab47dc1b0022e5fed85c5514500d2b689" kind="function"><name>ReallyDelete</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_role_1adc9fe325380a6d37273cf1e10f91789e" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="interface_repositorys_1_1_i_repository_role_content" kind="interface"><name>Repositorys::IRepositoryRoleContent</name>
+    <member refid="interface_repositorys_1_1_i_repository_role_content_1a2a6925e35582eb7034f9e2aa2c2285e7" kind="function"><name>FindJobAllRole</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_role_content_1aea873070fb2be9d675843b211ec4ad73" kind="function"><name>FindRoleAllJob</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_role_content_1a674c13bcf1d6d58b2e538cdea58ec0e5" kind="function"><name>FindRoleAllJob</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_role_content_1a2bef79ec625f15283b82495f3ce30edd" kind="function"><name>Insert</name></member>
+  </compound>
+  <compound refid="interface_repositorys_1_1_i_repository_teach_lever" kind="interface"><name>Repositorys::IRepositoryTeachLever</name>
+    <member refid="interface_repositorys_1_1_i_repository_teach_lever_1a65f9eb78b21f500324183670506b83ad" kind="function"><name>FakeDeleteAll</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_teach_lever_1ac76f599ee4fed3501ecec75b80a6a224" kind="function"><name>FakeDeleteOne</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_teach_lever_1abebcd96b665547ed9e5c89e3302ffd0b" kind="function"><name>FindTechSkillLever</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_teach_lever_1ab4774fcaa7fb05ddb9531b4d1e786684" kind="function"><name>FindTechSkillLever</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_teach_lever_1a7c000b929b73c6bb551fa52f23ea6360" kind="function"><name>Insert</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_teach_lever_1ab29d08c15a9dcb4bfc69e7ac069cafb9" kind="function"><name>ReallyDeleteAll</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_teach_lever_1a96ea78f74975b76ea8af3fcab9a9dd69" kind="function"><name>ReallyDeleteOne</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_teach_lever_1ac21523e61b023593e6b4b06d08a18959" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="interface_repositorys_1_1_i_repository_teach_skills" kind="interface"><name>Repositorys::IRepositoryTeachSkills</name>
+    <member refid="interface_repositorys_1_1_i_repository_teach_skills_1a835d5ecc11b56ac156849c079992ca8d" kind="function"><name>FakeDelete</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_teach_skills_1a7601e3438ab1e1991a86591f0e6ea928" kind="function"><name>FindAllDeleteTechSkill</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_teach_skills_1a257fc0e06b1e4f85c76a4dc3a4c23a18" kind="function"><name>FindAllNotDeleteTechSkill</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_teach_skills_1a1e19e637c5cf32900f89a5df27cacdab" kind="function"><name>FindAllTechSkill</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_teach_skills_1aece1ab760ccc1879e7d4b6b74d5f269f" kind="function"><name>FindTechSkill</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_teach_skills_1a32c4a7fdf27718a801678a521382fd45" kind="function"><name>Insert</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_teach_skills_1af4fa7049fabc446667ccba4330ae9f32" kind="function"><name>ReallyDelete</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_teach_skills_1aad14064d674e901c5387cb8268ea7ebf" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="interface_repositorys_1_1_i_repository_user" kind="interface"><name>Repositorys::IRepositoryUser</name>
+    <member refid="interface_repositorys_1_1_i_repository_user_1a7d54152e4e68c0e15701511aeb709ff0" kind="function"><name>FakeDelete</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_1a5b4faff0dbf47b2c297be4590a1b740b" kind="function"><name>FindAllUser</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_1a04bf363a6f7c39e614a320cd40ccaf79" kind="function"><name>FindLoginUser</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_1a3753c35d4d709165da8a8a0cd99f26cc" kind="function"><name>FindLogoutUser</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_1a7494cd80a659fc52ad0ca6163ead60cb" kind="function"><name>FingUserNameOrID</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_1aaece9d734cf0b11b3d4bbdbb0ec3c626" kind="function"><name>Login</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_1a254317f602543201624ea11f24c11bb8" kind="function"><name>Logout</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_1ade33292d671ed7f997d0df233bd34a91" kind="function"><name>RealDelete</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_1aab7a310db5aa96c3dd0cc34c4b3aa5c4" kind="function"><name>Regist</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_1a07d26feb1539844ddeca8a19cdcd9fff" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="interface_repositorys_1_1_i_repository_user_info" kind="interface"><name>Repositorys::IRepositoryUserInfo</name>
+    <member refid="interface_repositorys_1_1_i_repository_user_info_1a836bbddcf039d6eb6ca366ed0ef32a58" kind="function"><name>FakeDelete</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_info_1acd6d8222a3b3134dc34764a793104b67" kind="function"><name>FindAllDeleteUserInfo</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_info_1a4b2e4aa20a259dcc11189bc422a3d789" kind="function"><name>FindAllNotDeleteUserInfo</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_info_1a2c0a78980c8eb96352a61dbefc796d5b" kind="function"><name>FindAllUserInfo</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_info_1ae285c792446fc9bd5ca0d5ed31b29761" kind="function"><name>FindUserInfo</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_info_1a0f17142293228b8576489703a1347f64" kind="function"><name>Insert</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_info_1aebd7412f34beb73667675b8a2ee970aa" kind="function"><name>ReallyDelete</name></member>
+    <member refid="interface_repositorys_1_1_i_repository_user_info_1a289231d3c4ca8080bb0ffcb72bdcb09b" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="interface_repositorys_1_1_i_repositroy_assess" kind="interface"><name>Repositorys::IRepositroyAssess</name>
+    <member refid="interface_repositorys_1_1_i_repositroy_assess_1a1b91adf3b60d95734afdde4b89227d31" kind="function"><name>FakeDelete</name></member>
+    <member refid="interface_repositorys_1_1_i_repositroy_assess_1a20be906d9d58f05ab2d83a62ad8a7e41" kind="function"><name>FindAllAssess</name></member>
+    <member refid="interface_repositorys_1_1_i_repositroy_assess_1adf65aca65bd41f44794df6103e2b899a" kind="function"><name>FindAllDeleteAssess</name></member>
+    <member refid="interface_repositorys_1_1_i_repositroy_assess_1abcb6b34c14dd3305fd761e145993e0b0" kind="function"><name>FindAllNotDeleteAssess</name></member>
+    <member refid="interface_repositorys_1_1_i_repositroy_assess_1a2307fb006ed092c49850dbb9d1ba2f20" kind="function"><name>FindAssessCoreDetails</name></member>
+    <member refid="interface_repositorys_1_1_i_repositroy_assess_1ae4dc3dafee8f26c303898e62bb770948" kind="function"><name>FindAssessTeachDetails</name></member>
+    <member refid="interface_repositorys_1_1_i_repositroy_assess_1a84ccbd484d658d0e39fb411f751b0c7a" kind="function"><name>FindByAssess</name></member>
+    <member refid="interface_repositorys_1_1_i_repositroy_assess_1ac23785515c59935ba7f8d6378963797d" kind="function"><name>FindMainAssess</name></member>
+    <member refid="interface_repositorys_1_1_i_repositroy_assess_1aecf86cbebaa67ef32eab697ed66d5685" kind="function"><name>Insert</name></member>
+    <member refid="interface_repositorys_1_1_i_repositroy_assess_1a4d501158eb0ba5f3ef8c18729a1f8070" kind="function"><name>ReallyDelete</name></member>
+    <member refid="interface_repositorys_1_1_i_repositroy_assess_1af9638b6751edc260928ee3200ac284b7" kind="function"><name>Update</name></member>
+    <member refid="interface_repositorys_1_1_i_repositroy_assess_1aa04f5333ecff199bf8ab12eb0c4213b5" kind="function"><name>FindMainAssessToOneself</name></member>
+  </compound>
+  <compound refid="class_views_1_1_controllers_1_1_job_controller" kind="class"><name>Views::Controllers::JobController</name>
+    <member refid="class_views_1_1_controllers_1_1_job_controller_1a49fbd7a6647a62e6239963e02d466900" kind="variable"><name>domainJob</name></member>
+    <member refid="class_views_1_1_controllers_1_1_job_controller_1a461d497a00230ebd731179f888718802" kind="function"><name>JobController</name></member>
+    <member refid="class_views_1_1_controllers_1_1_job_controller_1ab5d12796ab8d37a76250c7ff4075c1ff" kind="function"><name>JobView</name></member>
+    <member refid="class_views_1_1_controllers_1_1_job_controller_1a561d5d0e43b1beda287a8953ac7387dd" kind="function"><name>UpdateJob</name></member>
+    <member refid="class_views_1_1_controllers_1_1_job_controller_1a27460e1c327facbbb1482e1b0f0288f4" kind="function"><name>InsertJob</name></member>
+    <member refid="class_views_1_1_controllers_1_1_job_controller_1a33091848277bf01bfd1240ded2e60452" kind="function"><name>DeleteJob</name></member>
+    <member refid="class_views_1_1_controllers_1_1_job_controller_1acdacda5ed1f38f522e8164c86db66ab6" kind="function"><name>FindJob</name></member>
+    <member refid="class_views_1_1_controllers_1_1_job_controller_1af717f707e4ee3ad73d99749453559a19" kind="function"><name>FindAllJob</name></member>
+    <member refid="class_views_1_1_controllers_1_1_job_controller_1a8f6e1507da4f77e544204dd85d183a3a" kind="function"><name>InsertProfessionalCoreSkills</name></member>
+    <member refid="class_views_1_1_controllers_1_1_job_controller_1adf56806e80e904bdff5e7e5a4aaeb111" kind="function"><name>InsertProfessionalTeachSkills</name></member>
+  </compound>
+  <compound refid="class_views_1_1_controllers_1_1_login_controller" kind="class"><name>Views::Controllers::LoginController</name>
+    <member refid="class_views_1_1_controllers_1_1_login_controller_1adc52378135483f50698135118ae7bd5c" kind="variable"><name>domainLogin</name></member>
+    <member refid="class_views_1_1_controllers_1_1_login_controller_1a98c2a076137c6610b2cd2bd5fa56edb9" kind="function"><name>LoginController</name></member>
+    <member refid="class_views_1_1_controllers_1_1_login_controller_1ae2c180040b064249499bdcf39e4b3745" kind="function"><name>LoginView</name></member>
+    <member refid="class_views_1_1_controllers_1_1_login_controller_1a5d3e2dcb4598d014be99018ed6c9e8e9" kind="function"><name>Login</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_assess_details" kind="class"><name>Models::ModelAssessDetails</name>
+    <member refid="class_models_1_1_model_assess_details_1ad2011aac62bc996a05e8d6429f67cb51" kind="property"><name>EvaluationID</name></member>
+    <member refid="class_models_1_1_model_assess_details_1a1d40c80ba1c820025709bbafcff82774" kind="property"><name>EvaluationDetails</name></member>
+    <member refid="class_models_1_1_model_assess_details_1a964d80aff3166a21b94b3862affb08ac" kind="property"><name>UserIDBy</name></member>
+    <member refid="class_models_1_1_model_assess_details_1a89af1625b02aed2f50f97eabc4702230" kind="property"><name>UserIDMain</name></member>
+    <member refid="class_models_1_1_model_assess_details_1a531177d21baf42e3550e6c1c2eb9dcda" kind="property"><name>ByAssess</name></member>
+    <member refid="class_models_1_1_model_assess_details_1a50a365f5c198ec339b393b6c7ce21fec" kind="property"><name>MainAssess</name></member>
+    <member refid="class_models_1_1_model_assess_details_1a568e27a398498a02ab0b840c88c4210d" kind="property"><name>Delete</name></member>
+    <member refid="class_models_1_1_model_assess_details_1a19bfee45d45c2e6f4d30d0866cfd2f1c" kind="property"><name>SkillsID</name></member>
+    <member refid="class_models_1_1_model_assess_details_1a21a8c1746ffc2d5d9ccd7cf200744622" kind="property"><name>SkillsGUID</name></member>
+    <member refid="class_models_1_1_model_assess_details_1a7df0430a042643587da09029bee4bf1c" kind="property"><name>SkillsName</name></member>
+    <member refid="class_models_1_1_model_assess_details_1a29ecccf1e905e7a3ef8dfb75f7a71198" kind="property"><name>SkillsDetails</name></member>
+    <member refid="class_models_1_1_model_assess_details_1a4a970ffbaa5d0cda2ac6e491fdf2a798" kind="property"><name>SkillLeverDetails</name></member>
+    <member refid="class_models_1_1_model_assess_details_1ac0746687210a7f8739796de2fe656dd5" kind="property"><name>CoreLeverID</name></member>
+    <member refid="class_models_1_1_model_assess_details_1aad31d149ae2e7638ee2522d8573209d9" kind="property"><name>SkillClasses</name></member>
+    <member refid="class_models_1_1_model_assess_details_1a15fa6f1dfeed9233d5fd49237adba186" kind="property"><name>Lever</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_core_lever" kind="class"><name>Models::ModelCoreLever</name>
+    <member refid="class_models_1_1_model_core_lever_1aa815a853db058ddaa637134470e5e3e1" kind="property"><name>CoreLeverID</name></member>
+    <member refid="class_models_1_1_model_core_lever_1ad52c6970fdd27f632006e6dd5d95ea28" kind="property"><name>CoreLeverNum</name></member>
+    <member refid="class_models_1_1_model_core_lever_1a23606739a837fb8afce54c4c3fd0375a" kind="property"><name>CoreLeverDetails</name></member>
+    <member refid="class_models_1_1_model_core_lever_1ab68ed2958a53f594b5cf61120d16983a" kind="property"><name>CoreSkillsID</name></member>
+    <member refid="class_models_1_1_model_core_lever_1a9796994b9109019d0e8d5d2f15d03c79" kind="property"><name>CoreLeverDelete</name></member>
+    <member refid="class_models_1_1_model_core_lever_1a2efda0dcc8a4b2397971e18ccea27fc9" kind="property"><name>ModelCoreSkillsItem</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_core_skills" kind="class"><name>Models::ModelCoreSkills</name>
+    <member refid="class_models_1_1_model_core_skills_1a707e2145e952f7faeb383274783d8122" kind="property"><name>CoreSkillsID</name></member>
+    <member refid="class_models_1_1_model_core_skills_1a05f2111f81905859f5355f0c243df016" kind="property"><name>CoreSkillsName</name></member>
+    <member refid="class_models_1_1_model_core_skills_1af2b62232509bf7a83d2ef6276144d7dd" kind="property"><name>CoreSkillsDetails</name></member>
+    <member refid="class_models_1_1_model_core_skills_1a223a0ebd55103cf511b7c7e552239bf7" kind="property"><name>CoreSkillsGUID</name></member>
+    <member refid="class_models_1_1_model_core_skills_1aa3b84454b62c1aa2c97059798375a452" kind="property"><name>CoreSkillsDelete</name></member>
+    <member refid="class_models_1_1_model_core_skills_1a7eb845c85fb55e754ac033d341432d27" kind="property"><name>ModelCoreLeverItem</name></member>
+    <member refid="class_models_1_1_model_core_skills_1a9b128e33347771921e09c9633e02791f" kind="property"><name>TB_MappingCoreItem</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_evaluation" kind="class"><name>Models::ModelEvaluation</name>
+    <member refid="class_models_1_1_model_evaluation_1ac7272d3471b0485be979f85d76246d83" kind="property"><name>EvaluationID</name></member>
+    <member refid="class_models_1_1_model_evaluation_1a5985cfe854d5162f967e10c5025d45e7" kind="property"><name>EvaluationDetails</name></member>
+    <member refid="class_models_1_1_model_evaluation_1a14a66b43474585574cf28c0cd0b062be" kind="property"><name>UserIDBy</name></member>
+    <member refid="class_models_1_1_model_evaluation_1a75117e12b4b892ac3162bf4e2b353abc" kind="property"><name>UserIDMain</name></member>
+    <member refid="class_models_1_1_model_evaluation_1a3d4d48a2a581b984f2451f7cf95498c5" kind="property"><name>Delete</name></member>
+    <member refid="class_models_1_1_model_evaluation_1a9f91f0cff29a522640b8ad4062e93e7a" kind="property"><name>ModelUserByItem</name></member>
+    <member refid="class_models_1_1_model_evaluation_1abc967a523919ad535a6db724b97de425" kind="property"><name>ModelEvaluationInfoList</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_evaluation_info" kind="class"><name>Models::ModelEvaluationInfo</name>
+    <member refid="class_models_1_1_model_evaluation_info_1ab90323929913d9b69777067d5f8e3c4b" kind="property"><name>EvaluationInfoID</name></member>
+    <member refid="class_models_1_1_model_evaluation_info_1a7447671f239aea91b8dbcbb605c4df93" kind="property"><name>SkillsGUID</name></member>
+    <member refid="class_models_1_1_model_evaluation_info_1ac70a75bbf8139a7290b5048ea6d85999" kind="property"><name>EvaluationID</name></member>
+    <member refid="class_models_1_1_model_evaluation_info_1a5a7c56e12ba24152e4a7bba1642d1125" kind="property"><name>Lever</name></member>
+    <member refid="class_models_1_1_model_evaluation_info_1a33f3d006c042b7038397f3f1f8d55349" kind="property"><name>ModelEvaluationItem</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_job_and_core_skill" kind="class"><name>Models::ModelJobAndCoreSkill</name>
+    <member refid="class_models_1_1_model_job_and_core_skill_1a79828e10de0c4556a024dca14dacb574" kind="property"><name>ProfessionalID</name></member>
+    <member refid="class_models_1_1_model_job_and_core_skill_1a67475cbf5ebec3d9959efeb2eecb63c7" kind="property"><name>ProfessionalName</name></member>
+    <member refid="class_models_1_1_model_job_and_core_skill_1a10bc74cd9645c0fd0e3b6cb5629c1477" kind="property"><name>ProfessionalDetails</name></member>
+    <member refid="class_models_1_1_model_job_and_core_skill_1a6a8566ca09cc1d903e5dba40c881638c" kind="property"><name>ProfessionalDelete</name></member>
+    <member refid="class_models_1_1_model_job_and_core_skill_1ad58ea0c1ad98697bd5f0586c0c46b8f3" kind="property"><name>CoreSkillsID</name></member>
+    <member refid="class_models_1_1_model_job_and_core_skill_1a427c057b331b01feca8cd613dde196dc" kind="property"><name>CoreSkillsName</name></member>
+    <member refid="class_models_1_1_model_job_and_core_skill_1adf26a24f998451e7e955c44e0b385592" kind="property"><name>CoreSkillsDetails</name></member>
+    <member refid="class_models_1_1_model_job_and_core_skill_1a6618d9c2ecdc1eaeb2d1533b2f57a9e1" kind="property"><name>CoreSkillsGUID</name></member>
+    <member refid="class_models_1_1_model_job_and_core_skill_1af0aa71b9db49ae7f2ac978bd53838320" kind="property"><name>CoreSkillsDelete</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_job_and_skill_and_lever" kind="class"><name>Models::ModelJobAndSkillAndLever</name>
+    <member refid="class_models_1_1_model_job_and_skill_and_lever_1a747df2c36c8a3825113a6c8b57363b1e" kind="property"><name>CoreLeverID</name></member>
+    <member refid="class_models_1_1_model_job_and_skill_and_lever_1aa2195d0ae991d98360cbb6382c54a7fc" kind="property"><name>CoreLeverNum</name></member>
+    <member refid="class_models_1_1_model_job_and_skill_and_lever_1a34ff074478d0085fad22da7900a36e90" kind="property"><name>CoreLeverDetails</name></member>
+    <member refid="class_models_1_1_model_job_and_skill_and_lever_1a873548b23df40f35fab90754946eac1f" kind="property"><name>CoreSkillsID</name></member>
+    <member refid="class_models_1_1_model_job_and_skill_and_lever_1a2267d6c549d3136e7c23db40fcdcfc7e" kind="property"><name>CoreLeverDelete</name></member>
+    <member refid="class_models_1_1_model_job_and_skill_and_lever_1aad45e10457867757e9cadbd7124491f0" kind="property"><name>CoreSkillsName</name></member>
+    <member refid="class_models_1_1_model_job_and_skill_and_lever_1ada69b4aea88b18db060afc5337fb7691" kind="property"><name>CoreSkillsDetails</name></member>
+    <member refid="class_models_1_1_model_job_and_skill_and_lever_1adbbefff1f1248a46c348c07c9d285463" kind="property"><name>CoreSkillsGUID</name></member>
+    <member refid="class_models_1_1_model_job_and_skill_and_lever_1ab2a07e9646380a6179c2071a4543b66e" kind="property"><name>CoreSkillsDelete</name></member>
+    <member refid="class_models_1_1_model_job_and_skill_and_lever_1ab76002b90ac84b4c6da4d6cc0b59c8af" kind="property"><name>ProfessionalID</name></member>
+    <member refid="class_models_1_1_model_job_and_skill_and_lever_1a2cb1a583caa288c7987adb1baab618b5" kind="property"><name>ProfessionalName</name></member>
+    <member refid="class_models_1_1_model_job_and_skill_and_lever_1ac7d2317903f8d4abe02bb664617b2e78" kind="property"><name>ProfessionalDetails</name></member>
+    <member refid="class_models_1_1_model_job_and_skill_and_lever_1aa6831654a7d51a0ac85e79c31d933bf8" kind="property"><name>ProfessionalDelete</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_job_and_teach_skill" kind="class"><name>Models::ModelJobAndTeachSkill</name>
+    <member refid="class_models_1_1_model_job_and_teach_skill_1a8688b83b3a9928497c307f4d59cd7c63" kind="property"><name>ProfessionalID</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_1a09a46641718a558f0734d77f29d5ace9" kind="property"><name>ProfessionalName</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_1aac0e9578278703434e94ece9ef91af99" kind="property"><name>ProfessionalDetails</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_1adf075d9475c0969184c32976100e1072" kind="property"><name>ProfessionalDelete</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_1ac025e2448a9f56bd432e0ed9f479987d" kind="property"><name>TeachSkillsID</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_1ab010ca143e6285ae5642808f9827d2f3" kind="property"><name>TeachSkillsName</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_1aecf4f093d4573f544da8171a2d5c706f" kind="property"><name>TeachAkillsDetails</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_1a055e8f10f56793c6a250156ae5d6f5aa" kind="property"><name>TeachAkillsGUID</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_1a6fcba08a907d6ab5cca566eacbb084aa" kind="property"><name>TeachSkillDelete</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_job_and_teach_skill_and_lever" kind="class"><name>Models::ModelJobAndTeachSkillAndLever</name>
+    <member refid="class_models_1_1_model_job_and_teach_skill_and_lever_1ada19abbd495178d91201ede899e925a6" kind="property"><name>TeachLeverID</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_and_lever_1a8fce59c57047bf8d2067b83eed1a5d50" kind="property"><name>TeachLeverNum</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_and_lever_1a38af2c3702a0e3384dab03c6c47c9b93" kind="property"><name>TeachLeverDetails</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_and_lever_1a974a7776c2c2572fa4e20845b0b7531a" kind="property"><name>TeachSkillsID</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_and_lever_1a61a827efd103752a9af7b4715077537f" kind="property"><name>TeachLeverDelete</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_and_lever_1ac9d4bc971a67256174f4f354b81f1255" kind="property"><name>TeachSkillsName</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_and_lever_1a768782c7427d4a1223c56c9a32d156cf" kind="property"><name>TeachAkillsDetails</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_and_lever_1ac341730ad3e2e9ac2bb531d15aaec298" kind="property"><name>TeachAkillsGUID</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_and_lever_1a70642ab90c2fcc8cd748dba2970dfe31" kind="property"><name>TeachSkillDelete</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_and_lever_1adc214a8c861a3e7ff4e713b400fa6ed6" kind="property"><name>ProfessionalID</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_and_lever_1aa1b4ae169b26ee6eef275a5c432b84cb" kind="property"><name>ProfessionalName</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_and_lever_1ae32cc9a9ddcd6f0ab0a0721750c11a57" kind="property"><name>ProfessionalDetails</name></member>
+    <member refid="class_models_1_1_model_job_and_teach_skill_and_lever_1a1bff344c50c1d77779a965668cdfd709" kind="property"><name>ProfessionalDelete</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_mapping_core" kind="class"><name>Models::ModelMappingCore</name>
+    <member refid="class_models_1_1_model_mapping_core_1a9cefb11dc6b3e31d816c3db7ef7b5cc4" kind="property"><name>MappingID</name></member>
+    <member refid="class_models_1_1_model_mapping_core_1aa55f8a06ac6f18272119acb2a4116a43" kind="property"><name>ProfessionalID</name></member>
+    <member refid="class_models_1_1_model_mapping_core_1a18a53dda6adc885c497d25473f983ce1" kind="property"><name>CoreSkillsID</name></member>
+    <member refid="class_models_1_1_model_mapping_core_1ae1a14721340d49db035b86fffc2b3a68" kind="property"><name>ModelCoreSkillsItem</name></member>
+    <member refid="class_models_1_1_model_mapping_core_1a8be5716141dae387245d420ece4de969" kind="property"><name>ModelProfessionalItem</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_mapping_teach" kind="class"><name>Models::ModelMappingTeach</name>
+    <member refid="class_models_1_1_model_mapping_teach_1a6f37c3408da384abb4d3c9bd0cf23d2a" kind="property"><name>MappingID</name></member>
+    <member refid="class_models_1_1_model_mapping_teach_1a54dba9a853f93bbb8584e5ebaa958455" kind="property"><name>ProfessionalID</name></member>
+    <member refid="class_models_1_1_model_mapping_teach_1a41e4835e3fa78746809ec05d855b79fe" kind="property"><name>TeachSkillsID</name></member>
+    <member refid="class_models_1_1_model_mapping_teach_1a4fd9a1742875f4c783104c89f853ed50" kind="property"><name>ModelProfessionalItem</name></member>
+    <member refid="class_models_1_1_model_mapping_teach_1a365c63ff8cd5592f1656a409698d9994" kind="property"><name>TB_TechSkillsItem</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_professional" kind="class"><name>Models::ModelProfessional</name>
+    <member refid="class_models_1_1_model_professional_1af66d4d9464a4dfb6ce03c2702f22aef2" kind="property"><name>ProfessionalID</name></member>
+    <member refid="class_models_1_1_model_professional_1a229e5a20540a952db2f117be18da5ba4" kind="property"><name>ProfessionalName</name></member>
+    <member refid="class_models_1_1_model_professional_1ac33666c34bc866f90534c18670ae5959" kind="property"><name>ProfessionalDetails</name></member>
+    <member refid="class_models_1_1_model_professional_1a56a48b9feb1efef79f2ab5da97323114" kind="property"><name>ProfessionalDelete</name></member>
+    <member refid="class_models_1_1_model_professional_1a63e0cefea8b775c9f113056023f0529a" kind="property"><name>ModelMappingCores</name></member>
+    <member refid="class_models_1_1_model_professional_1af18768e9966bc6e9e5c670420002e589" kind="property"><name>ModelMappingTeachs</name></member>
+    <member refid="class_models_1_1_model_professional_1aeaa978cb86c2927a3ea08194a6ab1382" kind="property"><name>ModelRoleContents</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_role" kind="class"><name>Models::ModelRole</name>
+    <member refid="class_models_1_1_model_role_1ad9463eeb98882d557cfd63147afb066a" kind="property"><name>RoleID</name></member>
+    <member refid="class_models_1_1_model_role_1a8beb4d920fe0d4863789882920258722" kind="property"><name>RoleName</name></member>
+    <member refid="class_models_1_1_model_role_1a4f562fdf8a9aa6449a2ff56ddfaad1ca" kind="property"><name>RoleDetails</name></member>
+    <member refid="class_models_1_1_model_role_1a81b05ed4851497ed970cf4e835769963" kind="property"><name>RoleDelete</name></member>
+    <member refid="class_models_1_1_model_role_1af69652b60798d43b0cc20c684c38814a" kind="property"><name>ModelRoleContentList</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_role_and_job" kind="class"><name>Models::ModelRoleAndJob</name>
+    <member refid="class_models_1_1_model_role_and_job_1ab14298b549cc24e64735bfd293ad2e12" kind="property"><name>RoleID</name></member>
+    <member refid="class_models_1_1_model_role_and_job_1aa19b0ac6e80f5ddbacd7b1c7b1b9ff48" kind="property"><name>RoleName</name></member>
+    <member refid="class_models_1_1_model_role_and_job_1a7397c3d9925c9c61660778989b36e6f9" kind="property"><name>RoleDetails</name></member>
+    <member refid="class_models_1_1_model_role_and_job_1a72b58f545731403ac07dcf6597b606ed" kind="property"><name>RoleDelete</name></member>
+    <member refid="class_models_1_1_model_role_and_job_1a5dd08fb9cc3206cedc44caafa486ef57" kind="property"><name>ProfessionalID</name></member>
+    <member refid="class_models_1_1_model_role_and_job_1a7a81a86d4481bcb230119392dd301e58" kind="property"><name>ProfessionalName</name></member>
+    <member refid="class_models_1_1_model_role_and_job_1a5aa9203303b8c7bc034b130e99ae1a22" kind="property"><name>ProfessionalDetails</name></member>
+    <member refid="class_models_1_1_model_role_and_job_1a8a7a22bde857784efcd84375e050bb5b" kind="property"><name>ProfessionalDelete</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_role_content" kind="class"><name>Models::ModelRoleContent</name>
+    <member refid="class_models_1_1_model_role_content_1af5a6a6be03ae4cfb65819311a2693cf4" kind="property"><name>RoleContentID</name></member>
+    <member refid="class_models_1_1_model_role_content_1aa13c4761e4c467a98f3cb84dc191c528" kind="property"><name>RoleID</name></member>
+    <member refid="class_models_1_1_model_role_content_1a72ff1e7ffafe0aa20ab692cb2d9494a7" kind="property"><name>ProfessionalID</name></member>
+    <member refid="class_models_1_1_model_role_content_1a7565fdd52a8c2a3b91da67ec11d880f6" kind="property"><name>ModelProfessionalItem</name></member>
+    <member refid="class_models_1_1_model_role_content_1a17eb2deda3cf901109ec25f3e5fe2045" kind="property"><name>ModelRoleItem</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_teach_lever" kind="class"><name>Models::ModelTeachLever</name>
+    <member refid="class_models_1_1_model_teach_lever_1a42159d23d30e04852e8da301080318e5" kind="property"><name>TeachLeverID</name></member>
+    <member refid="class_models_1_1_model_teach_lever_1a63ad4dcd62dfbb9c53d41ed2e7ebc52e" kind="property"><name>TeachLeverNum</name></member>
+    <member refid="class_models_1_1_model_teach_lever_1a54bfaffc50c4afa1ac2e1f79e584ce19" kind="property"><name>TeachLeverDetails</name></member>
+    <member refid="class_models_1_1_model_teach_lever_1a71b611af43ff4e9af3dc3b88bd0c9d85" kind="property"><name>TeachSkillsID</name></member>
+    <member refid="class_models_1_1_model_teach_lever_1a27b0cea1c510a1197791bc09df9818fb" kind="property"><name>TeachLeverDelete</name></member>
+    <member refid="class_models_1_1_model_teach_lever_1a657cc0513fccee31a9819d187a4c5fd5" kind="property"><name>ModelTechSkillsItem</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_tech_skills" kind="class"><name>Models::ModelTechSkills</name>
+    <member refid="class_models_1_1_model_tech_skills_1a753f77a0190cd31f51de04aa3775fc0f" kind="property"><name>TeachSkillsID</name></member>
+    <member refid="class_models_1_1_model_tech_skills_1a0f20ec87b2b88ea393d64694f219a531" kind="property"><name>TeachSkillsName</name></member>
+    <member refid="class_models_1_1_model_tech_skills_1afee5b2ff0dc1e24c26d8c8329543f93a" kind="property"><name>TeachSkillsDetails</name></member>
+    <member refid="class_models_1_1_model_tech_skills_1a12ba56b368af1752ea62eff886a00581" kind="property"><name>TeachSkillsGUID</name></member>
+    <member refid="class_models_1_1_model_tech_skills_1a7c867649b92394e55cff20b35488c284" kind="property"><name>TeachSkillDelete</name></member>
+    <member refid="class_models_1_1_model_tech_skills_1a46841e2bfad6fa472ee43a343c0ba2ff" kind="property"><name>ModelMappingTeachs</name></member>
+    <member refid="class_models_1_1_model_tech_skills_1ae3c0fdf99442b03725bad5b734e9fb12" kind="property"><name>ModelTeachLevers</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_user" kind="class"><name>Models::ModelUser</name>
+    <member refid="class_models_1_1_model_user_1a21770bb1c01f46299b504504df6f1dcc" kind="property"><name>UserID</name></member>
+    <member refid="class_models_1_1_model_user_1ad8dda49e2df0df08dd0bb2a48ab033b7" kind="property"><name>UserName</name></member>
+    <member refid="class_models_1_1_model_user_1ad4473e7e87aec8b0bdbce8cee6180d52" kind="property"><name>UserPassword</name></member>
+    <member refid="class_models_1_1_model_user_1a74b86694cf640d83bd1a9a3700c04a9c" kind="property"><name>UserLastDate</name></member>
+    <member refid="class_models_1_1_model_user_1aed8d1e78d47522060fdc38620d9f0bad" kind="property"><name>UserLever</name></member>
+    <member refid="class_models_1_1_model_user_1a5a19422c906923dbd81c2db780915c56" kind="property"><name>UserConfirm</name></member>
+    <member refid="class_models_1_1_model_user_1af0f416f6ca742f430417b6d441252f2e" kind="property"><name>Login</name></member>
+    <member refid="class_models_1_1_model_user_1ac185483904991a868dd2fa2468392ea6" kind="property"><name>UserDelete</name></member>
+    <member refid="class_models_1_1_model_user_1a471d234f18d8c1021b4fc952f7bd095d" kind="property"><name>RoleID</name></member>
+    <member refid="class_models_1_1_model_user_1a4b1b2c2a8d1c123ebb6b051205318f77" kind="property"><name>ModelEvaluationBylist</name></member>
+  </compound>
+  <compound refid="class_models_1_1_model_user_info" kind="class"><name>Models::ModelUserInfo</name>
+    <member refid="class_models_1_1_model_user_info_1a76a3c198dfb02a6ec1b75bf65a3d12e6" kind="property"><name>UserInfoID</name></member>
+    <member refid="class_models_1_1_model_user_info_1a162659e7ac8823340382b60c9c35d2a1" kind="property"><name>UserInfoName</name></member>
+    <member refid="class_models_1_1_model_user_info_1a73045e1173bfa4ec6f8f8e683d37c78d" kind="property"><name>UserInfoAge</name></member>
+    <member refid="class_models_1_1_model_user_info_1a60f23bab9ec1bde667302def1edbdeb6" kind="property"><name>UserInfoAddress</name></member>
+    <member refid="class_models_1_1_model_user_info_1a15ead5c7b54e294e1971a0fb491d6c6b" kind="property"><name>UserInfoBirthday</name></member>
+    <member refid="class_models_1_1_model_user_info_1a80da768b30adeff10d9528de03b1c92b" kind="property"><name>UserPhone</name></member>
+    <member refid="class_models_1_1_model_user_info_1a6ff8cf99223ec50908eff3b4c6ee745e" kind="property"><name>UserInfoEmail</name></member>
+    <member refid="class_models_1_1_model_user_info_1a55247496b3061358c4dec06006e2440a" kind="property"><name>UserInfoWorkPhone</name></member>
+    <member refid="class_models_1_1_model_user_info_1ad0bc3c79d2002ace7e528cbe52a99b08" kind="property"><name>UserCurrentAddress</name></member>
+    <member refid="class_models_1_1_model_user_info_1a838ad2ac16128794a3ef746d448c89f2" kind="property"><name>UserInfoQQ</name></member>
+    <member refid="class_models_1_1_model_user_info_1abf3517a3b09d6a57a565b19213aa1e96" kind="property"><name>UserInfoDetails</name></member>
+    <member refid="class_models_1_1_model_user_info_1ad4d7291de6e71e4a2f4ad2a2502a4823" kind="property"><name>UserID</name></member>
+    <member refid="class_models_1_1_model_user_info_1a373d43b7d2d4d3a148e2fffd647ecf4c" kind="property"><name>UserInfoDelete</name></member>
+  </compound>
+  <compound refid="class_views_1_1_mvc_application" kind="class"><name>Views::MvcApplication</name>
+    <member refid="class_views_1_1_mvc_application_1a67af5b86ccd6be73da1f562ba28327f9" kind="function"><name>Application_Start</name></member>
+  </compound>
+  <compound refid="class_views_1_1_controllers_1_1_one_self_assess_controller" kind="class"><name>Views::Controllers::OneSelfAssessController</name>
+    <member refid="class_views_1_1_controllers_1_1_one_self_assess_controller_1a36c87bc7f846cc1cb6739b554543b82e" kind="function"><name>OneSelfAssessController</name></member>
+    <member refid="class_views_1_1_controllers_1_1_one_self_assess_controller_1ac31cc2fb247d660327c943bee4b75e8e" kind="function"><name>OneSelfAssessView</name></member>
+    <member refid="class_views_1_1_controllers_1_1_one_self_assess_controller_1adbdfa40796400e37498490bc4365aff0" kind="function"><name>FindOneselfAssess</name></member>
+  </compound>
+  <compound refid="class_views_1_1_controllers_1_1_other_assess_controller" kind="class"><name>Views::Controllers::OtherAssessController</name>
+    <member refid="class_views_1_1_controllers_1_1_other_assess_controller_1af6689290c153a0ee9cb1efac43e83d2c" kind="function"><name>OtherAssessController</name></member>
+    <member refid="class_views_1_1_controllers_1_1_other_assess_controller_1a8cc9b7de0312f87b7990164359ab5da0" kind="function"><name>OtherAssessView</name></member>
+    <member refid="class_views_1_1_controllers_1_1_other_assess_controller_1a242a9c51017a797f47161cf6220e5696" kind="function"><name>FindOtherAssess</name></member>
+  </compound>
+  <compound refid="class_views_1_1_controllers_1_1_regist_controller" kind="class"><name>Views::Controllers::RegistController</name>
+    <member refid="class_views_1_1_controllers_1_1_regist_controller_1a11736b5b6d319549ffb9a9d54ac84dd0" kind="function"><name>RegistView</name></member>
+    <member refid="class_views_1_1_controllers_1_1_regist_controller_1a5abf35fe6391c1386a9760e4152eb76b" kind="function"><name>Regist</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_repository_core_lever" kind="class"><name>Repositorys::RepositoryCoreLever</name>
+    <member refid="class_repositorys_1_1_repository_core_lever_1ae8b02611ffba9f931cf8d69f2d895df0" kind="variable"><name>dbContext</name></member>
+    <member refid="class_repositorys_1_1_repository_core_lever_1a13aa5fe47fe5177570077e86db44b2be" kind="function"><name>FindCoreSkillLever</name></member>
+    <member refid="class_repositorys_1_1_repository_core_lever_1ace980a1df271d00dbdae4c68eebdaa4f" kind="function"><name>FindCoreSkillLever</name></member>
+    <member refid="class_repositorys_1_1_repository_core_lever_1aa5effad9c5086317b615245392d3cfc1" kind="function"><name>Insert</name></member>
+    <member refid="class_repositorys_1_1_repository_core_lever_1a6cae2cdac50958059694f978dd10b0d2" kind="function"><name>Update</name></member>
+    <member refid="class_repositorys_1_1_repository_core_lever_1ab0c0cd5511fea71b7e436cb518d4dae3" kind="function"><name>ReallyDeleteAll</name></member>
+    <member refid="class_repositorys_1_1_repository_core_lever_1a38e8e0d9a8af0e37040617f3e150fb39" kind="function"><name>ReallyDeleteOne</name></member>
+    <member refid="class_repositorys_1_1_repository_core_lever_1a20f08d10eb0f64da16a3782d77c326a0" kind="function"><name>FakeDeleteAll</name></member>
+    <member refid="class_repositorys_1_1_repository_core_lever_1ae0601c6bf3ac53b77e3ca9b3b3db33be" kind="function"><name>FakeDeleteOne</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_repository_core_skills" kind="class"><name>Repositorys::RepositoryCoreSkills</name>
+    <member refid="class_repositorys_1_1_repository_core_skills_1a7219b8a33be1a7e5b66b7600b34580c4" kind="variable"><name>dbContext</name></member>
+    <member refid="class_repositorys_1_1_repository_core_skills_1aa55491a74525009480fdd593cc980c2d" kind="function"><name>FindCoreSkill</name></member>
+    <member refid="class_repositorys_1_1_repository_core_skills_1a8832ac6e84a4b28106db332f9c953e05" kind="function"><name>FindAllCoreSkill</name></member>
+    <member refid="class_repositorys_1_1_repository_core_skills_1adacb25a12672ac6a81d69c685a009010" kind="function"><name>FindAllDeleteCoreSkill</name></member>
+    <member refid="class_repositorys_1_1_repository_core_skills_1aec94a4834035a2549dc73818765b0312" kind="function"><name>FindAllNotDeleteCoreSkill</name></member>
+    <member refid="class_repositorys_1_1_repository_core_skills_1a3f9ef4166ca35a86a92b1925b8e16558" kind="function"><name>Insert</name></member>
+    <member refid="class_repositorys_1_1_repository_core_skills_1a7fb3a67df35014f1d42fca702b3e411c" kind="function"><name>Update</name></member>
+    <member refid="class_repositorys_1_1_repository_core_skills_1ad4145e11e02bab83205b217ccf6477e0" kind="function"><name>ReallyDelete</name></member>
+    <member refid="class_repositorys_1_1_repository_core_skills_1a576ff34b2d00360178415fca08caa429" kind="function"><name>FakeDelete</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_repository_job" kind="class"><name>Repositorys::RepositoryJob</name>
+    <member refid="class_repositorys_1_1_repository_job_1a5c5d97434b9272bc1753240cb4c5da1c" kind="variable"><name>dbContext</name></member>
+    <member refid="class_repositorys_1_1_repository_job_1a5b88f34f02d199d55787ede61d99b77a" kind="function"><name>FindJob</name></member>
+    <member refid="class_repositorys_1_1_repository_job_1a420c10b8672769d69e542a8f90114a5c" kind="function"><name>FindAllJob</name></member>
+    <member refid="class_repositorys_1_1_repository_job_1ad6ccb34bfa12dbb4694d438c0d64f552" kind="function"><name>FindAllDeleteJob</name></member>
+    <member refid="class_repositorys_1_1_repository_job_1afcb368788420be4a3a900e84646f40d0" kind="function"><name>FindAllNotDeleteJob</name></member>
+    <member refid="class_repositorys_1_1_repository_job_1a21b5c078c0f061d6f176bd279398c4e3" kind="function"><name>Insert</name></member>
+    <member refid="class_repositorys_1_1_repository_job_1ab33bf73d25a797a1bc3f1ac34642c687" kind="function"><name>Update</name></member>
+    <member refid="class_repositorys_1_1_repository_job_1ac979071b51b8ca9922c1f98a98c458bf" kind="function"><name>ReallyDelete</name></member>
+    <member refid="class_repositorys_1_1_repository_job_1ac1a8c5e9bb4fb9685d53a4617208f666" kind="function"><name>FakeDelete</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_repository_maping_core" kind="class"><name>Repositorys::RepositoryMapingCore</name>
+    <member refid="class_repositorys_1_1_repository_maping_core_1a2a219f21e9dd0d4238d5c34445c46431" kind="variable"><name>dbContext</name></member>
+    <member refid="class_repositorys_1_1_repository_maping_core_1ab6837c824d60066944badce1578ed87f" kind="function"><name>FindJobAllCoreSkill</name></member>
+    <member refid="class_repositorys_1_1_repository_maping_core_1a5f4800c1c2dfa0c0a4d97793e594a67c" kind="function"><name>FindJobAllCoreSkill</name></member>
+    <member refid="class_repositorys_1_1_repository_maping_core_1ace3ee466b293d7c93ef3c58b90d24217" kind="function"><name>FindCoreSkillAllJob</name></member>
+    <member refid="class_repositorys_1_1_repository_maping_core_1ad12f1f8858cf431a5e99248c09169f10" kind="function"><name>Insert</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_repository_maping_teach" kind="class"><name>Repositorys::RepositoryMapingTeach</name>
+    <member refid="class_repositorys_1_1_repository_maping_teach_1a9dc8ec7965e9496bd684bad38800904c" kind="variable"><name>dbContext</name></member>
+    <member refid="class_repositorys_1_1_repository_maping_teach_1ac49b161647810eda4e76db1b20a880ac" kind="function"><name>FindJobAllTeachSkill</name></member>
+    <member refid="class_repositorys_1_1_repository_maping_teach_1ade3439afd1e54c723b7dd167d9698ec5" kind="function"><name>FindJobAllTeachSkill</name></member>
+    <member refid="class_repositorys_1_1_repository_maping_teach_1a5bdd981b746beddbbd70aa06f18253bf" kind="function"><name>FindTeachSkillAllJob</name></member>
+    <member refid="class_repositorys_1_1_repository_maping_teach_1a7f642087526bb9e7c31f2cd9ce1bc058" kind="function"><name>Insert</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_repository_role" kind="class"><name>Repositorys::RepositoryRole</name>
+    <member refid="class_repositorys_1_1_repository_role_1a8d188627d55e05908bad7b8d2c6a5764" kind="variable"><name>dbContext</name></member>
+    <member refid="class_repositorys_1_1_repository_role_1a6d0ad7b891d3df5a00020edc70b3be5b" kind="function"><name>FindRole</name></member>
+    <member refid="class_repositorys_1_1_repository_role_1a0bcb49472924c891b234beb3c5934e82" kind="function"><name>FindAllRole</name></member>
+    <member refid="class_repositorys_1_1_repository_role_1ab2c96d377b32708ea8b1c74eb088a1c2" kind="function"><name>FindAllDeleteRole</name></member>
+    <member refid="class_repositorys_1_1_repository_role_1a662b8759dc438d3fa5ae403a310661e1" kind="function"><name>FindAllNotDeleteRole</name></member>
+    <member refid="class_repositorys_1_1_repository_role_1a88036cfd8b11e25ee03370fe294433f1" kind="function"><name>Insert</name></member>
+    <member refid="class_repositorys_1_1_repository_role_1afc5bf2a7d44c1c97f79064bd76ac547e" kind="function"><name>Update</name></member>
+    <member refid="class_repositorys_1_1_repository_role_1a14b496d4f800767e07cbded21a8e12f7" kind="function"><name>ReallyDelete</name></member>
+    <member refid="class_repositorys_1_1_repository_role_1afe40f536e83beb7a8f0400ae1225483f" kind="function"><name>FakeDelete</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_repository_role_content" kind="class"><name>Repositorys::RepositoryRoleContent</name>
+    <member refid="class_repositorys_1_1_repository_role_content_1a8c9b77b18c9b01081dfec20e926c7c53" kind="variable"><name>dbContext</name></member>
+    <member refid="class_repositorys_1_1_repository_role_content_1a9741b5d1eca5e2a0170135f7da53a213" kind="function"><name>FindRoleAllJob</name></member>
+    <member refid="class_repositorys_1_1_repository_role_content_1a886905fed47fbb069f5605857a1d15ef" kind="function"><name>FindRoleAllJob</name></member>
+    <member refid="class_repositorys_1_1_repository_role_content_1ada4b9fa809d21382f5012a60b4343dbe" kind="function"><name>FindJobAllRole</name></member>
+    <member refid="class_repositorys_1_1_repository_role_content_1a2e854baaae127d1684a8951cedd3ad0a" kind="function"><name>Insert</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_repository_teach_lever" kind="class"><name>Repositorys::RepositoryTeachLever</name>
+    <member refid="class_repositorys_1_1_repository_teach_lever_1a5cde2926ed1b159f8868785281919a96" kind="variable"><name>dbContext</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_lever_1a2ce91dcea0e58c8b24699b0f8558d6f4" kind="function"><name>FindTechSkillLever</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_lever_1aeb6ea2ba082701d232461bbfc462ff45" kind="function"><name>FindTechSkillLever</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_lever_1a9891dfcd24834f107f37798af1efbc34" kind="function"><name>Insert</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_lever_1ab5af05dd8903eab808f18cb4461b6837" kind="function"><name>Update</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_lever_1a1018405b3852cabc00f40a2d058cdcb7" kind="function"><name>ReallyDeleteAll</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_lever_1a1606e0efc4b7d9d2b68ff1c32be7884e" kind="function"><name>ReallyDeleteOne</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_lever_1aaacb22c2fe5ad90411a113dd718034cc" kind="function"><name>FakeDeleteAll</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_lever_1afbfdcc36b054f2707a1f616eda80fdf6" kind="function"><name>FakeDeleteOne</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_repository_teach_skills" kind="class"><name>Repositorys::RepositoryTeachSkills</name>
+    <member refid="class_repositorys_1_1_repository_teach_skills_1a5c069a3cd61b449454f1df3dc43d234b" kind="variable"><name>dbContext</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_skills_1afd94254addd4f5cfc1e668beffbc45b4" kind="function"><name>FindTechSkill</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_skills_1a457af868c499e65322e019b30a1fd488" kind="function"><name>FindAllTechSkill</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_skills_1aff17a60cb0c3782ad4146781ba95e2f6" kind="function"><name>FindAllDeleteTechSkill</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_skills_1a9c4aabb0c49e57a6d8097aed7e398db3" kind="function"><name>FindAllNotDeleteTechSkill</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_skills_1a6d882ef0285119915fcdae83152e26ae" kind="function"><name>Insert</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_skills_1a7b234ad25061f385f3f7428bb205edd5" kind="function"><name>Update</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_skills_1af31312c95fb8cd4cd33d7394fb210018" kind="function"><name>ReallyDelete</name></member>
+    <member refid="class_repositorys_1_1_repository_teach_skills_1ad19317397921708daf4155b61f9dba29" kind="function"><name>FakeDelete</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_repository_user" kind="class"><name>Repositorys::RepositoryUser</name>
+    <member refid="class_repositorys_1_1_repository_user_1a1694dbbba2acb1e5d7c290eec670bb8a" kind="variable"><name>dbContext</name></member>
+    <member refid="class_repositorys_1_1_repository_user_1a5a2c68c8a652ca4db345e352ac5adb16" kind="function"><name>Login</name></member>
+    <member refid="class_repositorys_1_1_repository_user_1a2e66d6f116e12f8401e10227276e737f" kind="function"><name>LoginOrNo</name></member>
+    <member refid="class_repositorys_1_1_repository_user_1a38f2249d6c693d53ef98e2612ec6a5df" kind="function"><name>Logout</name></member>
+    <member refid="class_repositorys_1_1_repository_user_1a822c8fec11a88dcd7dd0c7f666eb2854" kind="function"><name>FindLoginUser</name></member>
+    <member refid="class_repositorys_1_1_repository_user_1ae1610dd2b5d339717ed2e252a3b3614e" kind="function"><name>FindAllUser</name></member>
+    <member refid="class_repositorys_1_1_repository_user_1a0e9329dfc495d54089c2dcad37ec8bb7" kind="function"><name>FindLogoutUser</name></member>
+    <member refid="class_repositorys_1_1_repository_user_1aad1d96ca72d0dc76db35d1fa31043868" kind="function"><name>FingUserNameOrID</name></member>
+    <member refid="class_repositorys_1_1_repository_user_1a94db95d9b765018dcbad4bbe254dee5a" kind="function"><name>Regist</name></member>
+    <member refid="class_repositorys_1_1_repository_user_1a10210f6f80190ac208775b9724498bf8" kind="function"><name>Update</name></member>
+    <member refid="class_repositorys_1_1_repository_user_1a7bea28ae7f3af3ceede6c342215b1218" kind="function"><name>FakeDelete</name></member>
+    <member refid="class_repositorys_1_1_repository_user_1aa1162387e511437d119c7c7fd8d040a1" kind="function"><name>RealDelete</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_repository_user_info" kind="class"><name>Repositorys::RepositoryUserInfo</name>
+    <member refid="class_repositorys_1_1_repository_user_info_1ab073f8513a0afe7852d6b15a76ca1bf2" kind="variable"><name>dbContext</name></member>
+    <member refid="class_repositorys_1_1_repository_user_info_1a24f7218153288adfa77be47fa4023581" kind="function"><name>FindUserInfo</name></member>
+    <member refid="class_repositorys_1_1_repository_user_info_1ae753722eaad0b5f05e4f483967fe7748" kind="function"><name>FindAllUserInfo</name></member>
+    <member refid="class_repositorys_1_1_repository_user_info_1a87d85a8b5002a863d81b952b79086127" kind="function"><name>FindAllDeleteUserInfo</name></member>
+    <member refid="class_repositorys_1_1_repository_user_info_1ad7e10e9d4156c4c45a48aab0d3c3faaa" kind="function"><name>FindAllNotDeleteUserInfo</name></member>
+    <member refid="class_repositorys_1_1_repository_user_info_1ad6e70cba87853962d938ec1982337baa" kind="function"><name>Insert</name></member>
+    <member refid="class_repositorys_1_1_repository_user_info_1a1feff8fb3f74eaceea09211c77624546" kind="function"><name>Update</name></member>
+    <member refid="class_repositorys_1_1_repository_user_info_1a616bc612aa9370fe4e3ab247cf359ee0" kind="function"><name>FakeDelete</name></member>
+    <member refid="class_repositorys_1_1_repository_user_info_1a2daf2f93a19834c860cc50be5baaf71e" kind="function"><name>ReallyDelete</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_repositroy_assess" kind="class"><name>Repositorys::RepositroyAssess</name>
+    <member refid="class_repositorys_1_1_repositroy_assess_1a1e8d1938c5937a617d0c95fb803db2da" kind="variable"><name>dbContext</name></member>
+    <member refid="class_repositorys_1_1_repositroy_assess_1a866413435d6bac6c92af02dd689c673e" kind="function"><name>FindAllAssess</name></member>
+    <member refid="class_repositorys_1_1_repositroy_assess_1ae5c6112c346022de4b861f3178448de5" kind="function"><name>FindAllNotDeleteAssess</name></member>
+    <member refid="class_repositorys_1_1_repositroy_assess_1acb2dce66f30ea65339980d56719be743" kind="function"><name>FindAllDeleteAssess</name></member>
+    <member refid="class_repositorys_1_1_repositroy_assess_1ad0fe4a94c6156a2c3131668a1057f8d8" kind="function"><name>FindByAssess</name></member>
+    <member refid="class_repositorys_1_1_repositroy_assess_1a6a36b7a27c21651fd3d3530212d827ec" kind="function"><name>FindMainAssess</name></member>
+    <member refid="class_repositorys_1_1_repositroy_assess_1ac90b17488fca567884c957bd2bdea9f0" kind="function"><name>FindMainAssessToOneself</name></member>
+    <member refid="class_repositorys_1_1_repositroy_assess_1ac6d385c8ae17134d644c56ae9f5b7719" kind="function"><name>FindAssessCoreDetails</name></member>
+    <member refid="class_repositorys_1_1_repositroy_assess_1a839eda2e0ab5f19a1479cb1b640ddd62" kind="function"><name>FindAssessTeachDetails</name></member>
+    <member refid="class_repositorys_1_1_repositroy_assess_1a1b66f97fc01a60c5fbb72b69bf9029ab" kind="function"><name>Insert</name></member>
+    <member refid="class_repositorys_1_1_repositroy_assess_1affd11b7e38d9bf8f7f7a0bef02ec580c" kind="function"><name>FakeDelete</name></member>
+    <member refid="class_repositorys_1_1_repositroy_assess_1a7ca1c4c8f8c097a2fff463f2eac7d74e" kind="function"><name>ReallyDelete</name></member>
+    <member refid="class_repositorys_1_1_repositroy_assess_1a4f9b60670a70c7e2be6a62585bd918cc" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_domains_1_1_properties_1_1_resources" kind="class"><name>Domains::Properties::Resources</name>
+    <member refid="class_domains_1_1_properties_1_1_resources_1ac5cb7f77b4aad1be8c63afa97423988b" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_domains_1_1_properties_1_1_resources_1a40d0b80ae859aa067150466d0f429bce" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_domains_1_1_properties_1_1_resources_1ae866a6ac7def953a1a512fd7d0e1be34" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_domains_1_1_properties_1_1_resources_1a2c138b13fae7680619d6bab48564c965" kind="property"><name>Culture</name></member>
+    <member refid="class_domains_1_1_properties_1_1_resources_1ae3638ede6a134faa741dce23ee41ce9d" kind="property"><name>CheckCode</name></member>
+    <member refid="class_domains_1_1_properties_1_1_resources_1a4d54125a6d1662c835295687c0245a65" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_views_1_1_controllers_1_1_role_controller" kind="class"><name>Views::Controllers::RoleController</name>
+    <member refid="class_views_1_1_controllers_1_1_role_controller_1aba09fa55199a27eee9ff599ee7806896" kind="function"><name>RoleController</name></member>
+    <member refid="class_views_1_1_controllers_1_1_role_controller_1a03bfe8083d474eeaf78867ce0ea20b37" kind="function"><name>RoleView</name></member>
+    <member refid="class_views_1_1_controllers_1_1_role_controller_1af27f1f06415821255cb8d6051d99278c" kind="function"><name>FindAllRole</name></member>
+    <member refid="class_views_1_1_controllers_1_1_role_controller_1af68c0cd71f33ae9512d79a6d637ede30" kind="function"><name>FindRole</name></member>
+    <member refid="class_views_1_1_controllers_1_1_role_controller_1a02fafcb9555aedb1389e56dffdcb883a" kind="function"><name>DeleteRole</name></member>
+    <member refid="class_views_1_1_controllers_1_1_role_controller_1a914f387d165ca7c01ed8b573a2da47d5" kind="function"><name>UpdateRole</name></member>
+    <member refid="class_views_1_1_controllers_1_1_role_controller_1a97a71465e7f0f1cd9cece1876202a50c" kind="function"><name>InsertRole</name></member>
+    <member refid="class_views_1_1_controllers_1_1_role_controller_1a3ec83c51fb7f1e23542130dedce74f30" kind="function"><name>InsertRoleProfessional</name></member>
+  </compound>
+  <compound refid="class_views_1_1_route_config" kind="class"><name>Views::RouteConfig</name>
+    <member refid="class_views_1_1_route_config_1aee9115ebcbf7478f42213feaa80b8e3c" kind="function"><name>RegisterRoutes</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_migrations_1_1_script" kind="class"><name>Repositorys::Migrations::Script</name>
+    <member refid="class_repositorys_1_1_migrations_1_1_script_1a8f1396d24470651e4c381a397ee133e9" kind="variable"><name>Resources</name></member>
+    <member refid="class_repositorys_1_1_migrations_1_1_script_1a0cff4672f358b7de25e4eca3c7af1055" kind="property"><name>Id</name></member>
+    <member refid="class_repositorys_1_1_migrations_1_1_script_1a6402d9a0171ce52129c3d983570aebdd" kind="property"><name>Source</name></member>
+    <member refid="class_repositorys_1_1_migrations_1_1_script_1a5fb9ed7b4494073cfe67357fc548b06e" kind="property"><name>Target</name></member>
+    <member refid="class_repositorys_1_1_migrations_1_1_script_1aa184839d55c74970df3d763e25f39ee5" kind="function"><name>Up</name></member>
+    <member refid="class_repositorys_1_1_migrations_1_1_script_1aa308e4a17261f99bd5a25a4fe16f102b" kind="function"><name>Down</name></member>
+  </compound>
+  <compound refid="class_project_utils_1_1_show_all_value" kind="class"><name>ProjectUtils::ShowAllValue</name>
+    <member refid="class_project_utils_1_1_show_all_value_1a4b8b1f726f3a6c42a30012fbf5c92903" kind="function"><name>ShowValue&lt; T &gt;</name></member>
+    <member refid="class_project_utils_1_1_show_all_value_1a34ad3e97a9e6238c69400c592ee5abfc" kind="function"><name>ShowValue&lt; T &gt;</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_data_access_1_1_t_b___core_lever" kind="class"><name>Repositorys::DataAccess::TB_CoreLever</name>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___core_lever_1af1143d885912a3ab71ac51d8b907c106" kind="property"><name>CoreLeverID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___core_lever_1a0b6d13e99e3c02b14a438f14afcd947f" kind="property"><name>CoreLeverNum</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___core_lever_1aa36729b300ed2ee3147495288363fbfe" kind="property"><name>CoreLeverDetails</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___core_lever_1af20ae9e4d0d06233dbbcf81992976f56" kind="property"><name>CoreSkillsID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___core_lever_1a157fd56afd731215abf4017932438a85" kind="property"><name>CoreLeverDelete</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___core_lever_1ac8448d3b3fcc1559ee9b6c99006552ec" kind="property"><name>TB_CoreSkills</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_data_access_1_1_t_b___core_skills" kind="class"><name>Repositorys::DataAccess::TB_CoreSkills</name>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___core_skills_1ae08496219b4493d811d847e5f7bb8534" kind="property"><name>CoreSkillsID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___core_skills_1a48c35f4da5ce1e24fec27d8f5c4c3466" kind="property"><name>CoreSkillsName</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___core_skills_1aaec26b4dad938922193c9b922a0dbb1b" kind="property"><name>CoreSkillsDetails</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___core_skills_1a19c53bb4108a8759edfc93da0a3e40e1" kind="property"><name>CoreSkillsGUID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___core_skills_1aa2b0e3bd346b3a28d09534994d565f97" kind="property"><name>CoreSkillsDelete</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___core_skills_1ae3920f2de1a3d2faf3abccde9dedff03" kind="property"><name>TB_CoreLever</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___core_skills_1a3be21f354e6e7f3fb4949ead6da5a110" kind="property"><name>TB_MappingCore</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___core_skills_1affabe6d625e5e252fcaca391737c7ec9" kind="function"><name>TB_CoreSkills</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation" kind="class"><name>Repositorys::DataAccess::TB_Evaluation</name>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation_1a38f09d71d664c43857885dbc21548d77" kind="property"><name>EvaluationID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation_1a63b2ccaf1b943880cf378cbe9bc14b55" kind="property"><name>EvaluationDetails</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation_1a0f365a8176fd403d5c8dbcd8399fc84d" kind="property"><name>UserIDMain</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation_1a463a9a0d4ee58b20b3d4fbe9dbc177cb" kind="property"><name>Delete</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation_1a0a27bddd10c176119890af2f3f0335f2" kind="property"><name>UserIDBy</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation_1a416effd15a8ac75676120f6775efe641" kind="property"><name>TB_User</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation_1af9119c41461483797653fa12ad366834" kind="property"><name>TB_EvaluationInfoList</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation_1a83329593f3279a62567f0e5d498888ec" kind="function"><name>TB_Evaluation</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation_info" kind="class"><name>Repositorys::DataAccess::TB_EvaluationInfo</name>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation_info_1ab6b3b6cf1d06f4c15ad3206fc4d78f73" kind="property"><name>EvaluationInfoID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation_info_1afb5aadadc1d52aa3136a035c318524c5" kind="property"><name>SkillsGUID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation_info_1a01c41bc7417897a39bc6c3e4c1068ad1" kind="property"><name>Lever</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation_info_1a0b6c392b618940b9381b7bf8064b0333" kind="property"><name>EvaluationID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___evaluation_info_1a0262e1fc7c85aa6899ce535ac16c1255" kind="property"><name>TB_Evaluation</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_core" kind="class"><name>Repositorys::DataAccess::TB_MappingCore</name>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_core_1a48f6bb40e664b26005eca355d98d02a4" kind="property"><name>MappingID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_core_1a931b047db5bcbea7a4e20685694421df" kind="property"><name>ProfessionalID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_core_1a8ba7ee11a549d774aea9aad8db54ad9e" kind="property"><name>CoreSkillsID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_core_1a849437e6d24f83afd0502210cbcf14ef" kind="property"><name>TB_CoreSkills</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_core_1a77fa5961c86460af50806dec29dbec53" kind="property"><name>TB_Professional</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_teach" kind="class"><name>Repositorys::DataAccess::TB_MappingTeach</name>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_teach_1a472e354e356d003e441ff1b57ad7df77" kind="property"><name>MappingID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_teach_1a772424a6afd3cc293d56ca0af6a1a359" kind="property"><name>ProfessionalID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_teach_1ae967575a5f7a8be0f12dd6d3473ae196" kind="property"><name>TeachSkillsID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_teach_1a9e96e7882038429f0793ce55df308f7a" kind="property"><name>TB_Professional</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_teach_1aa34d529d2606827479b8529ca3b4b76b" kind="property"><name>TB_TechSkills</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_data_access_1_1_t_b___professional" kind="class"><name>Repositorys::DataAccess::TB_Professional</name>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1acd41b36403e33a8273615b92e448751d" kind="property"><name>ProfessionalID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1a54fd9a01a3e02cdd705b331394ab7be0" kind="property"><name>ProfessionalName</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1ae008fd2c1ea7d24d50beb3808cc75846" kind="property"><name>ProfessionalDetails</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1aff3ef5ab8a6799bd497dc970c70a3b9a" kind="property"><name>ProfessionalDelete</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1af9925623babd595318ebe9aae5c29c5f" kind="property"><name>TB_MappingCore</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1ae0f25f4119dbaf89cc708ade1d8cb2c3" kind="property"><name>TB_MappingTeach</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1a64b42ba33fc1ccd7a623e7921d8cd902" kind="property"><name>TB_RoleContent</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___professional_1a1d85d3a98c20df41685c8882ff2da87b" kind="function"><name>TB_Professional</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_data_access_1_1_t_b___role" kind="class"><name>Repositorys::DataAccess::TB_Role</name>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_1aaa805f6a72214649cf088584faf2e003" kind="property"><name>RoleID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_1a30f01fa04914e11218ad9b29c7019670" kind="property"><name>RoleName</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_1ab50d549c01f7154321e9174e758e04a5" kind="property"><name>RoleDetails</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_1aa34df0574e840f2de9c8fae3025d4d17" kind="property"><name>RoleDelete</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_1a97de0ca058065dcbd050e4574274b090" kind="property"><name>TB_RoleContent</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_1a131b9fa0fe02ce3b13300aed5793152a" kind="property"><name>TB_User</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_1aef34b7fdf3fa7fbf4e1b5c97e8e23dc2" kind="function"><name>TB_Role</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_data_access_1_1_t_b___role_content" kind="class"><name>Repositorys::DataAccess::TB_RoleContent</name>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_content_1a8c00279c4dbb226a1ae967a8dc630561" kind="property"><name>RoleContentID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_content_1afaa0d33066189a066b93879fca0d0727" kind="property"><name>RoleID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_content_1a99a2ef779f3faabccf83e1134303fc63" kind="property"><name>ProfessionalID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_content_1a4ed925f9b48faa1b7673fcf2fd80d037" kind="property"><name>TB_Professional</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___role_content_1a5bac0e83ce163078c51d5f650f11a93d" kind="property"><name>TB_Role</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_data_access_1_1_t_b___teach_lever" kind="class"><name>Repositorys::DataAccess::TB_TeachLever</name>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1ad975673ebfda77dcc1ad43972ce2eb69" kind="property"><name>TeachLeverID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1a254e1c66c3a94db3cb2e54d2e048568c" kind="property"><name>TeachLeverNum</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1aff72cb4448335bb6626bfff05859f432" kind="property"><name>TeachLeverDetails</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1ad3736b69de9d73d3e8510958bda18427" kind="property"><name>TeachSkillsID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1a27d8b5c3233d566dfed2ee09ddd71588" kind="property"><name>TeachLeverDelete</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___teach_lever_1a7b963b20e90d4fed9357ecd8693154bc" kind="property"><name>TB_TechSkills</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills" kind="class"><name>Repositorys::DataAccess::TB_TechSkills</name>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1a0ee1392130f789ecd7465c76df14aa52" kind="property"><name>TeachSkillsID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1ae6df6000cb95348c3984aae8de0599db" kind="property"><name>TeachSkillsName</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1af4f62a6c7dbd81d7dbc819313605c1a7" kind="property"><name>TeachSkillsDetails</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1ad1b647f99a19d9ae012502f28fb71433" kind="property"><name>TeachSkillsGUID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1aec9745d24943fba7f865ba70705d3fff" kind="property"><name>TeachSkillDelete</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1ab2997a47b2c9d08dbf0923f232eb8da3" kind="property"><name>TB_MappingTeach</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1a5570ed082372e7e81c1aab61345bc8a4" kind="property"><name>TB_TeachLever</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___tech_skills_1a511721b6427faff1052e28c51cd1f2c1" kind="function"><name>TB_TechSkills</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_data_access_1_1_t_b___user" kind="class"><name>Repositorys::DataAccess::TB_User</name>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_1a53d7212915d80a5aaec1d9827ad43f92" kind="property"><name>UserID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_1aa061ddd284c327e1f188c33458042f6c" kind="property"><name>UserName</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_1affc5da88d00229dd2a5dfdb6e0aafa0a" kind="property"><name>UserPassword</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_1aa5151415415467b4b9cb5c1e073440a1" kind="property"><name>UserLastDate</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_1a49fe02fa4646bf5f39dc7f34dd53d491" kind="property"><name>UserLever</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_1aadb183207c6cafd30c50edc256cf0348" kind="property"><name>UserConfirm</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_1a3fca5e2838d7bba9d228fd02d6922b37" kind="property"><name>Login</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_1aa0ba4d4e942f166bad35944f757eb69d" kind="property"><name>UserDelete</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_1a5c1c87018066a2b703a4c8747adc7dc3" kind="property"><name>RoleID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_1a4bd5106c4fecf6fa5bd373494133747e" kind="property"><name>TB_Evaluation</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_1ab8b203a1479ceb3195e4423905335018" kind="function"><name>TB_User</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_data_access_1_1_t_b___user_info" kind="class"><name>Repositorys::DataAccess::TB_UserInfo</name>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a00da1bc72ff2c41e5e932220c3c59068" kind="property"><name>UserInfoID</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a7c4dce8d12aa61aa70139741d91f6470" kind="property"><name>UserInfoName</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a7ea4f2591949911b7715ad2fd65fd825" kind="property"><name>UserInfoAge</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1af412a4dfd7289ad4aa5b9ecf3006d78b" kind="property"><name>UserInfoAddress</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a6c42270714737de70d7f7a842f0998db" kind="property"><name>UserInfoBirthday</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a2ea48e297eca60cedb6fe36a93508a8b" kind="property"><name>UserPhone</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1aaa7bb69622d3333f3577d2aa2727844f" kind="property"><name>UserInfoEmail</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a882e9ef1b0d2b948147b36db8bfaab23" kind="property"><name>UserInfoWorkPhone</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a68b1476d5ca7466bc994bc9e3fee64bf" kind="property"><name>UserCurrentAddress</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1ac0b7a2c4a6f34927805375c93bab51f0" kind="property"><name>UserInfoQQ</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1ae1c5f1a4e833b6abeae94be93f660a7a" kind="property"><name>UserInfoDetails</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a39cf736effacbc9c7415fe25051b8006" kind="property"><name>UserInfoDelete</name></member>
+    <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a844bd56a82e639a2ae475757d2e024e1" kind="property"><name>UserID</name></member>
+  </compound>
+  <compound refid="class_views_1_1_controllers_1_1_teach_skills_controller" kind="class"><name>Views::Controllers::TeachSkillsController</name>
+    <member refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a6743a128b7cdb0125e3048576edc42e1" kind="variable"><name>domainTeachSkills</name></member>
+    <member refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a244327a321501afd3b2c6c2a2044a093" kind="function"><name>TeachSkillsController</name></member>
+    <member refid="class_views_1_1_controllers_1_1_teach_skills_controller_1ace4ac6ce6fd93ed5697da4e59131eeb4" kind="function"><name>TeachSkillsView</name></member>
+    <member refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a59b71b3c98a14db3756dba644396971a" kind="function"><name>FindAllTeachSkills</name></member>
+    <member refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a95e577c16a81ec7577d23ff8c36c4912" kind="function"><name>UpdateTeachSkills</name></member>
+    <member refid="class_views_1_1_controllers_1_1_teach_skills_controller_1afa2c87379ef29f9b51031b34acbd475b" kind="function"><name>DeleteTeachSkills</name></member>
+    <member refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a87163640e60528a81105c154f88da638" kind="function"><name>InsertTeachSkills</name></member>
+    <member refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a6708b565f6e98f091ba7a84708182711" kind="function"><name>FindAllLever</name></member>
+    <member refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a3d481fa9a8f3a0ff2ddf79267b38a625" kind="function"><name>DeleteLever</name></member>
+    <member refid="class_views_1_1_controllers_1_1_teach_skills_controller_1a9c04382f10bc28ad06e052ce10b25add" kind="function"><name>InsertLever</name></member>
+  </compound>
+  <compound refid="class_user_info_domain_1_1_test_domain" kind="class"><name>UserInfoDomain::TestDomain</name>
+    <member refid="class_user_info_domain_1_1_test_domain_1af354cdc5d4cec74ff546027fb945bf2a" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_repositorys_1_1_test_repositroys" kind="class"><name>Repositorys::TestRepositroys</name>
+    <member refid="class_repositorys_1_1_test_repositroys_1a18aa009913b435e64c9f41b5df5ebade" kind="variable"><name>repositoryUser</name></member>
+    <member refid="class_repositorys_1_1_test_repositroys_1aea17e4aebc9b3ee0940ddffcd7b87977" kind="variable"><name>RepositroyAssess</name></member>
+    <member refid="class_repositorys_1_1_test_repositroys_1a59d86fce81093201c64e8aed8ca1a580" kind="variable"><name>repositoryUserInfo</name></member>
+    <member refid="class_repositorys_1_1_test_repositroys_1a409af3a61c1fb280defa18209f895c56" kind="variable"><name>repositoryRole</name></member>
+    <member refid="class_repositorys_1_1_test_repositroys_1aceb0f1395146f3bc3e0b25f77e7d24f0" kind="variable"><name>repositoryJob</name></member>
+    <member refid="class_repositorys_1_1_test_repositroys_1a41d8d1d3fa9508c2a76705330ba9bbc5" kind="variable"><name>repositoryCoreSkill</name></member>
+    <member refid="class_repositorys_1_1_test_repositroys_1ae09164e23f1d0a7ecbbfddf967a59891" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_views_1_1_unity_config" kind="class"><name>Views::UnityConfig</name>
+    <member refid="class_views_1_1_unity_config_1a67c64f03d6410fb48d0bcf0b741ee862" kind="variable"><name>container</name></member>
+    <member refid="class_views_1_1_unity_config_1af330d822de28b164690f109867312ece" kind="variable"><name>Container</name></member>
+    <member refid="class_views_1_1_unity_config_1a05dabf92433a6840c52c285463d10290" kind="function"><name>RegisterTypes</name></member>
+  </compound>
+  <compound refid="class_views_1_1_unity_mvc_activator" kind="class"><name>Views::UnityMvcActivator</name>
+    <member refid="class_views_1_1_unity_mvc_activator_1af595c6cd7dd57deb5a5510013c73b05f" kind="function"><name>Start</name></member>
+    <member refid="class_views_1_1_unity_mvc_activator_1a4d1d043779ac995bb9fcf9917b03ecc1" kind="function"><name>Shutdown</name></member>
+  </compound>
+  <compound refid="class_views_1_1_data_service_1_1_user" kind="class"><name>Views::DataService::User</name>
+    <member refid="class_views_1_1_data_service_1_1_user_1a19bc8057ed6b2753f8d3f8b6d0ebfded" kind="variable"><name>extensionDataField</name></member>
+    <member refid="class_views_1_1_data_service_1_1_user_1a242a083a550d970f53ccfbb6f9056b0c" kind="variable"><name>PasswordField</name></member>
+    <member refid="class_views_1_1_data_service_1_1_user_1a753a3ffff31795e1b593387602f2203c" kind="variable"><name>StateCodeField</name></member>
+    <member refid="class_views_1_1_data_service_1_1_user_1a228e10358ccc34b90b021c962bd4140f" kind="variable"><name>UserIdField</name></member>
+    <member refid="class_views_1_1_data_service_1_1_user_1a87d589bab9fa3d4762bbe658b63555da" kind="variable"><name>UsernameField</name></member>
+    <member refid="class_views_1_1_data_service_1_1_user_1ad263878bfb9d92c5c7a1ac44a1a592ab" kind="property"><name>ExtensionData</name></member>
+    <member refid="class_views_1_1_data_service_1_1_user_1ad6b738b4b5bccf6cc9055e3c7ef6b8a5" kind="property"><name>Password</name></member>
+    <member refid="class_views_1_1_data_service_1_1_user_1a4c253b22210b3f544e3eff9db7ade41a" kind="property"><name>StateCode</name></member>
+    <member refid="class_views_1_1_data_service_1_1_user_1ae289b36815db19528868c41dd1abef29" kind="property"><name>UserId</name></member>
+    <member refid="class_views_1_1_data_service_1_1_user_1a680841e455ef0ca164fdf1ee2a3d2a04" kind="property"><name>Username</name></member>
+    <member refid="class_views_1_1_data_service_1_1_user_1aae96e2a0bacb43ec1e4f1eb2c8602761" kind="event"><name>PropertyChanged</name></member>
+    <member refid="class_views_1_1_data_service_1_1_user_1aef2e5071a12ec40a88a488ad9b46e589" kind="function"><name>RaisePropertyChanged</name></member>
+  </compound>
+  <compound refid="class_project_utils_1_1_user_i_d_to_user_info_i_d" kind="class"><name>ProjectUtils::UserIDToUserInfoID</name>
+  </compound>
+  <compound refid="class_views_1_1_controllers_1_1_user_info_controller" kind="class"><name>Views::Controllers::UserInfoController</name>
+    <member refid="class_views_1_1_controllers_1_1_user_info_controller_1afd00a73804ac5d1481242c6faafce3a0" kind="variable"><name>domainUserCoreSkills</name></member>
+    <member refid="class_views_1_1_controllers_1_1_user_info_controller_1a0ce1a0d4400ae2e41c7cfe52253b9215" kind="variable"><name>domainUserTeachSkills</name></member>
+    <member refid="class_views_1_1_controllers_1_1_user_info_controller_1a607b7828270d00bfbe37c04059c32f6e" kind="variable"><name>domainUserInfo</name></member>
+    <member refid="class_views_1_1_controllers_1_1_user_info_controller_1ad8ff9b4e83febe1b6eeb00e244799607" kind="variable"><name>domainRole</name></member>
+    <member refid="class_views_1_1_controllers_1_1_user_info_controller_1afeb0206e7a6295391631d263383f1b87" kind="function"><name>UserInfoController</name></member>
+    <member refid="class_views_1_1_controllers_1_1_user_info_controller_1a4eb0aa8a5985e947338ba3e26e04b4c0" kind="function"><name>UserInfoView</name></member>
+    <member refid="class_views_1_1_controllers_1_1_user_info_controller_1acdaff24144a67190a2f742de4b65d40c" kind="function"><name>FindCoreSkills</name></member>
+    <member refid="class_views_1_1_controllers_1_1_user_info_controller_1aa5428ff1877525d85486cd7b0c9ffcc7" kind="function"><name>FindTeachSkills</name></member>
+    <member refid="class_views_1_1_controllers_1_1_user_info_controller_1a0aa3d3bf3351471771cabff717d34eb0" kind="function"><name>FindUserInfo</name></member>
+    <member refid="class_views_1_1_controllers_1_1_user_info_controller_1a52f62b02499d2cae9dea1017e565eef6" kind="function"><name>FindRoleInfo</name></member>
+    <member refid="class_views_1_1_controllers_1_1_user_info_controller_1a59caf4b5c202b3f8c5a7f327fd775736" kind="function"><name>InsertUserInfo</name></member>
+    <member refid="class_views_1_1_controllers_1_1_user_info_controller_1abb643e035e072c832ed64991e0cb557b" kind="function"><name>UpdateUserInfo</name></member>
+    <member refid="class_views_1_1_controllers_1_1_user_info_controller_1a957d59bcea7cc8de7ac0af1ade31c3e7" kind="function"><name>DeleteUserInfo</name></member>
+  </compound>
+  <compound refid="class_project_utils_1_1_util_class" kind="class"><name>ProjectUtils::UtilClass</name>
+    <member refid="class_project_utils_1_1_util_class_1a838945bfb4b58574a3d170fc4a085ee0" kind="function"><name>Convert&lt; T, E &gt;</name></member>
+    <member refid="class_project_utils_1_1_util_class_1afaeea88add6f027b59ec2ba0bedd199f" kind="function"><name>GetInstance&lt; T &gt;</name></member>
+    <member refid="class_project_utils_1_1_util_class_1a6b310ffdc2b90ddce42d4b472c88701b" kind="function"><name>GetInstance&lt; T &gt;</name></member>
+  </compound>
+  <compound refid="class_project_utils_1_1_util_convert_m_d5" kind="class"><name>ProjectUtils::UtilConvertMD5</name>
+    <member refid="class_project_utils_1_1_util_convert_m_d5_1a9fb131ff990e144bc2d9cc6c8893aeb8" kind="function"><name>MD5</name></member>
+  </compound>
+  <compound refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap" kind="interface"><name>Views::ServiceWeather::WeatherWebServiceSoap</name>
+    <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a0fd751f5ac246b1fd251366afc5b591a" kind="function"><name>getSupportCity</name></member>
+    <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a45d3f5f1110859bbdf1ac9110a71767e" kind="function"><name>getSupportCityAsync</name></member>
+    <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a92954006716ee00eaf6786db7f993d2d" kind="function"><name>getSupportProvince</name></member>
+    <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a88214b54006d5eb741c271d5d1964811" kind="function"><name>getSupportProvinceAsync</name></member>
+    <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a7fcaa94298ceb5bc12c71b59cfe30640" kind="function"><name>getSupportDataSet</name></member>
+    <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a1aa5bfdcb74acf643ed37070943bcec6" kind="function"><name>getSupportDataSetAsync</name></member>
+    <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a797a4b1b9582c0db9c101fb40003ac6e" kind="function"><name>getWeatherbyCityName</name></member>
+    <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a45d07efd3fe23f31bb1fd8aa01ac4299" kind="function"><name>getWeatherbyCityNameAsync</name></member>
+    <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1ad03e6cd7a4381fc5fe243e6806db28f2" kind="function"><name>getWeatherbyCityNamePro</name></member>
+    <member refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_1a120f29235febcabc0abb03f42c27058a" kind="function"><name>getWeatherbyCityNameProAsync</name></member>
+  </compound>
+  <compound refid="interface_views_1_1_service_weather_1_1_weather_web_service_soap_channel" kind="interface"><name>Views::ServiceWeather::WeatherWebServiceSoapChannel</name>
+  </compound>
+  <compound refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client" kind="class"><name>Views::ServiceWeather::WeatherWebServiceSoapClient</name>
+    <member refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1af7d838f91ad6e185e010372600067ec7" kind="function"><name>WeatherWebServiceSoapClient</name></member>
+    <member refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1a5e37856c1187b9c777a2c8c77236cb13" kind="function"><name>WeatherWebServiceSoapClient</name></member>
+    <member refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1ad8a915bfee3ec8448732db71a1da6f32" kind="function"><name>WeatherWebServiceSoapClient</name></member>
+    <member refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1a167cf0baf20cf2a1ee9a75e0d8ab4425" kind="function"><name>WeatherWebServiceSoapClient</name></member>
+    <member refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1a951947f14974faf5b2ea636a0cd6d0ca" kind="function"><name>WeatherWebServiceSoapClient</name></member>
+    <member refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1a4f07b185551f26c719410c53e4a993ff" kind="function"><name>getSupportCity</name></member>
+    <member refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1aaa3ca20c069aaea6160f42f9b3233d31" kind="function"><name>getSupportCityAsync</name></member>
+    <member refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1ad739e09b4a8eebef48c5e3e38284aa24" kind="function"><name>getSupportProvince</name></member>
+    <member refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1aaa85e79e3a1440c22492f651514afbc5" kind="function"><name>getSupportProvinceAsync</name></member>
+    <member refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1a54a8f008d373b0ca4d2b7ebda4f1ec93" kind="function"><name>getSupportDataSet</name></member>
+    <member refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1acb92d07ed6af0943ce2aa3c66bb25a48" kind="function"><name>getSupportDataSetAsync</name></member>
+    <member refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1a844fa686e50fba315e9576fe9b882d20" kind="function"><name>getWeatherbyCityName</name></member>
+    <member refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1aeb2619d43b25de266220a4918b06e705" kind="function"><name>getWeatherbyCityNameAsync</name></member>
+    <member refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1aa2304785f2b09f04535a195d24f8d387" kind="function"><name>getWeatherbyCityNamePro</name></member>
+    <member refid="class_views_1_1_service_weather_1_1_weather_web_service_soap_client_1a85a0533c7f84894dfb0f15855471f7a7" kind="function"><name>getWeatherbyCityNameProAsync</name></member>
+  </compound>
+  <compound refid="namespace_domains" kind="namespace"><name>Domains</name>
+  </compound>
+  <compound refid="namespace_domains_1_1_properties" kind="namespace"><name>Domains::Properties</name>
+  </compound>
+  <compound refid="namespace_models" kind="namespace"><name>Models</name>
+  </compound>
+  <compound refid="namespace_project_utils" kind="namespace"><name>ProjectUtils</name>
+  </compound>
+  <compound refid="namespace_repositorys" kind="namespace"><name>Repositorys</name>
+  </compound>
+  <compound refid="namespace_repositorys_1_1_data_access" kind="namespace"><name>Repositorys::DataAccess</name>
+  </compound>
+  <compound refid="namespace_repositorys_1_1_migrations" kind="namespace"><name>Repositorys::Migrations</name>
+  </compound>
+  <compound refid="namespacestatic" kind="namespace"><name>static</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_code_dom_1_1_compiler" kind="namespace"><name>System::CodeDom::Compiler</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model_1_1_data_annotations" kind="namespace"><name>System::ComponentModel::DataAnnotations</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model_1_1_data_annotations_1_1_schema" kind="namespace"><name>System::ComponentModel::DataAnnotations::Schema</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity" kind="namespace"><name>System::Data::Entity</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity_1_1_migrations" kind="namespace"><name>System::Data::Entity::Migrations</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity_1_1_migrations_1_1_infrastructure" kind="namespace"><name>System::Data::Entity::Migrations::Infrastructure</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity_1_1_spatial" kind="namespace"><name>System::Data::Entity::Spatial</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_mime_1_1_media_type_names" kind="namespace"><name>System::Net::Mime::MediaTypeNames</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_resources" kind="namespace"><name>System::Resources</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_serialization" kind="namespace"><name>System::Runtime::Serialization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_cryptography" kind="namespace"><name>System::Security::Cryptography</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_regular_expressions" kind="namespace"><name>System::Text::RegularExpressions</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web" kind="namespace"><name>System::Web</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_mvc" kind="namespace"><name>System::Web::Mvc</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_optimization" kind="namespace"><name>System::Web::Optimization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_routing" kind="namespace"><name>System::Web::Routing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_session_state" kind="namespace"><name>System::Web::SessionState</name>
+  </compound>
+  <compound refid="namespace_unity" kind="namespace"><name>Unity</name>
+  </compound>
+  <compound refid="namespace_unity_1_1_asp_net_1_1_mvc" kind="namespace"><name>Unity::AspNet::Mvc</name>
+  </compound>
+  <compound refid="namespace_user_info_domain" kind="namespace"><name>UserInfoDomain</name>
+  </compound>
+  <compound refid="namespace_view" kind="namespace"><name>View</name>
+  </compound>
+  <compound refid="namespace_views" kind="namespace"><name>Views</name>
+  </compound>
+  <compound refid="namespace_views_1_1_controllers" kind="namespace"><name>Views::Controllers</name>
+  </compound>
+  <compound refid="namespace_views_1_1_data_service" kind="namespace"><name>Views::DataService</name>
+  </compound>
+  <compound refid="namespace_views_1_1_service_weather" kind="namespace"><name>Views::ServiceWeather</name>
+  </compound>
+  <compound refid="namespace_web_application2" kind="namespace"><name>WebApplication2</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_model_core_lever_8cs" kind="file"><name>ModelCoreLever.cs</name>
+  </compound>
+  <compound refid="_model_core_skills_8cs" kind="file"><name>ModelCoreSkills.cs</name>
+  </compound>
+  <compound refid="_model_evaluation_8cs" kind="file"><name>ModelEvaluation.cs</name>
+  </compound>
+  <compound refid="_model_evaluation_info_8cs" kind="file"><name>ModelEvaluationInfo.cs</name>
+  </compound>
+  <compound refid="_model_mapping_core_8cs" kind="file"><name>ModelMappingCore.cs</name>
+  </compound>
+  <compound refid="_model_mapping_teach_8cs" kind="file"><name>ModelMappingTeach.cs</name>
+  </compound>
+  <compound refid="_model_professional_8cs" kind="file"><name>ModelProfessional.cs</name>
+  </compound>
+  <compound refid="_model_role_8cs" kind="file"><name>ModelRole.cs</name>
+  </compound>
+  <compound refid="_model_role_content_8cs" kind="file"><name>ModelRoleContent.cs</name>
+  </compound>
+  <compound refid="_model_teach_lever_8cs" kind="file"><name>ModelTeachLever.cs</name>
+  </compound>
+  <compound refid="_model_tech_skills_8cs" kind="file"><name>ModelTechSkills.cs</name>
+  </compound>
+  <compound refid="_model_user_8cs" kind="file"><name>ModelUser.cs</name>
+  </compound>
+  <compound refid="_model_user_info_8cs" kind="file"><name>ModelUserInfo.cs</name>
+  </compound>
+  <compound refid="_model_assess_details_8cs" kind="file"><name>ModelAssessDetails.cs</name>
+  </compound>
+  <compound refid="_model_job_and_core_skill_8cs" kind="file"><name>ModelJobAndCoreSkill.cs</name>
+  </compound>
+  <compound refid="_model_job_and_skill_and_lever_8cs" kind="file"><name>ModelJobAndSkillAndLever.cs</name>
+  </compound>
+  <compound refid="_model_job_and_teach_skill_8cs" kind="file"><name>ModelJobAndTeachSkill.cs</name>
+  </compound>
+  <compound refid="_model_job_and_teach_skill_and_lever_8cs" kind="file"><name>ModelJobAndTeachSkillAndLever.cs</name>
+  </compound>
+  <compound refid="_model_role_and_job_8cs" kind="file"><name>ModelRoleAndJob.cs</name>
+  </compound>
+  <compound refid="_check_code_utils_8cs" kind="file"><name>CheckCodeUtils.cs</name>
+  </compound>
+  <compound refid="_show_all_value_8cs" kind="file"><name>ShowAllValue.cs</name>
+  </compound>
+  <compound refid="_user_i_d_to_user_info_i_d_8cs" kind="file"><name>UserIDToUserInfoID.cs</name>
+  </compound>
+  <compound refid="_util_class_8cs" kind="file"><name>UtilClass.cs</name>
+  </compound>
+  <compound refid="_util_convert_m_d5_8cs" kind="file"><name>UtilConvertMD5.cs</name>
+  </compound>
+  <compound refid="_repository_core_lever_8cs" kind="file"><name>RepositoryCoreLever.cs</name>
+  </compound>
+  <compound refid="_repository_core_skills_8cs" kind="file"><name>RepositoryCoreSkills.cs</name>
+  </compound>
+  <compound refid="_repository_job_8cs" kind="file"><name>RepositoryJob.cs</name>
+  </compound>
+  <compound refid="_repository_role_8cs" kind="file"><name>RepositoryRole.cs</name>
+  </compound>
+  <compound refid="_repository_teach_lever_8cs" kind="file"><name>RepositoryTeachLever.cs</name>
+  </compound>
+  <compound refid="_repository_teach_skills_8cs" kind="file"><name>RepositoryTeachSkills.cs</name>
+  </compound>
+  <compound refid="_i_repository_core_lever_8cs" kind="file"><name>IRepositoryCoreLever.cs</name>
+  </compound>
+  <compound refid="_i_repository_core_skills_8cs" kind="file"><name>IRepositoryCoreSkills.cs</name>
+  </compound>
+  <compound refid="_i_repository_job_8cs" kind="file"><name>IRepositoryJob.cs</name>
+  </compound>
+  <compound refid="_i_repository_role_8cs" kind="file"><name>IRepositoryRole.cs</name>
+  </compound>
+  <compound refid="_i_repository_teach_lever_8cs" kind="file"><name>IRepositoryTeachLever.cs</name>
+  </compound>
+  <compound refid="_i_repository_teach_skills_8cs" kind="file"><name>IRepositoryTeachSkills.cs</name>
+  </compound>
+  <compound refid="_d_b_context_8cs" kind="file"><name>DBContext.cs</name>
+  </compound>
+  <compound refid="_t_b___core_lever_8cs" kind="file"><name>TB_CoreLever.cs</name>
+  </compound>
+  <compound refid="_t_b___core_skills_8cs" kind="file"><name>TB_CoreSkills.cs</name>
+  </compound>
+  <compound refid="_t_b___evaluation_8cs" kind="file"><name>TB_Evaluation.cs</name>
+  </compound>
+  <compound refid="_t_b___evaluation_info_8cs" kind="file"><name>TB_EvaluationInfo.cs</name>
+  </compound>
+  <compound refid="_t_b___mapping_core_8cs" kind="file"><name>TB_MappingCore.cs</name>
+  </compound>
+  <compound refid="_t_b___mapping_teach_8cs" kind="file"><name>TB_MappingTeach.cs</name>
+  </compound>
+  <compound refid="_t_b___professional_8cs" kind="file"><name>TB_Professional.cs</name>
+  </compound>
+  <compound refid="_t_b___role_8cs" kind="file"><name>TB_Role.cs</name>
+  </compound>
+  <compound refid="_t_b___role_content_8cs" kind="file"><name>TB_RoleContent.cs</name>
+  </compound>
+  <compound refid="_t_b___teach_lever_8cs" kind="file"><name>TB_TeachLever.cs</name>
+  </compound>
+  <compound refid="_t_b___tech_skills_8cs" kind="file"><name>TB_TechSkills.cs</name>
+  </compound>
+  <compound refid="_t_b___user_8cs" kind="file"><name>TB_User.cs</name>
+  </compound>
+  <compound refid="_t_b___user_info_8cs" kind="file"><name>TB_UserInfo.cs</name>
+  </compound>
+  <compound refid="201809110908199___script_8cs" kind="file"><name>201809110908199_Script.cs</name>
+  </compound>
+  <compound refid="201809110908199___script_8_designer_8cs" kind="file"><name>201809110908199_Script.Designer.cs</name>
+  </compound>
+  <compound refid="_configuration_8cs" kind="file"><name>Configuration.cs</name>
+  </compound>
+  <compound refid="_repositorys_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_models_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_user_info_domain_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_project_utils_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_views_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_test_repositroys_8cs" kind="file"><name>TestRepositroys.cs</name>
+  </compound>
+  <compound refid="_repositroy_assess_8cs" kind="file"><name>RepositroyAssess.cs</name>
+  </compound>
+  <compound refid="_i_repositroy_assess_8cs" kind="file"><name>IRepositroyAssess.cs</name>
+  </compound>
+  <compound refid="_repository_maping_core_8cs" kind="file"><name>RepositoryMapingCore.cs</name>
+  </compound>
+  <compound refid="_repository_maping_teach_8cs" kind="file"><name>RepositoryMapingTeach.cs</name>
+  </compound>
+  <compound refid="_repository_role_content_8cs" kind="file"><name>RepositoryRoleContent.cs</name>
+  </compound>
+  <compound refid="_repository_user_info_8cs" kind="file"><name>RepositoryUserInfo.cs</name>
+  </compound>
+  <compound refid="_i_repository_maping_core_8cs" kind="file"><name>IRepositoryMapingCore.cs</name>
+  </compound>
+  <compound refid="_i_repository_maping_teach_8cs" kind="file"><name>IRepositoryMapingTeach.cs</name>
+  </compound>
+  <compound refid="_i_repository_role_content_8cs" kind="file"><name>IRepositoryRoleContent.cs</name>
+  </compound>
+  <compound refid="_i_repository_user_info_8cs" kind="file"><name>IRepositoryUserInfo.cs</name>
+  </compound>
+  <compound refid="_repository_user_8cs" kind="file"><name>RepositoryUser.cs</name>
+  </compound>
+  <compound refid="_i_repository_user_8cs" kind="file"><name>IRepositoryUser.cs</name>
+  </compound>
+  <compound refid="_domain_core_skills_8cs" kind="file"><name>DomainCoreSkills.cs</name>
+  </compound>
+  <compound refid="_domain_job_8cs" kind="file"><name>DomainJob.cs</name>
+  </compound>
+  <compound refid="_domain_role_8cs" kind="file"><name>DomainRole.cs</name>
+  </compound>
+  <compound refid="_domain_teach_skills_8cs" kind="file"><name>DomainTeachSkills.cs</name>
+  </compound>
+  <compound refid="_i_domain_core_skills_8cs" kind="file"><name>IDomainCoreSkills.cs</name>
+  </compound>
+  <compound refid="_i_domain_job_8cs" kind="file"><name>IDomainJob.cs</name>
+  </compound>
+  <compound refid="_i_domain_role_8cs" kind="file"><name>IDomainRole.cs</name>
+  </compound>
+  <compound refid="_i_domain_teach_skills_8cs" kind="file"><name>IDomainTeachSkills.cs</name>
+  </compound>
+  <compound refid="_domain_login_8cs" kind="file"><name>DomainLogin.cs</name>
+  </compound>
+  <compound refid="_i_domain_login_8cs" kind="file"><name>IDomainLogin.cs</name>
+  </compound>
+  <compound refid="_domain_logout_8cs" kind="file"><name>DomainLogout.cs</name>
+  </compound>
+  <compound refid="_i_domain_logout_8cs" kind="file"><name>IDomainLogout.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_domain_regist_8cs" kind="file"><name>DomainRegist.cs</name>
+  </compound>
+  <compound refid="_i_domain_regist_8cs" kind="file"><name>IDomainRegist.cs</name>
+  </compound>
+  <compound refid="_test_domain_8cs" kind="file"><name>TestDomain.cs</name>
+  </compound>
+  <compound refid="_domain_oneself_assess_8cs" kind="file"><name>DomainOneselfAssess.cs</name>
+  </compound>
+  <compound refid="_domain_other_assess_8cs" kind="file"><name>DomainOtherAssess.cs</name>
+  </compound>
+  <compound refid="_i_domain_oneself_assess_8cs" kind="file"><name>IDomainOneselfAssess.cs</name>
+  </compound>
+  <compound refid="_i_domain_other_assess_8cs" kind="file"><name>IDomainOtherAssess.cs</name>
+  </compound>
+  <compound refid="_domain_skill_map_assess_8cs" kind="file"><name>DomainSkillMapAssess.cs</name>
+  </compound>
+  <compound refid="_domain_user_core_skills_8cs" kind="file"><name>DomainUserCoreSkills.cs</name>
+  </compound>
+  <compound refid="_domain_user_info_8cs" kind="file"><name>DomainUserInfo.cs</name>
+  </compound>
+  <compound refid="_domain_user_teach_skills_8cs" kind="file"><name>DomainUserTeachSkills.cs</name>
+  </compound>
+  <compound refid="_abstract_domain_user_core_skills_8cs" kind="file"><name>AbstractDomainUserCoreSkills.cs</name>
+  </compound>
+  <compound refid="_i_domain_skill_map_assess_8cs" kind="file"><name>IDomainSkillMapAssess.cs</name>
+  </compound>
+  <compound refid="_i_domain_user_core_skills_8cs" kind="file"><name>IDomainUserCoreSkills.cs</name>
+  </compound>
+  <compound refid="_i_domain_user_info_8cs" kind="file"><name>IDomainUserInfo.cs</name>
+  </compound>
+  <compound refid="_i_domain_user_teach_skills_8cs" kind="file"><name>IDomainUserTeachSkills.cs</name>
+  </compound>
+  <compound refid="_bundle_config_8cs" kind="file"><name>BundleConfig.cs</name>
+  </compound>
+  <compound refid="_filter_config_8cs" kind="file"><name>FilterConfig.cs</name>
+  </compound>
+  <compound refid="_route_config_8cs" kind="file"><name>RouteConfig.cs</name>
+  </compound>
+  <compound refid="_unity_config_8cs" kind="file"><name>UnityConfig.cs</name>
+  </compound>
+  <compound refid="_unity_mvc_activator_8cs" kind="file"><name>UnityMvcActivator.cs</name>
+  </compound>
+  <compound refid="_data_service_2_reference_8cs" kind="file"><name>Reference.cs</name>
+  </compound>
+  <compound refid="_service_weather_2_reference_8cs" kind="file"><name>Reference.cs</name>
+  </compound>
+  <compound refid="_abstract_admin_controller_8cs" kind="file"><name>AbstractAdminController.cs</name>
+  </compound>
+  <compound refid="_abstract_assess_controller_8cs" kind="file"><name>AbstractAssessController.cs</name>
+  </compound>
+  <compound refid="_core_skills_controller_8cs" kind="file"><name>CoreSkillsController.cs</name>
+  </compound>
+  <compound refid="_home_controller_8cs" kind="file"><name>HomeController.cs</name>
+  </compound>
+  <compound refid="_job_controller_8cs" kind="file"><name>JobController.cs</name>
+  </compound>
+  <compound refid="_login_controller_8cs" kind="file"><name>LoginController.cs</name>
+  </compound>
+  <compound refid="_one_self_assess_controller_8cs" kind="file"><name>OneSelfAssessController.cs</name>
+  </compound>
+  <compound refid="_other_assess_controller_8cs" kind="file"><name>OtherAssessController.cs</name>
+  </compound>
+  <compound refid="_regist_controller_8cs" kind="file"><name>RegistController.cs</name>
+  </compound>
+  <compound refid="_role_controller_8cs" kind="file"><name>RoleController.cs</name>
+  </compound>
+  <compound refid="_teach_skills_controller_8cs" kind="file"><name>TeachSkillsController.cs</name>
+  </compound>
+  <compound refid="_user_info_controller_8cs" kind="file"><name>UserInfoController.cs</name>
+  </compound>
+  <compound refid="_global_8asax_8cs" kind="file"><name>Global.asax.cs</name>
+  </compound>
+  <compound refid="md__e_1__repository__java_script__r_e_a_d_m_e" kind="page"><name>md_E:_Repository_JavaScript_README</name>
+  </compound>
+  <compound refid="dir_37d25f01c205e00ea6ff3ba6e52feac4" kind="dir"><name>E:/Repository/Views/Controllers/AbstractClass</name>
+  </compound>
+  <compound refid="dir_90c689c516d5f02662e4aa77516c17f5" kind="dir"><name>E:/Repository/UserInfoDomain/AdminPage</name>
+  </compound>
+  <compound refid="dir_51f555803644107b1e85985d808b3a3d" kind="dir"><name>E:/Repository/Repositorys/AdminPage</name>
+  </compound>
+  <compound refid="dir_393669e91dcddac269198fbba745a2a8" kind="dir"><name>E:/Repository/Views/App_Start</name>
+  </compound>
+  <compound refid="dir_dd937be94d3d972e0e65c0e07940887e" kind="dir"><name>E:/Repository/UserInfoDomain/UserInfoPage/BaseClass</name>
+  </compound>
+  <compound refid="dir_b229c1ad9644cb1a89b9efc16773f90c" kind="dir"><name>E:/Repository/Repositorys/UserPage/BaseClass</name>
+  </compound>
+  <compound refid="dir_b73dbbfcb0934f02cabe2b19ccffc2ee" kind="dir"><name>E:/Repository/Repositorys/UserInfoPage/BaseClass</name>
+  </compound>
+  <compound refid="dir_dbecf60d75e021299876959e795362c1" kind="dir"><name>E:/Repository/Repositorys/UserEvaluatePage/BaseClass</name>
+  </compound>
+  <compound refid="dir_d94ece3340e964476e7dcbc38cd9769a" kind="dir"><name>E:/Repository/Repositorys/AdminPage/BaseClass</name>
+  </compound>
+  <compound refid="dir_27e1a8a298663746b48b37d7bb3a13d8" kind="dir"><name>E:/Repository/Views/Connected Services</name>
+  </compound>
+  <compound refid="dir_7335e27c253db23067682631b0d15268" kind="dir"><name>E:/Repository/Views/Controllers</name>
+  </compound>
+  <compound refid="dir_48883a5d4b1bbb3dbf83d076bf78c8b8" kind="dir"><name>E:/Repository/Models/CustomModels</name>
+  </compound>
+  <compound refid="dir_c668bbb9312b79ea01355161b1b57d91" kind="dir"><name>E:/Repository/Repositorys/DataAccess</name>
+  </compound>
+  <compound refid="dir_ab784d13ac88ff48ef494e03340623bf" kind="dir"><name>E:/Repository/Views/Connected Services/DataService</name>
+  </compound>
+  <compound refid="dir_885cc87fac2d91e269af0a5a959fa5f6" kind="dir"><name>E:</name>
+  </compound>
+  <compound refid="dir_481f9bde23996e8fc8c5923019317e56" kind="dir"><name>E:/Repository/UserInfoDomain/UserInfoPage/interfaceClass</name>
+  </compound>
+  <compound refid="dir_14b82f6437b2f338d77c311758e9a61b" kind="dir"><name>E:/Repository/Repositorys/UserPage/interfaceClass</name>
+  </compound>
+  <compound refid="dir_56cdbea92fbc26ee40bca61cb5bb5bac" kind="dir"><name>E:/Repository/Repositorys/UserInfoPage/interfaceClass</name>
+  </compound>
+  <compound refid="dir_7b950640ba8cfd456f77771272569d29" kind="dir"><name>E:/Repository/Repositorys/UserEvaluatePage/interfaceClass</name>
+  </compound>
+  <compound refid="dir_f4d3fc079b131464a565c41aa4790bd5" kind="dir"><name>E:/Repository/Repositorys/AdminPage/interfaceClass</name>
+  </compound>
+  <compound refid="dir_5933479e1c2169484399bdef523279d5" kind="dir"><name>E:/Repository/UserInfoDomain/LoginPage</name>
+  </compound>
+  <compound refid="dir_0831b50886adef5c6596823f3e021457" kind="dir"><name>E:/Repository/UserInfoDomain/LogoutPage</name>
+  </compound>
+  <compound refid="dir_c9f7d00d38ddba5ee38e4309998e0bec" kind="dir"><name>E:/Repository/Models/MergeModel</name>
+  </compound>
+  <compound refid="dir_3f8aaaa005ef75186b7bcd2df310f72f" kind="dir"><name>E:/Repository/Repositorys/Migrations</name>
+  </compound>
+  <compound refid="dir_c5dcdc3a7cd5d4c19efcfc45831e39b3" kind="dir"><name>E:/Repository/Models</name>
+  </compound>
+  <compound refid="dir_1062c23f4c524cf6fcc170c728bb44ed" kind="dir"><name>E:/Repository/ProjectUtils</name>
+  </compound>
+  <compound refid="dir_1c8498aaabe722c7a582cb538c2f82b9" kind="dir"><name>E:/Repository/Views/Properties</name>
+  </compound>
+  <compound refid="dir_f3adefa4f0d5bacefe90ab5bfd218f1e" kind="dir"><name>E:/Repository/ProjectUtils/Properties</name>
+  </compound>
+  <compound refid="dir_19987dacdbef6a93c01ce3c48c9b1070" kind="dir"><name>E:/Repository/UserInfoDomain/Properties</name>
+  </compound>
+  <compound refid="dir_8618a53f0b8e19bfc62f928ca2d52494" kind="dir"><name>E:/Repository/Models/Properties</name>
+  </compound>
+  <compound refid="dir_279fd57023f1402580473b32e9e16c48" kind="dir"><name>E:/Repository/Repositorys/Properties</name>
+  </compound>
+  <compound refid="dir_c82002b65570ff5c40b6eab2b5fc7ec3" kind="dir"><name>E:/Repository/UserInfoDomain/RegistPage</name>
+  </compound>
+  <compound refid="dir_90b1742bdd59389ca8fe48d0cf02defb" kind="dir"><name>E:/Repository</name>
+  </compound>
+  <compound refid="dir_533f90a31ce483ad302fc71867fc9e75" kind="dir"><name>E:/Repository/Repositorys</name>
+  </compound>
+  <compound refid="dir_2cabf22cd67b222329accd40bdcd4c29" kind="dir"><name>E:/Repository/Views/Connected Services/ServiceWeather</name>
+  </compound>
+  <compound refid="dir_6611db9b92d019a170026b6b7bdad675" kind="dir"><name>E:/Repository/UserInfoDomain/UserEvaluatePage</name>
+  </compound>
+  <compound refid="dir_7aeac06aa68376ba28a832f057cba746" kind="dir"><name>E:/Repository/Repositorys/UserEvaluatePage</name>
+  </compound>
+  <compound refid="dir_e0889363b87e53a4417c89f25820ffcc" kind="dir"><name>E:/Repository/UserInfoDomain</name>
+  </compound>
+  <compound refid="dir_bfb49cf2af4dd093326c6d2cbda4960d" kind="dir"><name>E:/Repository/UserInfoDomain/UserInfoPage</name>
+  </compound>
+  <compound refid="dir_1f6dcd84435a93f220238830ff73e10f" kind="dir"><name>E:/Repository/Repositorys/UserInfoPage</name>
+  </compound>
+  <compound refid="dir_15c019680337645b645bb3ac2912352b" kind="dir"><name>E:/Repository/Repositorys/UserPage</name>
+  </compound>
+  <compound refid="dir_bda5ef197933e9925a42408f1eaf314f" kind="dir"><name>E:/Repository/ProjectUtils/Utils</name>
+  </compound>
+  <compound refid="dir_ab761847c81831f5614e1ad73cf0ca05" kind="dir"><name>E:/Repository/Views</name>
+  </compound>
+</doxygenindex>

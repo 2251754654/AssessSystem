@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_repositorys_1_1_data_access_1_1_t_b___mapping_core" kind="class" prot="public">
+    <compoundname>Repositorys::DataAccess::TB_MappingCore</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___mapping_core_1a48f6bb40e664b26005eca355d98d02a4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_MappingCore.MappingID</definition>
+        <argsstring></argsstring>
+        <name>MappingID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_MappingCore.cs" line="12" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_MappingCore.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___mapping_core_1a931b047db5bcbea7a4e20685694421df" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_MappingCore.ProfessionalID</definition>
+        <argsstring></argsstring>
+        <name>ProfessionalID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_MappingCore.cs" line="14" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_MappingCore.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___mapping_core_1a8ba7ee11a549d774aea9aad8db54ad9e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_MappingCore.CoreSkillsID</definition>
+        <argsstring></argsstring>
+        <name>CoreSkillsID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_MappingCore.cs" line="16" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_MappingCore.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___mapping_core_1a849437e6d24f83afd0502210cbcf14ef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_repositorys_1_1_data_access_1_1_t_b___core_skills" kindref="compound">TB_CoreSkills</ref></type>
+        <definition>virtual TB_CoreSkills Repositorys.DataAccess.TB_MappingCore.TB_CoreSkills</definition>
+        <argsstring></argsstring>
+        <name>TB_CoreSkills</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_MappingCore.cs" line="18" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_MappingCore.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___mapping_core_1a77fa5961c86460af50806dec29dbec53" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_repositorys_1_1_data_access_1_1_t_b___professional" kindref="compound">TB_Professional</ref></type>
+        <definition>virtual TB_Professional Repositorys.DataAccess.TB_MappingCore.TB_Professional</definition>
+        <argsstring></argsstring>
+        <name>TB_Professional</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_MappingCore.cs" line="20" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_MappingCore.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Repositorys/DataAccess/TB_MappingCore.cs" line="10" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_MappingCore.cs" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_core_1a8ba7ee11a549d774aea9aad8db54ad9e" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_MappingCore</scope><name>CoreSkillsID</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_core_1a48f6bb40e664b26005eca355d98d02a4" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_MappingCore</scope><name>MappingID</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_core_1a931b047db5bcbea7a4e20685694421df" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_MappingCore</scope><name>ProfessionalID</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_core_1a849437e6d24f83afd0502210cbcf14ef" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_MappingCore</scope><name>TB_CoreSkills</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___mapping_core_1a77fa5961c86460af50806dec29dbec53" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_MappingCore</scope><name>TB_Professional</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

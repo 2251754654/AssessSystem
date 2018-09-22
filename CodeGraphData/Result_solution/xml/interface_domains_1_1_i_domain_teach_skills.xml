@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_domains_1_1_i_domain_teach_skills" kind="interface" prot="public">
+    <compoundname>Domains::IDomainTeachSkills</compoundname>
+    <derivedcompoundref refid="class_domains_1_1_domain_teach_skills" prot="public" virt="non-virtual">Domains.DomainTeachSkills</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_teach_skills_1a31a5cb0f5dbeb8512f2f75e719c2b1f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_tech_skills" kindref="compound">ModelTechSkills</ref> &gt;</type>
+        <definition>List&lt;ModelTechSkills&gt; Domains.IDomainTeachSkills.FindAllTeachSkills</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllTeachSkills</name>
+        <reimplementedby refid="class_domains_1_1_domain_teach_skills_1a56738163047b59c336a028b14785aff3">FindAllTeachSkills</reimplementedby>
+        <briefdescription>
+<para>查询专业技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainTeachSkills.cs" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_teach_skills_1ab7555161b08d8f6dec6416958bb11448" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Domains.IDomainTeachSkills.UpdateTeackSkills</definition>
+        <argsstring>(ModelTechSkills modelTechSkills)</argsstring>
+        <name>UpdateTeackSkills</name>
+        <reimplementedby refid="class_domains_1_1_domain_teach_skills_1a9247438933f2687fc3a246116bf03e22">UpdateTeackSkills</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_tech_skills" kindref="compound">ModelTechSkills</ref></type>
+          <declname>modelTechSkills</declname>
+        </param>
+        <briefdescription>
+<para>更专业心技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainTeachSkills.cs" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_teach_skills_1adc1347aa6a1b4925ad0d5c87f1aeb603" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Domains.IDomainTeachSkills.DeleteTeachSkills</definition>
+        <argsstring>(int teackSkillsID)</argsstring>
+        <name>DeleteTeachSkills</name>
+        <reimplementedby refid="class_domains_1_1_domain_teach_skills_1aba3f97be56c9fbbab672a9b619027d14">DeleteTeachSkills</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>teackSkillsID</declname>
+        </param>
+        <briefdescription>
+<para>删除专业技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainTeachSkills.cs" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_teach_skills_1abb9de490a6c1b1616dbf9f131960a4c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Domains.IDomainTeachSkills.InsertTeachSkills</definition>
+        <argsstring>(ModelTechSkills modelTechSkills)</argsstring>
+        <name>InsertTeachSkills</name>
+        <reimplementedby refid="class_domains_1_1_domain_teach_skills_1a6346cbb4092d83819ea0d52e2abcd807">InsertTeachSkills</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_tech_skills" kindref="compound">ModelTechSkills</ref></type>
+          <declname>modelTechSkills</declname>
+        </param>
+        <briefdescription>
+<para>插入专业技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainTeachSkills.cs" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_teach_skills_1af24ddd5c1ca23392179012bb7edf7b5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Domains.IDomainTeachSkills.DeleteLever</definition>
+        <argsstring>(int teachSkillsID, int teachLeverID)</argsstring>
+        <name>DeleteLever</name>
+        <reimplementedby refid="class_domains_1_1_domain_teach_skills_1a26d83764b856a2e9914a359a1be1ae0f">DeleteLever</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>teachSkillsID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>teachLeverID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainTeachSkills.cs" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_teach_skills_1a75ae6435f0910a05d146b258f9b914d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Domains.IDomainTeachSkills.InsertLever</definition>
+        <argsstring>(ModelTeachLever modelTeachLever)</argsstring>
+        <name>InsertLever</name>
+        <reimplementedby refid="class_domains_1_1_domain_teach_skills_1a9158dedc5231581b1edca8ee0b7b3042">InsertLever</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_teach_lever" kindref="compound">ModelTeachLever</ref></type>
+          <declname>modelTeachLever</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainTeachSkills.cs" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_teach_skills_1ae5c146cd2f4db5c7899d084e769f0e5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_teach_lever" kindref="compound">ModelTeachLever</ref> &gt;</type>
+        <definition>List&lt;ModelTeachLever&gt; Domains.IDomainTeachSkills.FindAllLever</definition>
+        <argsstring>(int teachSkillsID)</argsstring>
+        <name>FindAllLever</name>
+        <reimplementedby refid="class_domains_1_1_domain_teach_skills_1adc22238c14dfb785556de755ad14df32">FindAllLever</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>teachSkillsID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainTeachSkills.cs" line="34" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="195">
+        <label>Domains.IDomainTeachSkills</label>
+        <link refid="interface_domains_1_1_i_domain_teach_skills"/>
+      </node>
+      <node id="196">
+        <label>Domains.DomainTeachSkills</label>
+        <link refid="class_domains_1_1_domain_teach_skills"/>
+        <childnode refid="195" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainTeachSkills.cs" line="11" column="1" bodyfile="E:/Repository/UserInfoDomain/AdminPage/IDomainTeachSkills.cs" bodystart="10" bodyend="35"/>
+    <listofallmembers>
+      <member refid="interface_domains_1_1_i_domain_teach_skills_1af24ddd5c1ca23392179012bb7edf7b5e" prot="public" virt="non-virtual"><scope>Domains::IDomainTeachSkills</scope><name>DeleteLever</name></member>
+      <member refid="interface_domains_1_1_i_domain_teach_skills_1adc1347aa6a1b4925ad0d5c87f1aeb603" prot="public" virt="non-virtual"><scope>Domains::IDomainTeachSkills</scope><name>DeleteTeachSkills</name></member>
+      <member refid="interface_domains_1_1_i_domain_teach_skills_1ae5c146cd2f4db5c7899d084e769f0e5a" prot="public" virt="non-virtual"><scope>Domains::IDomainTeachSkills</scope><name>FindAllLever</name></member>
+      <member refid="interface_domains_1_1_i_domain_teach_skills_1a31a5cb0f5dbeb8512f2f75e719c2b1f3" prot="public" virt="non-virtual"><scope>Domains::IDomainTeachSkills</scope><name>FindAllTeachSkills</name></member>
+      <member refid="interface_domains_1_1_i_domain_teach_skills_1a75ae6435f0910a05d146b258f9b914d5" prot="public" virt="non-virtual"><scope>Domains::IDomainTeachSkills</scope><name>InsertLever</name></member>
+      <member refid="interface_domains_1_1_i_domain_teach_skills_1abb9de490a6c1b1616dbf9f131960a4c6" prot="public" virt="non-virtual"><scope>Domains::IDomainTeachSkills</scope><name>InsertTeachSkills</name></member>
+      <member refid="interface_domains_1_1_i_domain_teach_skills_1ab7555161b08d8f6dec6416958bb11448" prot="public" virt="non-virtual"><scope>Domains::IDomainTeachSkills</scope><name>UpdateTeackSkills</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

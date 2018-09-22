@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<div id="AssessList">
+</div>
+<script type="text/javascript">
+  $(document).ready(function () {
+     
+      $('#AssessList').jtable({
+            tableId: 'AssessID',
+            title: 'Assess List',
+            paging: true,
+            sorting: true,
+            columnResizable: true, //Actually, no need to set true since it's default.
+            columnSelectable: true, //Actually, no need to set true since it's default.
+            saveUserPreferences: true, //Actually, no need to set true since it's default.
+            defaultSorting: 'EvaluationID ASC',
+            actions: {
+                listAction: '/Home/FindAllAssess',
+                deleteAction: '/Home/FindAllAssess',
+                updateAction: '/Home/FindAllAssess',
+                createAction: '/Home/FindAllAssess',
+          },
+            fields: {
+                EvaluationID: {
+                    key: true,
+                    create: false,
+                    edit: false,
+                    title: 'ID',
+                    width: '5%',
+                    list: true,
+                },
+                MainAssess: {
+                    title: '评估人',
+                    width: '10 %',
+                    visibility: 'fixed' //This column always will be shown
+                },
+                ByAssess: {
+                    title: '被评估人',
+                    width: '10 %',
+                    list: true,
+                    columnResizable: false
+                },
+                SkillsName: {
+                    title: '技能名称',
+                    type: 'data',
+                    width: '10 %',
+                    list: true,
+                },
+                SkillsDetails: {
+                    title: '技能介绍',
+                    width: '10 %',
+                    //options: { 'M': 'Male', 'F': 'Female' },
+                    list: true,
+                    //visibility: 'hidden' //Hide this column as default
+                },
+                Lever: {
+                    title: '评估等级',
+                    width: '10 %',
+                    //options: '@Url.Action("GetCityOptions")',
+                    list: true,
+                },
+                SkillLeverDetails: {
+                    title: '等级概述',
+                    width: '10 %',
+                    type: 'date',
+                    //displayFormat: 'yy-mm-dd'
+                },
+                SkillClasses: {
+                    title: '分类',
+                    list: true,
+                    type: 'data',
+                    width: '5 %',
+                    options: { '1': '核心技能', '2': '专业技能' }
+                },
+                EvaluationDetails: {
+                    title: '评估摘要',
+                    type: 'data',
+                    width: '10 %',
+                    list: true,
+                },
+            }
+        });
+
+      
+      $('#AssessList').jtable('load');
+
+    });
+
+</script>
+
+

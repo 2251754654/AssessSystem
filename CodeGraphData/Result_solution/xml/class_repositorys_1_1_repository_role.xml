@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_repositorys_1_1_repository_role" kind="class" prot="public">
+    <compoundname>Repositorys::RepositoryRole</compoundname>
+    <basecompoundref refid="interface_repositorys_1_1_i_repository_role" prot="public" virt="non-virtual">Repositorys.IRepositoryRole</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_repositorys_1_1_repository_role_1a8d188627d55e05908bad7b8d2c6a5764" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_repositorys_1_1_data_access_1_1_d_b_context" kindref="compound">DBContext</ref></type>
+        <definition>readonly DBContext Repositorys.RepositoryRole.dbContext</definition>
+        <argsstring></argsstring>
+        <name>dbContext</name>
+        <initializer>= new <ref refid="class_repositorys_1_1_data_access_1_1_d_b_context" kindref="compound">DBContext</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" line="12" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_repositorys_1_1_repository_role_1a88036cfd8b11e25ee03370fe294433f1" compoundref="_repository_role_8cs" startline="96" endline="106">Repositorys.RepositoryRole.Insert</referencedby>
+        <referencedby refid="class_repositorys_1_1_repository_role_1a14b496d4f800767e07cbded21a8e12f7" compoundref="_repository_role_8cs" startline="131" endline="145">Repositorys.RepositoryRole.ReallyDelete</referencedby>
+        <referencedby refid="class_repositorys_1_1_repository_role_1afc5bf2a7d44c1c97f79064bd76ac547e" compoundref="_repository_role_8cs" startline="112" endline="125">Repositorys.RepositoryRole.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_repositorys_1_1_repository_role_1a6d0ad7b891d3df5a00020edc70b3be5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref></type>
+        <definition>ModelRole Repositorys.RepositoryRole.FindRole</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FindRole</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_role_1a5bcbdc9c0fe3ba2879374edf7d68d619">FindRole</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>更具角色ID查询角色 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" line="19" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" bodystart="19" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_role_1a0bcb49472924c891b234beb3c5934e82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref> &gt;</type>
+        <definition>List&lt;ModelRole&gt; Repositorys.RepositoryRole.FindAllRole</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllRole</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_role_1ae4ab3af7292151a9f0a625a34a53a45f">FindAllRole</reimplements>
+        <briefdescription>
+<para>查询所有角色 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" line="33" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" bodystart="33" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_role_1ab2c96d377b32708ea8b1c74eb088a1c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref> &gt;</type>
+        <definition>List&lt;ModelRole&gt; Repositorys.RepositoryRole.FindAllDeleteRole</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllDeleteRole</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_role_1acd247f37f1ff54ffcb54f56d24eeef89">FindAllDeleteRole</reimplements>
+        <briefdescription>
+<para>查询所有删除的用户 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>evaluationID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" line="54" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" bodystart="54" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_role_1a662b8759dc438d3fa5ae403a310661e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref> &gt;</type>
+        <definition>List&lt;ModelRole&gt; Repositorys.RepositoryRole.FindAllNotDeleteRole</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllNotDeleteRole</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_role_1a7c8cdec782b4cfee2916ada766c531c4">FindAllNotDeleteRole</reimplements>
+        <briefdescription>
+<para>查询所有未删除的用户 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>evaluationID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" line="75" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" bodystart="75" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_role_1a88036cfd8b11e25ee03370fe294433f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryRole.Insert</definition>
+        <argsstring>(ModelRole modelRole)</argsstring>
+        <name>Insert</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_role_1af3d0aa36d8c4ad02dfd865218600a162">Insert</reimplements>
+        <param>
+          <type><ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref></type>
+          <declname>modelRole</declname>
+        </param>
+        <briefdescription>
+<para>插入角色 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modelRole</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" line="96" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" bodystart="96" bodyend="106"/>
+        <references refid="class_repositorys_1_1_repository_role_1a8d188627d55e05908bad7b8d2c6a5764" compoundref="_repository_role_8cs" startline="12">Repositorys.RepositoryRole.dbContext</references>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_role_1afc5bf2a7d44c1c97f79064bd76ac547e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryRole.Update</definition>
+        <argsstring>(ModelRole modelRole)</argsstring>
+        <name>Update</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_role_1adc9fe325380a6d37273cf1e10f91789e">Update</reimplements>
+        <param>
+          <type><ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref></type>
+          <declname>modelRole</declname>
+        </param>
+        <briefdescription>
+<para>更新角色(上层必须确保字段确实更新了，没更新则为false) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modelRole</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" line="112" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" bodystart="112" bodyend="125"/>
+        <references refid="class_repositorys_1_1_repository_role_1a8d188627d55e05908bad7b8d2c6a5764" compoundref="_repository_role_8cs" startline="12">Repositorys.RepositoryRole.dbContext</references>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_role_1a14b496d4f800767e07cbded21a8e12f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryRole.ReallyDelete</definition>
+        <argsstring>(int id)</argsstring>
+        <name>ReallyDelete</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_role_1ab47dc1b0022e5fed85c5514500d2b689">ReallyDelete</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>物理删除角色 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" line="131" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" bodystart="131" bodyend="145"/>
+        <references refid="class_repositorys_1_1_repository_role_1a8d188627d55e05908bad7b8d2c6a5764" compoundref="_repository_role_8cs" startline="12">Repositorys.RepositoryRole.dbContext</references>
+      </memberdef>
+      <memberdef kind="function" id="class_repositorys_1_1_repository_role_1afe40f536e83beb7a8f0400ae1225483f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.RepositoryRole.FakeDelete</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FakeDelete</name>
+        <reimplements refid="interface_repositorys_1_1_i_repository_role_1a8dea554d5e465b4af625985d5138d855">FakeDelete</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>逻辑删除角色 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" line="151" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" bodystart="151" bodyend="169"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="345">
+        <label>Repositorys.RepositoryRole</label>
+        <link refid="class_repositorys_1_1_repository_role"/>
+        <childnode refid="346" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="346">
+        <label>IRepositoryRole</label>
+        <link refid="interface_repositorys_1_1_i_repository_role"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="347">
+        <label>Repositorys.RepositoryRole</label>
+        <link refid="class_repositorys_1_1_repository_role"/>
+        <childnode refid="348" relation="public-inheritance">
+        </childnode>
+        <childnode refid="349" relation="usage">
+          <edgelabel>dbContext</edgelabel>
+        </childnode>
+      </node>
+      <node id="350">
+        <label>DbContext</label>
+      </node>
+      <node id="348">
+        <label>IRepositoryRole</label>
+        <link refid="interface_repositorys_1_1_i_repository_role"/>
+      </node>
+      <node id="349">
+        <label>Repositorys.DataAccess.DBContext</label>
+        <link refid="class_repositorys_1_1_data_access_1_1_d_b_context"/>
+        <childnode refid="350" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" line="11" column="1" bodyfile="E:/Repository/Repositorys/AdminPage/BaseClass/RepositoryRole.cs" bodystart="10" bodyend="171"/>
+    <listofallmembers>
+      <member refid="class_repositorys_1_1_repository_role_1a8d188627d55e05908bad7b8d2c6a5764" prot="private" virt="non-virtual"><scope>Repositorys::RepositoryRole</scope><name>dbContext</name></member>
+      <member refid="class_repositorys_1_1_repository_role_1afe40f536e83beb7a8f0400ae1225483f" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryRole</scope><name>FakeDelete</name></member>
+      <member refid="class_repositorys_1_1_repository_role_1ab2c96d377b32708ea8b1c74eb088a1c2" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryRole</scope><name>FindAllDeleteRole</name></member>
+      <member refid="class_repositorys_1_1_repository_role_1a662b8759dc438d3fa5ae403a310661e1" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryRole</scope><name>FindAllNotDeleteRole</name></member>
+      <member refid="class_repositorys_1_1_repository_role_1a0bcb49472924c891b234beb3c5934e82" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryRole</scope><name>FindAllRole</name></member>
+      <member refid="class_repositorys_1_1_repository_role_1a6d0ad7b891d3df5a00020edc70b3be5b" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryRole</scope><name>FindRole</name></member>
+      <member refid="class_repositorys_1_1_repository_role_1a88036cfd8b11e25ee03370fe294433f1" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryRole</scope><name>Insert</name></member>
+      <member refid="class_repositorys_1_1_repository_role_1a14b496d4f800767e07cbded21a8e12f7" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryRole</scope><name>ReallyDelete</name></member>
+      <member refid="class_repositorys_1_1_repository_role_1afc5bf2a7d44c1c97f79064bd76ac547e" prot="public" virt="non-virtual"><scope>Repositorys::RepositoryRole</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

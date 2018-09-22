@@ -12,10 +12,9 @@ namespace Models
         public string EvaluationDetails { get; set; }
         public int UserIDBy { get; set; }
         public int UserIDMain { get; set; }
-        public int Delete { get; set; }//是否删除
+        public int Delete { get; set; }
 
-        public virtual ModelUserInfo ModelUserInfoByItem { get; set; }
-        public virtual ModelUserInfo ModelUserInfoMainItem { get; set; }
+        public virtual ModelUser ModelUserByItem { get; set; }
         public virtual ICollection<ModelEvaluationInfo> ModelEvaluationInfoList { get; set; }
     }
 }

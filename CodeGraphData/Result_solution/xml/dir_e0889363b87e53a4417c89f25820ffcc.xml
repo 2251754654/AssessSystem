@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_e0889363b87e53a4417c89f25820ffcc" kind="dir">
+    <compoundname>E:/Repository/UserInfoDomain</compoundname>
+    <innerdir refid="dir_90c689c516d5f02662e4aa77516c17f5">E:/Repository/UserInfoDomain/AdminPage</innerdir>
+    <innerdir refid="dir_5933479e1c2169484399bdef523279d5">E:/Repository/UserInfoDomain/LoginPage</innerdir>
+    <innerdir refid="dir_0831b50886adef5c6596823f3e021457">E:/Repository/UserInfoDomain/LogoutPage</innerdir>
+    <innerdir refid="dir_19987dacdbef6a93c01ce3c48c9b1070">E:/Repository/UserInfoDomain/Properties</innerdir>
+    <innerdir refid="dir_c82002b65570ff5c40b6eab2b5fc7ec3">E:/Repository/UserInfoDomain/RegistPage</innerdir>
+    <innerdir refid="dir_6611db9b92d019a170026b6b7bdad675">E:/Repository/UserInfoDomain/UserEvaluatePage</innerdir>
+    <innerdir refid="dir_bfb49cf2af4dd093326c6d2cbda4960d">E:/Repository/UserInfoDomain/UserInfoPage</innerdir>
+    <innerfile refid="_test_domain_8cs">TestDomain.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/UserInfoDomain/"/>
+  </compounddef>
+</doxygen>

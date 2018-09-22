@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_domains_1_1_i_domain_user_core_skills" kind="interface" prot="public">
+    <compoundname>Domains::IDomainUserCoreSkills</compoundname>
+    <derivedcompoundref refid="class_domains_1_1_domain_user_core_skills" prot="public" virt="non-virtual">Domains.DomainUserCoreSkills</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_user_core_skills_1a4d503f333293dea8706cca00526d365b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref> &gt;</type>
+        <definition>List&lt;ModelCoreLever&gt; Domains.IDomainUserCoreSkills.FindAllLever</definition>
+        <argsstring>(int skillID)</argsstring>
+        <name>FindAllLever</name>
+        <reimplementedby refid="class_domains_1_1_domain_user_core_skills_1ac00c2686764b0e034df6eb399c1bdf0f">FindAllLever</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>skillID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/interfaceClass/IDomainUserCoreSkills.cs" line="8" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_user_core_skills_1a2aaa15f4335d95670a7af0d39df3fa9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_models_1_1_model_core_skills" kindref="compound">ModelCoreSkills</ref></type>
+        <definition>ModelCoreSkills Domains.IDomainUserCoreSkills.FindCoreSkill</definition>
+        <argsstring>(int skillID)</argsstring>
+        <name>FindCoreSkill</name>
+        <reimplementedby refid="class_domains_1_1_domain_user_core_skills_1a0cfccea316fa515ce0123f5a14929dc8">FindCoreSkill</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>skillID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/interfaceClass/IDomainUserCoreSkills.cs" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_user_core_skills_1a38b377e51ccc4f53e40b25ffd2e946b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_job_and_core_skill" kindref="compound">ModelJobAndCoreSkill</ref> &gt;</type>
+        <definition>List&lt;ModelJobAndCoreSkill&gt; Domains.IDomainUserCoreSkills.FindCoreSkillAllJob</definition>
+        <argsstring>(int coreSkillID)</argsstring>
+        <name>FindCoreSkillAllJob</name>
+        <reimplementedby refid="class_domains_1_1_domain_user_core_skills_1afe14ea897e68bbb4ca1172a6ebcf42dc">FindCoreSkillAllJob</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>coreSkillID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/interfaceClass/IDomainUserCoreSkills.cs" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_user_core_skills_1a214067a515facfbcbf0460b27c4e89ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_models_1_1_model_professional" kindref="compound">ModelProfessional</ref></type>
+        <definition>ModelProfessional Domains.IDomainUserCoreSkills.FindJob</definition>
+        <argsstring>(int jobID)</argsstring>
+        <name>FindJob</name>
+        <reimplementedby refid="class_domains_1_1_domain_user_core_skills_1adb54926c402a8ef48fe4079f341cb7ce">FindJob</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>jobID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/interfaceClass/IDomainUserCoreSkills.cs" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_user_core_skills_1abbdb04ba34a193a639af00f3de44fe28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_job_and_core_skill" kindref="compound">ModelJobAndCoreSkill</ref> &gt;</type>
+        <definition>List&lt;ModelJobAndCoreSkill&gt; Domains.IDomainUserCoreSkills.FindJobAllCoreSkill</definition>
+        <argsstring>(int jobID)</argsstring>
+        <name>FindJobAllCoreSkill</name>
+        <reimplementedby refid="class_domains_1_1_domain_user_core_skills_1a7a0c50d33b9e37da63b0434eea32fa15">FindJobAllCoreSkill</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>jobID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/interfaceClass/IDomainUserCoreSkills.cs" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_user_core_skills_1a10f80eb0d3be584f79740a810385dce3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_job_and_skill_and_lever" kindref="compound">ModelJobAndSkillAndLever</ref> &gt;</type>
+        <definition>List&lt;ModelJobAndSkillAndLever&gt; Domains.IDomainUserCoreSkills.FindJobAndSkillAndLever</definition>
+        <argsstring>(int roleID)</argsstring>
+        <name>FindJobAndSkillAndLever</name>
+        <reimplementedby refid="class_domains_1_1_domain_user_core_skills_1a1b2564934b227ad061b7d4a496973c7a">FindJobAndSkillAndLever</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>roleID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/interfaceClass/IDomainUserCoreSkills.cs" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_user_core_skills_1a52e99b17a4e07a8db7326d1515d7d9f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Dictionary&lt; <ref refid="class_models_1_1_model_role_and_job" kindref="compound">ModelRoleAndJob</ref>, Dictionary&lt; <ref refid="class_models_1_1_model_job_and_core_skill" kindref="compound">ModelJobAndCoreSkill</ref>, List&lt; <ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref> &gt; &gt; &gt;</type>
+        <definition>Dictionary&lt;ModelRoleAndJob, Dictionary&lt;ModelJobAndCoreSkill, List&lt;ModelCoreLever&gt; &gt; &gt; Domains.IDomainUserCoreSkills.FindJobAndSkillAndLeverThreeLayers</definition>
+        <argsstring>(int roleID)</argsstring>
+        <name>FindJobAndSkillAndLeverThreeLayers</name>
+        <reimplementedby refid="class_domains_1_1_domain_user_core_skills_1a94d9767eec12838a7cbae236dacab793">FindJobAndSkillAndLeverThreeLayers</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>roleID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/interfaceClass/IDomainUserCoreSkills.cs" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_user_core_skills_1a35d936471b39c4141ec7366257048612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; Dictionary&lt; <ref refid="class_models_1_1_model_role_and_job" kindref="compound">ModelRoleAndJob</ref>, Dictionary&lt; <ref refid="class_models_1_1_model_job_and_core_skill" kindref="compound">ModelJobAndCoreSkill</ref>, <ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref> &gt; &gt; &gt;</type>
+        <definition>List&lt;Dictionary&lt;ModelRoleAndJob, Dictionary&lt;ModelJobAndCoreSkill, ModelCoreLever&gt; &gt; &gt; Domains.IDomainUserCoreSkills.FindJobAndSkillAndLeverThreeLayersList</definition>
+        <argsstring>(int roleID)</argsstring>
+        <name>FindJobAndSkillAndLeverThreeLayersList</name>
+        <reimplementedby refid="class_domains_1_1_domain_user_core_skills_1a4d67d53a4d495e30122c411fdeed6425">FindJobAndSkillAndLeverThreeLayersList</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>roleID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/interfaceClass/IDomainUserCoreSkills.cs" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_user_core_skills_1a45d20e75021d1227103dbb5350e79001" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref></type>
+        <definition>ModelCoreLever Domains.IDomainUserCoreSkills.FindOneLever</definition>
+        <argsstring>(int coreSkillID, int leverID)</argsstring>
+        <name>FindOneLever</name>
+        <reimplementedby refid="class_domains_1_1_domain_user_core_skills_1a6fc201de2a848cd2256bb7d49337342b">FindOneLever</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>coreSkillID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>leverID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/interfaceClass/IDomainUserCoreSkills.cs" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_user_core_skills_1a65a87d80e75ea9d06fae48935a0b4c71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref></type>
+        <definition>ModelRole Domains.IDomainUserCoreSkills.FindRole</definition>
+        <argsstring>(int roleID)</argsstring>
+        <name>FindRole</name>
+        <reimplementedby refid="class_domains_1_1_domain_user_core_skills_1a48ff4dafd234e0b2e4c3f652239c83be">FindRole</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>roleID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/interfaceClass/IDomainUserCoreSkills.cs" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_user_core_skills_1ac09f7c277595af6225125fe356f48dda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_role_and_job" kindref="compound">ModelRoleAndJob</ref> &gt;</type>
+        <definition>List&lt;ModelRoleAndJob&gt; Domains.IDomainUserCoreSkills.FindRoleAllJob</definition>
+        <argsstring>(int roleID)</argsstring>
+        <name>FindRoleAllJob</name>
+        <reimplementedby refid="class_domains_1_1_domain_user_core_skills_1acb5183e0f47e432d7894f10200b8ccca">FindRoleAllJob</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>roleID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/interfaceClass/IDomainUserCoreSkills.cs" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="198">
+        <label>Domains.IDomainUserCoreSkills</label>
+        <link refid="interface_domains_1_1_i_domain_user_core_skills"/>
+      </node>
+      <node id="199">
+        <label>Domains.DomainUserCoreSkills</label>
+        <link refid="class_domains_1_1_domain_user_core_skills"/>
+        <childnode refid="198" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="E:/Repository/UserInfoDomain/UserInfoPage/interfaceClass/IDomainUserCoreSkills.cs" line="7" column="1" bodyfile="E:/Repository/UserInfoDomain/UserInfoPage/interfaceClass/IDomainUserCoreSkills.cs" bodystart="6" bodyend="19"/>
+    <listofallmembers>
+      <member refid="interface_domains_1_1_i_domain_user_core_skills_1a4d503f333293dea8706cca00526d365b" prot="public" virt="non-virtual"><scope>Domains::IDomainUserCoreSkills</scope><name>FindAllLever</name></member>
+      <member refid="interface_domains_1_1_i_domain_user_core_skills_1a2aaa15f4335d95670a7af0d39df3fa9d" prot="public" virt="non-virtual"><scope>Domains::IDomainUserCoreSkills</scope><name>FindCoreSkill</name></member>
+      <member refid="interface_domains_1_1_i_domain_user_core_skills_1a38b377e51ccc4f53e40b25ffd2e946b5" prot="public" virt="non-virtual"><scope>Domains::IDomainUserCoreSkills</scope><name>FindCoreSkillAllJob</name></member>
+      <member refid="interface_domains_1_1_i_domain_user_core_skills_1a214067a515facfbcbf0460b27c4e89ae" prot="public" virt="non-virtual"><scope>Domains::IDomainUserCoreSkills</scope><name>FindJob</name></member>
+      <member refid="interface_domains_1_1_i_domain_user_core_skills_1abbdb04ba34a193a639af00f3de44fe28" prot="public" virt="non-virtual"><scope>Domains::IDomainUserCoreSkills</scope><name>FindJobAllCoreSkill</name></member>
+      <member refid="interface_domains_1_1_i_domain_user_core_skills_1a10f80eb0d3be584f79740a810385dce3" prot="public" virt="non-virtual"><scope>Domains::IDomainUserCoreSkills</scope><name>FindJobAndSkillAndLever</name></member>
+      <member refid="interface_domains_1_1_i_domain_user_core_skills_1a52e99b17a4e07a8db7326d1515d7d9f7" prot="public" virt="non-virtual"><scope>Domains::IDomainUserCoreSkills</scope><name>FindJobAndSkillAndLeverThreeLayers</name></member>
+      <member refid="interface_domains_1_1_i_domain_user_core_skills_1a35d936471b39c4141ec7366257048612" prot="public" virt="non-virtual"><scope>Domains::IDomainUserCoreSkills</scope><name>FindJobAndSkillAndLeverThreeLayersList</name></member>
+      <member refid="interface_domains_1_1_i_domain_user_core_skills_1a45d20e75021d1227103dbb5350e79001" prot="public" virt="non-virtual"><scope>Domains::IDomainUserCoreSkills</scope><name>FindOneLever</name></member>
+      <member refid="interface_domains_1_1_i_domain_user_core_skills_1a65a87d80e75ea9d06fae48935a0b4c71" prot="public" virt="non-virtual"><scope>Domains::IDomainUserCoreSkills</scope><name>FindRole</name></member>
+      <member refid="interface_domains_1_1_i_domain_user_core_skills_1ac09f7c277595af6225125fe356f48dda" prot="public" virt="non-virtual"><scope>Domains::IDomainUserCoreSkills</scope><name>FindRoleAllJob</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

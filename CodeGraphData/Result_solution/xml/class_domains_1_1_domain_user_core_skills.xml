@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_domains_1_1_domain_user_core_skills" kind="class" prot="public">
+    <compoundname>Domains::DomainUserCoreSkills</compoundname>
+    <basecompoundref refid="class_domains_1_1_abstract_domain_user_skills" prot="public" virt="non-virtual">Domains.AbstractDomainUserSkills</basecompoundref>
+    <basecompoundref refid="interface_domains_1_1_i_domain_user_core_skills" prot="public" virt="non-virtual">Domains.IDomainUserCoreSkills</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_domains_1_1_domain_user_core_skills_1ade1a5f30f67e9582998be14dc136762a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Domains.DomainUserCoreSkills.DomainUserCoreSkills</definition>
+        <argsstring>(IRepositoryRole _repositoryRole, IRepositoryJob _repositoryJob, IRepositoryCoreSkills _repositoryCoreSkills, IRepositoryCoreLever _repositoryCoreLever, IRepositoryRoleContent _repositoryRoleContent, IRepositoryMapingCore _repositoryMapingCore)</argsstring>
+        <name>DomainUserCoreSkills</name>
+        <param>
+          <type><ref refid="interface_repositorys_1_1_i_repository_role" kindref="compound">IRepositoryRole</ref></type>
+          <declname>_repositoryRole</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_repositorys_1_1_i_repository_job" kindref="compound">IRepositoryJob</ref></type>
+          <declname>_repositoryJob</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_repositorys_1_1_i_repository_core_skills" kindref="compound">IRepositoryCoreSkills</ref></type>
+          <declname>_repositoryCoreSkills</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_repositorys_1_1_i_repository_core_lever" kindref="compound">IRepositoryCoreLever</ref></type>
+          <declname>_repositoryCoreLever</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_repositorys_1_1_i_repository_role_content" kindref="compound">IRepositoryRoleContent</ref></type>
+          <declname>_repositoryRoleContent</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_repositorys_1_1_i_repository_maping_core" kindref="compound">IRepositoryMapingCore</ref></type>
+          <declname>_repositoryMapingCore</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" line="11" column="1" bodyfile="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_user_core_skills_1a48ff4dafd234e0b2e4c3f652239c83be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref></type>
+        <definition>ModelRole Domains.DomainUserCoreSkills.FindRole</definition>
+        <argsstring>(int roleID)</argsstring>
+        <name>FindRole</name>
+        <reimplements refid="interface_domains_1_1_i_domain_user_core_skills_1a65a87d80e75ea9d06fae48935a0b4c71">FindRole</reimplements>
+        <param>
+          <type>int</type>
+          <declname>roleID</declname>
+        </param>
+        <briefdescription>
+<para>根据角色ID查找某个角色 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>roleID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" line="19" column="1" bodyfile="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_user_core_skills_1adb54926c402a8ef48fe4079f341cb7ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_models_1_1_model_professional" kindref="compound">ModelProfessional</ref></type>
+        <definition>ModelProfessional Domains.DomainUserCoreSkills.FindJob</definition>
+        <argsstring>(int jobID)</argsstring>
+        <name>FindJob</name>
+        <reimplements refid="interface_domains_1_1_i_domain_user_core_skills_1a214067a515facfbcbf0460b27c4e89ae">FindJob</reimplements>
+        <param>
+          <type>int</type>
+          <declname>jobID</declname>
+        </param>
+        <briefdescription>
+<para>根据职业ID查找某个职业 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>jobID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" line="28" column="1" bodyfile="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_user_core_skills_1a0cfccea316fa515ce0123f5a14929dc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_models_1_1_model_core_skills" kindref="compound">ModelCoreSkills</ref></type>
+        <definition>ModelCoreSkills Domains.DomainUserCoreSkills.FindCoreSkill</definition>
+        <argsstring>(int skillID)</argsstring>
+        <name>FindCoreSkill</name>
+        <reimplements refid="interface_domains_1_1_i_domain_user_core_skills_1a2aaa15f4335d95670a7af0d39df3fa9d">FindCoreSkill</reimplements>
+        <param>
+          <type>int</type>
+          <declname>skillID</declname>
+        </param>
+        <briefdescription>
+<para>根据技能ID查询某个技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>skillID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" line="37" column="1" bodyfile="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_user_core_skills_1ac00c2686764b0e034df6eb399c1bdf0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref> &gt;</type>
+        <definition>List&lt;ModelCoreLever&gt; Domains.DomainUserCoreSkills.FindAllLever</definition>
+        <argsstring>(int skillID)</argsstring>
+        <name>FindAllLever</name>
+        <reimplements refid="interface_domains_1_1_i_domain_user_core_skills_1a4d503f333293dea8706cca00526d365b">FindAllLever</reimplements>
+        <param>
+          <type>int</type>
+          <declname>skillID</declname>
+        </param>
+        <briefdescription>
+<para>根据技能ID查看技能下的所有等级分类 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>skillID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" line="46" column="1" bodyfile="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" bodystart="46" bodyend="49"/>
+        <referencedby refid="class_domains_1_1_domain_user_core_skills_1a1b2564934b227ad061b7d4a496973c7a" compoundref="_domain_user_core_skills_8cs" startline="119" endline="141">Domains.DomainUserCoreSkills.FindJobAndSkillAndLever</referencedby>
+        <referencedby refid="class_domains_1_1_domain_user_core_skills_1a94d9767eec12838a7cbae236dacab793" compoundref="_domain_user_core_skills_8cs" startline="91" endline="113">Domains.DomainUserCoreSkills.FindJobAndSkillAndLeverThreeLayers</referencedby>
+        <referencedby refid="class_domains_1_1_domain_user_core_skills_1a4d67d53a4d495e30122c411fdeed6425" compoundref="_domain_user_core_skills_8cs" startline="147" endline="169">Domains.DomainUserCoreSkills.FindJobAndSkillAndLeverThreeLayersList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_user_core_skills_1a6fc201de2a848cd2256bb7d49337342b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref></type>
+        <definition>ModelCoreLever Domains.DomainUserCoreSkills.FindOneLever</definition>
+        <argsstring>(int coreSkillID, int leverID)</argsstring>
+        <name>FindOneLever</name>
+        <reimplements refid="interface_domains_1_1_i_domain_user_core_skills_1a45d20e75021d1227103dbb5350e79001">FindOneLever</reimplements>
+        <param>
+          <type>int</type>
+          <declname>coreSkillID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>leverID</declname>
+        </param>
+        <briefdescription>
+<para>更具leverID查询某个具体的等级信息 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>leverID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" line="55" column="1" bodyfile="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_user_core_skills_1acb5183e0f47e432d7894f10200b8ccca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_role_and_job" kindref="compound">ModelRoleAndJob</ref> &gt;</type>
+        <definition>List&lt;ModelRoleAndJob&gt; Domains.DomainUserCoreSkills.FindRoleAllJob</definition>
+        <argsstring>(int roleID)</argsstring>
+        <name>FindRoleAllJob</name>
+        <reimplements refid="interface_domains_1_1_i_domain_user_core_skills_1ac09f7c277595af6225125fe356f48dda">FindRoleAllJob</reimplements>
+        <param>
+          <type>int</type>
+          <declname>roleID</declname>
+        </param>
+        <briefdescription>
+<para>根据角色ID查询到该角色掌握的所有职业 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>roleID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" line="64" column="1" bodyfile="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" bodystart="64" bodyend="67"/>
+        <referencedby refid="class_domains_1_1_domain_user_core_skills_1a1b2564934b227ad061b7d4a496973c7a" compoundref="_domain_user_core_skills_8cs" startline="119" endline="141">Domains.DomainUserCoreSkills.FindJobAndSkillAndLever</referencedby>
+        <referencedby refid="class_domains_1_1_domain_user_core_skills_1a94d9767eec12838a7cbae236dacab793" compoundref="_domain_user_core_skills_8cs" startline="91" endline="113">Domains.DomainUserCoreSkills.FindJobAndSkillAndLeverThreeLayers</referencedby>
+        <referencedby refid="class_domains_1_1_domain_user_core_skills_1a4d67d53a4d495e30122c411fdeed6425" compoundref="_domain_user_core_skills_8cs" startline="147" endline="169">Domains.DomainUserCoreSkills.FindJobAndSkillAndLeverThreeLayersList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_user_core_skills_1a7a0c50d33b9e37da63b0434eea32fa15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_job_and_core_skill" kindref="compound">ModelJobAndCoreSkill</ref> &gt;</type>
+        <definition>List&lt;ModelJobAndCoreSkill&gt; Domains.DomainUserCoreSkills.FindJobAllCoreSkill</definition>
+        <argsstring>(int jobID)</argsstring>
+        <name>FindJobAllCoreSkill</name>
+        <reimplements refid="interface_domains_1_1_i_domain_user_core_skills_1abbdb04ba34a193a639af00f3de44fe28">FindJobAllCoreSkill</reimplements>
+        <param>
+          <type>int</type>
+          <declname>jobID</declname>
+        </param>
+        <briefdescription>
+<para>根据职业ID查询该职业对应的所有技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>jobID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" line="73" column="1" bodyfile="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" bodystart="73" bodyend="76"/>
+        <referencedby refid="class_domains_1_1_domain_user_core_skills_1a1b2564934b227ad061b7d4a496973c7a" compoundref="_domain_user_core_skills_8cs" startline="119" endline="141">Domains.DomainUserCoreSkills.FindJobAndSkillAndLever</referencedby>
+        <referencedby refid="class_domains_1_1_domain_user_core_skills_1a94d9767eec12838a7cbae236dacab793" compoundref="_domain_user_core_skills_8cs" startline="91" endline="113">Domains.DomainUserCoreSkills.FindJobAndSkillAndLeverThreeLayers</referencedby>
+        <referencedby refid="class_domains_1_1_domain_user_core_skills_1a4d67d53a4d495e30122c411fdeed6425" compoundref="_domain_user_core_skills_8cs" startline="147" endline="169">Domains.DomainUserCoreSkills.FindJobAndSkillAndLeverThreeLayersList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_user_core_skills_1afe14ea897e68bbb4ca1172a6ebcf42dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_job_and_core_skill" kindref="compound">ModelJobAndCoreSkill</ref> &gt;</type>
+        <definition>List&lt;ModelJobAndCoreSkill&gt; Domains.DomainUserCoreSkills.FindCoreSkillAllJob</definition>
+        <argsstring>(int coreSkillID)</argsstring>
+        <name>FindCoreSkillAllJob</name>
+        <reimplements refid="interface_domains_1_1_i_domain_user_core_skills_1a38b377e51ccc4f53e40b25ffd2e946b5">FindCoreSkillAllJob</reimplements>
+        <param>
+          <type>int</type>
+          <declname>coreSkillID</declname>
+        </param>
+        <briefdescription>
+<para>根据技能ID查询到技能对应的所有角色 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>jobID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" line="82" column="1" bodyfile="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" bodystart="82" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_user_core_skills_1a94d9767eec12838a7cbae236dacab793" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; <ref refid="class_models_1_1_model_role_and_job" kindref="compound">ModelRoleAndJob</ref>, Dictionary&lt; <ref refid="class_models_1_1_model_job_and_core_skill" kindref="compound">ModelJobAndCoreSkill</ref>, List&lt; <ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref> &gt; &gt; &gt;</type>
+        <definition>Dictionary&lt;ModelRoleAndJob, Dictionary&lt;ModelJobAndCoreSkill, List&lt;ModelCoreLever&gt; &gt; &gt; Domains.DomainUserCoreSkills.FindJobAndSkillAndLeverThreeLayers</definition>
+        <argsstring>(int roleID)</argsstring>
+        <name>FindJobAndSkillAndLeverThreeLayers</name>
+        <reimplements refid="interface_domains_1_1_i_domain_user_core_skills_1a52e99b17a4e07a8db7326d1515d7d9f7">FindJobAndSkillAndLeverThreeLayers</reimplements>
+        <param>
+          <type>int</type>
+          <declname>roleID</declname>
+        </param>
+        <briefdescription>
+<para>字典集合查询（类似于导航） </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>roleID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" line="91" column="1" bodyfile="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" bodystart="91" bodyend="113"/>
+        <references refid="class_domains_1_1_domain_user_core_skills_1ac00c2686764b0e034df6eb399c1bdf0f" compoundref="_domain_user_core_skills_8cs" startline="46" endline="49">Domains.DomainUserCoreSkills.FindAllLever</references>
+        <references refid="class_domains_1_1_domain_user_core_skills_1a7a0c50d33b9e37da63b0434eea32fa15" compoundref="_domain_user_core_skills_8cs" startline="73" endline="76">Domains.DomainUserCoreSkills.FindJobAllCoreSkill</references>
+        <references refid="class_domains_1_1_domain_user_core_skills_1acb5183e0f47e432d7894f10200b8ccca" compoundref="_domain_user_core_skills_8cs" startline="64" endline="67">Domains.DomainUserCoreSkills.FindRoleAllJob</references>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_user_core_skills_1a1b2564934b227ad061b7d4a496973c7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_job_and_skill_and_lever" kindref="compound">ModelJobAndSkillAndLever</ref> &gt;</type>
+        <definition>List&lt;ModelJobAndSkillAndLever&gt; Domains.DomainUserCoreSkills.FindJobAndSkillAndLever</definition>
+        <argsstring>(int roleID)</argsstring>
+        <name>FindJobAndSkillAndLever</name>
+        <reimplements refid="interface_domains_1_1_i_domain_user_core_skills_1a10f80eb0d3be584f79740a810385dce3">FindJobAndSkillAndLever</reimplements>
+        <param>
+          <type>int</type>
+          <declname>roleID</declname>
+        </param>
+        <briefdescription>
+<para>根据角色ID查询到所有的信息存储在联合三张表的ModelJobAndSkillAndLever大表中 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>roleID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" line="119" column="1" bodyfile="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" bodystart="119" bodyend="141"/>
+        <references refid="class_domains_1_1_domain_user_core_skills_1ac00c2686764b0e034df6eb399c1bdf0f" compoundref="_domain_user_core_skills_8cs" startline="46" endline="49">Domains.DomainUserCoreSkills.FindAllLever</references>
+        <references refid="class_domains_1_1_domain_user_core_skills_1a7a0c50d33b9e37da63b0434eea32fa15" compoundref="_domain_user_core_skills_8cs" startline="73" endline="76">Domains.DomainUserCoreSkills.FindJobAllCoreSkill</references>
+        <references refid="class_domains_1_1_domain_user_core_skills_1acb5183e0f47e432d7894f10200b8ccca" compoundref="_domain_user_core_skills_8cs" startline="64" endline="67">Domains.DomainUserCoreSkills.FindRoleAllJob</references>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_user_core_skills_1a4d67d53a4d495e30122c411fdeed6425" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Dictionary&lt; <ref refid="class_models_1_1_model_role_and_job" kindref="compound">ModelRoleAndJob</ref>, Dictionary&lt; <ref refid="class_models_1_1_model_job_and_core_skill" kindref="compound">ModelJobAndCoreSkill</ref>, <ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref> &gt; &gt; &gt;</type>
+        <definition>List&lt;Dictionary&lt;ModelRoleAndJob, Dictionary&lt;ModelJobAndCoreSkill, ModelCoreLever&gt; &gt; &gt; Domains.DomainUserCoreSkills.FindJobAndSkillAndLeverThreeLayersList</definition>
+        <argsstring>(int roleID)</argsstring>
+        <name>FindJobAndSkillAndLeverThreeLayersList</name>
+        <reimplements refid="interface_domains_1_1_i_domain_user_core_skills_1a35d936471b39c4141ec7366257048612">FindJobAndSkillAndLeverThreeLayersList</reimplements>
+        <param>
+          <type>int</type>
+          <declname>roleID</declname>
+        </param>
+        <briefdescription>
+<para>字典集合查询（类似于表格） </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>roleID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" line="147" column="1" bodyfile="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" bodystart="147" bodyend="169"/>
+        <references refid="class_domains_1_1_domain_user_core_skills_1ac00c2686764b0e034df6eb399c1bdf0f" compoundref="_domain_user_core_skills_8cs" startline="46" endline="49">Domains.DomainUserCoreSkills.FindAllLever</references>
+        <references refid="class_domains_1_1_domain_user_core_skills_1a7a0c50d33b9e37da63b0434eea32fa15" compoundref="_domain_user_core_skills_8cs" startline="73" endline="76">Domains.DomainUserCoreSkills.FindJobAllCoreSkill</references>
+        <references refid="class_domains_1_1_domain_user_core_skills_1acb5183e0f47e432d7894f10200b8ccca" compoundref="_domain_user_core_skills_8cs" startline="64" endline="67">Domains.DomainUserCoreSkills.FindRoleAllJob</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="116">
+        <label>AbstractDomainUserSkills</label>
+        <link refid="class_domains_1_1_abstract_domain_user_skills"/>
+      </node>
+      <node id="115">
+        <label>Domains.DomainUserCoreSkills</label>
+        <link refid="class_domains_1_1_domain_user_core_skills"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+        <childnode refid="117" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="117">
+        <label>IDomainUserCoreSkills</label>
+        <link refid="interface_domains_1_1_i_domain_user_core_skills"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="128">
+        <label>Repositorys.IRepositoryMapingTeach</label>
+        <link refid="interface_repositorys_1_1_i_repository_maping_teach"/>
+      </node>
+      <node id="121">
+        <label>Repositorys.IRepositoryTeachLever</label>
+        <link refid="interface_repositorys_1_1_i_repository_teach_lever"/>
+      </node>
+      <node id="123">
+        <label>Repositorys.IRepositoryCoreLever</label>
+        <link refid="interface_repositorys_1_1_i_repository_core_lever"/>
+      </node>
+      <node id="127">
+        <label>Repositorys.IRepositoryMapingCore</label>
+        <link refid="interface_repositorys_1_1_i_repository_maping_core"/>
+      </node>
+      <node id="119">
+        <label>AbstractDomainUserSkills</label>
+        <link refid="class_domains_1_1_abstract_domain_user_skills"/>
+        <childnode refid="120" relation="usage">
+          <edgelabel>repositoryRoleContent</edgelabel>
+        </childnode>
+        <childnode refid="121" relation="usage">
+          <edgelabel>repositoryTeachLever</edgelabel>
+        </childnode>
+        <childnode refid="122" relation="usage">
+          <edgelabel>repositoryJob</edgelabel>
+        </childnode>
+        <childnode refid="123" relation="usage">
+          <edgelabel>repositoryCoreLever</edgelabel>
+        </childnode>
+        <childnode refid="124" relation="usage">
+          <edgelabel>repositoryRole</edgelabel>
+        </childnode>
+        <childnode refid="125" relation="usage">
+          <edgelabel>repositoryCoreSkills</edgelabel>
+        </childnode>
+        <childnode refid="126" relation="usage">
+          <edgelabel>repositoryTeachSkills</edgelabel>
+        </childnode>
+        <childnode refid="127" relation="usage">
+          <edgelabel>repositoryMapingCore</edgelabel>
+        </childnode>
+        <childnode refid="128" relation="usage">
+          <edgelabel>repositoryMapingTeach</edgelabel>
+        </childnode>
+      </node>
+      <node id="118">
+        <label>Domains.DomainUserCoreSkills</label>
+        <link refid="class_domains_1_1_domain_user_core_skills"/>
+        <childnode refid="119" relation="public-inheritance">
+        </childnode>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="122">
+        <label>Repositorys.IRepositoryJob</label>
+        <link refid="interface_repositorys_1_1_i_repository_job"/>
+      </node>
+      <node id="120">
+        <label>Repositorys.IRepositoryRoleContent</label>
+        <link refid="interface_repositorys_1_1_i_repository_role_content"/>
+      </node>
+      <node id="126">
+        <label>Repositorys.IRepositoryTeachSkills</label>
+        <link refid="interface_repositorys_1_1_i_repository_teach_skills"/>
+      </node>
+      <node id="125">
+        <label>Repositorys.IRepositoryCoreSkills</label>
+        <link refid="interface_repositorys_1_1_i_repository_core_skills"/>
+      </node>
+      <node id="124">
+        <label>Repositorys.IRepositoryRole</label>
+        <link refid="interface_repositorys_1_1_i_repository_role"/>
+      </node>
+      <node id="129">
+        <label>IDomainUserCoreSkills</label>
+        <link refid="interface_domains_1_1_i_domain_user_core_skills"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" line="10" column="1" bodyfile="E:/Repository/UserInfoDomain/UserInfoPage/BaseClass/DomainUserCoreSkills.cs" bodystart="9" bodyend="170"/>
+    <listofallmembers>
+      <member refid="class_domains_1_1_abstract_domain_user_skills_1ae5453dad757853450de9d287adcd4e49" prot="public" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>AbstractDomainUserSkills</name></member>
+      <member refid="class_domains_1_1_abstract_domain_user_skills_1a195688ce745776a04a811b1a37545176" prot="protected" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>AbstractDomainUserSkills</name></member>
+      <member refid="class_domains_1_1_domain_user_core_skills_1ade1a5f30f67e9582998be14dc136762a" prot="public" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>DomainUserCoreSkills</name></member>
+      <member refid="class_domains_1_1_domain_user_core_skills_1ac00c2686764b0e034df6eb399c1bdf0f" prot="public" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>FindAllLever</name></member>
+      <member refid="class_domains_1_1_domain_user_core_skills_1a0cfccea316fa515ce0123f5a14929dc8" prot="public" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>FindCoreSkill</name></member>
+      <member refid="class_domains_1_1_domain_user_core_skills_1afe14ea897e68bbb4ca1172a6ebcf42dc" prot="public" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>FindCoreSkillAllJob</name></member>
+      <member refid="class_domains_1_1_domain_user_core_skills_1adb54926c402a8ef48fe4079f341cb7ce" prot="public" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>FindJob</name></member>
+      <member refid="class_domains_1_1_domain_user_core_skills_1a7a0c50d33b9e37da63b0434eea32fa15" prot="public" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>FindJobAllCoreSkill</name></member>
+      <member refid="class_domains_1_1_domain_user_core_skills_1a1b2564934b227ad061b7d4a496973c7a" prot="public" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>FindJobAndSkillAndLever</name></member>
+      <member refid="class_domains_1_1_domain_user_core_skills_1a94d9767eec12838a7cbae236dacab793" prot="public" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>FindJobAndSkillAndLeverThreeLayers</name></member>
+      <member refid="class_domains_1_1_domain_user_core_skills_1a4d67d53a4d495e30122c411fdeed6425" prot="public" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>FindJobAndSkillAndLeverThreeLayersList</name></member>
+      <member refid="class_domains_1_1_domain_user_core_skills_1a6fc201de2a848cd2256bb7d49337342b" prot="public" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>FindOneLever</name></member>
+      <member refid="class_domains_1_1_domain_user_core_skills_1a48ff4dafd234e0b2e4c3f652239c83be" prot="public" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>FindRole</name></member>
+      <member refid="class_domains_1_1_domain_user_core_skills_1acb5183e0f47e432d7894f10200b8ccca" prot="public" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>FindRoleAllJob</name></member>
+      <member refid="class_domains_1_1_abstract_domain_user_skills_1ab5cd34e64f898751fbd057b94243a362" prot="protected" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>repositoryCoreLever</name></member>
+      <member refid="class_domains_1_1_abstract_domain_user_skills_1a2a2c80755e5788ac37d62a360469e77c" prot="protected" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>repositoryCoreSkills</name></member>
+      <member refid="class_domains_1_1_abstract_domain_user_skills_1ac66be7b8f93c2a4009bc4adb589fc952" prot="protected" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>repositoryJob</name></member>
+      <member refid="class_domains_1_1_abstract_domain_user_skills_1a563ee7bc731f6b658405e0654fa107d5" prot="protected" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>repositoryMapingCore</name></member>
+      <member refid="class_domains_1_1_abstract_domain_user_skills_1a8420abfb8980aabe3d076050bfaa19b8" prot="protected" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>repositoryMapingTeach</name></member>
+      <member refid="class_domains_1_1_abstract_domain_user_skills_1af2955fe0d9bce596f966e4c65421668f" prot="protected" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>repositoryRole</name></member>
+      <member refid="class_domains_1_1_abstract_domain_user_skills_1a1e2583cc39b5938dbf826374c885a73c" prot="protected" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>repositoryRoleContent</name></member>
+      <member refid="class_domains_1_1_abstract_domain_user_skills_1a9367589a4b35d66073ac494dcfc5e26e" prot="protected" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>repositoryTeachLever</name></member>
+      <member refid="class_domains_1_1_abstract_domain_user_skills_1a53420ff7d3f2e31c8e5f602be7891a28" prot="protected" virt="non-virtual"><scope>Domains::DomainUserCoreSkills</scope><name>repositoryTeachSkills</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

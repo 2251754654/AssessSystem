@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_models_1_1_model_evaluation_info" kind="class" prot="public">
+    <compoundname>Models::ModelEvaluationInfo</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_models_1_1_model_evaluation_info_1ab90323929913d9b69777067d5f8e3c4b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelEvaluationInfo.EvaluationInfoID</definition>
+        <argsstring></argsstring>
+        <name>EvaluationInfoID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelEvaluationInfo.cs" line="5" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelEvaluationInfo.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_evaluation_info_1a7447671f239aea91b8dbcbb605c4df93" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Models.ModelEvaluationInfo.SkillsGUID</definition>
+        <argsstring></argsstring>
+        <name>SkillsGUID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelEvaluationInfo.cs" line="6" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelEvaluationInfo.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_evaluation_info_1ac70a75bbf8139a7290b5048ea6d85999" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelEvaluationInfo.EvaluationID</definition>
+        <argsstring></argsstring>
+        <name>EvaluationID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelEvaluationInfo.cs" line="7" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelEvaluationInfo.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_evaluation_info_1a5a7c56e12ba24152e4a7bba1642d1125" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelEvaluationInfo.Lever</definition>
+        <argsstring></argsstring>
+        <name>Lever</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelEvaluationInfo.cs" line="8" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelEvaluationInfo.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_evaluation_info_1a33f3d006c042b7038397f3f1f8d55349" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_models_1_1_model_evaluation" kindref="compound">ModelEvaluation</ref></type>
+        <definition>virtual ModelEvaluation Models.ModelEvaluationInfo.ModelEvaluationItem</definition>
+        <argsstring></argsstring>
+        <name>ModelEvaluationItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelEvaluationInfo.cs" line="10" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelEvaluationInfo.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Models/CustomModels/ModelEvaluationInfo.cs" line="4" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelEvaluationInfo.cs" bodystart="3" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_models_1_1_model_evaluation_info_1ac70a75bbf8139a7290b5048ea6d85999" prot="public" virt="non-virtual"><scope>Models::ModelEvaluationInfo</scope><name>EvaluationID</name></member>
+      <member refid="class_models_1_1_model_evaluation_info_1ab90323929913d9b69777067d5f8e3c4b" prot="public" virt="non-virtual"><scope>Models::ModelEvaluationInfo</scope><name>EvaluationInfoID</name></member>
+      <member refid="class_models_1_1_model_evaluation_info_1a5a7c56e12ba24152e4a7bba1642d1125" prot="public" virt="non-virtual"><scope>Models::ModelEvaluationInfo</scope><name>Lever</name></member>
+      <member refid="class_models_1_1_model_evaluation_info_1a33f3d006c042b7038397f3f1f8d55349" prot="public" virt="non-virtual"><scope>Models::ModelEvaluationInfo</scope><name>ModelEvaluationItem</name></member>
+      <member refid="class_models_1_1_model_evaluation_info_1a7447671f239aea91b8dbcbb605c4df93" prot="public" virt="non-virtual"><scope>Models::ModelEvaluationInfo</scope><name>SkillsGUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

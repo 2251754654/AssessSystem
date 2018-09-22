@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_views_1_1_controllers_1_1_job_controller" kind="class" prot="public">
+    <compoundname>Views::Controllers::JobController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_views_1_1_controllers_1_1_job_controller_1a49fbd7a6647a62e6239963e02d466900" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_domains_1_1_i_domain_job" kindref="compound">IDomainJob</ref></type>
+        <definition>readonly IDomainJob Views.Controllers.JobController.domainJob</definition>
+        <argsstring></argsstring>
+        <name>domainJob</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/JobController.cs" line="14" column="1" bodyfile="E:/Repository/Views/Controllers/JobController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_job_controller_1a461d497a00230ebd731179f888718802" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Views.Controllers.JobController.JobController</definition>
+        <argsstring>(IDomainJob _domainJob)</argsstring>
+        <name>JobController</name>
+        <param>
+          <type><ref refid="interface_domains_1_1_i_domain_job" kindref="compound">IDomainJob</ref></type>
+          <declname>_domainJob</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/JobController.cs" line="16" column="1" bodyfile="E:/Repository/Views/Controllers/JobController.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_job_controller_1ab5d12796ab8d37a76250c7ff4075c1ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Views.Controllers.JobController.JobView</definition>
+        <argsstring>()</argsstring>
+        <name>JobView</name>
+        <briefdescription>
+<para>职业管理视图 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/JobController.cs" line="24" column="1" bodyfile="E:/Repository/Views/Controllers/JobController.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_job_controller_1a561d5d0e43b1beda287a8953ac7387dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.JobController.UpdateJob</definition>
+        <argsstring>(ModelProfessional modelProfessional)</argsstring>
+        <name>UpdateJob</name>
+        <param>
+          <type><ref refid="class_models_1_1_model_professional" kindref="compound">ModelProfessional</ref></type>
+          <declname>modelProfessional</declname>
+        </param>
+        <briefdescription>
+<para>更新职业 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modelProfessional</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/JobController.cs" line="33" column="1" bodyfile="E:/Repository/Views/Controllers/JobController.cs" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_job_controller_1a27460e1c327facbbb1482e1b0f0288f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.JobController.InsertJob</definition>
+        <argsstring>(ModelProfessional modelProfessional)</argsstring>
+        <name>InsertJob</name>
+        <param>
+          <type><ref refid="class_models_1_1_model_professional" kindref="compound">ModelProfessional</ref></type>
+          <declname>modelProfessional</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/JobController.cs" line="39" column="1" bodyfile="E:/Repository/Views/Controllers/JobController.cs" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_job_controller_1a33091848277bf01bfd1240ded2e60452" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.JobController.DeleteJob</definition>
+        <argsstring>(int ProfessionalID)</argsstring>
+        <name>DeleteJob</name>
+        <param>
+          <type>int</type>
+          <declname>ProfessionalID</declname>
+        </param>
+        <briefdescription>
+<para>删除职位 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>jobID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/JobController.cs" line="49" column="1" bodyfile="E:/Repository/Views/Controllers/JobController.cs" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_job_controller_1acdacda5ed1f38f522e8164c86db66ab6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.JobController.FindJob</definition>
+        <argsstring>(int ProfessionalID)</argsstring>
+        <name>FindJob</name>
+        <param>
+          <type>int</type>
+          <declname>ProfessionalID</declname>
+        </param>
+        <briefdescription>
+<para>查询某个职位 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ProfessionalID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/JobController.cs" line="59" column="1" bodyfile="E:/Repository/Views/Controllers/JobController.cs" bodystart="59" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_job_controller_1af717f707e4ee3ad73d99749453559a19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.JobController.FindAllJob</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllJob</name>
+        <briefdescription>
+<para>查询所有职位 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/JobController.cs" line="68" column="1" bodyfile="E:/Repository/Views/Controllers/JobController.cs" bodystart="68" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_job_controller_1a8f6e1507da4f77e544204dd85d183a3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.JobController.InsertProfessionalCoreSkills</definition>
+        <argsstring>(int ProfessionalID, int CoreSkillsID)</argsstring>
+        <name>InsertProfessionalCoreSkills</name>
+        <param>
+          <type>int</type>
+          <declname>ProfessionalID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>CoreSkillsID</declname>
+        </param>
+        <briefdescription>
+<para>分配核心技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ProfessionalID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CoreSkillsID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/JobController.cs" line="79" column="1" bodyfile="E:/Repository/Views/Controllers/JobController.cs" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_job_controller_1adf56806e80e904bdff5e7e5a4aaeb111" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.JobController.InsertProfessionalTeachSkills</definition>
+        <argsstring>(int ProfessionalID, int TeachSkillsID)</argsstring>
+        <name>InsertProfessionalTeachSkills</name>
+        <param>
+          <type>int</type>
+          <declname>ProfessionalID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>TeachSkillsID</declname>
+        </param>
+        <briefdescription>
+<para>分配专业技能 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ProfessionalID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>TeachSkillsID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/JobController.cs" line="90" column="1" bodyfile="E:/Repository/Views/Controllers/JobController.cs" bodystart="90" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="244">
+        <label>Controller</label>
+      </node>
+      <node id="243">
+        <label>Views.Controllers.JobController</label>
+        <link refid="class_views_1_1_controllers_1_1_job_controller"/>
+        <childnode refid="244" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="247">
+        <label>Domains.IDomainJob</label>
+        <link refid="interface_domains_1_1_i_domain_job"/>
+      </node>
+      <node id="246">
+        <label>Controller</label>
+      </node>
+      <node id="245">
+        <label>Views.Controllers.JobController</label>
+        <link refid="class_views_1_1_controllers_1_1_job_controller"/>
+        <childnode refid="246" relation="public-inheritance">
+        </childnode>
+        <childnode refid="247" relation="usage">
+          <edgelabel>domainJob</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Views/Controllers/JobController.cs" line="13" column="1" bodyfile="E:/Repository/Views/Controllers/JobController.cs" bodystart="12" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_views_1_1_controllers_1_1_job_controller_1a33091848277bf01bfd1240ded2e60452" prot="public" virt="non-virtual"><scope>Views::Controllers::JobController</scope><name>DeleteJob</name></member>
+      <member refid="class_views_1_1_controllers_1_1_job_controller_1a49fbd7a6647a62e6239963e02d466900" prot="private" virt="non-virtual"><scope>Views::Controllers::JobController</scope><name>domainJob</name></member>
+      <member refid="class_views_1_1_controllers_1_1_job_controller_1af717f707e4ee3ad73d99749453559a19" prot="public" virt="non-virtual"><scope>Views::Controllers::JobController</scope><name>FindAllJob</name></member>
+      <member refid="class_views_1_1_controllers_1_1_job_controller_1acdacda5ed1f38f522e8164c86db66ab6" prot="public" virt="non-virtual"><scope>Views::Controllers::JobController</scope><name>FindJob</name></member>
+      <member refid="class_views_1_1_controllers_1_1_job_controller_1a27460e1c327facbbb1482e1b0f0288f4" prot="public" virt="non-virtual"><scope>Views::Controllers::JobController</scope><name>InsertJob</name></member>
+      <member refid="class_views_1_1_controllers_1_1_job_controller_1a8f6e1507da4f77e544204dd85d183a3a" prot="public" virt="non-virtual"><scope>Views::Controllers::JobController</scope><name>InsertProfessionalCoreSkills</name></member>
+      <member refid="class_views_1_1_controllers_1_1_job_controller_1adf56806e80e904bdff5e7e5a4aaeb111" prot="public" virt="non-virtual"><scope>Views::Controllers::JobController</scope><name>InsertProfessionalTeachSkills</name></member>
+      <member refid="class_views_1_1_controllers_1_1_job_controller_1a461d497a00230ebd731179f888718802" prot="public" virt="non-virtual"><scope>Views::Controllers::JobController</scope><name>JobController</name></member>
+      <member refid="class_views_1_1_controllers_1_1_job_controller_1ab5d12796ab8d37a76250c7ff4075c1ff" prot="public" virt="non-virtual"><scope>Views::Controllers::JobController</scope><name>JobView</name></member>
+      <member refid="class_views_1_1_controllers_1_1_job_controller_1a561d5d0e43b1beda287a8953ac7387dd" prot="public" virt="non-virtual"><scope>Views::Controllers::JobController</scope><name>UpdateJob</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

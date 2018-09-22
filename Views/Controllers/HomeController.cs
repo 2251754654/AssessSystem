@@ -1,42 +1,82 @@
 ﻿using Domains;
-using Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.Threading;
 using System.Web.Mvc;
-using Views.Models;
 
 namespace Views.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IDomainOneselfAssess domainOneselfAssess;
+        private readonly IDomainOtherAssess domainOtherAssess;
 
-        //个人信息
-        public ActionResult GetUserInfo(string userID)
+        public HomeController(IDomainOneselfAssess domainOneselfAssess, IDomainOtherAssess domainOtherAssess)
+        {
+            this.domainOneselfAssess = domainOneselfAssess ?? throw new ArgumentNullException(nameof(domainOneselfAssess));
+            this.domainOtherAssess = domainOtherAssess ?? throw new ArgumentNullException(nameof(domainOtherAssess));
+        }
+
+        /// <summary>
+        /// 转到主页
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Index()
         {
             return View();
         }
-        //自我测评
-        public ActionResult GetOneselfEvaluation(string userInfoID)
+        /// <summary>
+        /// 转到个人信息页面
+        /// </summary>
+        /// <param name="userID"></param>
+        /// <returns></returns>
+        public ActionResult UserInfo()
         {
-            OneselfEvaluationDomain oneselfEvaluationDomain = new OneselfEvaluationDomain();
-            ViewBag.OneselfEvaluation = oneselfEvaluationDomain.GetOneselfEvaluation(Convert.ToInt32(userInfoID));
-            return View();
+            return RedirectToAction("UserInfoView","UserInfo");
         }
-        //他人测评
-        public ActionResult GetOtherEvaluation(string userInfoID)
+        /// <summary>
+        /// 转到自我评价页面
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult OneSelfAssess()
         {
-            OtherEvaluationDomain otherEvaluationDomain = new OtherEvaluationDomain();
-            ViewBag.OtherEvaluation = otherEvaluationDomain.GetOtherEvaluation(Convert.ToInt32(userInfoID));
-            return View();
+            return RedirectToAction("OneSelfAssessView", "OneSelfAssess");
         }
-        //管理员视图
-        public ActionResult GetAdministratorPage()
+        /// <summary>
+        /// 转到他人评价页面
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult OtherAssess()
         {
-            return View();
+            return RedirectToAction("OtherAssessView", "OtherAssess");
         }
-        //退出系统
+        /// <summary>
+        /// 转到角色管理页面
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Role()
+        {
+            return RedirectToAction("RoleView", "Role");
+        }
+        /// <summary>
+        /// 转到职业管理
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Job()
+        {
+            return RedirectToAction("JobView", "Job");
+        }
+        /// <summary>
+        /// 转到技能管理
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Skill()
+        {
+            return RedirectToAction("SkillView", "Skill");
+        }
+        /// <summary>
+        /// 退出系统
+        /// </summary>
+        /// <returns></returns>
         public ActionResult LogOut()
         {
             if (Session["CurrentUser"] != null)
@@ -45,39 +85,23 @@ namespace Views.Controllers
             }
             return View();
         }
-        //校验
-        public ActionResult HomePage()
-        {
-            return View();
-        }
-        //一个请求数据
-        public ActionResult GetEvaluation()
-        {
-            //将谁评价了谁显示在主页
-            EvaluationDomain evaluationDomain = new EvaluationDomain();
-            ViewBag.AllEvaluation = evaluationDomain.GetAllEvaluation();
-            return View("HomePage");
-        }
-        //一个AJAX请求数据
-        public JsonResult GetAJAXEvaluation()
-        {
-            //将谁评价了谁显示在主页
-            EvaluationDomain evaluationDomain = new EvaluationDomain();
-            return Json(evaluationDomain.GetAllEvaluation());
-        }
-        public JsonResult GetAdwdwdwdwdJAXEvaluation()
-        {
-            //将谁评价了谁显示在主页
-            EvaluationDomain evaluationDomain = new EvaluationDomain();
-            return Json(evaluationDomain.GetAllEvaluation());
-        }
-
-
-        public JsonResult SSSSGetAJAXEvaluation()
-        {
-            //将谁评价了谁显示在主页
-            EvaluationDomain evaluationDomain = new EvaluationDomain();
-            return Json(evaluationDomain.GetAllEvaluation());
+        /// <summary>
+        /// 主页显示的数据
+        /// </summary>
+        /// <returns></returns>
+        public JsonResult FindAllAssess()
+        { 
+            try
+            {
+                Thread.Sleep(200);
+                var result = domainOtherAssess.FindAllAssess();
+                var resultCount = result.Count;
+                return Json(new { Result = "OK", Records = result, TotalRecordCount = resultCount });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { Result = "ERROR", Message = ex.Message });
+            }
         }
     }
 }

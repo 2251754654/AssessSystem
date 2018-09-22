@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_domains_1_1_i_domain_role" kind="interface" prot="public">
+    <compoundname>Domains::IDomainRole</compoundname>
+    <derivedcompoundref refid="class_domains_1_1_domain_role" prot="public" virt="non-virtual">Domains.DomainRole</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_role_1ab6296f4541d974139383f1ddae878deb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref> &gt;</type>
+        <definition>List&lt;ModelRole&gt; Domains.IDomainRole.FindAllRole</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllRole</name>
+        <reimplementedby refid="class_domains_1_1_domain_role_1afbece3f5f6c487c8af46408c3b7d58e2">FindAllRole</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainRole.cs" line="8" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_role_1a0a8764c75ac15cd7527f077f95d9f658" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref></type>
+        <definition>ModelRole Domains.IDomainRole.FindRole</definition>
+        <argsstring>(int roleID)</argsstring>
+        <name>FindRole</name>
+        <reimplementedby refid="class_domains_1_1_domain_role_1ae951b1bcb28a3f3a8af83eadd2b5b5b0">FindRole</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>roleID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainRole.cs" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_role_1ae76db2525d51e8d97516415d97b2f381" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Domains.IDomainRole.InsertRole</definition>
+        <argsstring>(ModelRole modelRol)</argsstring>
+        <name>InsertRole</name>
+        <reimplementedby refid="class_domains_1_1_domain_role_1afefeb30ead89de50507d2a373bf4e599">InsertRole</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref></type>
+          <declname>modelRol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainRole.cs" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_role_1ad9f6ad33f6206e2a074955253d4b04c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Domains.IDomainRole.UpdateRole</definition>
+        <argsstring>(ModelRole modelRole)</argsstring>
+        <name>UpdateRole</name>
+        <reimplementedby refid="class_domains_1_1_domain_role_1a8bfc06add48a76badd5dcee85d03c29c">UpdateRole</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_role" kindref="compound">ModelRole</ref></type>
+          <declname>modelRole</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainRole.cs" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_role_1a5b793d41c02d391a7f7ff66668c644cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Domains.IDomainRole.DeleteRole</definition>
+        <argsstring>(int roleID)</argsstring>
+        <name>DeleteRole</name>
+        <reimplementedby refid="class_domains_1_1_domain_role_1af2c3a9c52264ab20d1b0255d475dc249">DeleteRole</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>roleID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainRole.cs" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_role_1ae622547d6a02dc568f0c0c95948691c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Domains.IDomainRole.InsertRoleProfessional</definition>
+        <argsstring>(int roleID, int professionalID)</argsstring>
+        <name>InsertRoleProfessional</name>
+        <reimplementedby refid="class_domains_1_1_domain_role_1a004ce5b848fe7bf64be0c81c021aee52">InsertRoleProfessional</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>roleID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>professionalID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainRole.cs" line="13" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="189">
+        <label>Domains.IDomainRole</label>
+        <link refid="interface_domains_1_1_i_domain_role"/>
+      </node>
+      <node id="190">
+        <label>Domains.DomainRole</label>
+        <link refid="class_domains_1_1_domain_role"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainRole.cs" line="7" column="1" bodyfile="E:/Repository/UserInfoDomain/AdminPage/IDomainRole.cs" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="interface_domains_1_1_i_domain_role_1a5b793d41c02d391a7f7ff66668c644cf" prot="public" virt="non-virtual"><scope>Domains::IDomainRole</scope><name>DeleteRole</name></member>
+      <member refid="interface_domains_1_1_i_domain_role_1ab6296f4541d974139383f1ddae878deb" prot="public" virt="non-virtual"><scope>Domains::IDomainRole</scope><name>FindAllRole</name></member>
+      <member refid="interface_domains_1_1_i_domain_role_1a0a8764c75ac15cd7527f077f95d9f658" prot="public" virt="non-virtual"><scope>Domains::IDomainRole</scope><name>FindRole</name></member>
+      <member refid="interface_domains_1_1_i_domain_role_1ae76db2525d51e8d97516415d97b2f381" prot="public" virt="non-virtual"><scope>Domains::IDomainRole</scope><name>InsertRole</name></member>
+      <member refid="interface_domains_1_1_i_domain_role_1ae622547d6a02dc568f0c0c95948691c3" prot="public" virt="non-virtual"><scope>Domains::IDomainRole</scope><name>InsertRoleProfessional</name></member>
+      <member refid="interface_domains_1_1_i_domain_role_1ad9f6ad33f6206e2a074955253d4b04c5" prot="public" virt="non-virtual"><scope>Domains::IDomainRole</scope><name>UpdateRole</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

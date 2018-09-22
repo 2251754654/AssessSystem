@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_models_1_1_model_core_lever" kind="class" prot="public">
+    <compoundname>Models::ModelCoreLever</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_models_1_1_model_core_lever_1aa815a853db058ddaa637134470e5e3e1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelCoreLever.CoreLeverID</definition>
+        <argsstring></argsstring>
+        <name>CoreLeverID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelCoreLever.cs" line="11" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelCoreLever.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_core_lever_1ad52c6970fdd27f632006e6dd5d95ea28" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelCoreLever.CoreLeverNum</definition>
+        <argsstring></argsstring>
+        <name>CoreLeverNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelCoreLever.cs" line="12" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelCoreLever.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_core_lever_1a23606739a837fb8afce54c4c3fd0375a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Models.ModelCoreLever.CoreLeverDetails</definition>
+        <argsstring></argsstring>
+        <name>CoreLeverDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelCoreLever.cs" line="13" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelCoreLever.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_core_lever_1ab68ed2958a53f594b5cf61120d16983a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelCoreLever.CoreSkillsID</definition>
+        <argsstring></argsstring>
+        <name>CoreSkillsID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelCoreLever.cs" line="14" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelCoreLever.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_core_lever_1a9796994b9109019d0e8d5d2f15d03c79" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelCoreLever.CoreLeverDelete</definition>
+        <argsstring></argsstring>
+        <name>CoreLeverDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelCoreLever.cs" line="15" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelCoreLever.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_core_lever_1a2efda0dcc8a4b2397971e18ccea27fc9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_models_1_1_model_core_skills" kindref="compound">ModelCoreSkills</ref></type>
+        <definition>virtual ModelCoreSkills Models.ModelCoreLever.ModelCoreSkillsItem</definition>
+        <argsstring></argsstring>
+        <name>ModelCoreSkillsItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelCoreLever.cs" line="18" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelCoreLever.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Models/CustomModels/ModelCoreLever.cs" line="10" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelCoreLever.cs" bodystart="9" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_models_1_1_model_core_lever_1a9796994b9109019d0e8d5d2f15d03c79" prot="public" virt="non-virtual"><scope>Models::ModelCoreLever</scope><name>CoreLeverDelete</name></member>
+      <member refid="class_models_1_1_model_core_lever_1a23606739a837fb8afce54c4c3fd0375a" prot="public" virt="non-virtual"><scope>Models::ModelCoreLever</scope><name>CoreLeverDetails</name></member>
+      <member refid="class_models_1_1_model_core_lever_1aa815a853db058ddaa637134470e5e3e1" prot="public" virt="non-virtual"><scope>Models::ModelCoreLever</scope><name>CoreLeverID</name></member>
+      <member refid="class_models_1_1_model_core_lever_1ad52c6970fdd27f632006e6dd5d95ea28" prot="public" virt="non-virtual"><scope>Models::ModelCoreLever</scope><name>CoreLeverNum</name></member>
+      <member refid="class_models_1_1_model_core_lever_1ab68ed2958a53f594b5cf61120d16983a" prot="public" virt="non-virtual"><scope>Models::ModelCoreLever</scope><name>CoreSkillsID</name></member>
+      <member refid="class_models_1_1_model_core_lever_1a2efda0dcc8a4b2397971e18ccea27fc9" prot="public" virt="non-virtual"><scope>Models::ModelCoreLever</scope><name>ModelCoreSkillsItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

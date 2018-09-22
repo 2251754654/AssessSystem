@@ -12,8 +12,9 @@ namespace Models
         public string CoreSkillsName { get; set; }
         public string CoreSkillsDetails { get; set; }
         public string CoreSkillsGUID { get; set; }
-
-
+        public int CoreSkillsDelete { get; set; }
+        
+    
         public virtual ICollection<ModelCoreLever> ModelCoreLeverItem { get; set; }
         public virtual ICollection<ModelMappingCore> TB_MappingCoreItem { get; set; }
     }

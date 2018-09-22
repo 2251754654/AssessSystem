@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_393669e91dcddac269198fbba745a2a8" kind="dir">
+    <compoundname>E:/Repository/Views/App_Start</compoundname>
+    <innerfile refid="_bundle_config_8cs">BundleConfig.cs</innerfile>
+    <innerfile refid="_filter_config_8cs">FilterConfig.cs</innerfile>
+    <innerfile refid="_route_config_8cs">RouteConfig.cs</innerfile>
+    <innerfile refid="_unity_config_8cs">UnityConfig.cs</innerfile>
+    <innerfile refid="_unity_mvc_activator_8cs">UnityMvcActivator.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Views/App_Start/"/>
+  </compounddef>
+</doxygen>

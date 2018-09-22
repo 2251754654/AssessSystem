@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_domains_1_1_domain_login" kind="class" prot="public">
+    <compoundname>Domains::DomainLogin</compoundname>
+    <basecompoundref refid="interface_domains_1_1_i_domain_login" prot="public" virt="non-virtual">Domains.IDomainLogin</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_domains_1_1_domain_login_1afe2c4035a732d6914a5472d6435f2ae9" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_repositorys_1_1_i_repository_user" kindref="compound">IRepositoryUser</ref></type>
+        <definition>readonly IRepositoryUser Domains.DomainLogin.repositoryUser</definition>
+        <argsstring></argsstring>
+        <name>repositoryUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/LoginPage/DomainLogin.cs" line="12" column="1" bodyfile="E:/Repository/UserInfoDomain/LoginPage/DomainLogin.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_domains_1_1_domain_login_1a58aa38faabdc88e171baec157aa12999" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Domains.DomainLogin.DomainLogin</definition>
+        <argsstring>(IRepositoryUser _repositoryUser)</argsstring>
+        <name>DomainLogin</name>
+        <param>
+          <type><ref refid="interface_repositorys_1_1_i_repository_user" kindref="compound">IRepositoryUser</ref></type>
+          <declname>_repositoryUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/LoginPage/DomainLogin.cs" line="14" column="1" bodyfile="E:/Repository/UserInfoDomain/LoginPage/DomainLogin.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_login_1a0842bc6126015e3badafd18f991113e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref></type>
+        <definition>ModelUser Domains.DomainLogin.Login</definition>
+        <argsstring>(ModelUser modelUser)</argsstring>
+        <name>Login</name>
+        <reimplements refid="interface_domains_1_1_i_domain_login_1af73aa213da811e227b22707513c532a3">Login</reimplements>
+        <param>
+          <type><ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref></type>
+          <declname>modelUser</declname>
+        </param>
+        <briefdescription>
+<para>登陆 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modelUser</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/LoginPage/DomainLogin.cs" line="23" column="1" bodyfile="E:/Repository/UserInfoDomain/LoginPage/DomainLogin.cs" bodystart="23" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="72">
+        <label>Domains.DomainLogin</label>
+        <link refid="class_domains_1_1_domain_login"/>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>IDomainLogin</label>
+        <link refid="interface_domains_1_1_i_domain_login"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="74">
+        <label>Domains.DomainLogin</label>
+        <link refid="class_domains_1_1_domain_login"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+        <childnode refid="76" relation="usage">
+          <edgelabel>repositoryUser</edgelabel>
+        </childnode>
+      </node>
+      <node id="76">
+        <label>Repositorys.IRepositoryUser</label>
+        <link refid="interface_repositorys_1_1_i_repository_user"/>
+      </node>
+      <node id="75">
+        <label>IDomainLogin</label>
+        <link refid="interface_domains_1_1_i_domain_login"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/UserInfoDomain/LoginPage/DomainLogin.cs" line="11" column="1" bodyfile="E:/Repository/UserInfoDomain/LoginPage/DomainLogin.cs" bodystart="10" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_domains_1_1_domain_login_1a58aa38faabdc88e171baec157aa12999" prot="public" virt="non-virtual"><scope>Domains::DomainLogin</scope><name>DomainLogin</name></member>
+      <member refid="class_domains_1_1_domain_login_1a0842bc6126015e3badafd18f991113e8" prot="public" virt="non-virtual"><scope>Domains::DomainLogin</scope><name>Login</name></member>
+      <member refid="class_domains_1_1_domain_login_1afe2c4035a732d6914a5472d6435f2ae9" prot="private" virt="non-virtual"><scope>Domains::DomainLogin</scope><name>repositoryUser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

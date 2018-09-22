@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_models_1_1_model_tech_skills" kind="class" prot="public">
+    <compoundname>Models::ModelTechSkills</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_models_1_1_model_tech_skills_1a753f77a0190cd31f51de04aa3775fc0f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelTechSkills.TeachSkillsID</definition>
+        <argsstring></argsstring>
+        <name>TeachSkillsID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelTechSkills.cs" line="8" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelTechSkills.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_tech_skills_1a0f20ec87b2b88ea393d64694f219a531" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Models.ModelTechSkills.TeachSkillsName</definition>
+        <argsstring></argsstring>
+        <name>TeachSkillsName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelTechSkills.cs" line="9" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelTechSkills.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_tech_skills_1afee5b2ff0dc1e24c26d8c8329543f93a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Models.ModelTechSkills.TeachSkillsDetails</definition>
+        <argsstring></argsstring>
+        <name>TeachSkillsDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelTechSkills.cs" line="10" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelTechSkills.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_tech_skills_1a12ba56b368af1752ea62eff886a00581" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Models.ModelTechSkills.TeachSkillsGUID</definition>
+        <argsstring></argsstring>
+        <name>TeachSkillsGUID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelTechSkills.cs" line="11" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelTechSkills.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_tech_skills_1a7c867649b92394e55cff20b35488c284" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelTechSkills.TeachSkillDelete</definition>
+        <argsstring></argsstring>
+        <name>TeachSkillDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelTechSkills.cs" line="12" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelTechSkills.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_tech_skills_1a46841e2bfad6fa472ee43a343c0ba2ff" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_models_1_1_model_mapping_teach" kindref="compound">ModelMappingTeach</ref> &gt;</type>
+        <definition>virtual ICollection&lt;ModelMappingTeach&gt; Models.ModelTechSkills.ModelMappingTeachs</definition>
+        <argsstring></argsstring>
+        <name>ModelMappingTeachs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelTechSkills.cs" line="15" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelTechSkills.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_tech_skills_1ae3c0fdf99442b03725bad5b734e9fb12" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref> &gt;</type>
+        <definition>virtual ICollection&lt;ModelCoreLever&gt; Models.ModelTechSkills.ModelTeachLevers</definition>
+        <argsstring></argsstring>
+        <name>ModelTeachLevers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelTechSkills.cs" line="16" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelTechSkills.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Models/CustomModels/ModelTechSkills.cs" line="7" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelTechSkills.cs" bodystart="6" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_models_1_1_model_tech_skills_1a46841e2bfad6fa472ee43a343c0ba2ff" prot="public" virt="non-virtual"><scope>Models::ModelTechSkills</scope><name>ModelMappingTeachs</name></member>
+      <member refid="class_models_1_1_model_tech_skills_1ae3c0fdf99442b03725bad5b734e9fb12" prot="public" virt="non-virtual"><scope>Models::ModelTechSkills</scope><name>ModelTeachLevers</name></member>
+      <member refid="class_models_1_1_model_tech_skills_1a7c867649b92394e55cff20b35488c284" prot="public" virt="non-virtual"><scope>Models::ModelTechSkills</scope><name>TeachSkillDelete</name></member>
+      <member refid="class_models_1_1_model_tech_skills_1afee5b2ff0dc1e24c26d8c8329543f93a" prot="public" virt="non-virtual"><scope>Models::ModelTechSkills</scope><name>TeachSkillsDetails</name></member>
+      <member refid="class_models_1_1_model_tech_skills_1a12ba56b368af1752ea62eff886a00581" prot="public" virt="non-virtual"><scope>Models::ModelTechSkills</scope><name>TeachSkillsGUID</name></member>
+      <member refid="class_models_1_1_model_tech_skills_1a753f77a0190cd31f51de04aa3775fc0f" prot="public" virt="non-virtual"><scope>Models::ModelTechSkills</scope><name>TeachSkillsID</name></member>
+      <member refid="class_models_1_1_model_tech_skills_1a0f20ec87b2b88ea393d64694f219a531" prot="public" virt="non-virtual"><scope>Models::ModelTechSkills</scope><name>TeachSkillsName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

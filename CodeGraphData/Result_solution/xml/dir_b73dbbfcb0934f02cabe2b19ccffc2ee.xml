@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_b73dbbfcb0934f02cabe2b19ccffc2ee" kind="dir">
+    <compoundname>E:/Repository/Repositorys/UserInfoPage/BaseClass</compoundname>
+    <innerfile refid="_repository_maping_core_8cs">RepositoryMapingCore.cs</innerfile>
+    <innerfile refid="_repository_maping_teach_8cs">RepositoryMapingTeach.cs</innerfile>
+    <innerfile refid="_repository_role_content_8cs">RepositoryRoleContent.cs</innerfile>
+    <innerfile refid="_repository_user_info_8cs">RepositoryUserInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Repositorys/UserInfoPage/BaseClass/"/>
+  </compounddef>
+</doxygen>

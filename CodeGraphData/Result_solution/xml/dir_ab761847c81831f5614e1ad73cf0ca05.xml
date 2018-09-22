@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ab761847c81831f5614e1ad73cf0ca05" kind="dir">
+    <compoundname>E:/Repository/Views</compoundname>
+    <innerdir refid="dir_393669e91dcddac269198fbba745a2a8">E:/Repository/Views/App_Start</innerdir>
+    <innerdir refid="dir_27e1a8a298663746b48b37d7bb3a13d8">E:/Repository/Views/Connected Services</innerdir>
+    <innerdir refid="dir_7335e27c253db23067682631b0d15268">E:/Repository/Views/Controllers</innerdir>
+    <innerdir refid="dir_1c8498aaabe722c7a582cb538c2f82b9">E:/Repository/Views/Properties</innerdir>
+    <innerfile refid="_global_8asax_8cs">Global.asax.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Views/"/>
+  </compounddef>
+</doxygen>

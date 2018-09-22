@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_i_repository_job_8cs" kind="file">
+    <compoundname>IRepositoryJob.cs</compoundname>
+    <innerclass refid="interface_repositorys_1_1_i_repository_job" prot="public">Repositorys::IRepositoryJob</innerclass>
+    <innernamespace refid="namespace_repositorys">Repositorys</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Models;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Repositorys</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="interface_repositorys_1_1_i_repository_job" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_repositorys_1_1_i_repository_job" kindref="compound">IRepositoryJob</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_repositorys_1_1_i_repository_job_1ac14918bb8d89616679758c96e0c5cfb7" kindref="member">FakeDelete</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;ModelProfessional&gt;<sp/><ref refid="interface_repositorys_1_1_i_repository_job_1a4c3d914f33a185ddc40f74e41f9d789f" kindref="member">FindAllDeleteJob</ref>();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;ModelProfessional&gt;<sp/><ref refid="interface_repositorys_1_1_i_repository_job_1a56ffa4e7c18635608718bc3158b8ebcd" kindref="member">FindAllJob</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;ModelProfessional&gt;<sp/><ref refid="interface_repositorys_1_1_i_repository_job_1a16c325f383c274e9ea754930a5fe0694" kindref="member">FindAllNotDeleteJob</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_models_1_1_model_professional" kindref="compound">ModelProfessional</ref><sp/><ref refid="interface_repositorys_1_1_i_repository_job_1aca1547ceebd4760914618cc3519b88d3" kindref="member">FindJob</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_repositorys_1_1_i_repository_job_1a008ee018bdaaabd5578603038c708df3" kindref="member">Insert</ref>(<ref refid="class_models_1_1_model_professional" kindref="compound">ModelProfessional</ref><sp/>modelProfessional);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_repositorys_1_1_i_repository_job_1addfbfd712d5bdd1bd31f7a14acb88d3e" kindref="member">ReallyDelete</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_repositorys_1_1_i_repository_job_1a0bdca7287da52a4998966624ec3cf7ee" kindref="member">Update</ref>(<ref refid="class_models_1_1_model_professional" kindref="compound">ModelProfessional</ref><sp/>modelProfessional);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="E:/Repository/Repositorys/AdminPage/interfaceClass/IRepositoryJob.cs"/>
+  </compounddef>
+</doxygen>

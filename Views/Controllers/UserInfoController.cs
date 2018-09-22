@@ -1,42 +1,108 @@
-﻿
-using Domains;
+﻿using Domains;
 using Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using Views.Models;
 
 namespace Views.Controllers
 {
     public class UserInfoController : Controller
     {
-        //个人信息
-        public JsonResult GetUserInfoByAJAX()
+        private readonly IDomainUserCoreSkills domainUserCoreSkills;
+        private readonly IDomainUserTeachSkills domainUserTeachSkills;
+        private readonly IDomainUserInfo domainUserInfo;
+        private readonly IDomainRole domainRole;
+
+        public UserInfoController(IDomainUserCoreSkills domainUserCoreSkills, IDomainUserTeachSkills domainUserTeachSkills, IDomainUserInfo domainUserInfo, IDomainRole domainRole)
         {
-            //显示用户的个人信息
-            int userID = (Session["CurrentUser"] as UserModel).UserID;
-            return Json(new UserInfoDomain().GetUserInfoModelsByID(userID));
+            this.domainUserCoreSkills = domainUserCoreSkills ?? throw new ArgumentNullException(nameof(domainUserCoreSkills));
+            this.domainUserTeachSkills = domainUserTeachSkills ?? throw new ArgumentNullException(nameof(domainUserTeachSkills));
+            this.domainUserInfo = domainUserInfo ?? throw new ArgumentNullException(nameof(domainUserInfo));
+            this.domainRole = domainRole ?? throw new ArgumentNullException(nameof(domainRole));
         }
 
-        //个人信息
-        public JsonResult GetCoreSkillsByAJAX()
+        /// <summary>
+        /// 用户信息视图
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult UserInfoView()
         {
-            //显示用户的核心技能
-            return Json(new UserCoreSkillsDomain().GetCoreSkillsByUserID((Session["CurrentUser"] as UserModel).UserID));
+            return View();
         }
-        //个人信息
-        public JsonResult GetTeachSkillsByAJAX()
+        /// <summary>
+        /// 查询核心技能信息
+        /// </summary>
+        /// <param name="userInfoID"></param>
+        /// <returns></returns>
+        public JsonResult FindCoreSkills()
         {
-            //显示用户的专业技能
-            return Json(new UserTeachSkillsDomain().GetTeachSkillsByUserID((Session["CurrentUser"] as UserModel).UserID));
+            var roleID = (Session["CurrentUser"] as ModelUser).RoleID;
+            var result = domainUserCoreSkills.FindJobAndSkillAndLever(roleID);
+            return Json(result);
         }
-        //个人信息
-        public JsonResult GetRolesByAJAX()
+        /// <summary>
+        /// 查询专业技能
+        /// </summary>
+        /// <param name="roleID"></param>
+        /// <returns></returns>
+        public JsonResult FindTeachSkills()
         {
-            //显示用户的角色信息
-            return Json(new UserRoleDomain().GetRoleByUserID(Convert.ToInt32((Session["CurrentUser"] as UserModel).UserID)));
+            var roleID = (Session["CurrentUser"] as ModelUser).RoleID;
+            var result= domainUserTeachSkills.FindJobAndSkillAndLever(roleID);
+            return Json(result);
         }
+        /// <summary>
+        /// 查询用户的个人信息
+        /// </summary>
+        /// <returns></returns>
+        public JsonResult FindUserInfo()
+        {
+            var userID = (Session["CurrentUser"] as ModelUser).UserID;
+            var result = domainUserInfo.FindUserInfo(userID);
+            return Json(result);
+        }
+        /// <summary>
+        /// 查询用户的角色信息
+        /// </summary>
+        /// <returns></returns>
+        public JsonResult FindRoleInfo()
+        {
+            var roleID = (Session["CurrentUser"] as ModelUser).RoleID;
+            var result = domainRole.FindRole(roleID);
+            return Json(result);
+        }
+        /// <summary>
+        /// 插入用户信息
+        /// </summary>
+        /// <returns></returns>
+        public JsonResult InsertUserInfo()
+        {
+           
+            return Json(null);
+        }
+        /// <summary>
+        /// 更新用户信息
+        /// </summary>
+        /// <returns></returns>
+        public JsonResult UpdateUserInfo( ModelUserInfo modelUserInfo)
+        {
+            var userID = (Session["CurrentUser"] as ModelUser).UserID;
+            modelUserInfo.UserID = userID;
+            var result = domainUserInfo.UpdateUserInfo(modelUserInfo);
+            if (result)
+            {
+                return Json(new {message="ok" });
+            }
+            return Json(new { message = "error" });
+        }
+        /// <summary>
+        /// 删除用户信息
+        /// </summary>
+        /// <returns></returns>
+        public JsonResult DeleteUserInfo()
+        {
+
+            return Json(null);
+        }
+        
     }
 }

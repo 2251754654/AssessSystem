@@ -1,17 +1,14 @@
 namespace Repositorys.DataAccess
 {
-    using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
-    using System.Data.Entity.Spatial;
 
-    public partial class TB_User
+    public  class TB_User
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public TB_User()
         {
-            TB_UserInfo = new HashSet<TB_UserInfo>();
+            TB_Evaluation = new HashSet<TB_Evaluation>();
         }
 
         [Key]
@@ -37,7 +34,8 @@ namespace Repositorys.DataAccess
 
         public int UserDelete { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<TB_UserInfo> TB_UserInfo { get; set; }
+        public int RoleID { get; set; }
+        
+        public virtual ICollection<TB_Evaluation> TB_Evaluation { get; set; }
     }
 }

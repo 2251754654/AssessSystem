@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_views_1_1_data_service_1_1_data_service_client" kind="class" prot="public">
+    <compoundname>Views::DataService::DataServiceClient</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ClientBase&lt; Views.DataService.IDataService &gt;</basecompoundref>
+    <basecompoundref refid="interface_views_1_1_data_service_1_1_i_data_service" prot="public" virt="non-virtual">Views.DataService.IDataService</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_views_1_1_data_service_1_1_data_service_client_1a3613d2e252a6717bf7f194aa3e4e0659" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Views.DataService.DataServiceClient.DataServiceClient</definition>
+        <argsstring>()</argsstring>
+        <name>DataServiceClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/DataService/Reference.cs" line="207" column="1" bodyfile="E:/Repository/Views/Connected Services/DataService/Reference.cs" bodystart="207" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_data_service_1_1_data_service_client_1a334ac4585c968144d86b7a5ceeb41b52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Views.DataService.DataServiceClient.DataServiceClient</definition>
+        <argsstring>(string endpointConfigurationName)</argsstring>
+        <name>DataServiceClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/DataService/Reference.cs" line="210" column="1" bodyfile="E:/Repository/Views/Connected Services/DataService/Reference.cs" bodystart="210" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_data_service_1_1_data_service_client_1a323b06ff93f38d94be6791be994c8991" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Views.DataService.DataServiceClient.DataServiceClient</definition>
+        <argsstring>(string endpointConfigurationName, string remoteAddress)</argsstring>
+        <name>DataServiceClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/DataService/Reference.cs" line="214" column="1" bodyfile="E:/Repository/Views/Connected Services/DataService/Reference.cs" bodystart="214" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_data_service_1_1_data_service_client_1ad7eadf5a3ea6d8a3e62e9a58d845213d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Views.DataService.DataServiceClient.DataServiceClient</definition>
+        <argsstring>(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress)</argsstring>
+        <name>DataServiceClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.EndpointAddress</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/DataService/Reference.cs" line="218" column="1" bodyfile="E:/Repository/Views/Connected Services/DataService/Reference.cs" bodystart="218" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_data_service_1_1_data_service_client_1a5ef4534b62ccf99d9942d29fc9e29524" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Views.DataService.DataServiceClient.DataServiceClient</definition>
+        <argsstring>(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)</argsstring>
+        <name>DataServiceClient</name>
+        <param>
+          <type>System.ServiceModel.Channels.Binding</type>
+          <declname>binding</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.EndpointAddress</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/DataService/Reference.cs" line="222" column="1" bodyfile="E:/Repository/Views/Connected Services/DataService/Reference.cs" bodystart="222" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_data_service_1_1_data_service_client_1a2e9dcb06960165279e20e9b3ff36ede2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Views.DataService.DataServiceClient.GetData</definition>
+        <argsstring>(int value)</argsstring>
+        <name>GetData</name>
+        <reimplements refid="interface_views_1_1_data_service_1_1_i_data_service_1a17ce78f0eb575be73376f5a3d4c49a0e">GetData</reimplements>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/DataService/Reference.cs" line="226" column="1" bodyfile="E:/Repository/Views/Connected Services/DataService/Reference.cs" bodystart="226" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_data_service_1_1_data_service_client_1a72656db5208ba3d308c5a10b499c9e65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; string &gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;string&gt; Views.DataService.DataServiceClient.GetDataAsync</definition>
+        <argsstring>(int value)</argsstring>
+        <name>GetDataAsync</name>
+        <reimplements refid="interface_views_1_1_data_service_1_1_i_data_service_1abd3d782dbbe3d04b248e08b959454591">GetDataAsync</reimplements>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/DataService/Reference.cs" line="230" column="1" bodyfile="E:/Repository/Views/Connected Services/DataService/Reference.cs" bodystart="230" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_data_service_1_1_data_service_client_1ae6801a24cfbec5f24e5e74ead740676d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_views_1_1_data_service_1_1_composite_type" kindref="compound">Views.DataService.CompositeType</ref></type>
+        <definition>Views.DataService.CompositeType Views.DataService.DataServiceClient.GetDataUsingDataContract</definition>
+        <argsstring>(Views.DataService.CompositeType composite)</argsstring>
+        <name>GetDataUsingDataContract</name>
+        <reimplements refid="interface_views_1_1_data_service_1_1_i_data_service_1a45aba22d9a8d02cdb641bd01552de1dd">GetDataUsingDataContract</reimplements>
+        <param>
+          <type><ref refid="class_views_1_1_data_service_1_1_composite_type" kindref="compound">Views.DataService.CompositeType</ref></type>
+          <declname>composite</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/DataService/Reference.cs" line="234" column="1" bodyfile="E:/Repository/Views/Connected Services/DataService/Reference.cs" bodystart="234" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_data_service_1_1_data_service_client_1a0e3f60fc541735ec83d9522c29391f39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_views_1_1_data_service_1_1_composite_type" kindref="compound">Views.DataService.CompositeType</ref> &gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;Views.DataService.CompositeType&gt; Views.DataService.DataServiceClient.GetDataUsingDataContractAsync</definition>
+        <argsstring>(Views.DataService.CompositeType composite)</argsstring>
+        <name>GetDataUsingDataContractAsync</name>
+        <reimplements refid="interface_views_1_1_data_service_1_1_i_data_service_1a2f09b24ef2b276f6be8f7344e46506b1">GetDataUsingDataContractAsync</reimplements>
+        <param>
+          <type><ref refid="class_views_1_1_data_service_1_1_composite_type" kindref="compound">Views.DataService.CompositeType</ref></type>
+          <declname>composite</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/DataService/Reference.cs" line="238" column="1" bodyfile="E:/Repository/Views/Connected Services/DataService/Reference.cs" bodystart="238" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_data_service_1_1_data_service_client_1ab111b90175d739c7520e607c53e83094" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Views.DataService.DataServiceClient.LoginCheck</definition>
+        <argsstring>(Views.DataService.User loginUser)</argsstring>
+        <name>LoginCheck</name>
+        <reimplements refid="interface_views_1_1_data_service_1_1_i_data_service_1a1c2ce9f9b499f63d79c822d65a970f42">LoginCheck</reimplements>
+        <param>
+          <type><ref refid="class_views_1_1_data_service_1_1_user" kindref="compound">Views.DataService.User</ref></type>
+          <declname>loginUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/DataService/Reference.cs" line="242" column="1" bodyfile="E:/Repository/Views/Connected Services/DataService/Reference.cs" bodystart="242" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_data_service_1_1_data_service_client_1aff7bba83ef043329ca83849af84bd631" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; bool &gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;bool&gt; Views.DataService.DataServiceClient.LoginCheckAsync</definition>
+        <argsstring>(Views.DataService.User loginUser)</argsstring>
+        <name>LoginCheckAsync</name>
+        <reimplements refid="interface_views_1_1_data_service_1_1_i_data_service_1a8ad82a069a8403c7d424a916eb45c54e">LoginCheckAsync</reimplements>
+        <param>
+          <type><ref refid="class_views_1_1_data_service_1_1_user" kindref="compound">Views.DataService.User</ref></type>
+          <declname>loginUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/DataService/Reference.cs" line="246" column="1" bodyfile="E:/Repository/Views/Connected Services/DataService/Reference.cs" bodystart="246" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_data_service_1_1_data_service_client_1aa3e8364accd8e0853707fcfdca593808" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Views.DataService.DataServiceClient.LoginCheck1</definition>
+        <argsstring>(Views.DataService.User loginUser)</argsstring>
+        <name>LoginCheck1</name>
+        <reimplements refid="interface_views_1_1_data_service_1_1_i_data_service_1a43d79beba12df4a094a23febd7875442">LoginCheck1</reimplements>
+        <param>
+          <type><ref refid="class_views_1_1_data_service_1_1_user" kindref="compound">Views.DataService.User</ref></type>
+          <declname>loginUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/DataService/Reference.cs" line="250" column="1" bodyfile="E:/Repository/Views/Connected Services/DataService/Reference.cs" bodystart="250" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_data_service_1_1_data_service_client_1ab03e0f5f6accd1ebaf2158a4c7e8ce2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; bool &gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;bool&gt; Views.DataService.DataServiceClient.LoginCheck1Async</definition>
+        <argsstring>(Views.DataService.User loginUser)</argsstring>
+        <name>LoginCheck1Async</name>
+        <reimplements refid="interface_views_1_1_data_service_1_1_i_data_service_1a8f6399007ca968344d8844c0d72d642d">LoginCheck1Async</reimplements>
+        <param>
+          <type><ref refid="class_views_1_1_data_service_1_1_user" kindref="compound">Views.DataService.User</ref></type>
+          <declname>loginUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Connected Services/DataService/Reference.cs" line="254" column="1" bodyfile="E:/Repository/Views/Connected Services/DataService/Reference.cs" bodystart="254" bodyend="256"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="50">
+        <label>System::ServiceModel::ClientBase&lt; Views.DataService.IDataService &gt;</label>
+      </node>
+      <node id="49">
+        <label>Views.DataService.DataServiceClient</label>
+        <link refid="class_views_1_1_data_service_1_1_data_service_client"/>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>Views::DataService::IDataService</label>
+        <link refid="interface_views_1_1_data_service_1_1_i_data_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="53">
+        <label>System::ServiceModel::ClientBase&lt; Views.DataService.IDataService &gt;</label>
+      </node>
+      <node id="52">
+        <label>Views.DataService.DataServiceClient</label>
+        <link refid="class_views_1_1_data_service_1_1_data_service_client"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>Views::DataService::IDataService</label>
+        <link refid="interface_views_1_1_data_service_1_1_i_data_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Views/Connected Services/DataService/Reference.cs" line="205" column="1" bodyfile="E:/Repository/Views/Connected Services/DataService/Reference.cs" bodystart="205" bodyend="257"/>
+    <listofallmembers>
+      <member refid="class_views_1_1_data_service_1_1_data_service_client_1a3613d2e252a6717bf7f194aa3e4e0659" prot="public" virt="non-virtual"><scope>Views::DataService::DataServiceClient</scope><name>DataServiceClient</name></member>
+      <member refid="class_views_1_1_data_service_1_1_data_service_client_1a334ac4585c968144d86b7a5ceeb41b52" prot="public" virt="non-virtual"><scope>Views::DataService::DataServiceClient</scope><name>DataServiceClient</name></member>
+      <member refid="class_views_1_1_data_service_1_1_data_service_client_1a323b06ff93f38d94be6791be994c8991" prot="public" virt="non-virtual"><scope>Views::DataService::DataServiceClient</scope><name>DataServiceClient</name></member>
+      <member refid="class_views_1_1_data_service_1_1_data_service_client_1ad7eadf5a3ea6d8a3e62e9a58d845213d" prot="public" virt="non-virtual"><scope>Views::DataService::DataServiceClient</scope><name>DataServiceClient</name></member>
+      <member refid="class_views_1_1_data_service_1_1_data_service_client_1a5ef4534b62ccf99d9942d29fc9e29524" prot="public" virt="non-virtual"><scope>Views::DataService::DataServiceClient</scope><name>DataServiceClient</name></member>
+      <member refid="class_views_1_1_data_service_1_1_data_service_client_1a2e9dcb06960165279e20e9b3ff36ede2" prot="public" virt="non-virtual"><scope>Views::DataService::DataServiceClient</scope><name>GetData</name></member>
+      <member refid="class_views_1_1_data_service_1_1_data_service_client_1a72656db5208ba3d308c5a10b499c9e65" prot="public" virt="non-virtual"><scope>Views::DataService::DataServiceClient</scope><name>GetDataAsync</name></member>
+      <member refid="class_views_1_1_data_service_1_1_data_service_client_1ae6801a24cfbec5f24e5e74ead740676d" prot="public" virt="non-virtual"><scope>Views::DataService::DataServiceClient</scope><name>GetDataUsingDataContract</name></member>
+      <member refid="class_views_1_1_data_service_1_1_data_service_client_1a0e3f60fc541735ec83d9522c29391f39" prot="public" virt="non-virtual"><scope>Views::DataService::DataServiceClient</scope><name>GetDataUsingDataContractAsync</name></member>
+      <member refid="class_views_1_1_data_service_1_1_data_service_client_1ab111b90175d739c7520e607c53e83094" prot="public" virt="non-virtual"><scope>Views::DataService::DataServiceClient</scope><name>LoginCheck</name></member>
+      <member refid="class_views_1_1_data_service_1_1_data_service_client_1aa3e8364accd8e0853707fcfdca593808" prot="public" virt="non-virtual"><scope>Views::DataService::DataServiceClient</scope><name>LoginCheck1</name></member>
+      <member refid="class_views_1_1_data_service_1_1_data_service_client_1ab03e0f5f6accd1ebaf2158a4c7e8ce2a" prot="public" virt="non-virtual"><scope>Views::DataService::DataServiceClient</scope><name>LoginCheck1Async</name></member>
+      <member refid="class_views_1_1_data_service_1_1_data_service_client_1aff7bba83ef043329ca83849af84bd631" prot="public" virt="non-virtual"><scope>Views::DataService::DataServiceClient</scope><name>LoginCheckAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_repositorys_1_1_i_repositroy_assess" kind="interface" prot="public">
+    <compoundname>Repositorys::IRepositroyAssess</compoundname>
+    <derivedcompoundref refid="class_repositorys_1_1_repositroy_assess" prot="public" virt="non-virtual">Repositorys.RepositroyAssess</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repositroy_assess_1a1b91adf3b60d95734afdde4b89227d31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.IRepositroyAssess.FakeDelete</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FakeDelete</name>
+        <reimplementedby refid="class_repositorys_1_1_repositroy_assess_1affd11b7e38d9bf8f7f7a0bef02ec580c">FakeDelete</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserEvaluatePage/interfaceClass/IRepositroyAssess.cs" line="8" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repositroy_assess_1a20be906d9d58f05ab2d83a62ad8a7e41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Repositorys.IRepositroyAssess.FindAllAssess</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllAssess</name>
+        <reimplementedby refid="class_repositorys_1_1_repositroy_assess_1a866413435d6bac6c92af02dd689c673e">FindAllAssess</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserEvaluatePage/interfaceClass/IRepositroyAssess.cs" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repositroy_assess_1adf65aca65bd41f44794df6103e2b899a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Repositorys.IRepositroyAssess.FindAllDeleteAssess</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllDeleteAssess</name>
+        <reimplementedby refid="class_repositorys_1_1_repositroy_assess_1acb2dce66f30ea65339980d56719be743">FindAllDeleteAssess</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserEvaluatePage/interfaceClass/IRepositroyAssess.cs" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repositroy_assess_1abcb6b34c14dd3305fd761e145993e0b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Repositorys.IRepositroyAssess.FindAllNotDeleteAssess</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllNotDeleteAssess</name>
+        <reimplementedby refid="class_repositorys_1_1_repositroy_assess_1ae5c6112c346022de4b861f3178448de5">FindAllNotDeleteAssess</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserEvaluatePage/interfaceClass/IRepositroyAssess.cs" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repositroy_assess_1a2307fb006ed092c49850dbb9d1ba2f20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Repositorys.IRepositroyAssess.FindAssessCoreDetails</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FindAssessCoreDetails</name>
+        <reimplementedby refid="class_repositorys_1_1_repositroy_assess_1ac6d385c8ae17134d644c56ae9f5b7719">FindAssessCoreDetails</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserEvaluatePage/interfaceClass/IRepositroyAssess.cs" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repositroy_assess_1ae4dc3dafee8f26c303898e62bb770948" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Repositorys.IRepositroyAssess.FindAssessTeachDetails</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FindAssessTeachDetails</name>
+        <reimplementedby refid="class_repositorys_1_1_repositroy_assess_1a839eda2e0ab5f19a1479cb1b640ddd62">FindAssessTeachDetails</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserEvaluatePage/interfaceClass/IRepositroyAssess.cs" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repositroy_assess_1a84ccbd484d658d0e39fb411f751b0c7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Repositorys.IRepositroyAssess.FindByAssess</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FindByAssess</name>
+        <reimplementedby refid="class_repositorys_1_1_repositroy_assess_1ad0fe4a94c6156a2c3131668a1057f8d8">FindByAssess</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserEvaluatePage/interfaceClass/IRepositroyAssess.cs" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repositroy_assess_1ac23785515c59935ba7f8d6378963797d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Repositorys.IRepositroyAssess.FindMainAssess</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FindMainAssess</name>
+        <reimplementedby refid="class_repositorys_1_1_repositroy_assess_1a6a36b7a27c21651fd3d3530212d827ec">FindMainAssess</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserEvaluatePage/interfaceClass/IRepositroyAssess.cs" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repositroy_assess_1aecf86cbebaa67ef32eab697ed66d5685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.IRepositroyAssess.Insert</definition>
+        <argsstring>(ModelEvaluation assess)</argsstring>
+        <name>Insert</name>
+        <reimplementedby refid="class_repositorys_1_1_repositroy_assess_1a1b66f97fc01a60c5fbb72b69bf9029ab">Insert</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_evaluation" kindref="compound">ModelEvaluation</ref></type>
+          <declname>assess</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserEvaluatePage/interfaceClass/IRepositroyAssess.cs" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repositroy_assess_1a4d501158eb0ba5f3ef8c18729a1f8070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.IRepositroyAssess.ReallyDelete</definition>
+        <argsstring>(int id)</argsstring>
+        <name>ReallyDelete</name>
+        <reimplementedby refid="class_repositorys_1_1_repositroy_assess_1a7ca1c4c8f8c097a2fff463f2eac7d74e">ReallyDelete</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserEvaluatePage/interfaceClass/IRepositroyAssess.cs" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repositroy_assess_1af9638b6751edc260928ee3200ac284b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.IRepositroyAssess.Update</definition>
+        <argsstring>(ModelEvaluation assess)</argsstring>
+        <name>Update</name>
+        <reimplementedby refid="class_repositorys_1_1_repositroy_assess_1a4f9b60670a70c7e2be6a62585bd918cc">Update</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_evaluation" kindref="compound">ModelEvaluation</ref></type>
+          <declname>assess</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserEvaluatePage/interfaceClass/IRepositroyAssess.cs" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repositroy_assess_1aa04f5333ecff199bf8ab12eb0c4213b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_assess_details" kindref="compound">ModelAssessDetails</ref> &gt;</type>
+        <definition>List&lt;ModelAssessDetails&gt; Repositorys.IRepositroyAssess.FindMainAssessToOneself</definition>
+        <argsstring>(int userID)</argsstring>
+        <name>FindMainAssessToOneself</name>
+        <reimplementedby refid="class_repositorys_1_1_repositroy_assess_1ac90b17488fca567884c957bd2bdea9f0">FindMainAssessToOneself</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>userID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserEvaluatePage/interfaceClass/IRepositroyAssess.cs" line="19" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="241">
+        <label>Repositorys.RepositroyAssess</label>
+        <link refid="class_repositorys_1_1_repositroy_assess"/>
+        <childnode refid="240" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="240">
+        <label>Repositorys.IRepositroyAssess</label>
+        <link refid="interface_repositorys_1_1_i_repositroy_assess"/>
+      </node>
+    </inheritancegraph>
+    <location file="E:/Repository/Repositorys/UserEvaluatePage/interfaceClass/IRepositroyAssess.cs" line="7" column="1" bodyfile="E:/Repository/Repositorys/UserEvaluatePage/interfaceClass/IRepositroyAssess.cs" bodystart="6" bodyend="20"/>
+    <listofallmembers>
+      <member refid="interface_repositorys_1_1_i_repositroy_assess_1a1b91adf3b60d95734afdde4b89227d31" prot="public" virt="non-virtual"><scope>Repositorys::IRepositroyAssess</scope><name>FakeDelete</name></member>
+      <member refid="interface_repositorys_1_1_i_repositroy_assess_1a20be906d9d58f05ab2d83a62ad8a7e41" prot="public" virt="non-virtual"><scope>Repositorys::IRepositroyAssess</scope><name>FindAllAssess</name></member>
+      <member refid="interface_repositorys_1_1_i_repositroy_assess_1adf65aca65bd41f44794df6103e2b899a" prot="public" virt="non-virtual"><scope>Repositorys::IRepositroyAssess</scope><name>FindAllDeleteAssess</name></member>
+      <member refid="interface_repositorys_1_1_i_repositroy_assess_1abcb6b34c14dd3305fd761e145993e0b0" prot="public" virt="non-virtual"><scope>Repositorys::IRepositroyAssess</scope><name>FindAllNotDeleteAssess</name></member>
+      <member refid="interface_repositorys_1_1_i_repositroy_assess_1a2307fb006ed092c49850dbb9d1ba2f20" prot="public" virt="non-virtual"><scope>Repositorys::IRepositroyAssess</scope><name>FindAssessCoreDetails</name></member>
+      <member refid="interface_repositorys_1_1_i_repositroy_assess_1ae4dc3dafee8f26c303898e62bb770948" prot="public" virt="non-virtual"><scope>Repositorys::IRepositroyAssess</scope><name>FindAssessTeachDetails</name></member>
+      <member refid="interface_repositorys_1_1_i_repositroy_assess_1a84ccbd484d658d0e39fb411f751b0c7a" prot="public" virt="non-virtual"><scope>Repositorys::IRepositroyAssess</scope><name>FindByAssess</name></member>
+      <member refid="interface_repositorys_1_1_i_repositroy_assess_1ac23785515c59935ba7f8d6378963797d" prot="public" virt="non-virtual"><scope>Repositorys::IRepositroyAssess</scope><name>FindMainAssess</name></member>
+      <member refid="interface_repositorys_1_1_i_repositroy_assess_1aa04f5333ecff199bf8ab12eb0c4213b5" prot="public" virt="non-virtual"><scope>Repositorys::IRepositroyAssess</scope><name>FindMainAssessToOneself</name></member>
+      <member refid="interface_repositorys_1_1_i_repositroy_assess_1aecf86cbebaa67ef32eab697ed66d5685" prot="public" virt="non-virtual"><scope>Repositorys::IRepositroyAssess</scope><name>Insert</name></member>
+      <member refid="interface_repositorys_1_1_i_repositroy_assess_1a4d501158eb0ba5f3ef8c18729a1f8070" prot="public" virt="non-virtual"><scope>Repositorys::IRepositroyAssess</scope><name>ReallyDelete</name></member>
+      <member refid="interface_repositorys_1_1_i_repositroy_assess_1af9638b6751edc260928ee3200ac284b7" prot="public" virt="non-virtual"><scope>Repositorys::IRepositroyAssess</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

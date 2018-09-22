@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_repositorys_1_1_data_access_1_1_t_b___user_info" kind="class" prot="public">
+    <compoundname>Repositorys::DataAccess::TB_UserInfo</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a00da1bc72ff2c41e5e932220c3c59068" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_UserInfo.UserInfoID</definition>
+        <argsstring></argsstring>
+        <name>UserInfoID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" line="10" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a7c4dce8d12aa61aa70139741d91f6470" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_UserInfo.UserInfoName</definition>
+        <argsstring></argsstring>
+        <name>UserInfoName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" line="14" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a7ea4f2591949911b7715ad2fd65fd825" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_UserInfo.UserInfoAge</definition>
+        <argsstring></argsstring>
+        <name>UserInfoAge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" line="16" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___user_info_1af412a4dfd7289ad4aa5b9ecf3006d78b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_UserInfo.UserInfoAddress</definition>
+        <argsstring></argsstring>
+        <name>UserInfoAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" line="20" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a6c42270714737de70d7f7a842f0998db" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_UserInfo.UserInfoBirthday</definition>
+        <argsstring></argsstring>
+        <name>UserInfoBirthday</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" line="24" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a2ea48e297eca60cedb6fe36a93508a8b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_UserInfo.UserPhone</definition>
+        <argsstring></argsstring>
+        <name>UserPhone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" line="28" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___user_info_1aaa7bb69622d3333f3577d2aa2727844f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_UserInfo.UserInfoEmail</definition>
+        <argsstring></argsstring>
+        <name>UserInfoEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" line="32" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a882e9ef1b0d2b948147b36db8bfaab23" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_UserInfo.UserInfoWorkPhone</definition>
+        <argsstring></argsstring>
+        <name>UserInfoWorkPhone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" line="36" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a68b1476d5ca7466bc994bc9e3fee64bf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_UserInfo.UserCurrentAddress</definition>
+        <argsstring></argsstring>
+        <name>UserCurrentAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" line="40" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___user_info_1ac0b7a2c4a6f34927805375c93bab51f0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_UserInfo.UserInfoQQ</definition>
+        <argsstring></argsstring>
+        <name>UserInfoQQ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" line="43" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___user_info_1ae1c5f1a4e833b6abeae94be93f660a7a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Repositorys.DataAccess.TB_UserInfo.UserInfoDetails</definition>
+        <argsstring></argsstring>
+        <name>UserInfoDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" line="46" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a39cf736effacbc9c7415fe25051b8006" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_UserInfo.UserInfoDelete</definition>
+        <argsstring></argsstring>
+        <name>UserInfoDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" line="48" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a844bd56a82e639a2ae475757d2e024e1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Repositorys.DataAccess.TB_UserInfo.UserID</definition>
+        <argsstring></argsstring>
+        <name>UserID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" line="50" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" line="8" column="1" bodyfile="E:/Repository/Repositorys/DataAccess/TB_UserInfo.cs" bodystart="7" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a68b1476d5ca7466bc994bc9e3fee64bf" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_UserInfo</scope><name>UserCurrentAddress</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a844bd56a82e639a2ae475757d2e024e1" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_UserInfo</scope><name>UserID</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1af412a4dfd7289ad4aa5b9ecf3006d78b" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_UserInfo</scope><name>UserInfoAddress</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a7ea4f2591949911b7715ad2fd65fd825" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_UserInfo</scope><name>UserInfoAge</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a6c42270714737de70d7f7a842f0998db" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_UserInfo</scope><name>UserInfoBirthday</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a39cf736effacbc9c7415fe25051b8006" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_UserInfo</scope><name>UserInfoDelete</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1ae1c5f1a4e833b6abeae94be93f660a7a" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_UserInfo</scope><name>UserInfoDetails</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1aaa7bb69622d3333f3577d2aa2727844f" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_UserInfo</scope><name>UserInfoEmail</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a00da1bc72ff2c41e5e932220c3c59068" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_UserInfo</scope><name>UserInfoID</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a7c4dce8d12aa61aa70139741d91f6470" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_UserInfo</scope><name>UserInfoName</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1ac0b7a2c4a6f34927805375c93bab51f0" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_UserInfo</scope><name>UserInfoQQ</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a882e9ef1b0d2b948147b36db8bfaab23" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_UserInfo</scope><name>UserInfoWorkPhone</name></member>
+      <member refid="class_repositorys_1_1_data_access_1_1_t_b___user_info_1a2ea48e297eca60cedb6fe36a93508a8b" prot="public" virt="non-virtual"><scope>Repositorys::DataAccess::TB_UserInfo</scope><name>UserPhone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_6611db9b92d019a170026b6b7bdad675" kind="dir">
+    <compoundname>E:/Repository/UserInfoDomain/UserEvaluatePage</compoundname>
+    <innerfile refid="_domain_oneself_assess_8cs">DomainOneselfAssess.cs</innerfile>
+    <innerfile refid="_domain_other_assess_8cs">DomainOtherAssess.cs</innerfile>
+    <innerfile refid="_i_domain_oneself_assess_8cs">IDomainOneselfAssess.cs</innerfile>
+    <innerfile refid="_i_domain_other_assess_8cs">IDomainOtherAssess.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/UserInfoDomain/UserEvaluatePage/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_3f8aaaa005ef75186b7bcd2df310f72f" kind="dir">
+    <compoundname>E:/Repository/Repositorys/Migrations</compoundname>
+    <innerfile refid="201809110908199___script_8cs">201809110908199_Script.cs</innerfile>
+    <innerfile refid="201809110908199___script_8_designer_8cs">201809110908199_Script.Designer.cs</innerfile>
+    <innerfile refid="_configuration_8cs">Configuration.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Repositorys/Migrations/"/>
+  </compounddef>
+</doxygen>

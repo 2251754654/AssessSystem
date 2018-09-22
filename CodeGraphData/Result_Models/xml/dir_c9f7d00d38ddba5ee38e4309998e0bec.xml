@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c9f7d00d38ddba5ee38e4309998e0bec" kind="dir">
+    <compoundname>E:/Repository/Models/MergeModel</compoundname>
+    <innerfile refid="_model_assess_details_8cs">ModelAssessDetails.cs</innerfile>
+    <innerfile refid="_model_job_and_core_skill_8cs">ModelJobAndCoreSkill.cs</innerfile>
+    <innerfile refid="_model_job_and_skill_and_lever_8cs">ModelJobAndSkillAndLever.cs</innerfile>
+    <innerfile refid="_model_job_and_teach_skill_8cs">ModelJobAndTeachSkill.cs</innerfile>
+    <innerfile refid="_model_job_and_teach_skill_and_lever_8cs">ModelJobAndTeachSkillAndLever.cs</innerfile>
+    <innerfile refid="_model_role_and_job_8cs">ModelRoleAndJob.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Models/MergeModel/"/>
+  </compounddef>
+</doxygen>

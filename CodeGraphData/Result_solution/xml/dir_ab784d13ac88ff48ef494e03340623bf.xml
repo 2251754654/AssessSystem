@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ab784d13ac88ff48ef494e03340623bf" kind="dir">
+    <compoundname>E:/Repository/Views/Connected Services/DataService</compoundname>
+    <innerfile refid="_data_service_2_reference_8cs">Reference.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Views/Connected Services/DataService/"/>
+  </compounddef>
+</doxygen>

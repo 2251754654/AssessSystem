@@ -12,7 +12,8 @@ namespace Models
         public int UserConfirm { get; set; }
         public int Login { get; set; }
         public int UserDelete { get; set; }
+        public int RoleID { get; set; }
 
-        public virtual ICollection<ModelUserInfo> ModelUserInfos { get; set; }
+        public virtual ICollection<ModelEvaluation> ModelEvaluationBylist { get; set; }
     }
 }

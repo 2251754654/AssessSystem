@@ -1,6 +1,4 @@
-﻿using System.Web;
-using System.Web.Mvc;
-using Views.Models;
+﻿using System.Web.Mvc;
 
 namespace WebApplication2
 {
@@ -9,7 +7,6 @@ namespace WebApplication2
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
-            filters.Add(new UserFilter() {  IsCheck = true});
         }
     }
 }

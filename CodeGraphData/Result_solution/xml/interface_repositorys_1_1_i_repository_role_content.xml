@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_repositorys_1_1_i_repository_role_content" kind="interface" prot="public">
+    <compoundname>Repositorys::IRepositoryRoleContent</compoundname>
+    <derivedcompoundref refid="class_repositorys_1_1_repository_role_content" prot="public" virt="non-virtual">Repositorys.RepositoryRoleContent</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_role_content_1a2a6925e35582eb7034f9e2aa2c2285e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_role_and_job" kindref="compound">ModelRoleAndJob</ref> &gt;</type>
+        <definition>List&lt;ModelRoleAndJob&gt; Repositorys.IRepositoryRoleContent.FindJobAllRole</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FindJobAllRole</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_role_content_1ada4b9fa809d21382f5012a60b4343dbe">FindJobAllRole</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryRoleContent.cs" line="8" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_role_content_1aea873070fb2be9d675843b211ec4ad73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_role_and_job" kindref="compound">ModelRoleAndJob</ref> &gt;</type>
+        <definition>List&lt;ModelRoleAndJob&gt; Repositorys.IRepositoryRoleContent.FindRoleAllJob</definition>
+        <argsstring>()</argsstring>
+        <name>FindRoleAllJob</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_role_content_1a886905fed47fbb069f5605857a1d15ef">FindRoleAllJob</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryRoleContent.cs" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_role_content_1a674c13bcf1d6d58b2e538cdea58ec0e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_role_and_job" kindref="compound">ModelRoleAndJob</ref> &gt;</type>
+        <definition>List&lt;ModelRoleAndJob&gt; Repositorys.IRepositoryRoleContent.FindRoleAllJob</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FindRoleAllJob</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_role_content_1a9741b5d1eca5e2a0170135f7da53a213">FindRoleAllJob</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryRoleContent.cs" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_repositorys_1_1_i_repository_role_content_1a2bef79ec625f15283b82495f3ce30edd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Repositorys.IRepositoryRoleContent.Insert</definition>
+        <argsstring>(int roleID, int professionalID)</argsstring>
+        <name>Insert</name>
+        <reimplementedby refid="class_repositorys_1_1_repository_role_content_1a2e854baaae127d1684a8951cedd3ad0a">Insert</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>roleID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>professionalID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryRoleContent.cs" line="11" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="226">
+        <label>Repositorys.RepositoryRoleContent</label>
+        <link refid="class_repositorys_1_1_repository_role_content"/>
+        <childnode refid="225" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="225">
+        <label>Repositorys.IRepositoryRoleContent</label>
+        <link refid="interface_repositorys_1_1_i_repository_role_content"/>
+      </node>
+    </inheritancegraph>
+    <location file="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryRoleContent.cs" line="7" column="1" bodyfile="E:/Repository/Repositorys/UserInfoPage/interfaceClass/IRepositoryRoleContent.cs" bodystart="6" bodyend="12"/>
+    <listofallmembers>
+      <member refid="interface_repositorys_1_1_i_repository_role_content_1a2a6925e35582eb7034f9e2aa2c2285e7" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryRoleContent</scope><name>FindJobAllRole</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_role_content_1aea873070fb2be9d675843b211ec4ad73" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryRoleContent</scope><name>FindRoleAllJob</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_role_content_1a674c13bcf1d6d58b2e538cdea58ec0e5" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryRoleContent</scope><name>FindRoleAllJob</name></member>
+      <member refid="interface_repositorys_1_1_i_repository_role_content_1a2bef79ec625f15283b82495f3ce30edd" prot="public" virt="non-virtual"><scope>Repositorys::IRepositoryRoleContent</scope><name>Insert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

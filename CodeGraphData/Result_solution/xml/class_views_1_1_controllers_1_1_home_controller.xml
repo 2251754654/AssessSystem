@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_views_1_1_controllers_1_1_home_controller" kind="class" prot="public">
+    <compoundname>Views::Controllers::HomeController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_views_1_1_controllers_1_1_home_controller_1adeac6dd01b7583e704476c65a8e836b5" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_domains_1_1_i_domain_oneself_assess" kindref="compound">IDomainOneselfAssess</ref></type>
+        <definition>readonly IDomainOneselfAssess Views.Controllers.HomeController.domainOneselfAssess</definition>
+        <argsstring></argsstring>
+        <name>domainOneselfAssess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/HomeController.cs" line="10" column="1" bodyfile="E:/Repository/Views/Controllers/HomeController.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_views_1_1_controllers_1_1_home_controller_1ac2d8930242c9187de2add2c6d3974950" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_domains_1_1_i_domain_other_assess" kindref="compound">IDomainOtherAssess</ref></type>
+        <definition>readonly IDomainOtherAssess Views.Controllers.HomeController.domainOtherAssess</definition>
+        <argsstring></argsstring>
+        <name>domainOtherAssess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/HomeController.cs" line="11" column="1" bodyfile="E:/Repository/Views/Controllers/HomeController.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_home_controller_1ac198d60285b7fecf828d9ebb813f9a64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Views.Controllers.HomeController.HomeController</definition>
+        <argsstring>(IDomainOneselfAssess domainOneselfAssess, IDomainOtherAssess domainOtherAssess)</argsstring>
+        <name>HomeController</name>
+        <param>
+          <type><ref refid="interface_domains_1_1_i_domain_oneself_assess" kindref="compound">IDomainOneselfAssess</ref></type>
+          <declname>domainOneselfAssess</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_domains_1_1_i_domain_other_assess" kindref="compound">IDomainOtherAssess</ref></type>
+          <declname>domainOtherAssess</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/HomeController.cs" line="13" column="1" bodyfile="E:/Repository/Views/Controllers/HomeController.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_home_controller_1a9f34117e33a082555224b7b06a6c23f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Views.Controllers.HomeController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+<para>转到主页 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/HomeController.cs" line="23" column="1" bodyfile="E:/Repository/Views/Controllers/HomeController.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_home_controller_1a61b005a44227717e96c75aa89b7ef2d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Views.Controllers.HomeController.UserInfo</definition>
+        <argsstring>()</argsstring>
+        <name>UserInfo</name>
+        <briefdescription>
+<para>转到个人信息页面 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/HomeController.cs" line="32" column="1" bodyfile="E:/Repository/Views/Controllers/HomeController.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_home_controller_1aa948e5fe36d1a32b0f927d3d7420682c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Views.Controllers.HomeController.OneSelfAssess</definition>
+        <argsstring>()</argsstring>
+        <name>OneSelfAssess</name>
+        <briefdescription>
+<para>转到自我评价页面 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/HomeController.cs" line="40" column="1" bodyfile="E:/Repository/Views/Controllers/HomeController.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_home_controller_1a342909014e461eab12b04bc27da726d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Views.Controllers.HomeController.OtherAssess</definition>
+        <argsstring>()</argsstring>
+        <name>OtherAssess</name>
+        <briefdescription>
+<para>转到他人评价页面 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/HomeController.cs" line="48" column="1" bodyfile="E:/Repository/Views/Controllers/HomeController.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_home_controller_1a53bc49466d2827e5af2da509aacc7e05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Views.Controllers.HomeController.Role</definition>
+        <argsstring>()</argsstring>
+        <name>Role</name>
+        <briefdescription>
+<para>转到角色管理页面 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/HomeController.cs" line="56" column="1" bodyfile="E:/Repository/Views/Controllers/HomeController.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_home_controller_1a4a3ff869482f7df1e6492e9421663c6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Views.Controllers.HomeController.Job</definition>
+        <argsstring>()</argsstring>
+        <name>Job</name>
+        <briefdescription>
+<para>转到职业管理 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/HomeController.cs" line="64" column="1" bodyfile="E:/Repository/Views/Controllers/HomeController.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_home_controller_1a069401b2fd4446f8994a453882db0505" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Views.Controllers.HomeController.Skill</definition>
+        <argsstring>()</argsstring>
+        <name>Skill</name>
+        <briefdescription>
+<para>转到技能管理 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/HomeController.cs" line="72" column="1" bodyfile="E:/Repository/Views/Controllers/HomeController.cs" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_home_controller_1ac0f8eef49d7309d768790158dad05d6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Views.Controllers.HomeController.LogOut</definition>
+        <argsstring>()</argsstring>
+        <name>LogOut</name>
+        <briefdescription>
+<para>退出系统 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/HomeController.cs" line="80" column="1" bodyfile="E:/Repository/Views/Controllers/HomeController.cs" bodystart="80" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_home_controller_1a0f5c8e0b7e5638015d0cf79d2873f44a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.HomeController.FindAllAssess</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllAssess</name>
+        <briefdescription>
+<para>主页显示的数据 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/HomeController.cs" line="92" column="1" bodyfile="E:/Repository/Views/Controllers/HomeController.cs" bodystart="92" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="152">
+        <label>Views.Controllers.HomeController</label>
+        <link refid="class_views_1_1_controllers_1_1_home_controller"/>
+        <childnode refid="153" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="153">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="157">
+        <label>Domains.IDomainOtherAssess</label>
+        <link refid="interface_domains_1_1_i_domain_other_assess"/>
+      </node>
+      <node id="154">
+        <label>Views.Controllers.HomeController</label>
+        <link refid="class_views_1_1_controllers_1_1_home_controller"/>
+        <childnode refid="155" relation="public-inheritance">
+        </childnode>
+        <childnode refid="156" relation="usage">
+          <edgelabel>domainOneselfAssess</edgelabel>
+        </childnode>
+        <childnode refid="157" relation="usage">
+          <edgelabel>domainOtherAssess</edgelabel>
+        </childnode>
+      </node>
+      <node id="155">
+        <label>Controller</label>
+      </node>
+      <node id="156">
+        <label>Domains.IDomainOneselfAssess</label>
+        <link refid="interface_domains_1_1_i_domain_oneself_assess"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Views/Controllers/HomeController.cs" line="9" column="1" bodyfile="E:/Repository/Views/Controllers/HomeController.cs" bodystart="8" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_views_1_1_controllers_1_1_home_controller_1adeac6dd01b7583e704476c65a8e836b5" prot="private" virt="non-virtual"><scope>Views::Controllers::HomeController</scope><name>domainOneselfAssess</name></member>
+      <member refid="class_views_1_1_controllers_1_1_home_controller_1ac2d8930242c9187de2add2c6d3974950" prot="private" virt="non-virtual"><scope>Views::Controllers::HomeController</scope><name>domainOtherAssess</name></member>
+      <member refid="class_views_1_1_controllers_1_1_home_controller_1a0f5c8e0b7e5638015d0cf79d2873f44a" prot="public" virt="non-virtual"><scope>Views::Controllers::HomeController</scope><name>FindAllAssess</name></member>
+      <member refid="class_views_1_1_controllers_1_1_home_controller_1ac198d60285b7fecf828d9ebb813f9a64" prot="public" virt="non-virtual"><scope>Views::Controllers::HomeController</scope><name>HomeController</name></member>
+      <member refid="class_views_1_1_controllers_1_1_home_controller_1a9f34117e33a082555224b7b06a6c23f0" prot="public" virt="non-virtual"><scope>Views::Controllers::HomeController</scope><name>Index</name></member>
+      <member refid="class_views_1_1_controllers_1_1_home_controller_1a4a3ff869482f7df1e6492e9421663c6c" prot="public" virt="non-virtual"><scope>Views::Controllers::HomeController</scope><name>Job</name></member>
+      <member refid="class_views_1_1_controllers_1_1_home_controller_1ac0f8eef49d7309d768790158dad05d6c" prot="public" virt="non-virtual"><scope>Views::Controllers::HomeController</scope><name>LogOut</name></member>
+      <member refid="class_views_1_1_controllers_1_1_home_controller_1aa948e5fe36d1a32b0f927d3d7420682c" prot="public" virt="non-virtual"><scope>Views::Controllers::HomeController</scope><name>OneSelfAssess</name></member>
+      <member refid="class_views_1_1_controllers_1_1_home_controller_1a342909014e461eab12b04bc27da726d9" prot="public" virt="non-virtual"><scope>Views::Controllers::HomeController</scope><name>OtherAssess</name></member>
+      <member refid="class_views_1_1_controllers_1_1_home_controller_1a53bc49466d2827e5af2da509aacc7e05" prot="public" virt="non-virtual"><scope>Views::Controllers::HomeController</scope><name>Role</name></member>
+      <member refid="class_views_1_1_controllers_1_1_home_controller_1a069401b2fd4446f8994a453882db0505" prot="public" virt="non-virtual"><scope>Views::Controllers::HomeController</scope><name>Skill</name></member>
+      <member refid="class_views_1_1_controllers_1_1_home_controller_1a61b005a44227717e96c75aa89b7ef2d7" prot="public" virt="non-virtual"><scope>Views::Controllers::HomeController</scope><name>UserInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_models_1_1_model_role" kind="class" prot="public">
+    <compoundname>Models::ModelRole</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_models_1_1_model_role_1ad9463eeb98882d557cfd63147afb066a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelRole.RoleID</definition>
+        <argsstring></argsstring>
+        <name>RoleID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelRole.cs" line="8" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelRole.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_role_1a8beb4d920fe0d4863789882920258722" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Models.ModelRole.RoleName</definition>
+        <argsstring></argsstring>
+        <name>RoleName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelRole.cs" line="9" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelRole.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_role_1a4f562fdf8a9aa6449a2ff56ddfaad1ca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Models.ModelRole.RoleDetails</definition>
+        <argsstring></argsstring>
+        <name>RoleDetails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelRole.cs" line="10" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelRole.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_role_1a81b05ed4851497ed970cf4e835769963" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Models.ModelRole.RoleDelete</definition>
+        <argsstring></argsstring>
+        <name>RoleDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelRole.cs" line="11" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelRole.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_model_role_1af69652b60798d43b0cc20c684c38814a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_models_1_1_model_role_content" kindref="compound">ModelRoleContent</ref> &gt;</type>
+        <definition>virtual ICollection&lt;ModelRoleContent&gt; Models.ModelRole.ModelRoleContentList</definition>
+        <argsstring></argsstring>
+        <name>ModelRoleContentList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Models/CustomModels/ModelRole.cs" line="13" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelRole.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Repository/Models/CustomModels/ModelRole.cs" line="7" column="1" bodyfile="E:/Repository/Models/CustomModels/ModelRole.cs" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_models_1_1_model_role_1af69652b60798d43b0cc20c684c38814a" prot="public" virt="non-virtual"><scope>Models::ModelRole</scope><name>ModelRoleContentList</name></member>
+      <member refid="class_models_1_1_model_role_1a81b05ed4851497ed970cf4e835769963" prot="public" virt="non-virtual"><scope>Models::ModelRole</scope><name>RoleDelete</name></member>
+      <member refid="class_models_1_1_model_role_1a4f562fdf8a9aa6449a2ff56ddfaad1ca" prot="public" virt="non-virtual"><scope>Models::ModelRole</scope><name>RoleDetails</name></member>
+      <member refid="class_models_1_1_model_role_1ad9463eeb98882d557cfd63147afb066a" prot="public" virt="non-virtual"><scope>Models::ModelRole</scope><name>RoleID</name></member>
+      <member refid="class_models_1_1_model_role_1a8beb4d920fe0d4863789882920258722" prot="public" virt="non-virtual"><scope>Models::ModelRole</scope><name>RoleName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

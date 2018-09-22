@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_views_1_1_controllers_1_1_login_controller" kind="class" prot="public">
+    <compoundname>Views::Controllers::LoginController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_views_1_1_controllers_1_1_login_controller_1adc52378135483f50698135118ae7bd5c" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_domains_1_1_i_domain_login" kindref="compound">IDomainLogin</ref></type>
+        <definition>readonly IDomainLogin Views.Controllers.LoginController.domainLogin</definition>
+        <argsstring></argsstring>
+        <name>domainLogin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/LoginController.cs" line="11" column="1" bodyfile="E:/Repository/Views/Controllers/LoginController.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_login_controller_1a98c2a076137c6610b2cd2bd5fa56edb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Views.Controllers.LoginController.LoginController</definition>
+        <argsstring>(IDomainLogin _domainLogin)</argsstring>
+        <name>LoginController</name>
+        <param>
+          <type><ref refid="interface_domains_1_1_i_domain_login" kindref="compound">IDomainLogin</ref></type>
+          <declname>_domainLogin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/LoginController.cs" line="13" column="1" bodyfile="E:/Repository/Views/Controllers/LoginController.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_login_controller_1ae2c180040b064249499bdcf39e4b3745" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Views.Controllers.LoginController.LoginView</definition>
+        <argsstring>()</argsstring>
+        <name>LoginView</name>
+        <briefdescription>
+<para>转到登陆视图 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/LoginController.cs" line="22" column="1" bodyfile="E:/Repository/Views/Controllers/LoginController.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_views_1_1_controllers_1_1_login_controller_1a5d3e2dcb4598d014be99018ed6c9e8e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JsonResult</type>
+        <definition>JsonResult Views.Controllers.LoginController.Login</definition>
+        <argsstring>(string UserName, string Password)</argsstring>
+        <name>Login</name>
+        <param>
+          <type>string</type>
+          <declname>UserName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Password</declname>
+        </param>
+        <briefdescription>
+<para>登陆信息处理 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/Views/Controllers/LoginController.cs" line="30" column="1" bodyfile="E:/Repository/Views/Controllers/LoginController.cs" bodystart="30" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="249">
+        <label>Controller</label>
+      </node>
+      <node id="248">
+        <label>Views.Controllers.LoginController</label>
+        <link refid="class_views_1_1_controllers_1_1_login_controller"/>
+        <childnode refid="249" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="252">
+        <label>Domains.IDomainLogin</label>
+        <link refid="interface_domains_1_1_i_domain_login"/>
+      </node>
+      <node id="251">
+        <label>Controller</label>
+      </node>
+      <node id="250">
+        <label>Views.Controllers.LoginController</label>
+        <link refid="class_views_1_1_controllers_1_1_login_controller"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="252" relation="usage">
+          <edgelabel>domainLogin</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/Views/Controllers/LoginController.cs" line="9" column="1" bodyfile="E:/Repository/Views/Controllers/LoginController.cs" bodystart="8" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_views_1_1_controllers_1_1_login_controller_1adc52378135483f50698135118ae7bd5c" prot="private" virt="non-virtual"><scope>Views::Controllers::LoginController</scope><name>domainLogin</name></member>
+      <member refid="class_views_1_1_controllers_1_1_login_controller_1a5d3e2dcb4598d014be99018ed6c9e8e9" prot="public" virt="non-virtual"><scope>Views::Controllers::LoginController</scope><name>Login</name></member>
+      <member refid="class_views_1_1_controllers_1_1_login_controller_1a98c2a076137c6610b2cd2bd5fa56edb9" prot="public" virt="non-virtual"><scope>Views::Controllers::LoginController</scope><name>LoginController</name></member>
+      <member refid="class_views_1_1_controllers_1_1_login_controller_1ae2c180040b064249499bdcf39e4b3745" prot="public" virt="non-virtual"><scope>Views::Controllers::LoginController</scope><name>LoginView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_domains_1_1_domain_regist" kind="class" prot="public">
+    <compoundname>Domains::DomainRegist</compoundname>
+    <basecompoundref refid="interface_domains_1_1_i_domain_regist" prot="public" virt="non-virtual">Domains.IDomainRegist</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_domains_1_1_domain_regist_1a8da128b4017b298fa5d6e3f976dc9f07" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_repositorys_1_1_i_repository_user" kindref="compound">IRepositoryUser</ref></type>
+        <definition>readonly IRepositoryUser Domains.DomainRegist.repositoryUser</definition>
+        <argsstring></argsstring>
+        <name>repositoryUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/RegistPage/DomainRegist.cs" line="15" column="1" bodyfile="E:/Repository/UserInfoDomain/RegistPage/DomainRegist.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_domains_1_1_domain_regist_1af1a7696a03ca81075ebc95e141ab51d4" compoundref="_domain_regist_8cs" startline="26" endline="45">Domains.DomainRegist.Regist</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_domains_1_1_domain_regist_1a0e0ab1d1d6bcc7781563e2541e6c8caa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Domains.DomainRegist.DomainRegist</definition>
+        <argsstring>(IRepositoryUser _repositoryUser)</argsstring>
+        <name>DomainRegist</name>
+        <param>
+          <type><ref refid="interface_repositorys_1_1_i_repository_user" kindref="compound">IRepositoryUser</ref></type>
+          <declname>_repositoryUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/RegistPage/DomainRegist.cs" line="17" column="1" bodyfile="E:/Repository/UserInfoDomain/RegistPage/DomainRegist.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_domains_1_1_domain_regist_1af1a7696a03ca81075ebc95e141ab51d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Domains.DomainRegist.Regist</definition>
+        <argsstring>(ModelUser modelUser)</argsstring>
+        <name>Regist</name>
+        <reimplements refid="interface_domains_1_1_i_domain_regist_1aa82b1c284406e43dbe9fc76d187d793a">Regist</reimplements>
+        <param>
+          <type><ref refid="class_models_1_1_model_user" kindref="compound">ModelUser</ref></type>
+          <declname>modelUser</declname>
+        </param>
+        <briefdescription>
+<para>注册 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modelUser</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>0 系统中有次账号</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/RegistPage/DomainRegist.cs" line="26" column="1" bodyfile="E:/Repository/UserInfoDomain/RegistPage/DomainRegist.cs" bodystart="26" bodyend="45"/>
+        <references refid="interface_repositorys_1_1_i_repository_user_1a7494cd80a659fc52ad0ca6163ead60cb">Repositorys.IRepositoryUser.FingUserNameOrID</references>
+        <references refid="interface_repositorys_1_1_i_repository_user_1aab7a310db5aa96c3dd0cc34c4b3aa5c4">Repositorys.IRepositoryUser.Regist</references>
+        <references refid="class_domains_1_1_domain_regist_1a8da128b4017b298fa5d6e3f976dc9f07" compoundref="_domain_regist_8cs" startline="15">Domains.DomainRegist.repositoryUser</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="93">
+        <label>IDomainRegist</label>
+        <link refid="interface_domains_1_1_i_domain_regist"/>
+      </node>
+      <node id="92">
+        <label>Domains.DomainRegist</label>
+        <link refid="class_domains_1_1_domain_regist"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="96">
+        <label>Repositorys.IRepositoryUser</label>
+        <link refid="interface_repositorys_1_1_i_repository_user"/>
+      </node>
+      <node id="95">
+        <label>IDomainRegist</label>
+        <link refid="interface_domains_1_1_i_domain_regist"/>
+      </node>
+      <node id="94">
+        <label>Domains.DomainRegist</label>
+        <link refid="class_domains_1_1_domain_regist"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+        <childnode refid="96" relation="usage">
+          <edgelabel>repositoryUser</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Repository/UserInfoDomain/RegistPage/DomainRegist.cs" line="13" column="1" bodyfile="E:/Repository/UserInfoDomain/RegistPage/DomainRegist.cs" bodystart="12" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_domains_1_1_domain_regist_1a0e0ab1d1d6bcc7781563e2541e6c8caa" prot="public" virt="non-virtual"><scope>Domains::DomainRegist</scope><name>DomainRegist</name></member>
+      <member refid="class_domains_1_1_domain_regist_1af1a7696a03ca81075ebc95e141ab51d4" prot="public" virt="non-virtual"><scope>Domains::DomainRegist</scope><name>Regist</name></member>
+      <member refid="class_domains_1_1_domain_regist_1a8da128b4017b298fa5d6e3f976dc9f07" prot="private" virt="non-virtual"><scope>Domains::DomainRegist</scope><name>repositoryUser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

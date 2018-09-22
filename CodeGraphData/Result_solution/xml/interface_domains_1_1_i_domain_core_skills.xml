@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_domains_1_1_i_domain_core_skills" kind="interface" prot="public">
+    <compoundname>Domains::IDomainCoreSkills</compoundname>
+    <derivedcompoundref refid="class_domains_1_1_domain_core_skills" prot="public" virt="non-virtual">Domains.DomainCoreSkills</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_core_skills_1a8faf934b4bcff15a6464bcec3d136c57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_core_skills" kindref="compound">ModelCoreSkills</ref> &gt;</type>
+        <definition>List&lt;ModelCoreSkills&gt; Domains.IDomainCoreSkills.FindAllCoreSkills</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllCoreSkills</name>
+        <reimplementedby refid="class_domains_1_1_domain_core_skills_1a59814849ccfe51b3d2db66a5ab5019ea">FindAllCoreSkills</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainCoreSkills.cs" line="8" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_core_skills_1ac7a2d68d2b5aac75c9c2ed0acf167857" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Domains.IDomainCoreSkills.UpdateCoreSkills</definition>
+        <argsstring>(ModelCoreSkills modelCoreSkills)</argsstring>
+        <name>UpdateCoreSkills</name>
+        <reimplementedby refid="class_domains_1_1_domain_core_skills_1a532d72ba547f0837a0e85a2a9555972e">UpdateCoreSkills</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_core_skills" kindref="compound">ModelCoreSkills</ref></type>
+          <declname>modelCoreSkills</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainCoreSkills.cs" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_core_skills_1a725ebb0b4c576ea26a8aa4a465365176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Domains.IDomainCoreSkills.DeleteCoreSkills</definition>
+        <argsstring>(int coreSkillsID)</argsstring>
+        <name>DeleteCoreSkills</name>
+        <reimplementedby refid="class_domains_1_1_domain_core_skills_1a994bb7aa4dfb1ba1acadd6ac3a9971cb">DeleteCoreSkills</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>coreSkillsID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainCoreSkills.cs" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_core_skills_1a579f23f53ee75ca3773f2636e23d8be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Domains.IDomainCoreSkills.InsertCoreSkills</definition>
+        <argsstring>(ModelCoreSkills modelCoreSkills)</argsstring>
+        <name>InsertCoreSkills</name>
+        <reimplementedby refid="class_domains_1_1_domain_core_skills_1a92cf70866fb65e6081e7378fc60d9db6">InsertCoreSkills</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_core_skills" kindref="compound">ModelCoreSkills</ref></type>
+          <declname>modelCoreSkills</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainCoreSkills.cs" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_core_skills_1a33d76ac4da11bc5edab336e344b3646f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref> &gt;</type>
+        <definition>List&lt;ModelCoreLever&gt; Domains.IDomainCoreSkills.FindAllLever</definition>
+        <argsstring>(int coreSkillsID)</argsstring>
+        <name>FindAllLever</name>
+        <reimplementedby refid="class_domains_1_1_domain_core_skills_1ac17035711cdae8afc394046fbaa2b3cb">FindAllLever</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>coreSkillsID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainCoreSkills.cs" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_core_skills_1a7940f982f6b27b224ae086f243ae67b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Domains.IDomainCoreSkills.DeleteLever</definition>
+        <argsstring>(int coreSkillsID, int coreLeverID)</argsstring>
+        <name>DeleteLever</name>
+        <reimplementedby refid="class_domains_1_1_domain_core_skills_1a669a4959eeb997f3968c232166c1500b">DeleteLever</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>coreSkillsID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>coreLeverID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainCoreSkills.cs" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_domains_1_1_i_domain_core_skills_1a7a78be2540ba66cfe5be8446b946980b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Domains.IDomainCoreSkills.InsertLever</definition>
+        <argsstring>(ModelCoreLever modelCoreLever)</argsstring>
+        <name>InsertLever</name>
+        <reimplementedby refid="class_domains_1_1_domain_core_skills_1a446150882102b8415420fffd567a9d45">InsertLever</reimplementedby>
+        <param>
+          <type><ref refid="class_models_1_1_model_core_lever" kindref="compound">ModelCoreLever</ref></type>
+          <declname>modelCoreLever</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainCoreSkills.cs" line="14" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="168">
+        <label>Domains.IDomainCoreSkills</label>
+        <link refid="interface_domains_1_1_i_domain_core_skills"/>
+      </node>
+      <node id="169">
+        <label>Domains.DomainCoreSkills</label>
+        <link refid="class_domains_1_1_domain_core_skills"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="E:/Repository/UserInfoDomain/AdminPage/IDomainCoreSkills.cs" line="7" column="1" bodyfile="E:/Repository/UserInfoDomain/AdminPage/IDomainCoreSkills.cs" bodystart="6" bodyend="15"/>
+    <listofallmembers>
+      <member refid="interface_domains_1_1_i_domain_core_skills_1a725ebb0b4c576ea26a8aa4a465365176" prot="public" virt="non-virtual"><scope>Domains::IDomainCoreSkills</scope><name>DeleteCoreSkills</name></member>
+      <member refid="interface_domains_1_1_i_domain_core_skills_1a7940f982f6b27b224ae086f243ae67b9" prot="public" virt="non-virtual"><scope>Domains::IDomainCoreSkills</scope><name>DeleteLever</name></member>
+      <member refid="interface_domains_1_1_i_domain_core_skills_1a8faf934b4bcff15a6464bcec3d136c57" prot="public" virt="non-virtual"><scope>Domains::IDomainCoreSkills</scope><name>FindAllCoreSkills</name></member>
+      <member refid="interface_domains_1_1_i_domain_core_skills_1a33d76ac4da11bc5edab336e344b3646f" prot="public" virt="non-virtual"><scope>Domains::IDomainCoreSkills</scope><name>FindAllLever</name></member>
+      <member refid="interface_domains_1_1_i_domain_core_skills_1a579f23f53ee75ca3773f2636e23d8be2" prot="public" virt="non-virtual"><scope>Domains::IDomainCoreSkills</scope><name>InsertCoreSkills</name></member>
+      <member refid="interface_domains_1_1_i_domain_core_skills_1a7a78be2540ba66cfe5be8446b946980b" prot="public" virt="non-virtual"><scope>Domains::IDomainCoreSkills</scope><name>InsertLever</name></member>
+      <member refid="interface_domains_1_1_i_domain_core_skills_1ac7a2d68d2b5aac75c9c2ed0acf167857" prot="public" virt="non-virtual"><scope>Domains::IDomainCoreSkills</scope><name>UpdateCoreSkills</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
