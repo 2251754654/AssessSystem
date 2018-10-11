@@ -39,6 +39,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework.SqlServerCompact, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.SqlServerCompact.6.2.0\lib\net45\EntityFramework.SqlServerCompact.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
@@ -49,6 +52,9 @@
       <HintPath>..\packages\System.Configuration.ConfigurationManager.4.4.1\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Compact.4.0.8876.1\lib\net40\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Web" />
@@ -81,50 +87,88 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminPage\interfaceClass\IRepositoryJob.cs" />
-    <Compile Include="AdminPage\interfaceClass\IRepositoryTeachLever.cs" />
-    <Compile Include="AdminPage\interfaceClass\IRepositoryCoreLever.cs" />
-    <Compile Include="AdminPage\interfaceClass\IRepositoryCoreSkills.cs" />
-    <Compile Include="AdminPage\interfaceClass\IRepositoryRole.cs" />
-    <Compile Include="AdminPage\interfaceClass\IRepositoryTeachSkills.cs" />
-    <Compile Include="AdminPage\BaseClass\RepositoryCoreLever.cs" />
-    <Compile Include="AdminPage\BaseClass\RepositoryCoreSkills.cs" />
-    <Compile Include="AdminPage\BaseClass\RepositoryTeachLever.cs" />
-    <Compile Include="AdminPage\BaseClass\RepositoryTeachSkills.cs" />
-    <Compile Include="DataAccess\DBContext.cs" />
-    <Compile Include="DataAccess\TB_CoreLever.cs" />
-    <Compile Include="DataAccess\TB_CoreSkills.cs" />
-    <Compile Include="DataAccess\TB_Evaluation.cs" />
-    <Compile Include="DataAccess\TB_EvaluationInfo.cs" />
-    <Compile Include="DataAccess\TB_MappingCore.cs" />
-    <Compile Include="DataAccess\TB_MappingTeach.cs" />
-    <Compile Include="DataAccess\TB_Professional.cs" />
-    <Compile Include="DataAccess\TB_Role.cs" />
-    <Compile Include="DataAccess\TB_RoleContent.cs" />
-    <Compile Include="DataAccess\TB_TeachLever.cs" />
-    <Compile Include="DataAccess\TB_TechSkills.cs" />
-    <Compile Include="DataAccess\TB_User.cs" />
-    <Compile Include="DataAccess\TB_UserInfo.cs" />
-    <Compile Include="AdminPage\BaseClass\RepositoryJob.cs" />
-    <Compile Include="AdminPage\BaseClass\RepositoryRole.cs" />
-    <Compile Include="Migrations\201809110908199_Script.cs" />
-    <Compile Include="Migrations\201809110908199_Script.Designer.cs">
-      <DependentUpon>201809110908199_Script.cs</DependentUpon>
+    <Compile Include="DataAccess\EntityConfig\CoreLeverConfig.cs" />
+    <Compile Include="DataAccess\EntityConfig\CoreSkillConfig.cs" />
+    <Compile Include="DataAccess\EntityConfig\Mapping\Profess_CoreSkillConfig.cs" />
+    <Compile Include="DataAccess\EntityConfig\Mapping\Profess_TeachSkillConfig.cs" />
+    <Compile Include="DataAccess\EntityConfig\Mapping\Role_MenuConfig.cs" />
+    <Compile Include="DataAccess\EntityConfig\Mapping\Role_ProfessConfig.cs" />
+    <Compile Include="DataAccess\EntityConfig\Mapping\User_RoleConfig.cs" />
+    <Compile Include="DataAccess\EntityConfig\ProfessConfig.cs" />
+    <Compile Include="DataAccess\EntityConfig\TeachSkillConfig.cs" />
+    <Compile Include="DataAccess\EntityConfig\TeachLeverConfig.cs" />
+    <Compile Include="DataAccess\EntityConfig\UserInfoConfig.cs" />
+    <Compile Include="DataAccess\EntityConfig\MenuConfig.cs" />
+    <Compile Include="DataAccess\EntityConfig\RoleConfig.cs" />
+    <Compile Include="DataAccess\EntityConfig\UserConfig.cs" />
+    <Compile Include="DataAccess\MappingModule\Profess_CoreSkill.cs" />
+    <Compile Include="DataAccess\MappingModule\Profess_TeachSkill.cs" />
+    <Compile Include="DataAccess\MappingModule\Role_Menu.cs" />
+    <Compile Include="DataAccess\MappingModule\Role_Profess.cs" />
+    <Compile Include="DataAccess\MappingModule\User_Role.cs" />
+    <Compile Include="DataAccess\UserModule\Menu.cs" />
+    <Compile Include="DataAccess\ProfessModule\CoreLever.cs" />
+    <Compile Include="DataAccess\ProfessModule\CoreSkill.cs" />
+    <Compile Include="DataAccess\ProfessModule\Profess.cs" />
+    <Compile Include="DataAccess\ProfessModule\TeachLever.cs" />
+    <Compile Include="DataAccess\ProfessModule\TeachSkill.cs" />
+    <Compile Include="DataAccess\UserModule\Role.cs" />
+    <Compile Include="DataAccess\UserModule\User.cs" />
+    <Compile Include="DataAccess\UserModule\UserInfo.cs" />
+    <Compile Include="Migrations\201809290924173_Script.cs" />
+    <Compile Include="Migrations\201809290924173_Script.Designer.cs">
+      <DependentUpon>201809290924173_Script.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserEvaluatePage\interfaceClass\IRepositroyAssess.cs" />
-    <Compile Include="UserInfoPage\interfaceClass\IRepositoryRoleContent.cs" />
-    <Compile Include="UserInfoPage\interfaceClass\IRepositoryUserInfo.cs" />
-    <Compile Include="UserInfoPage\BaseClass\RepositoryRoleContent.cs" />
-    <Compile Include="UserInfoPage\interfaceClass\IRepositoryMapingCore.cs" />
-    <Compile Include="UserInfoPage\BaseClass\RepositoryMapingCore.cs" />
-    <Compile Include="UserInfoPage\interfaceClass\IRepositoryMapingTeach.cs" />
-    <Compile Include="UserInfoPage\BaseClass\RepositoryMapingTeach.cs" />
-    <Compile Include="UserPage\interfaceClass\IRepositoryUser.cs" />
-    <Compile Include="UserPage\BaseClass\RepositoryUser.cs" />
+    <Compile Include="Migrations\201809301413219_Script1.cs" />
+    <Compile Include="Migrations\201809301413219_Script1.Designer.cs">
+      <DependentUpon>201809301413219_Script1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810020916042_Script2.cs" />
+    <Compile Include="Migrations\201810020916042_Script2.Designer.cs">
+      <DependentUpon>201810020916042_Script2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Repositroy\Specific\AssessInfoRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\AssessRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\CoreLeverRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\CoreSkillRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Interface\IMenuRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Interface\ICoreLeverRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Interface\ICoreSkillRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Interface\IAssessInfoRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Interface\IAssessRepositroy.cs" />
+    <Compile Include="DataAccess\AssessModule\Assess.cs" />
+    <Compile Include="DataAccess\AssessModule\AssessInfo.cs" />
+    <Compile Include="DataAccess\Context\DBContext.cs" />
+    <Compile Include="DataAccess\EntityConfig\AssessConfig.cs" />
+    <Compile Include="DataAccess\EntityConfig\AssessInfoConfig.cs" />
+    <Compile Include="Repositroy\Generic\GenericRepository.cs" />
+    <Compile Include="Repositroy\Generic\IGenericRepository.cs" />
+    <Compile Include="Repositroy\Specific\Interface\IUserRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Interface\ITeachSkillRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Interface\ITeachLeverRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Interface\IUserInfoRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Interface\IProfessRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Interface\IRoleRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Mapping\Interface\IProfess_CoreSkillRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Mapping\Interface\IProfess_TeachSkillRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Mapping\Interface\IRole_MenuRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Mapping\Interface\IRole_ProfessRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Mapping\Interface\IUser_RoleRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Mapping\Profess_CoreSkillRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Mapping\Profess_TeachSkillRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Mapping\Role_MenuRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Mapping\Role_ProfessRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Mapping\User_RoleRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\MenuRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\ProfessRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\Profess_CoreSkill.cs" />
+    <Compile Include="Repositroy\Specific\RoleRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\TeachLeverRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\TeachSkillRespositroy.cs" />
+    <Compile Include="Repositroy\Specific\UserInfoRepositroy.cs" />
+    <Compile Include="Repositroy\Specific\UserRepositroy.cs" />
     <Compile Include="TestRepositroys.cs" />
-    <Compile Include="UserEvaluatePage\BaseClass\RepositroyAssess.cs" />
-    <Compile Include="UserInfoPage\BaseClass\RepositoryUserInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -137,22 +181,23 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Models\Models.csproj">
-      <Project>{650CE2F4-3D92-4FA5-A9A0-070F7E40037B}</Project>
-      <Name>Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ProjectUtils\ProjectUtils.csproj">
-      <Project>{B787C662-CA29-407D-8E57-848BE8C191AA}</Project>
-      <Name>ProjectUtils</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Config\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201809110908199_Script.resx">
-      <DependentUpon>201809110908199_Script.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201809290924173_Script.resx">
+      <DependentUpon>201809290924173_Script.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809301413219_Script1.resx">
+      <DependentUpon>201809301413219_Script1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810020916042_Script2.resx">
+      <DependentUpon>201810020916042_Script2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    if not exist "$(TargetDir)x86" md "$(TargetDir)x86"
+    xcopy /s /y "$(SolutionDir)packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\x86\*.*" "$(TargetDir)x86"
+    if not exist "$(TargetDir)amd64" md "$(TargetDir)amd64"
+    xcopy /s /y "$(SolutionDir)packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\amd64\*.*" "$(TargetDir)amd64"</PostBuildEvent>
+  </PropertyGroup>
 </Project>

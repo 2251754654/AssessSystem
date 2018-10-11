@@ -1,0 +1,167 @@
+﻿<div id="container" style="width:100%"></div>
+<div id="CoreManage">
+    <h2>CoreSkill Manage</h2>
+    <div class="table-responsive">
+        <table class="table table-striped table-sm table-hover">
+            <thead>
+                <tr class="bg-info">
+                    <th>CoreSkillsID</th>
+                    <th>CoreSkillsName</th>
+                    <th>CoreSkillsGUID</th>
+                    <th>CoreSkillsDetails</th>
+                    <th><a href="#"><span class="glyphicon glyphicon-refresh">&nbsp;Update</span></a></th>
+                    <th><a href="#"><span class="glyphicon glyphicon-fire">&nbsp;Delete</span></a></th>
+                    <th><a href="#"><span class="glyphicon glyphicon-fire">&nbsp;AddLever</span></a></th>
+                    <th><a href="#"><span class="glyphicon glyphicon-fire">&nbsp;LeverList</span></a></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(value,index) in coreSkillsList">
+                    <td>{{value.CoreSkillsID}}</td>
+                    <td>{{value.CoreSkillsName}}</td>
+                    <td>{{value.CoreSkillsGUID}}</td>
+                    <td>{{value.CoreSkillsDetails}}</td>
+                    <td><a data-toggle="modal" href="#updateCoreSkills" v-on:click="GetCoreSkills(index)"><span class="glyphicon glyphicon-refresh">&nbsp;Update</span></a></td>
+                    <td><a v-on:click="daleteCoreSkills(index)"><span class="glyphicon glyphicon-fire">&nbsp;Delete</span></a></td>
+                    <td><a data-toggle="modal" href="#addLever" v-on:click="GetCoreSkillsID(index)"><span class="glyphicon glyphicon-fire">&nbsp;AddLever</span></a></td>
+                    <td>
+
+                        <div class="dropdown">
+                            <a data-toggle="dropdown" v-on:click="findLeverList(index)">LeverList<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="DropList">
+                                <li>
+                                    <span class="glyphicon glyphicon-paperclip">&nbsp;</span><strong class="text-uppercase">LeverList</strong>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span class="col-lg-4 text-primary bg-light rounded-circle">ID</span>
+                                        <span class="col-lg-4 text-info bg-light">Name</span>
+                                        <span class="col-lg-4 text-info bg-light">Delete</span>
+                                    </div>
+                                </li>
+                                <li v-for="(leverListItem,leverListIndex) in leverList">
+                                    <div>
+                                        <span class="col-lg-4 text-primary bg-light">{{leverListItem.CoreLeverID}}</span>
+                                        <span class="col-lg-4 text-info bg-light">{{leverListItem.CoreLeverNum}}</span>
+                                        <a class="col-lg-4 text-danger bg-danger" v-on:click="deleteLever(index,leverListIndex)">Delete</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol class="breadcrumb">
+            <li class="text-warning">CoreSkillsManage</li>
+            <li><a class="text-danger" data-toggle="modal" href="#addCoreSkills">AddCoreSkills</a></li>
+        </ol>
+        <!-- 插入模态框（Modal） -->
+        <div class="modal fade" id="addCoreSkills" tabindex="-1" role="dialog" aria-labelledby="addCoreSkillsHead" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title" id="addCoreSkillsHead">
+                            Insert CoreSkills
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group form-group">
+                            <li class="list-group-item">
+                                <label class="text-info" for="CoreSkillsName">CoreSkillsName</label>
+                                <input type="text" placeholder="CoreSkillsName" class="form-control" id="CoreSkillsName" v-model="coreSkillsObj.CoreSkillsName" />
+                            </li>
+                            <li class="list-group-item">
+                                <label class="text-info" for="CoreSkillsDetails">CoreSkillsDetails</label>
+                                <input type="text" placeholder="CoreSkillsDetails" class="form-control" id="CoreSkillsDetails" v-model="coreSkillsObj.CoreSkillsDetails" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-block btn-info" v-on:click="insertCoreSkills">提交</button>
+                        <button type="button" data-dismiss="modal" class="btn btn-block btn-danger">退出</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+        <!-- 更新模态框（Modal） -->
+        <div class="modal fade" id="updateCoreSkills" tabindex="-1" role="dialog" aria-labelledby="updateCoreSkillsHead" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title" id="updateCoreSkillsHead">
+                            Update CoreSkills
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group form-group">
+                            <li class="list-group-item">
+                                <label class="text-info" for="CoreSkillsID">CoreSkillsID</label>
+                                <input type="text" placeholder="CoreSkillsID" class="form-control" id="CoreSkillsID" v-model="coreSkillsObj.CoreSkillsID" disabled />
+                            </li>
+                            <li class="list-group-item">
+                                <label class="text-info" for="CoreSkillsGUID">CoreSkillsGUID</label>
+                                <input type="text" placeholder="CoreSkillsGUID" class="form-control" id="CoreSkillsGUID" v-model="coreSkillsObj.CoreSkillsGUID" disabled />
+                            </li>
+                            <li class="list-group-item">
+                                <label class="text-info" for="CoreSkillsName">CoreSkillsName</label>
+                                <input type="text" placeholder="CoreSkillsName" class="form-control" id="CoreSkillsName" v-model="coreSkillsObj.CoreSkillsName" />
+                            </li>
+                            <li class="list-group-item">
+                                <label class="text-info" for="CoreSkillsDetails">CoreSkillsDetails</label>
+                                <input type="text" placeholder="CoreSkillsDetails" class="form-control" id="CoreSkillsDetails" v-model="coreSkillsObj.CoreSkillsDetails" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-block btn-info" v-on:click="updateCoreSkills">提交</button>
+                        <button type="button" data-dismiss="modal" class="btn btn-block btn-danger">退出</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+        <!-- 插入等级模态框（Modal） -->
+        <div class="modal fade" id="addLever" tabindex="-1" role="dialog" aria-labelledby="AddLeverHead" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title" id="AddLeverHead">
+                            Insert CoreSkillsLever
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group form-group">
+                            <li class="list-group-item">
+                                <label class="text-info" for="CoreSkillsID">CoreSkillsID</label>
+                                <input type="text" placeholder="CoreSkillsID" class="form-control" id="CoreSkillsID" v-model="LeverItem.CoreSkillsID" disabled />
+                            </li>
+                            <li class="list-group-item">
+                                <label class="text-info" for="CoreLeverNum">CoreLeverNum</label>
+                                <input type="text" placeholder="CoreLeverNum" class="form-control" id="CoreLeverNum" v-model="LeverItem.CoreLeverNum" />
+                            </li>
+                            <li class="list-group-item">
+                                <label class="text-info" for="CoreLeverDetails">CoreLeverDetails</label>
+                                <input type="text" placeholder="CoreLeverDetails" class="form-control" id="CoreLeverDetails" v-model="LeverItem.CoreLeverDetails" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-block btn-info" v-on:click="insertLever">提交</button>
+                        <button type="button" data-dismiss="modal" class="btn btn-block btn-danger">退出</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+    </div>
+</div>
+<script src="CoreSkill/js/CoreSkillChart.js"></script>
+<script src="CoreSkill/js/CoreSkillTable.js"></script>

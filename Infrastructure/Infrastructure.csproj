@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B43AC6C2-0880-4AB8-85DD-F5D6FE4F2F5D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Infrastructure</RootNamespace>
+    <AssemblyName>Infrastructure</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Check.cs" />
+    <Compile Include="DtoExtension\CoreLeverDto.cs" />
+    <Compile Include="DtoExtension\CoreSkillDto.cs" />
+    <Compile Include="DtoExtension\MenuDto.cs" />
+    <Compile Include="DtoExtension\ProfessDto.cs" />
+    <Compile Include="DtoExtension\RoleDto.cs" />
+    <Compile Include="DtoExtension\TeachLeverDto.cs" />
+    <Compile Include="DtoExtension\TeachSkillDto.cs" />
+    <Compile Include="DtoExtension\UserInfoDto.cs" />
+    <Compile Include="EntityExtension\AssessExtension.cs" />
+    <Compile Include="DtoExtension\AssessDto.cs" />
+    <Compile Include="DtoExtension\AssessInfoDto.cs" />
+    <Compile Include="DtoExtension\UserDto.cs" />
+    <Compile Include="EntityExtension\AssessInfoExtension.cs" />
+    <Compile Include="EntityExtension\CoreLeverExtension.cs" />
+    <Compile Include="EntityExtension\CoreSkillExtention.cs" />
+    <Compile Include="EntityExtension\MenuExtension.cs" />
+    <Compile Include="EntityExtension\ProfessExtension.cs" />
+    <Compile Include="EntityExtension\RoleExtension.cs" />
+    <Compile Include="EntityExtension\TeachLeverExtension.cs" />
+    <Compile Include="EntityExtension\TeachSkillExtension.cs" />
+    <Compile Include="EntityExtension\UserExtension.cs" />
+    <Compile Include="EntityExtension\UserInfoExtension.cs" />
+    <Compile Include="Exception\EntityRepeatException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Repositorys\Repositorys.csproj">
+      <Project>{62E069D5-A5C6-4D76-8198-B3A6A0E27706}</Project>
+      <Name>Repositorys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

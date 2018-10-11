@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>登陆系统</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>
+    <script src="js/Login.js"></script>
+</head>
+<body style="background-color:#afc2fb">
+    <div class="container">
+        <div class="row">
+            <div class="card-deck col-4" style="position:absolute;right:5%;top:8%;">
+                <div class="card" id="login" style="background-color:#afc2fb">
+                    <div class="card-header">
+                        <div class="text-primary">
+                            <span class="glyphicon glyphicon-refresh">&nbsp;&nbsp;</span><strong class="text-uppercase">Login System</strong>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group form-group">
+                            <li class="list-group-item">
+                                <!--进入-->
+                                <div class="alert alert-info" v-show="SerialNumber == -1">
+                                    <a href="#" class="close" data-dismiss="alert"><span class="glyphicon glyphicon-remove"></span></a>
+                                    <span class="glyphicon glyphicon-exclamation-sign"></span><strong>&nbsp;提示:系统需要注册才可使用！&nbsp;</strong>
+                                </div>
+                                <!--失败-->
+                                <div class="alert alert-danger" v-show="SerialNumber == 0">
+                                    <a href="#" class="close" data-dismiss="alert"><span class="glyphicon glyphicon-remove"></span></a>
+                                    <span class="glyphicon glyphicon-exclamation-sign"></span><strong>&nbsp;提示:登陆失败，请检查用户名密码！&nbsp;</strong>
+                                </div>
+                                <!--成功-->
+                                <div class="alert alert-success" v-show="SerialNumber == 1">
+                                    <a href="#" class="close" data-dismiss="alert"><span class="glyphicon glyphicon-remove"></span></a>
+                                    <span class="glyphicon glyphicon-ok-circle"></span><strong>&nbsp;提示:登陆成功，正在进入系统，请稍等！&nbsp;</strong>
+                                </div>
+                                <!--加载中-->
+                                <div class="alert alert-info" v-show="SerialNumber == 2">
+                                    <a href="#" class="close" data-dismiss="alert"><span class="glyphicon glyphicon-remove"></span></a>
+                                    <span class="glyphicon glyphicon glyphicon-refresh"></span><strong>&nbsp;&nbsp;提示:正在尝试登陆系统，请稍等！&nbsp;</strong>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <label class="text-primary font-weight-bold" for="UserName">UserName</label>
+                                <input type="text" placeholder="UserName" class="form-control" id="UserName" v-model="UserName" v-on:focus="focus" />
+                            </li>
+                            <li class="list-group-item">
+                                <label class="text-primary font-weight-bold" for="Password">Password</label>
+                                <input type="password" placeholder="Password" class="form-control" id="Password" v-model="Password" v-on:focus="focus" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col-8">
+                                <button type="button" class="btn btn btn-block btn-primary" v-on:click="login">提交</button>
+                            </div>
+                            <div class="col-4 dropright">
+                                <button type="button" class="btn btn btn-block btn-dark">注册</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

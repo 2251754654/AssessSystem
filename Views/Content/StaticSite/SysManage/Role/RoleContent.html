@@ -1,0 +1,163 @@
+﻿<div id="RoleManage">
+    <!--绘图，访问次数统计-->
+        <div id="container" style="width: 100%;"></div>
+        <!--标题-->
+        <h2>Role Manage</h2>
+        <div class="table-responsive">
+            <table class="table table-striped table-sm table-hover">
+                <thead>
+                    <tr class="bg-dark text-primary">
+                        <th>Guid</th>
+                        <th>RoleName</th>
+                        <th>Specific</th>
+                        <th>State</th>
+                        <th>CreateTime</th>
+                        <th>UpdateTime</th>
+                        <th><span class="glyphicon glyphicon-refresh">&nbsp;Update</span></th>
+                        <th><span class="glyphicon glyphicon-fire">&nbsp;Delete</span></th>
+                        <th><span class="glyphicon glyphicon-fire">&nbsp;ShowProfess</span></th>
+                        <th><span class="glyphicon glyphicon-fire">&nbsp;AllotProfess</span></th>
+                    </tr>
+                </thead>
+                <tbody id="DropList" class="container">
+                    <tr v-for="(value,index) in roleList">
+                        <td>{{value.Guid}}</td>
+                        <td>{{value.RoleName}}</td>
+                        <td>{{value.Specific}}</td>
+                        <th>{{value.State}}</th>
+                        <th>{{value.CreateTime}}</th>
+                        <th>{{value.UpdateTime}}</th>
+                        <td><a v-on:click="GetRole(index)"    href="#updateRole"  data-toggle="modal" ><span class="glyphicon glyphicon-refresh">&nbsp;Update</span></a></td>
+                        <td><a v-on:click="daleteRole(index)" href="javascript:void(0);"><span class="glyphicon glyphicon-fire">&nbsp;Delete</span></a></td>
+                        <td class="text-center">
+                            <a v-on:click="showSelectedInfo(index)" href="javascript:void(0);" class="text-center"><span class="glyphicon glyphicon-fire">&nbsp;ShowProfessionb</span></a>
+                            <transition name="fadeTable">
+                                <table class="table table-striped table-sm table-bordered" style="display:none" v-bind:id="index">
+                                    <thead>
+                                        <tr>
+                                            <th>{{roleJobList.length == 0?"无数据":"ID"}}</th>
+                                            <th>{{roleJobList.length == 0?"无数据":"Name"}}</th>
+                                            <th>{{roleJobList.length == 0?"无数据":"Delete"}}</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr v-for="(roleJobListItem,roleJobListIndex) in  roleJobList">
+                                            <td>{{roleJobListItem.ProfessionalID}}</td>
+                                            <td>{{roleJobListItem.ProfessionalName}}</td>
+                                            <th><a href="#" v-on:click="DeleteAllotJob(index,roleJobListIndex)">Delete</a></th>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </transition>
+                        </td>
+                        <!--分配职业-->
+                        <td>
+                            <div class="dropdown container">
+                                <a data-toggle="dropdown" href="#" v-on:click="findJob">AllotProfession<span class="caret"></span></a>
+                                <div class="dropdown-menu" role="menu" aria-labelledby="DropList">
+                                    <table class="table table-striped table-responsive">
+                                        <tr>
+                                            <td colspan="2">
+                                                <span class="glyphicon glyphicon-paperclip">&nbsp;</span><strong class="text-uppercase">Professions</strong>
+                                                <input type="text" class=" form-control" placeholder="条件查询" v-model="findInput" v-on:blur="loseFocus" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-lg-6 text-primary">ID</td>
+                                            <td class="col-lg-6 text-info">Name</td>
+                                        </tr>
+                                        <tr v-for="(valueJob,indexJob) in jobList">
+                                            <td v-on:click="allotProfession(index,indexJob)">{{valueJob.ProfessionalID}}</td>
+                                            <td v-on:click="allotProfession(index,indexJob)">{{valueJob.ProfessionalName}}</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--添加角色-->
+        <ol class="breadcrumb">
+            <li class="text-warning">RoleManage</li>
+            <li><a class="text-danger" data-toggle="modal" href="#addRole">AddRole</a></li>
+        </ol>
+        <!-- 插入模态框（Modal） -->
+        <div class="modal fade" id="addRole" tabindex="-1" role="dialog" aria-labelledby="addRoleHead" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="addRoleHead">
+                            Insert Role
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group form-group">
+                            <li class="list-group-item">
+                                <label class="text-info" for="RoleName">RoleName</label>
+                                <input type="text" placeholder="RoleName" class="form-control" id="RoleName" v-model="roleObj.RoleName" />
+                            </li>
+                            <li class="list-group-item">
+                                <label class="text-info" for="RoleDetails">RoleDetails</label>
+                                <input type="text" placeholder="RoleDetails" class="form-control" id="RoleDetails" v-model="roleObj.RoleDetails" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row" style="padding:10px;">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-block btn-info" v-on:click="insertRole">提交</button>
+                        </div>
+                        <div class="col-6">
+                            <button type="button" data-dismiss="modal" class="btn btn-block btn-danger">退出</button>
+                        </div>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+        <!-- 更新模态框（Modal） -->
+        <div class="modal fade" id="updateRole" tabindex="-1" role="dialog" aria-labelledby="updateRoleHead" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="updateRoleHead">
+                            Update Role
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group form-group">
+                            <li class="list-group-item">
+                                <label class="text-info" for="RoleID">RoleID</label>
+                                <input type="text" placeholder="RoleID" class="form-control" id="RoleID" v-model="roleObj.RoleID" disabled />
+                            </li>
+                            <li class="list-group-item">
+                                <label class="text-info" for="RoleName">RoleName</label>
+                                <input type="text" placeholder="RoleName" class="form-control" id="RoleName" v-model="roleObj.RoleName" />
+                            </li>
+                            <li class="list-group-item">
+                                <label class="text-info" for="RoleDetails">RoleDetails</label>
+                                <input type="text" placeholder="RoleDetails" class="form-control" id="RoleDetails" v-model="roleObj.RoleDetails" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row" style="padding:10px;">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-block btn-info" v-on:click="updateRole">提交</button>
+                        </div>
+                        <div class="col-6">
+                            <button type="button" data-dismiss="modal" class="btn btn-block btn-danger">退出</button>
+                        </div>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+</div>
+
+<script src="Role/js/RoleChart.js"></script>
+<script src="Role/js/RoleTable.js"></script>

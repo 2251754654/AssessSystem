@@ -1,0 +1,188 @@
+﻿
+<div id="JobManage">
+    <div id="container" style="width:100%"></div>
+    <h2>Role Manage</h2>
+    <div class="table-responsive">
+        <table class="table table-striped table-sm table-hover">
+            <thead>
+                <tr class="bg-info">
+                    <th>ProfessionalID</th>
+                    <th>ProfessionalName</th>
+                    <th>ProfessionalDetails</th>
+                    <th><a href="javascript:void(0);"><span class="glyphicon glyphicon-refresh">&nbsp;Update</span></a></th>
+                    <th><a href="javascript:void(0);"><span class="glyphicon glyphicon-fire">&nbsp;Delete</span></a></th>
+                    <th><a href="javascript:void(0);"><span class="glyphicon glyphicon-fire">&nbsp;ShowSkills</span></a></th>
+                    <th><a href="javascript:void(0);"><span class="glyphicon glyphicon-fire">&nbsp;AllotCoreSkills</span></a></th>
+                    <th><a href="javascript:void(0);"><span class="glyphicon glyphicon-fire">&nbsp;AllotTeachSkills</span></a></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(value,index) in jobList">
+                    <td>{{value.ProfessionalID}}</td>
+                    <td>{{value.ProfessionalName}}</td>
+                    <td>{{value.ProfessionalDetails}}</td>
+                    <td><a data-toggle="modal" href="#updateJob" v-on:click="GetJob(index)"><span class="glyphicon glyphicon-refresh">&nbsp;Update</span></a></td>
+                    <td><a v-on:click="daleteJob(index)"><span class="glyphicon glyphicon-fire">&nbsp;Delete</span></a></td>
+                    <td class="text-center">
+                        <a v-on:click="showSelectedInfo(index)"><span class="glyphicon glyphicon-fire">&nbsp;ShowSkills</span></a>
+                        <table class="table table-responsive table-bordered" style="display:none" v-bind:id="'c'+index">
+                            <caption>AllotCoreSkills</caption>
+                            <thead>
+                                <tr>
+                                    <th>{{selectedCoreSkillsList.length == 0?"无数据":"ID"}}</th>
+                                    <th>{{selectedCoreSkillsList.length == 0?"无数据":"Name"}}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr v-for="(item,SelectedIndex) in  selectedCoreSkillsList">
+                                    <td>{{item.CoreSkillsID}}</td>
+                                    <td>{{item.CoreSkillsName}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table table-responsive table-bordered" style="display:none" v-bind:id="'t'+index">
+                            <caption>AllotTeachSkills</caption>
+                            <thead>
+                                <tr>
+                                    <th>{{selectedTeachSkillsList.length == 0?"无数据":"ID"}}</th>
+                                    <th>{{selectedTeachSkillsList.length == 0?"无数据":"Name"}}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr v-for="(item,SelectedIndex) in  selectedTeachSkillsList">
+                                    <td>{{item.TeachSkillsID}}</td>
+                                    <td>{{item.TeachSkillsName}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <!--添加核心技能-->
+                    <td>
+                        <div class="dropdown">
+                            <a data-toggle="dropdown" href="#" v-on:click="findCoreSkills">AllotCoreSkills<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="DropList">
+                                <li>
+                                    <div>
+                                        <span class="glyphicon glyphicon-paperclip">&nbsp;</span><strong class="text-uppercase">CoreSkills</strong>
+                                        <input type="text" class=" form-control" placeholder="条件查询" v-model="findInput" v-on:blur="loseFocus" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span class="col-lg-6 text-primary bg-light rounded-circle">ID</span>
+                                        <span class="col-lg-6 text-info bg-light">Name</span>
+                                    </div>
+                                </li>
+                                <li v-for="(valueCoreSkills,indexCoreSkills) in coreSkillsList">
+                                    <div v-on:click="allotCoreSkills(index,indexCoreSkills)">
+                                        <span class="col-lg-6 text-primary bg-light">{{valueCoreSkills.CoreSkillsID}}</span>
+                                        <span class="col-lg-6 text-info bg-light">{{valueCoreSkills.CoreSkillsName}}</span>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </td>
+                    <!--添加专业技能-->
+                    <td>
+                        <div class="dropdown">
+                            <a data-toggle="dropdown" href="#" v-on:click="findTeachSkills">AllotTeachSkills<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="DropList">
+                                <li>
+                                    <div>
+                                        <span class="glyphicon glyphicon-paperclip">&nbsp;</span><strong class="text-uppercase">TeachSkills</strong>
+                                        <input type="text" class=" form-control" placeholder="条件查询" v-model="findTeachInput" v-on:blur="loseTeachFocus" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span class="col-lg-6 text-primary">ID</span>
+                                        <span class="col-lg-6 text-info">Name</span>
+                                    </div>
+                                </li>
+                                <li v-for="(valueTeachSkills,indexTeachSkills) in teachSkillsList">
+                                    <div v-on:click="allotTeachSkills(index,indexTeachSkills)">
+                                        <span class="col-lg-6 text-primary">{{valueTeachSkills.TeachSkillsID}}</span>
+                                        <span class="col-lg-6 text-info">{{valueTeachSkills.TeachSkillsName}}</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <ol class="breadcrumb">
+        <li class="text-warning">JobManage</li>
+        <li><a class="text-danger" data-toggle="modal" href="#addJob">AddJob</a></li>
+    </ol>
+    <!-- 插入模态框（Modal） -->
+    <div class="modal fade" id="addJob" tabindex="-1" role="dialog" aria-labelledby="addJobHead" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="addJobHead">
+                        Insert Job
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group form-group">
+                        <li class="list-group-item">
+                            <label class="text-info" for="ProfessionalName">ProfessionalName</label>
+                            <input type="text" placeholder="ProfessionalName" class="form-control" id="ProfessionalName" v-model="jobObj.ProfessionalName" />
+                        </li>
+                        <li class="list-group-item">
+                            <label class="text-info" for="ProfessionalDetails">ProfessionalDetails</label>
+                            <input type="text" placeholder="ProfessionalDetails" class="form-control" id="ProfessionalDetails" v-model="jobObj.ProfessionalDetails" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-block btn-info" v-on:click="insertJob">提交</button>
+                    <button type="button" data-dismiss="modal" class="btn btn-block btn-danger">退出</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+    <!-- 更新模态框（Modal） -->
+    <div class="modal fade" id="updateJob" tabindex="-1" role="dialog" aria-labelledby="updateJobHead" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="updateJobHead">
+                        Update Job
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group form-group">
+                        <li class="list-group-item">
+                            <label class="text-info" for="ProfessionalID">ProfessionalID</label>
+                            <input type="text" placeholder="ProfessionalID" class="form-control" id="ProfessionalID" v-model="jobObj.ProfessionalID" disabled />
+                        </li>
+                        <li class="list-group-item">
+                            <label class="text-info" for="ProfessionalName">ProfessionalName</label>
+                            <input type="text" placeholder="ProfessionalName" class="form-control" id="ProfessionalName" v-model="jobObj.ProfessionalName" />
+                        </li>
+                        <li class="list-group-item">
+                            <label class="text-info" for="ProfessionalDetails">ProfessionalDetails</label>
+                            <input type="text" placeholder="ProfessionalDetails" class="form-control" id="ProfessionalDetails" v-model="jobObj.ProfessionalDetails" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-block btn-info" v-on:click="updateJob">提交</button>
+                    <button type="button" data-dismiss="modal" class="btn btn-block btn-danger">退出</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+</div>
+<script src="Job/js/JobChart.js"></script>
+<script src="Job/js/JobTablejs.js"></script>
