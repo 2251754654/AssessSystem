@@ -42,5 +42,16 @@ namespace Repositorys.Repositroy.Specific
                 return;
             }
         }
+
+        public void FakeDeleteSSSS(Guid assessGuid)
+        {
+            var db = this.Context;
+            var assess = db.Assess.Find(assessGuid);
+            if (assess != null)
+            {
+                assess.State = 1;
+                return;
+            }
+        }
     }
 }
